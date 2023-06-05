@@ -122,7 +122,7 @@ function printIntermediaryResults {
          error "Result file '${RESULT_FILE}' is empty."
          exit 1
       fi
-      info_n "Intermediary results "${TITLE[$index]}" "
+      info_n "Intermediary results "${TITLE[$index]}" (in ns) "
       cat "${RESULT_FILE}" | awk -F';' '{print $2}' | getSum
    done
 }
