@@ -36,8 +36,8 @@ function executeExperiment() {
     loop="$1"
     recursion="$2"
     index="$3"
-    title="$4"
-    kieker_parameters="$5"
+    title="${TITLE[$index]}"
+    kieker_parameters="${WRITER_CONFIG[$index]}"
 
     info " # ${loop}.${recursion}.${index} ${title}"
     echo " # ${loop}.${recursion}.${index} ${title}" >> "${DATA_DIR}/kieker.log"
@@ -93,7 +93,7 @@ function executeBenchmarkBody() {
      debug "PID ${RECEIVER_PID}"
   fi
 
-  executeExperiment "$loop" "$recursion" "$index" "${TITLE[$index]}" "${WRITER_CONFIG[$index]}"
+  executeExperiment "$loop" "$recursion" "$index"
 
   if [[ "${RECEIVER_PID}" ]] ; then
      kill -TERM "${RECEIVER_PID}"
