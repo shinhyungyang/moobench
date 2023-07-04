@@ -133,7 +133,7 @@ for ((i=1;i<=${NUM_OF_LOOPS};i+=1)); do
 
     tcpLogging 7 $i 1
     tcpLogging 8 $i 2
-    
+
     printIntermediaryResults "${i}"
 done
 
@@ -143,6 +143,7 @@ runStatistics
 cleanupResults
 
 mv "${DATA_DIR}/kieker.log" "${RESULTS_DIR}/kieker.log"
+rm "${DATA_DIR}/kieker"
 [ -f "${DATA_DIR}/errorlog.txt" ] && mv "${DATA_DIR}/errorlog.txt" "${RESULTS_DIR}"
 
 checkFile results.yaml "${RESULTS_DIR}/results.yaml"
