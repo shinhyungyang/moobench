@@ -15,8 +15,15 @@ function getAgent() {
 	export AGENT_PATH=`curl "${VERSION_PATH}" | grep 'aspectj.jar</resourceURI' | sort | sed 's/ *<resourceURI>//g' | sed 's/<\/resourceURI>//g' | tail -1`
 	curl "${AGENT_PATH}" > "${AGENT}"
 
-	if [ ! -f "${AGENT}" ] || [ -s "${AGENT}" ] ; then
-		error "Kieker download from $AGENT_PATH failed; please asure that a correct Kieker AspectJ file is present!"
+	if [ ! -f "${AGENT}" ] ; then
+		error "Kieker download from $AGENT_PATH seems to have failed; no file in $AGENT present."
+		ls
+		exit 1
+	fi
+	if [ ! -s "${AGENT}" ] ; then
+		error "Kieker download from $AGENT_PATH seems to have failed; file in $AGENT has size 0."
+		ls -lah
+		exit 1
 	fi
 }
 
