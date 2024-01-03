@@ -38,6 +38,25 @@ function cleanup {
     sleep "${SLEEP_TIME}"
 }
 
+## Execute Benchmark
+function executeBenchmark() {
+    runNoInstrumentation
+    cleanup
+
+    runOpenTelemetryNoLogging
+    cleanup
+
+    runOpenTelemetryLogging
+    cleanup
+    
+    runOpenTelemetryZipkin
+    cleanup
+    
+    runOpenTelemetryPrometheus
+    cleanup
+}
+
+
 # experiment setups
 
 function runNoInstrumentation {

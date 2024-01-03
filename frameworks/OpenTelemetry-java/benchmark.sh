@@ -47,6 +47,13 @@ else
 	exit 1
 fi
 
+if [ -z "$MOOBENCH_CONFIGURATIONS" ]
+then
+	MOOBENCH_CONFIGURATIONS="0 1 2 4 5 6"
+	echo "Setting default configuration $MOOBENCH_CONFIGURATIONS (without text logging)"
+fi
+echo "Running configurations: $MOOBENCH_CONFIGURATIONS"
+
 #
 # Setup
 #
@@ -98,21 +105,6 @@ for ((i=1;i<=${NUM_OF_LOOPS};i+=1)); do
     k=0
     info "## Starting iteration ${i}/${NUM_OF_LOOPS}"
     echo "## Starting iteration ${i}/${NUM_OF_LOOPS}" >> "${BASE_DIR}/OpenTelemetry.log"
-
-    runNoInstrumentation
-    cleanup
-
-    runOpenTelemetryNoLogging
-    cleanup
-
-    runOpenTelemetryLogging
-    cleanup
-    
-    runOpenTelemetryZipkin
-    cleanup
-    
-    runOpenTelemetryPrometheus
-    cleanup
 
     printIntermediaryResults "${i}"
 done
