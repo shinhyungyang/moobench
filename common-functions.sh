@@ -32,7 +32,7 @@ function createRLabels() {
 	LABELS=""
 	for index in $MOOBENCH_CONFIGURATIONS
         do
-		title="${TITLE[$i]}"
+		title="${TITLE[$index]}"
 		if [ "$LABELS" == "" ] ; then
 			LABELS="\"$title\""
 		else
