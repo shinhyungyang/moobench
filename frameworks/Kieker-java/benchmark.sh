@@ -119,6 +119,13 @@ WRITER_CONFIG[4]="-Dkieker.monitoring.enabled=true -Dkieker.monitoring.writer=ki
 WRITER_CONFIG[5]="-Dkieker.monitoring.writer=kieker.monitoring.writer.tcp.SingleSocketTcpWriter -Dkieker.monitoring.writer.tcp.SingleSocketTcpWriter.port=2345"
 RECEIVER[5]="${RECEIVER_BIN} 2345"
 
+if [ -z "$MOOBENCH_CONFIGURATIONS" ]
+then
+	MOOBENCH_CONFIGURATIONS="0 1 2 4 5"
+	echo "Setting default configuration $MOOBENCH_CONFIGURATIONS (without TextLogStreamHandler)"
+fi
+echo "Running configurations: $MOOBENCH_CONFIGURATIONS"
+
 writeConfiguration
 
 #
