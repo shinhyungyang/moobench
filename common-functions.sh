@@ -30,9 +30,9 @@ function cleanupResults() {
 function createRLabels() {
 	# Create R labels
 	LABELS=""
-	for index in $MOOBENCH_CONFIGURATIONS
-        do
-		title="${TITLE[$index]}"
+	for I in "${TITLE[@]}"
+	do
+		title="$I"
 		if [ "$LABELS" == "" ] ; then
 			LABELS="\"$title\""
 		else
