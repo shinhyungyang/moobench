@@ -42,32 +42,15 @@ function cleanup {
 function executeBenchmark() {
    for index in $MOOBENCH_CONFIGURATIONS
    do
-      if [ $index == 0 ]
-      then
-          runNoInstrumentation 0
-          cleanup
-      fi
+      case $index in
+         0) runNoInstrumentation 0 ;;
+         1) runOpenTelemetryNoLogging 1 ;;
+         2) runOpenTelemetryLogging 2 ;;
+         3) runOpenTelemetryZipkin 3 ;;
+         4) runOpenTelemetryPrometheus 4 ;;
+      esac
       
-      if [ $index == 1 ]
-      then
-          runOpenTelemetryNoLogging 1
-          cleanup
-      fi
-      if [ $index == 2 ]
-      then
-          runOpenTelemetryLogging 2
-          cleanup
-      fi
-      if [ $index == 3 ]
-      then
-          runOpenTelemetryZipkin 3
-          cleanup
-      fi
-      if [ $index == 4 ]
-      then
-          runOpenTelemetryPrometheus 4
-          cleanup
-      fi
+      cleanup
    done
 }
 
