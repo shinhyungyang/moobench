@@ -49,7 +49,7 @@ fi
 
 if [ -z "$MOOBENCH_CONFIGURATIONS" ]
 then
-	MOOBENCH_CONFIGURATIONS="0 1 3 4"
+	MOOBENCH_CONFIGURATIONS="0 1 3"
 	echo "Setting default configuration $MOOBENCH_CONFIGURATIONS (without text logging)"
 fi
 echo "Running configurations: $MOOBENCH_CONFIGURATIONS"
