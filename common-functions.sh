@@ -239,6 +239,7 @@ function checkDirectory() {
 
 function showParameter() {
 	info "FRAMEWORK_NAME ${FRAMEWORK_NAME}"
+	info "MOOBENCH_CONFIGURATIONS ${MOOBENCH_CONFIGURATIONS}"
 	info "RESULTS_DIR ${RESULTS_DIR}"
 	info "RAWFN ${RAWFN}"
 	info "JAVA_BIN ${JAVA_BIN}"
