@@ -44,18 +44,26 @@ pipeline {
 
     stage('Run Benchmark') {
        steps {
-          sh './frameworks/Kieker-python/benchmark.sh'
-          sh 'cp frameworks/Kieker-python/results-Kieker-python/results.yaml Kieker-python-results.yaml'
+          catchError {
+             sh './frameworks/Kieker-python/benchmark.sh'
+             sh 'cp frameworks/Kieker-python/results-Kieker-python/results.yaml Kieker-python-results.yaml'
+          }
           
-          sh './frameworks/Kieker-java/benchmark.sh'
-          sh 'cp frameworks/Kieker-java/results-Kieker-java/results.yaml Kieker-java-results.yaml'
+          catchError {
+             sh './frameworks/Kieker-java/benchmark.sh'
+             sh 'cp frameworks/Kieker-java/results-Kieker-java/results.yaml Kieker-java-results.yaml'
+          }
           
-          sh './frameworks/OpenTelemetry-java/benchmark.sh'
-          sh 'cp frameworks/OpenTelemetry-java/results-OpenTelemetry-java/results.yaml OpenTelemetry-java-results.yaml'
+          catchError {
+             sh './frameworks/OpenTelemetry-java/benchmark.sh'
+             sh 'cp frameworks/OpenTelemetry-java/results-OpenTelemetry-java/results.yaml OpenTelemetry-java-results.yaml'
+          }
           
-          sh './frameworks/inspectIT-java/benchmark.sh'
-          sh 'cp frameworks/inspectIT-java/results-inspectIT-java/results.yaml inspectIT-java-results.yaml'
-
+          catchError {
+             sh './frameworks/inspectIT-java/benchmark.sh'
+             sh 'cp frameworks/inspectIT-java/results-inspectIT-java/results.yaml inspectIT-java-results.yaml'
+          }
+          
           stash includes: '*-results.yaml', name: 'yaml'
        }
     }
