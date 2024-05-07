@@ -6,6 +6,11 @@ on:
   schedule: 
     - cron: "0 3 * * *"
 
+
+permissions:
+  contents: write
+  deployments: write
+
 jobs:
   benchmark:
     name: Performance measurement
