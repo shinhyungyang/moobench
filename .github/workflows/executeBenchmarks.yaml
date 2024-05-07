@@ -32,6 +32,7 @@ jobs:
           unzip results-Kieker-java/results.zip 
           cd results-Kieker-java
           ../../../analysis/getGHActionsFormat.sh &> output.json
+          cat output.json
           mv output.json ../../../
       # Download previous benchmark result from cache (if exists)
       - name: Download previous benchmark data
