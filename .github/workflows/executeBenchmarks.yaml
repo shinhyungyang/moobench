@@ -33,6 +33,7 @@ jobs:
           export NUM_OF_LOOPS=1 
           export TOTAL_NUM_OF_CALLS=10 
           export RECURSION_DEPTH=10 
+          export MOOBENCH_CONFIGURATIONS="0 1 2 4 5"
           ./benchmark.sh 
           unzip results-Kieker-java/results.zip 
           cd results-Kieker-java
