@@ -35,8 +35,8 @@ jobs:
           export RECURSION_DEPTH=10 
           export MOOBENCH_CONFIGURATIONS="0 1 2 4 5"
           ./benchmark.sh 
-          unzip results-Kieker-java/results.zip 
           cd results-Kieker-java
+          unzip results.zip 
           ../../../analysis/getGHActionsFormat.sh &> output.json
           cat output.json
           mv output.json ../../../
