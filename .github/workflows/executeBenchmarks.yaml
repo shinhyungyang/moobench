@@ -1,0 +1,48 @@
+name: MooBench GitHub Execution
+on:
+  push:
+    branches: [ main, continuous-gh-benchmarks ]
+  workflow_dispatch:
+  schedule: 
+    - cron: "0 3 * * *"
+
+jobs:
+  benchmark:
+    name: Performance measurement
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v4
+        with:
+          go-version: "stable"
+      - name: Set up JDK ${{ matrix.java }}
+        uses: actions/setup-java@v3.11.0
+        with:
+          distribution: 'temurin'
+          java-version: 11
+      - name: Run minimal parameter experiment and check success
+        run: |
+          ./setup.sh
+          cd frameworks/Kieker-java/ 
+          export SLEEP_TIME=0
+          export NUM_OF_LOOPS=1 
+          export TOTAL_NUM_OF_CALLS=10 
+          export RECURSION_DEPTH=10 
+          ./benchmark.sh 
+          unzip results-Kieker-java/results.zip 
+          cd results-Kieker-java
+          ../../../analysis/getGHActionsFormat.sh &> output.json
+      # Download previous benchmark result from cache (if exists)
+      - name: Download previous benchmark data
+        uses: actions/cache@v4
+        with:
+          path: ./cache
+          key: ${{ runner.os }}-benchmark
+      # Run `github-action-benchmark` action
+      - name: Store benchmark result
+        uses: benchmark-action/github-action-benchmark@v1
+        with:
+          tool: 'smallerIsBetter'
+          output-file-path: output.json
+          external-data-json-path: ./cache/benchmark-data.json
+          fail-on-alert: true
