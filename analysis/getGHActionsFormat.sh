@@ -9,6 +9,9 @@ result="["
 
 for variant in $MOOBENCH_CONFIGURATIONS
 do
+   echo "Files: "
+   ls
+   ls raw-*-$size-$variant.csv
    value=$(
    for file in $(ls raw-*-$size-$variant.csv)
    do
