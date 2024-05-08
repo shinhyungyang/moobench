@@ -28,22 +28,22 @@ window.BENCHMARK_DATA = {
           {
             "name": "Configuration 0",
             "value": 90.4211,
-            "unit": "microseconds"
+            "unit": "ns"
           },
           {
             "name": "Configuration 1",
             "value": 531.567,
-            "unit": "microseconds"
+            "unit": "ns"
           },
           {
             "name": "Configuration 2",
             "value": 2038.81,
-            "unit": "microseconds"
+            "unit": "ns"
           },
           {
             "name": "Configuration 4",
             "value": 3451.99,
-            "unit": "microseconds"
+            "unit": "ns"
           }
         ]
       },
@@ -72,22 +72,22 @@ window.BENCHMARK_DATA = {
           {
             "name": "Configuration 0",
             "value": 90.5236,
-            "unit": "microseconds"
+            "unit": "ns"
           },
           {
             "name": "Configuration 1",
             "value": 535.877,
-            "unit": "microseconds"
+            "unit": "ns"
           },
           {
             "name": "Configuration 2",
             "value": 2044.68,
-            "unit": "microseconds"
+            "unit": "ns"
           },
           {
             "name": "Configuration 4",
             "value": 3443.47,
-            "unit": "microseconds"
+            "unit": "ns"
           }
         ]
       }
