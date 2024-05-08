@@ -56,3 +56,4 @@ jobs:
           output-file-path: output.json
           external-data-json-path: ./cache/benchmark-data.json
           fail-on-alert: true
+          auto-push: true
