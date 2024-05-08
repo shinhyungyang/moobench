@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715165903301,
+  "lastUpdate": 1715169036538,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Benchmark": [
@@ -97,6 +97,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "Configuration 5",
             "value": 5919170,
+            "unit": "microseconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "435e0a700a2dad8104c001d861c90db6b2dd6053",
+          "message": "Use productive MooBench parameters",
+          "timestamp": "2024-05-08T12:01:27+01:00",
+          "tree_id": "58587c12a5c0225a48abd2ab9288080509afd68e",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/435e0a700a2dad8104c001d861c90db6b2dd6053"
+        },
+        "date": 1715169036095,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 90.4211,
+            "unit": "microseconds"
+          },
+          {
+            "name": "Configuration 1",
+            "value": 531.567,
+            "unit": "microseconds"
+          },
+          {
+            "name": "Configuration 2",
+            "value": 2038.81,
+            "unit": "microseconds"
+          },
+          {
+            "name": "Configuration 4",
+            "value": 3451.99,
             "unit": "microseconds"
           }
         ]
