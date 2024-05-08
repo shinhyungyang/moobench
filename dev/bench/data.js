@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715165447913,
+  "lastUpdate": 1715165903301,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Benchmark": [
@@ -48,6 +48,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Configuration 5",
             "value": 6518060,
+            "unit": "microseconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "ff700f7047d2dc76a69490a8e1c5c329b30db01b",
+          "message": "Rename MooBench workflow step",
+          "timestamp": "2024-05-08T11:54:44+01:00",
+          "tree_id": "1e62c41f9be32eabcc3a3a99ca89f79f661c4af7",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/ff700f7047d2dc76a69490a8e1c5c329b30db01b"
+        },
+        "date": 1715165902754,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 2259.3,
+            "unit": "microseconds"
+          },
+          {
+            "name": "Configuration 1",
+            "value": 6257400,
+            "unit": "microseconds"
+          },
+          {
+            "name": "Configuration 2",
+            "value": 4761460,
+            "unit": "microseconds"
+          },
+          {
+            "name": "Configuration 4",
+            "value": 8869730,
+            "unit": "microseconds"
+          },
+          {
+            "name": "Configuration 5",
+            "value": 5919170,
             "unit": "microseconds"
           }
         ]
