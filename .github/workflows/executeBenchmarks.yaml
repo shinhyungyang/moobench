@@ -46,6 +46,8 @@ jobs:
         with:
           path: ./cache
           key: ${{ runner.os }}-benchmark
+      - name: Show previous data for debugging
+        run: cat ./cache/benchmark-data.json
       # Run `github-action-benchmark` action
       - name: Store benchmark result
         uses: benchmark-action/github-action-benchmark@v1
