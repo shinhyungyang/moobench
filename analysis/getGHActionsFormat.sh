@@ -15,7 +15,7 @@ do
       cat $file | awk -F';' '{print $2}' | getSum | awk '{print $2}'
    done | getSum | awk '{print $2}')
    
-   result="$result{\"name\": \"Configuration $variant\", \"unit\": \"microseconds\", \"value\": $value},"
+   result="$result{\"name\": \"Configuration $variant\", \"unit\": \"ns\", \"value\": $value},"
 done
 withoutLastKomma=${result::-1}
 
