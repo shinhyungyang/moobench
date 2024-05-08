@@ -1,8 +1,8 @@
 name: MooBench GitHub Execution
 on:
+  workflow_dispatch:
   push:
     branches: [ main, continuous-gh-benchmarks ]
-  workflow_dispatch:
   schedule: 
     - cron: "0 3 * * *"
 
