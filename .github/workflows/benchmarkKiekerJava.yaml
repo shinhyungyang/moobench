@@ -37,15 +37,6 @@ jobs:
           ../../../analysis/getGHActionsFormat.sh &> output.json
           cat output.json
           mv output.json ../../../
-      # Download previous benchmark result from cache (if exists)
-      - name: Download previous benchmark data
-        uses: actions/cache@v4
-        with:
-          path: ./cache
-          key: ${{ runner.os }}-benchmark
-      - name: Show previous data for debugging
-        run: cat ./cache/benchmark-data.json
-      # Run `github-action-benchmark` action
       - name: Store benchmark result
         uses: benchmark-action/github-action-benchmark@v1
         with:
