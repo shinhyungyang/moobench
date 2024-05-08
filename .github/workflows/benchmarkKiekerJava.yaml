@@ -1,4 +1,4 @@
-name: MooBench GitHub Execution
+name: Benchmark Kieker-java
 on:
   workflow_dispatch:
   push:
