@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715263438514,
+  "lastUpdate": 1715266741484,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -305,6 +305,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "Configuration 4",
             "value": 3385.92,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "a1e3b2be191c48a43664fba07c59c5dfab61e39d",
+          "message": "Update GH workflow to JDK 21",
+          "timestamp": "2024-05-09T13:13:34Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a1e3b2be191c48a43664fba07c59c5dfab61e39d"
+        },
+        "date": 1715266740524,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 90.6746,
+            "unit": "ns"
+          },
+          {
+            "name": "Configuration 1",
+            "value": 442.099,
+            "unit": "ns"
+          },
+          {
+            "name": "Configuration 2",
+            "value": 1834.49,
+            "unit": "ns"
+          },
+          {
+            "name": "Configuration 4",
+            "value": 3405.15,
             "unit": "ns"
           }
         ]
