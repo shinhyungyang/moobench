@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715192314269,
+  "lastUpdate": 1715227654883,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -219,6 +219,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "Configuration 4",
             "value": 3395.82,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "ba1aedf32809101715e7e3ccf60b6fdcb92e2a50",
+          "message": "Remove cache, because data are directly stored to gh-pages",
+          "timestamp": "2024-05-08T17:28:46Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/ba1aedf32809101715e7e3ccf60b6fdcb92e2a50"
+        },
+        "date": 1715227654475,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 90.4161,
+            "unit": "ns"
+          },
+          {
+            "name": "Configuration 1",
+            "value": 533.326,
+            "unit": "ns"
+          },
+          {
+            "name": "Configuration 2",
+            "value": 2079.57,
+            "unit": "ns"
+          },
+          {
+            "name": "Configuration 4",
+            "value": 3409.76,
             "unit": "ns"
           }
         ]
