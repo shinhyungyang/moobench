@@ -9,13 +9,15 @@ result="["
 
 for variant in $MOOBENCH_CONFIGURATIONS
 do
-   value=$(
+   values=$(
    for file in $(ls raw-*-$size-$variant.csv)
    do
       cat $file | awk -F';' '{print $2}' | getSum | awk '{print $2}'
-   done | getSum | awk '{print $2}')
+   done | getSum)
+   value=$(echo $values | awk '{print $2}')
+   standardDeviation=$(echo $values | awk '{print $5}')
    
-   result="$result{\"name\": \"Configuration $variant\", \"unit\": \"ns\", \"value\": $value},"
+   result="$result{\"name\": \"Configuration $variant\", \"unit\": \"ns\", \"value\": $value, \"range\": $standardDeviation},"
 done
 withoutLastKomma=${result::-1}
 
