@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715274165561,
+  "lastUpdate": 1715313897514,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -475,6 +475,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "Configuration 4",
             "value": 3055.39,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "494ee8000d4108d96e0bd0c39e1cb99e7e1aa5b9",
+          "message": "Reduce maxLogFiles to 100 to avoid slowdown effect",
+          "timestamp": "2024-05-09T16:14:12Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/494ee8000d4108d96e0bd0c39e1cb99e7e1aa5b9"
+        },
+        "date": 1715313896660,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 90.6392,
+            "unit": "ns"
+          },
+          {
+            "name": "Configuration 1",
+            "value": 440.255,
+            "unit": "ns"
+          },
+          {
+            "name": "Configuration 2",
+            "value": 1836.77,
+            "unit": "ns"
+          },
+          {
+            "name": "Configuration 4",
+            "value": 2996.14,
             "unit": "ns"
           }
         ]
