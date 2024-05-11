@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715343033033,
+  "lastUpdate": 1715400354950,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -566,6 +566,52 @@ window.BENCHMARK_DATA = {
             "value": 3050.66,
             "unit": "ns",
             "range": 78.5733
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "4b43096ad440eb1756d5d9e8df364c2a9f96376a",
+          "message": "Also store standard deviation for GH actions",
+          "timestamp": "2024-05-10T11:21:50Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/4b43096ad440eb1756d5d9e8df364c2a9f96376a"
+        },
+        "date": 1715400353903,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 90.5816,
+            "unit": "ns",
+            "range": 0.167297
+          },
+          {
+            "name": "Configuration 1",
+            "value": 445.844,
+            "unit": "ns",
+            "range": 11.3045
+          },
+          {
+            "name": "Configuration 2",
+            "value": 1836.28,
+            "unit": "ns",
+            "range": 8.65724
+          },
+          {
+            "name": "Configuration 4",
+            "value": 3090.03,
+            "unit": "ns",
+            "range": 103.853
           }
         ]
       }
