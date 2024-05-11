@@ -1,12 +1,12 @@
 #!/usr/bin/env groovy
 
 pipeline {
-
+  
   agent { 
-     docker {
-          image 'eclipse-temurin:21-jdk-alpine'
-          alwaysPull true
-          args env.DOCKER_ARGS
+     dockerfile {
+       filename 'Dockerfile'
+       dir 'docker/'
+       args env.DOCKER_ARGS
      }
   }
 
@@ -30,14 +30,6 @@ pipeline {
   }
 
   stages {
-    stage('Initialize docker container') {
-      steps {
-        sh 'echo "jenkins:x:2030:100:guest:/home/jenkins:/sbin/nologin" >> /etc/passwd'
-        sh 'mkdir /home/jenkins && chmod 777 /home/jenkins'
-        sh 'apk update'
-        sh 'apk add git openssh zip R bash curl python3 py3-pip'
-      }
-    }
     stage('Initial Cleanup') {
        steps {
           sh './gradlew clean'
