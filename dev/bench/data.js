@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715400354950,
+  "lastUpdate": 1715419424444,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -612,6 +612,54 @@ window.BENCHMARK_DATA = {
             "value": 3090.03,
             "unit": "ns",
             "range": 103.853
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "2b74c586f03b911a85597012aecd5f95141d851e",
+          "message": "Use temurin jdk 21 directly and initialize it in Jenkinsfile",
+          "timestamp": "2024-05-11T09:35:37+01:00",
+          "tree_id": "59753b49ca20c897176525b1b5e3f4db2b2a99c8",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2b74c586f03b911a85597012aecd5f95141d851e"
+        },
+        "date": 1715419424040,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 90.6006,
+            "unit": "ns",
+            "range": 0.0905737
+          },
+          {
+            "name": "Configuration 1",
+            "value": 437.163,
+            "unit": "ns",
+            "range": 4.0122
+          },
+          {
+            "name": "Configuration 2",
+            "value": 1834,
+            "unit": "ns",
+            "range": 6.987
+          },
+          {
+            "name": "Configuration 4",
+            "value": 2995.83,
+            "unit": "ns",
+            "range": 131.739
           }
         ]
       }
