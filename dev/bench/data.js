@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715419424444,
+  "lastUpdate": 1715421654871,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -660,6 +660,54 @@ window.BENCHMARK_DATA = {
             "value": 2995.83,
             "unit": "ns",
             "range": 131.739
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "76eeac87ef9f09288c8bd930231d613b77331bec",
+          "message": "Build docker image directly from Dockerfile",
+          "timestamp": "2024-05-11T10:12:47+01:00",
+          "tree_id": "7ddb381b1c52c055fad1bf746cdd91cc911ae9e7",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/76eeac87ef9f09288c8bd930231d613b77331bec"
+        },
+        "date": 1715421653951,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 90.7799,
+            "unit": "ns",
+            "range": 0.209681
+          },
+          {
+            "name": "Configuration 1",
+            "value": 436.67,
+            "unit": "ns",
+            "range": 3.9865
+          },
+          {
+            "name": "Configuration 2",
+            "value": 1837.76,
+            "unit": "ns",
+            "range": 8.43202
+          },
+          {
+            "name": "Configuration 4",
+            "value": 3127.76,
+            "unit": "ns",
+            "range": 50.6695
           }
         ]
       }
