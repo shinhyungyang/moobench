@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715555142914,
+  "lastUpdate": 1715555146132,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -1078,6 +1078,52 @@ window.BENCHMARK_DATA = {
             "value": 3009.64,
             "unit": "ns",
             "range": 100.97
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "6d2d83ac639e86cf1848073ca179479fe12f9ef1",
+          "message": "Update dockerfile to jdk 21",
+          "timestamp": "2024-05-11T09:14:41Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/6d2d83ac639e86cf1848073ca179479fe12f9ef1"
+        },
+        "date": 1715555145785,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 90.6495,
+            "unit": "ns",
+            "range": 0.24248
+          },
+          {
+            "name": "Configuration 1",
+            "value": 444.304,
+            "unit": "ns",
+            "range": 3.86629
+          },
+          {
+            "name": "Configuration 2",
+            "value": 1848.48,
+            "unit": "ns",
+            "range": 16.8341
+          },
+          {
+            "name": "Configuration 4",
+            "value": 3057.94,
+            "unit": "ns",
+            "range": 69.8992
           }
         ]
       }
