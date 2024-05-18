@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715918825183,
+  "lastUpdate": 1716004241297,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -1962,6 +1962,46 @@ window.BENCHMARK_DATA = {
             "value": 4686.95,
             "unit": "ns",
             "range": 118.944
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "8cc72b68de848d1c46d23d4c7d72b0cc7860ca05",
+          "message": "Add OpenTelemetry execution to GH actions",
+          "timestamp": "2024-05-14T17:31:17Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/8cc72b68de848d1c46d23d4c7d72b0cc7860ca05"
+        },
+        "date": 1716004240836,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 90.6304,
+            "unit": "ns",
+            "range": 0.163735
+          },
+          {
+            "name": "Configuration 1",
+            "value": 2762.37,
+            "unit": "ns",
+            "range": 151.158
+          },
+          {
+            "name": "Configuration 3",
+            "value": 4723.22,
+            "unit": "ns",
+            "range": 157.238
           }
         ]
       }
