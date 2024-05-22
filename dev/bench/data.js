@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716349941698,
+  "lastUpdate": 1716350849334,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -1910,6 +1910,52 @@ window.BENCHMARK_DATA = {
             "value": 2949.23,
             "unit": "ns",
             "range": 153.734
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "0632d852fa3c1efa13860830484f321829a658c8",
+          "message": "Update to Gradle 8.6",
+          "timestamp": "2024-05-20T13:31:03Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/0632d852fa3c1efa13860830484f321829a658c8"
+        },
+        "date": 1716350848947,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 90.6939,
+            "unit": "ns",
+            "range": 0.13847
+          },
+          {
+            "name": "Configuration 1",
+            "value": 440.16,
+            "unit": "ns",
+            "range": 3.96238
+          },
+          {
+            "name": "Configuration 2",
+            "value": 1849.02,
+            "unit": "ns",
+            "range": 19.5069
+          },
+          {
+            "name": "Configuration 4",
+            "value": 3066.31,
+            "unit": "ns",
+            "range": 96.4265
           }
         ]
       }
