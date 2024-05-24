@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716567702703,
+  "lastUpdate": 1716568653132,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -2744,6 +2744,48 @@ window.BENCHMARK_DATA = {
             "value": 4767.01,
             "unit": "ns",
             "range": 154.176
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "aa1746a050f445cef87ecc9539599f4c34766262",
+          "message": "Add 2, 4 and 8 thread execution",
+          "timestamp": "2024-05-24T17:56:57+02:00",
+          "tree_id": "eb2b6e52efe88f71591c9b51db44689b0435921e",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/aa1746a050f445cef87ecc9539599f4c34766262"
+        },
+        "date": 1716568652554,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 90.7773,
+            "unit": "ns",
+            "range": 0.562131
+          },
+          {
+            "name": "Configuration 1",
+            "value": 2714.3,
+            "unit": "ns",
+            "range": 90.1706
+          },
+          {
+            "name": "Configuration 3",
+            "value": 4825.65,
+            "unit": "ns",
+            "range": 174.6
           }
         ]
       }
