@@ -29,7 +29,7 @@ jobs:
         run: |
           ./setup.sh
           cd frameworks/Kieker-java/
-          export THREADS=16
+          export THREADS=12
           export NUM_OF_LOOPS=10 
           export MOOBENCH_CONFIGURATIONS="0 1 2 4"
           ./benchmark.sh 
@@ -41,7 +41,7 @@ jobs:
       - name: Store benchmark result
         uses: benchmark-action/github-action-benchmark@v1
         with:
-          name: 'Kieker-java-16'
+          name: 'Kieker-java-12'
           tool: 'customSmallerIsBetter'
           output-file-path: output.json
           fail-on-alert: true
