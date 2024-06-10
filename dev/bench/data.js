@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717910035838,
+  "lastUpdate": 1717991469958,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -4710,6 +4710,46 @@ window.BENCHMARK_DATA = {
             "value": 4717.91,
             "unit": "ns",
             "range": 119.06
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "499cda753e424def2d900429099fb2af28c48ac2",
+          "message": "Also specify distribution",
+          "timestamp": "2024-05-28T09:16:12Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/499cda753e424def2d900429099fb2af28c48ac2"
+        },
+        "date": 1717991469171,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 90.7785,
+            "unit": "ns",
+            "range": 0.340479
+          },
+          {
+            "name": "Configuration 1",
+            "value": 2740.9,
+            "unit": "ns",
+            "range": 67.7598
+          },
+          {
+            "name": "Configuration 3",
+            "value": 4804.91,
+            "unit": "ns",
+            "range": 94.186
           }
         ]
       }
