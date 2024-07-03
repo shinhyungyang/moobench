@@ -72,7 +72,7 @@ Typical call (using Ubuntu):
 ```
 export SLEEP_TIME=1 
 ./gradlew assemble 
-cd frameworks/opentelemetry/ 
+cd frameworks/OpenTelemetry-java/
 ./benchmark.sh
 ```
 
