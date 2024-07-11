@@ -1,9 +1,12 @@
 # The MooBench Monitoring Overhead Micro-Benchmark 
 
-Website: http://kieker-monitoring.net/MooBench
+The MooBench micro-benchmarks can be used to quantify the performance overhead caused by monitoring framework components and different monitoring frameworks. 
 
-The MooBench micro-benchmarks can be used to quantify the performance overhead
-caused by monitoring framework components. 
+Continuous measurement results are available here:
+* Kiel University Server (Intel Xeon CPU E5620 @ 2.40 GHz, Debian 12): http://kieker-monitoring.net/MooBench
+* GH Actions Runner (Ubuntu 22.04[^1]): https://kieker-monitoring.github.io/moobench/dev/bench/
+
+[^1]: According to https://docs.github.com/de/actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners
 
 Currenly (fully) supported monitoring frameworks are:
 * Kieker with Java (http://kieker-monitoring.net)
