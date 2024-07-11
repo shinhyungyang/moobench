@@ -14,6 +14,17 @@ Currenly (fully) supported monitoring frameworks are:
 * inspectIT with Java (https://inspectit.rocks/)
 For all combinations of supported monitoring frameworks $FRAMEWORK and languages $LANGUAGE, the folder frameworks contains a folder $FRAMEWORK-$LANGUAGE.
 
+## Approach
+
+MooBenchs measures the overhead of monitoring by executing an example workload using different monitoring configurations, including no instrumentation (and hence no monitoring) at all, and full monitoring and data serialization. The example workload consists of `$RECURSION_DEPTH` recursive calls of a function to itself.
+
+```mermaid
+graph TD;
+	BenchmarkingThreadNano.run-->MonitoredClassSimple.monitoredMethod;
+  MonitoredClassSimple.monitoredMethod-->MonitoredClassSimple.monitoredMethod;
+  MonitoredClassSimple.monitoredMethod-->id["Busy Wait"]
+```
+
 ## Directory Structure
 
 - analysis = analysis scripts
