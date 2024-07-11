@@ -43,25 +43,6 @@ flowchart TD;
   instrumentedCall-->Kieker;
 ```
 
-## Directory Structure
-
-- analysis = analysis scripts
-- benchmark = moobench code
-- continuous-integration = obsolete
-- docker = Dockerfile to be used in automated runs on our intrestructure
-- frameworks = benchmark setups for the different frameworks for the respective language
-  - Kieker-java
-  - Kieker-python
-  - OpenTelementry-java
-  - SPASSmeter (currently not maintained)
-  - inspectIT-java
-- gradle = build system, gradle libraries
-- tools = tooling used to support benchmarks and process results
-  - compile-results = adds new results to a result log and computes partial
-    views of the results for presentation in websites
-  - getConfidenceIntervalTable = compute the confidence interval table
-  - receiver = receiver for Kieker TCP probe output
-
 ## Benchmark Execution
 
 Initially, the following steps are required:
@@ -107,6 +88,25 @@ export SLEEP_TIME=1
 cd frameworks/OpenTelemetry-java/
 ./benchmark.sh
 ```
+
+## Directory Structure
+
+- analysis = analysis scripts
+- benchmark = moobench code
+- continuous-integration = obsolete
+- docker = Dockerfile to be used in automated runs on our intrestructure
+- frameworks = benchmark setups for the different frameworks for the respective language
+  - Kieker-java
+  - Kieker-python
+  - OpenTelementry-java
+  - SPASSmeter (currently not maintained)
+  - inspectIT-java
+- gradle = build system, gradle libraries
+- tools = tooling used to support benchmarks and process results
+  - compile-results = adds new results to a result log and computes partial
+    views of the results for presentation in websites
+  - getConfidenceIntervalTable = compute the confidence interval table
+  - receiver = receiver for Kieker TCP probe output
 
 ## Data Analysis
 
