@@ -25,19 +25,22 @@ graph TD;
   MonitoredClassSimple.monitoredMethod-->id["Busy Wait"]
 ```
 
-The *binary writer* configuration on the other hand includes the probe code, that is injected by the monitoring tool before and after the operation. For the Kieker monitoring framework, the probe inserts records into the `WriterController.writerQueue`, and these are passed to the 
+The *binary writer* configuration on the other hand includes the probe code, that is injected by the monitoring tool before and after the operation. For the Kieker monitoring framework, the probe inserts records into the `WriterController.writerQueue`, and these are then processed for finally writing binary data to the hard disk.
 
 ```mermaid
-graph TD;
+flowchart TD;
   instrumentedCall["`probeBeforeOperation()
   MonitoredClassSimple.monitoredMethod
   probeAfterOperation`"]
 	BenchmarkingThreadNano.run-->instrumentedCall;
   instrumentedCall-->instrumentedCall;
   instrumentedCall-->id["Busy Wait"];
-  instrumentedCall-->WriterController.writerQueue;
+  subgraph Kieker
+  direction LR
   WriterController.writerQueue-->FileWriter.writeMonitoringRecord;
   FileWriter.writeMonitoringRecord-->BinaryLogStreamHandler.serialize;
+  end
+  instrumentedCall-->Kieker;
 ```
 
 ## Directory Structure
