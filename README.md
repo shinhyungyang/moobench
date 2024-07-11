@@ -16,13 +16,28 @@ For all combinations of supported monitoring frameworks $FRAMEWORK and languages
 
 ## Approach
 
-MooBenchs measures the overhead of monitoring by executing an example workload using different monitoring configurations, including no instrumentation (and hence no monitoring) at all, and full monitoring and data serialization. The example workload consists of `$RECURSION_DEPTH` recursive calls of a function to itself.
+MooBenchs measures the overhead of monitoring by executing an example workload using different monitoring configurations, including *no instrumentation* (and hence no monitoring) at all, and full monitoring and data serialization via *binary writer*. The example workload consists of `$RECURSION_DEPTH` recursive calls of a function to itself. For example, the following graph shows the execution of MooBench in the *no instrumentation* configuration:
 
 ```mermaid
 graph TD;
 	BenchmarkingThreadNano.run-->MonitoredClassSimple.monitoredMethod;
   MonitoredClassSimple.monitoredMethod-->MonitoredClassSimple.monitoredMethod;
   MonitoredClassSimple.monitoredMethod-->id["Busy Wait"]
+```
+
+The *binary writer* configuration on the other hand includes the probe code, that is injected by the monitoring tool before and after the operation. For the Kieker monitoring framework, the probe inserts records into the `WriterController.writerQueue`, and these are passed to the 
+
+```mermaid
+graph TD;
+  instrumentedCall["`probeBeforeOperation()
+  MonitoredClassSimple.monitoredMethod
+  probeAfterOperation`"]
+	BenchmarkingThreadNano.run-->instrumentedCall;
+  instrumentedCall-->instrumentedCall;
+  instrumentedCall-->id["Busy Wait"];
+  instrumentedCall-->WriterController.writerQueue;
+  WriterController.writerQueue-->FileWriter.writeMonitoringRecord;
+  FileWriter.writeMonitoringRecord-->BinaryLogStreamHandler.serialize;
 ```
 
 ## Directory Structure
