@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720670609609,
+  "lastUpdate": 1720670979367,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -4642,6 +4642,52 @@ window.BENCHMARK_DATA = {
             "value": 3107.53,
             "unit": "ns",
             "range": 55.6093
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "ce355a259c3b5dc7913d4e0161048790ccb290ad",
+          "message": "Fix call example for FRAMEWORK-LANGUAGE style",
+          "timestamp": "2024-07-03T09:03:12Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/ce355a259c3b5dc7913d4e0161048790ccb290ad"
+        },
+        "date": 1720670972989,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 90.7677,
+            "unit": "ns",
+            "range": 0.0896507
+          },
+          {
+            "name": "Configuration 1",
+            "value": 434.066,
+            "unit": "ns",
+            "range": 3.1575
+          },
+          {
+            "name": "Configuration 2",
+            "value": 1836.25,
+            "unit": "ns",
+            "range": 4.19714
+          },
+          {
+            "name": "Configuration 4",
+            "value": 3111.41,
+            "unit": "ns",
+            "range": 159.28
           }
         ]
       }
