@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720707234942,
+  "lastUpdate": 1720707456044,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -16212,6 +16212,54 @@ window.BENCHMARK_DATA = {
             "value": 72821.4,
             "unit": "ns",
             "range": 2645.08
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "31fe911a35289d05d3edb89ce6c8e89d247ca70b",
+          "message": "Add approach explanation",
+          "timestamp": "2024-07-11T14:51:21+02:00",
+          "tree_id": "5c0f1014ecd3e4f0449539cd52d20a4563d2ab3b",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/31fe911a35289d05d3edb89ce6c8e89d247ca70b"
+        },
+        "date": 1720707454789,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 151.879,
+            "unit": "ns",
+            "range": 8.64516
+          },
+          {
+            "name": "Configuration 1",
+            "value": 1496.06,
+            "unit": "ns",
+            "range": 45.3213
+          },
+          {
+            "name": "Configuration 2",
+            "value": 6293.2,
+            "unit": "ns",
+            "range": 399.094
+          },
+          {
+            "name": "Configuration 4",
+            "value": 69778.5,
+            "unit": "ns",
+            "range": 2533.98
           }
         ]
       }
