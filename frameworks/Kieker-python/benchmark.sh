@@ -5,6 +5,10 @@
 #
 # Usage: benchmark.sh
 
+VENV_DIR="${HOME}/venv/moobench"
+python3 -m venv ${VENV_DIR}
+source ${VENV_DIR}/bin/activate
+
 # configure base dir
 BASE_DIR=$(cd "$(dirname "$0")"; pwd)
 
@@ -157,6 +161,9 @@ checkFile results.yaml "${RESULTS_DIR}/results.yaml"
 checkFile results.yaml "${RESULTS_DIR}/results.zip"
 
 info "Done."
+
+deactivate
+rm -rf ${VENV_DIR}
 
 exit 0
 # end
