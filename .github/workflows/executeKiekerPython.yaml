@@ -24,6 +24,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: ${{ matrix.java }}
+          distribution: 'temurin'
       - name: Run minimal parameter experiment and check success
         run: |
           ./setup.sh
