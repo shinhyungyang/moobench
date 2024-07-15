@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721071816550,
+  "lastUpdate": 1721071861735,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -11912,6 +11912,54 @@ window.BENCHMARK_DATA = {
             "value": 6096.97,
             "unit": "ns",
             "range": 467.565
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "6a33ba202646ad3b4f3f09eba90c1889ec2cbe9a",
+          "message": "Fixes for the Kieker-python benchmark\n\nThis fix resolves two problems.\n\n1. The v69.3.0 release of the Python3 package setuptools enforces the\n   PEP~625 proposal [0], which replaces hyphens with underbars in a\n   package name. Therefore I made the following changes:\n\nKieker-python/functions.sh\n- \"${PIP}\" install dist/kieker-monitoring-for-python-0.0.1.tar.gz\n+ \"${PIP}\" install dist/kieker_monitoring_for_python-0.0.1.tar.gz\n\n2. Temurin JDK 21 image (based on Alpine Linux 3.19, 3.19.2) comes up\n   with the v23.3.1 release of the Python3 package pip. Its v23.0\n   enforces the PEP~668 proposal [1], which raises an error when\n   installing a local package against the OS-installed Python\n   environment. Therefore I made the following changes:\n\nKieker-python/benchmark.sh\n+ VENV_DIR=\"${HOME}/venv/moobench\"\n+ python3 -m venv ${VENV_DIR}\n+ source ${VENV_DIR}/bin/activate\n+\n  # configure base dir\n  BASE_DIR=$(cd \"$(dirname \"$0\")\"; pwd)\n\n  ...\n\n  info \"Done.\"\n\n+ deactivate\n+ rm -rf ${VENV_DIR}\n+\n  exit 0\n  # end\n\n[0]: https://github.com/pypa/setuptools/blob/v69.3.0/NEWS.rst\n[1]: https://github.com/pypa/pip/blob/23.0/NEWS.rst",
+          "timestamp": "2024-07-15T20:39:46+02:00",
+          "tree_id": "fe51ede9e3b30a3b1e3cc047ce4bb77111216a6a",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/6a33ba202646ad3b4f3f09eba90c1889ec2cbe9a"
+        },
+        "date": 1721071860883,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 91.9797,
+            "unit": "ns",
+            "range": 0.140753
+          },
+          {
+            "name": "Configuration 1",
+            "value": 570.102,
+            "unit": "ns",
+            "range": 20.2391
+          },
+          {
+            "name": "Configuration 2",
+            "value": 2526.67,
+            "unit": "ns",
+            "range": 64.3115
+          },
+          {
+            "name": "Configuration 4",
+            "value": 6265.19,
+            "unit": "ns",
+            "range": 469.122
           }
         ]
       }
