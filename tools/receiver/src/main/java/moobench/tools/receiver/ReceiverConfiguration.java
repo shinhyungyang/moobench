@@ -2,7 +2,7 @@ package moobench.tools.receiver;
 
 import kieker.analysis.source.rewriter.NoneTraceMetadataRewriter;
 import kieker.analysis.source.tcp.MultipleConnectionTcpSourceStage;
-import kieker.analysisteetime.plugin.filter.forward.CountingFilter;
+import kieker.analysis.stage.forward.CountingFilter;
 import teetime.framework.Configuration;
 
 public class ReceiverConfiguration extends Configuration {
