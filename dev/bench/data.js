@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722853983175,
+  "lastUpdate": 1722855256657,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -10738,6 +10738,48 @@ window.BENCHMARK_DATA = {
             "value": 4550.19,
             "unit": "ns",
             "range": 191.794
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "387515c93415996ae674fc914ffa3a1cbf9f534e",
+          "message": "Update logback-classic to 1.5.6 in receiver",
+          "timestamp": "2024-08-05T11:31:54+02:00",
+          "tree_id": "a765cdca9eb52bc75be4c1eb60388bf8cce3f883",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/387515c93415996ae674fc914ffa3a1cbf9f534e"
+        },
+        "date": 1722855255163,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 90.6225,
+            "unit": "ns",
+            "range": 0.202071
+          },
+          {
+            "name": "Configuration 1",
+            "value": 2791.4,
+            "unit": "ns",
+            "range": 129.339
+          },
+          {
+            "name": "Configuration 3",
+            "value": 4464.27,
+            "unit": "ns",
+            "range": 111.377
           }
         ]
       }
