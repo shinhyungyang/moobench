@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722917264733,
+  "lastUpdate": 1722917266682,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -6464,6 +6464,52 @@ window.BENCHMARK_DATA = {
             "value": 3174.89,
             "unit": "ns",
             "range": 88.5127
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "f051f06173e231c156321a20a71904f56675a3b8",
+          "message": "Update TeeTime to 3.1.1 and updated coordinates",
+          "timestamp": "2024-08-05T09:33:39Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/f051f06173e231c156321a20a71904f56675a3b8"
+        },
+        "date": 1722917265637,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 90.61,
+            "unit": "ns",
+            "range": 0.186579
+          },
+          {
+            "name": "Configuration 1",
+            "value": 437.801,
+            "unit": "ns",
+            "range": 4.90537
+          },
+          {
+            "name": "Configuration 2",
+            "value": 1847.25,
+            "unit": "ns",
+            "range": 8.43286
+          },
+          {
+            "name": "Configuration 4",
+            "value": 3176.13,
+            "unit": "ns",
+            "range": 62.7535
           }
         ]
       }
