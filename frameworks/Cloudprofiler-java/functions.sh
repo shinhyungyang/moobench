@@ -62,7 +62,14 @@ function checkPackageManager() {
     if [ $? -eq 0 ]
     then
       sudo apt -y install libpapi-dev cmake bison
+      sudo apt -y install libboost-all-dev
+      if [ $? -eq 0 ]
+      then
+        BOOST_INSTALLED="TRUE"
+      fi
     fi
+  else
+    BOOST_INSTALLED="FALSE"
   fi
 }
 
@@ -161,23 +168,26 @@ function getDependencies() {
   make -j$(nproc) install
   SWIG_ROOT="${INST_DIR}"
 
-  # boost (built in the source directory)
-  DEPNAME="${DEPNAME_BOOST}"
-  DEPVER="${DEPVER_BOOST}"
-  ALTVER="$(echo "${DEPVER}" | tr "." "_")"
-  REPO_DIR="${GITREPOS}/${DEPNAME}"
-  INST_DIR="${DEPHOME_BOOST}"
-  #MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  #mkdir -p "${MY_BUILD}"
-  cd "${TARBALLS}"
-  wget https://archives.boost.io/release/${DEPVER}/source/boost_${ALTVER}.tar.gz
-  cd "${EXTRACTS}"
-  tar -xf ${TARBALLS}/boost_${ALTVER}.tar.gz
-  cd "${EXTRACTS}/boost_${ALTVER}"
-  ./bootstrap.sh --prefix=${INST_DIR} --with-libraries=atomic,chrono,serialization,system
-  ./b2 install -j$(nproc)
-  BOOST_ROOT="${INST_DIR}"
+  if [[ "${BOOST_INSTALLED}" == "FALSE" ]]
+  then
+    # boost (built in the source directory)
+    DEPNAME="${DEPNAME_BOOST}"
+    DEPVER="${DEPVER_BOOST}"
+    ALTVER="$(echo "${DEPVER}" | tr "." "_")"
+    REPO_DIR="${GITREPOS}/${DEPNAME}"
+    INST_DIR="${DEPHOME_BOOST}"
+    #MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
+    mkdir -p "${INST_DIR}"
+    #mkdir -p "${MY_BUILD}"
+    cd "${TARBALLS}"
+    wget https://archives.boost.io/release/${DEPVER}/source/boost_${ALTVER}.tar.gz
+    cd "${EXTRACTS}"
+    tar -xf ${TARBALLS}/boost_${ALTVER}.tar.gz
+    cd "${EXTRACTS}/boost_${ALTVER}"
+    ./bootstrap.sh --prefix=${INST_DIR} --with-libraries=atomic,chrono,serialization,system
+    ./b2 install -j$(nproc)
+    BOOST_ROOT="${INST_DIR}"
+  fi
 
   # squash compression benchmark
   DEPNAME="${DEPNAME_SQUASH}"
