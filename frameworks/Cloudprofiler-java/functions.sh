@@ -292,11 +292,14 @@ function executeExperiment() {
        fi
     fi
 
-    for f in /tmp/{cloud_profiler,conf_server}*txt
-    do
-      FNAME="${f##*/}"
-      mv "${f}" "${DATA_DIR}/${FNAME%.txt}-${loop}-${recursion}-${index}.txt"
-    done
+    if [ $index != 0 ]
+    then
+      for f in /tmp/{cloud_profiler,conf_server}*txt
+      do
+        FNAME="${f##*/}"
+        mv "${f}" "${DATA_DIR}/${FNAME%.txt}-${loop}-${recursion}-${index}.txt"
+      done
+    fi
 
     rm -rf "${DATA_DIR}"/{cloud_profiler,config_server}*.txt
 
