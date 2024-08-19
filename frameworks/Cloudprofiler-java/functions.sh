@@ -62,7 +62,8 @@ function checkPackageManager() {
     if [ $? -eq 0 ]
     then
       sudo apt -y install libpapi-dev cmake bison
-      sudo apt -y install libboost-all-dev
+      sudo apt -y install libboost-atomic-dev libboost-chrono-dev \
+        libboost-serialization-dev libboost-system-dev
       if [ $? -eq 0 ]
       then
         BOOST_INSTALLED="TRUE"
