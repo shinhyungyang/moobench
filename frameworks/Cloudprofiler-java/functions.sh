@@ -56,6 +56,9 @@ function CPDependencies() {
 }
 
 function checkPackageManager() {
+  BOOST_INSTALLED="FALSE"
+  LIBZMQ_INSTALLED="FALSE"
+  CPPZMQ_INSTALLED="FALSE"
   if command -v "apt" > /dev/null 2>&1
   then
     prompt=$(sudo -nv 2>&1)
@@ -68,9 +71,17 @@ function checkPackageManager() {
       then
         BOOST_INSTALLED="TRUE"
       fi
+      sudo apt -y install libzmq3-dev
+      if [ $? -eq 0 ]
+      then
+        LIBZMQ_INSTALLED="TRUE"
+      fi
+      sudo apt -y install cppzmq-dev
+      if [ $? -eq 0 ]
+      then
+        CPPZMQ_INSTALLED="TRUE"
+      fi
     fi
-  else
-    BOOST_INSTALLED="FALSE"
   fi
 }
 
@@ -103,37 +114,43 @@ function getCMake() {
 function getDependencies() {
   PKG_CONFIG_PATH="/usr/lib/pkgconfig"
 
-  # libzmq
-  DEPNAME="${DEPNAME_LIBZMQ}"
-  DEPVER="${DEPVER_LIBZMQ}"
-  REPO_DIR="${GITREPOS}/${DEPNAME}"
-  INST_DIR="${DEPHOME_LIBZMQ}"
-  MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
-  cd "${GITREPOS}"
-  git clone https://github.com/zeromq/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
-  cd "${MY_BUILD}"
-  ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
-  make -j$(nproc) install
-  ZMQ_ROOT="${INST_DIR}"
-  PKG_CONFIG_PATH=${INST_DIR}/lib/pkgconfig:${PKG_CONFIG_PATH}
-
-  # cppzmq
-  DEPNAME="${DEPNAME_CPPZMQ}"
-  DEPVER="${DEPVER_CPPZMQ}"
-  REPO_DIR="${GITREPOS}/${DEPNAME}"
-  INST_DIR="${DEPHOME_CPPZMQ}"
-  MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
-  cd "${GITREPOS}"
-  git clone https://github.com/zeromq/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
-  cd "${MY_BUILD}"
-  PKG_CONFIG_PATH=${PKG_CONFIG_PATH} \
+  if [[ "${LIBZMQ_INSTALLED}" == "FALSE" ]]
+  then
+    # libzmq
+    DEPNAME="${DEPNAME_LIBZMQ}"
+    DEPVER="${DEPVER_LIBZMQ}"
+    REPO_DIR="${GITREPOS}/${DEPNAME}"
+    INST_DIR="${DEPHOME_LIBZMQ}"
+    MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
+    mkdir -p "${INST_DIR}"
+    mkdir -p "${MY_BUILD}"
+    cd "${GITREPOS}"
+    git clone https://github.com/zeromq/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
+    cd "${MY_BUILD}"
     ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
-  make -j$(nproc) install
-  PKG_CONFIG_PATH=${INST_DIR}/lib/pkgconfig:${PKG_CONFIG_PATH}
+    make -j$(nproc) install
+    ZMQ_ROOT="${INST_DIR}"
+    PKG_CONFIG_PATH=${INST_DIR}/lib/pkgconfig:${PKG_CONFIG_PATH}
+  fi
+
+  if [[ "${CPPZMQ_INSTALLED}" == "FALSE" ]]
+  then
+    # cppzmq
+    DEPNAME="${DEPNAME_CPPZMQ}"
+    DEPVER="${DEPVER_CPPZMQ}"
+    REPO_DIR="${GITREPOS}/${DEPNAME}"
+    INST_DIR="${DEPHOME_CPPZMQ}"
+    MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
+    mkdir -p "${INST_DIR}"
+    mkdir -p "${MY_BUILD}"
+    cd "${GITREPOS}"
+    git clone https://github.com/zeromq/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
+    cd "${MY_BUILD}"
+    PKG_CONFIG_PATH=${PKG_CONFIG_PATH} \
+      ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
+    make -j$(nproc) install
+    PKG_CONFIG_PATH=${INST_DIR}/lib/pkgconfig:${PKG_CONFIG_PATH}
+  fi
 
   # bison (swig dependency)
   if ! command -v "bison" > /dev/null 2>&1
