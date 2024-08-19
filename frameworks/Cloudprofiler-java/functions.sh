@@ -55,6 +55,17 @@ function CPDependencies() {
   DEPHOME_SQUASH="${OPT_DIR}/${DEPNAME_SQUASH}/${DEPVER_SQUASH}"
 }
 
+function checkPackageManager() {
+  if command -v "apt" > /dev/null 2>&1
+  then
+    prompt=$(sudo -nv 2>&1)
+    if [ $? -eq 0 ]
+    then
+      sudo apt -y install libpapi-dev cmake bison
+    fi
+  fi
+}
+
 function getCMake() {
   CMAKE="cmake"
   if ! command -v "${CMAKE}" > /dev/null 2>&1
@@ -117,20 +128,23 @@ function getDependencies() {
   PKG_CONFIG_PATH=${INST_DIR}/lib/pkgconfig:${PKG_CONFIG_PATH}
 
   # bison (swig dependency)
-  DEPNAME="${DEPNAME_BISON}"
-  DEPVER="${DEPVER_BISON}"
-  INST_DIR="${DEPHOME_BISON}"
-  MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
-  cd "${TARBALLS}"
-  wget https://ftpmirror.gnu.org/${DEPNAME}/${DEPNAME}-${DEPVER}.tar.gz
-  cd "${EXTRACTS}"
-  tar -xf ${TARBALLS}/${DEPNAME}-${DEPVER}.tar.gz
-  cd "${MY_BUILD}"
-  ${EXTRACTS}/${DEPNAME}-${DEPVER}/configure --prefix=${INST_DIR}
-  make -j$(nproc) install
-  BISON_ROOT="${INST_DIR}"
+  if ! command -v "bison" > /dev/null 2>&1
+  then
+    DEPNAME="${DEPNAME_BISON}"
+    DEPVER="${DEPVER_BISON}"
+    INST_DIR="${DEPHOME_BISON}"
+    MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
+    mkdir -p "${INST_DIR}"
+    mkdir -p "${MY_BUILD}"
+    cd "${TARBALLS}"
+    wget https://ftpmirror.gnu.org/${DEPNAME}/${DEPNAME}-${DEPVER}.tar.gz
+    cd "${EXTRACTS}"
+    tar -xf ${TARBALLS}/${DEPNAME}-${DEPVER}.tar.gz
+    cd "${MY_BUILD}"
+    ${EXTRACTS}/${DEPNAME}-${DEPVER}/configure --prefix=${INST_DIR}
+    make -j$(nproc) install
+    BISON_ROOT="${INST_DIR}"
+  fi
 
   # swig
   DEPNAME="${DEPNAME_SWIG}"

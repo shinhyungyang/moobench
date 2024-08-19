@@ -41,6 +41,7 @@ else
   exit 1
 fi
 
+checkPackageManager
 CPDependencies
 checkCPFiles
 getCMake
