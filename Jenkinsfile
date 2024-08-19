@@ -55,6 +55,11 @@ pipeline {
           }
           
           catchError {
+             sh './frameworks/Cloudprofiler-java/benchmark.sh'
+             sh 'cp frameworks/Cloudprofiler-java/results-Cloudprofiler-java/results.yaml Cloudprofiler-java-results.yaml'
+          }
+
+          catchError {
              sh './frameworks/OpenTelemetry-java/benchmark.sh'
              sh 'cp frameworks/OpenTelemetry-java/results-OpenTelemetry-java/results.yaml OpenTelemetry-java-results.yaml'
           }
