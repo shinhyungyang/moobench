@@ -1,11 +1,13 @@
 #!/bin/bash
 
+./frameworks/Cloudprofiler-java/benchmark.sh || exit
 ./frameworks/Kieker-python/benchmark.sh || exit
 ./frameworks/Kieker-java/benchmark.sh || exit
 ./frameworks/OpenTelemetry-java/benchmark.sh || exit
 ./frameworks/inspectIT-java/benchmark.sh || exit
 
 echo "copy"
+cp -v frameworks/Cloudprofiler-java/results/results.yaml Cloudprofiler-java-results.yaml
 cp -v frameworks/Kieker-python/results/results.yaml Kieker-python-results.yaml
 cp -v frameworks/Kieker-java/results/results.yaml Kieker-java-results.yaml
 cp -v frameworks/OpenTelemetry-java/results/results.yaml OpenTelemetry-java-results.yaml

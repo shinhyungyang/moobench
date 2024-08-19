@@ -41,8 +41,14 @@ info "Java version ${JAVA_VERSION}"
 ./gradlew build
 
 checkFile moobench "${MOOBENCH_ARCHIVE}"
+
+echo "Extracting main benchmark"
 tar -xpf "${MOOBENCH_ARCHIVE}"
 MOOBENCH_BIN="${BASE_DIR}/benchmark/bin/benchmark"
+
+echo "Extracting Cloudprofiler source instrumented benchmark"
+checkFile moobench-cp ${BASE_DIR}/tools/benchmark-cp-instrumented/build/distributions/benchmark-cp-instrumented.tar
+tar -xpf ${BASE_DIR}/tools/benchmark-cp-instrumented/build/distributions/benchmark-cp-instrumented.tar
 
 checkFile compile-result "${COMPILE_RESULTS_ARCHIVE}"
 tar -xpf "${COMPILE_RESULTS_ARCHIVE}"
