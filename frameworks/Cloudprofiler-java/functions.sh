@@ -135,6 +135,7 @@ function getDependencies() {
     cd "${REPO_DIR}"
     git archive @ | tar -x -C "${MY_BUILD}"
     cd "${MY_BUILD}/src"
+    export CFLAGS="${CFLAGS} -D_GNU_SOURCE"
     ./configure --prefix=${INST_DIR}
     make -j$(nproc) install
     PAPI_ROOT="${INST_DIR}"
