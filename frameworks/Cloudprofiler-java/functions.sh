@@ -55,7 +55,7 @@ function CPDependencies() {
   DEPHOME_SQUASH="${OPT_DIR}/${DEPNAME_SQUASH}/${DEPVER_SQUASH}"
 
   DEPNAME_PAPI="papi"
-  DEPVER_PAPI="7.1.0"
+  DEPVER_PAPI="6.0.0"
   DEPHOME_PAPI="${OPT_DIR}/${DEPNAME_PAPI}/${DEPVER_PAPI}"
 }
 
@@ -83,7 +83,7 @@ function checkPackageManager() {
   elif [[ "${DISTRO_ID}" == "alpine" ]]
   then
     apk update
-    apk add cmake bison boost-dev swig cppzmq
+    apk add g++ make cmake bison boost-dev swig cppzmq
       BOOST_INSTALLED="TRUE"
       LIBZMQ_INSTALLED="TRUE"
       CPPZMQ_INSTALLED="TRUE"
@@ -135,8 +135,7 @@ function getDependencies() {
     cd "${REPO_DIR}"
     git archive @ | tar -x -C "${MY_BUILD}"
     cd "${MY_BUILD}/src"
-    export CFLAGS="${CFLAGS} -D_GNU_SOURCE"
-    ./configure --prefix=${INST_DIR}
+    bash ./configure --prefix=${INST_DIR}
     make -j$(nproc) install
     PAPI_ROOT="${INST_DIR}"
     PKG_CONFIG_PATH=${INST_DIR}/lib/pkgconfig:${PKG_CONFIG_PATH}
