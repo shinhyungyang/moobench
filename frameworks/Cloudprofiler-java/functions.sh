@@ -84,6 +84,10 @@ function checkPackageManager() {
   then
     apk update
     apk add cmake bison boost-dev swig cppzmq
+      BOOST_INSTALLED="TRUE"
+      LIBZMQ_INSTALLED="TRUE"
+      CPPZMQ_INSTALLED="TRUE"
+      SWIG_INSTALLED="TRUE"
   fi
 }
 
