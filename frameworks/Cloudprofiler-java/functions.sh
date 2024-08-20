@@ -53,35 +53,37 @@ function CPDependencies() {
   DEPNAME_SQUASH="squash"
   DEPVER_SQUASH="0.8"
   DEPHOME_SQUASH="${OPT_DIR}/${DEPNAME_SQUASH}/${DEPVER_SQUASH}"
+
+  DEPNAME_PAPI="papi"
+  DEPVER_PAPI="7.1.0"
+  DEPHOME_PAPI="${OPT_DIR}/${DEPNAME_PAPI}/${DEPVER_PAPI}"
 }
 
 function checkPackageManager() {
   BOOST_INSTALLED="FALSE"
   LIBZMQ_INSTALLED="FALSE"
   CPPZMQ_INSTALLED="FALSE"
-  if command -v "apt" > /dev/null 2>&1
+  SWIG_INSTALLED="FALSE"
+  PAPI_INSTALLED="FALSE"
+  DISTRO_ID="$(python3 -c "import distro; print(distro.id())")"
+  if [[ "${DISTRO_ID}" == "ubuntu" ]]
   then
     prompt=$(sudo -nv 2>&1)
     if [ $? -eq 0 ]
     then
-      sudo apt -y install libpapi-dev cmake bison
-      sudo apt -y install libboost-atomic-dev libboost-chrono-dev \
-        libboost-serialization-dev libboost-system-dev
-      if [ $? -eq 0 ]
-      then
-        BOOST_INSTALLED="TRUE"
-      fi
-      sudo apt -y install libzmq3-dev
-      if [ $? -eq 0 ]
-      then
-        LIBZMQ_INSTALLED="TRUE"
-      fi
-      sudo apt -y install cppzmq-dev
-      if [ $? -eq 0 ]
-      then
-        CPPZMQ_INSTALLED="TRUE"
-      fi
+      sudo apt -y update
+      sudo apt -y install libpapi-dev cmake bison libboost-all-dev swig \
+        cppzmq-dev
+      PAPI_INSTALLED="TRUE"
+      BOOST_INSTALLED="TRUE"
+      LIBZMQ_INSTALLED="TRUE"
+      CPPZMQ_INSTALLED="TRUE"
+      SWIG_INSTALLED="TRUE"
     fi
+  elif [[ "${DISTRO_ID}" == "alpine" ]]
+  then
+    apk update
+    apk add cmake bison boost-dev swig cppzmq
   fi
 }
 
@@ -113,6 +115,27 @@ function getCMake() {
 
 function getDependencies() {
   PKG_CONFIG_PATH="/usr/lib/pkgconfig"
+
+  if [[ "${PAPI_INSTALLED}" == "FALSE" ]]
+  then
+    DEPNAME="${DEPNAME_PAPI}"
+    DEPVER="${DEPVER_PAPI}"
+    REPO_DIR="${GITREPOS}/${DEPNAME}"
+    INST_DIR="${DEPHOME_PAPI}"
+    MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
+    mkdir -p "${INST_DIR}"
+    mkdir -p "${MY_BUILD}"
+    cd "${GITREPOS}"
+    MYVER="$(echo "${DEPVER}" | tr "." "-")"
+    git clone https://github.com/icl-utk-edu/${DEPNAME}.git --branch "papi-${MYVER}-t" --depth 1
+    cd "${REPO_DIR}"
+    git archive @ | tar -x -C "${MY_BUILD}"
+    cd "${MY_BUILD}/src"
+    ./configure --prefix=${INST_DIR}
+    make -j$(nproc) install
+    PAPI_ROOT="${INST_DIR}"
+    PKG_CONFIG_PATH=${INST_DIR}/lib/pkgconfig:${PKG_CONFIG_PATH}
+  fi
 
   if [[ "${LIBZMQ_INSTALLED}" == "FALSE" ]]
   then
@@ -171,20 +194,23 @@ function getDependencies() {
     BISON_ROOT="${INST_DIR}"
   fi
 
-  # swig
-  DEPNAME="${DEPNAME_SWIG}"
-  DEPVER="${DEPVER_SWIG}"
-  REPO_DIR="${GITREPOS}/${DEPNAME}"
-  INST_DIR="${DEPHOME_SWIG}"
-  MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
-  cd "${GITREPOS}"
-  git clone https://github.com/swig/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
-  cd "${MY_BUILD}"
-  ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR} -DBISON_ROOT=${BISON_ROOT}
-  make -j$(nproc) install
-  SWIG_ROOT="${INST_DIR}"
+  if [[ "${SWIG_INSTALLED}" == "FALSE" ]]
+  then
+    # swig
+    DEPNAME="${DEPNAME_SWIG}"
+    DEPVER="${DEPVER_SWIG}"
+    REPO_DIR="${GITREPOS}/${DEPNAME}"
+    INST_DIR="${DEPHOME_SWIG}"
+    MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
+    mkdir -p "${INST_DIR}"
+    mkdir -p "${MY_BUILD}"
+    cd "${GITREPOS}"
+    git clone https://github.com/swig/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
+    cd "${MY_BUILD}"
+    ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR} -DBISON_ROOT=${BISON_ROOT}
+    make -j$(nproc) install
+    SWIG_ROOT="${INST_DIR}"
+  fi
 
   if [[ "${BOOST_INSTALLED}" == "FALSE" ]]
   then
