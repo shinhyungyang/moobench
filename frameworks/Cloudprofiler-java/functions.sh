@@ -270,7 +270,8 @@ function getCloudprofiler() {
     ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR} \
     -DBOOST_ROOT=${BOOST_ROOT} \
     -DSWIG_ROOT=${SWIG_ROOT} \
-    -DSQUASH_ROOT=${SQUASH_ROOT}
+    -DSQUASH_ROOT=${SQUASH_ROOT} \
+    -DPAPI_ROOT=${PAPI_ROOT}
   make -j$(nproc) install
 }
 
