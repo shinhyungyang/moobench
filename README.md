@@ -1,6 +1,10 @@
-# The MooBench Monitoring Overhead Micro-Benchmark 
+# The MooBench Observability Overhead Micro-Benchmark 
 
-The MooBench micro-benchmarks can be used to quantify the performance overhead caused by monitoring framework components and different monitoring frameworks. 
+The MooBench micro-benchmarks can be used to quantify the performance overhead caused by observability framework components and different observability frameworks. Observability is achieved through its three pillars:
+- Logs, i.e., timestamped information about system events,
+- Metrics, i.e., numerical measurements of system behaviour, and
+- Traces, i.e., representations of request, transaction or operation executions.
+MooBench can measure the overhead that is created by obtaining any of these three pillars of observability from program execution. 
 
 Continuous measurement results are available here:
 * Kiel University Server (Intel Xeon CPU E5620 @ 2.40 GHz, Debian 12): https://kieker-monitoring.net/performance-benchmarks/
@@ -8,24 +12,24 @@ Continuous measurement results are available here:
 
 [^1]: According to https://docs.github.com/de/actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners
 
-Currenly (fully) supported monitoring frameworks are:
+Currenly (fully) supported observability frameworks are:
 * Kieker with Java (http://kieker-monitoring.net)
 * OpenTelemetry with Java (https://opentelemetry.io/)
 * inspectIT with Java (https://inspectit.rocks/)
-For all combinations of supported monitoring frameworks $FRAMEWORK and languages $LANGUAGE, the folder frameworks contains a folder $FRAMEWORK-$LANGUAGE.
+For all combinations of supported observability frameworks $FRAMEWORK and languages $LANGUAGE, the folder frameworks contains a folder $FRAMEWORK-$LANGUAGE.
 
 ## Approach
 
-MooBenchs measures the overhead of monitoring by executing an example workload using different monitoring configurations, including *no instrumentation* (and hence no monitoring) at all, and full monitoring and data serialization via *binary writer*. The example workload consists of `$RECURSION_DEPTH` recursive calls of a function to itself. For example, the following graph shows the execution of MooBench in the *no instrumentation* configuration:
+MooBenchs measures the overhead of gathering observability data by executing an example workload using different configurations, including *no instrumentation* (and hence no data gathering) at all, full distributed tracing and data serialization via *binary writer*. The example workload consists of `$RECURSION_DEPTH` recursive calls of a function to itself. For example, the following graph shows the execution of MooBench in the *no instrumentation* configuration:
 
 ```mermaid
 graph TD;
-	BenchmarkingThreadNano.run-->MonitoredClassSimple.monitoredMethod;
+  BenchmarkingThreadNano.run-->MonitoredClassSimple.monitoredMethod;
   MonitoredClassSimple.monitoredMethod-->MonitoredClassSimple.monitoredMethod;
   MonitoredClassSimple.monitoredMethod-->id["Busy Wait"]
 ```
 
-The *binary writer* configuration on the other hand includes the probe code, that is injected by the monitoring tool before and after the operation. For the Kieker monitoring framework, the probe inserts records into the `WriterController.writerQueue`, and these are then processed for finally writing binary data to the hard disk.
+The *binary writer* configuration on the other hand includes the probe code, that is injected by the observability tool before and after the operation. For the Kieker monitoring framework, the probe inserts records into the `WriterController.writerQueue`, and these are then processed for finally writing binary data to the hard disk.
 
 ```mermaid
 flowchart TD;
