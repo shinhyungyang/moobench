@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724558833595,
+  "lastUpdate": 1724560516538,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -28972,6 +28972,52 @@ window.BENCHMARK_DATA = {
             "value": 73290.3,
             "unit": "ns",
             "range": 2717.77
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "514d24bde397a182d2dfea3df1e95841e482e34c",
+          "message": "Update wording: MooBench measures all overhead of all pillars of observability",
+          "timestamp": "2024-08-22T09:13:18Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/514d24bde397a182d2dfea3df1e95841e482e34c"
+        },
+        "date": 1724560515427,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 169.252,
+            "unit": "ns",
+            "range": 7.44923
+          },
+          {
+            "name": "Configuration 1",
+            "value": 1514.11,
+            "unit": "ns",
+            "range": 29.5372
+          },
+          {
+            "name": "Configuration 2",
+            "value": 6347.68,
+            "unit": "ns",
+            "range": 319.33
+          },
+          {
+            "name": "Configuration 4",
+            "value": 72629.7,
+            "unit": "ns",
+            "range": 2498.93
           }
         ]
       }
