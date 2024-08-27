@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724766648402,
+  "lastUpdate": 1724766823969,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -18694,6 +18694,54 @@ window.BENCHMARK_DATA = {
             "value": 6394.91,
             "unit": "ns",
             "range": 450.045
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "9d1b350ecfe0ec25f4eaac032c6b5ad871ad9b12",
+          "message": "Create uberjar for receiver instead of execution script",
+          "timestamp": "2024-08-27T15:02:32+02:00",
+          "tree_id": "4907fcf0baffc88912ceb7f51bffd9f255ab3c1c",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/9d1b350ecfe0ec25f4eaac032c6b5ad871ad9b12"
+        },
+        "date": 1724766823094,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 91.9437,
+            "unit": "ns",
+            "range": 0.164564
+          },
+          {
+            "name": "Configuration 1",
+            "value": 554.04,
+            "unit": "ns",
+            "range": 18.3491
+          },
+          {
+            "name": "Configuration 2",
+            "value": 2618.28,
+            "unit": "ns",
+            "range": 77.8364
+          },
+          {
+            "name": "Configuration 4",
+            "value": 5939.18,
+            "unit": "ns",
+            "range": 466.002
           }
         ]
       }
