@@ -83,7 +83,7 @@ checkDirectory result-base "${PARENT}"
 
 checkFile receiver "receiver/receiver.jar"
 
-checkFile ApsectJ-Agent "${AGENT}"
+checkFile AspectJ-Agent "${AGENT}"
 checkFile aop-file "${AOP}"
 
 
