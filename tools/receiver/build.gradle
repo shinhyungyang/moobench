@@ -15,10 +15,19 @@ dependencies {
 }
 
 jar {
+    manifest {
+        attributes "Main-Class": "moobench.tools.receiver.RecordReceiverMain"
+    }
+    
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    
 	doLast {
 		copy {
 		    from jar
-		    into "../../frameworks/Kieker-java/scripts/receiver/lib/"
+		    into "../../frameworks/Kieker-java/receiver/"
 	    }
 	}
 }

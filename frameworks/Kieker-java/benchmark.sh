@@ -81,12 +81,7 @@ mkdir -p $RESULTS_DIR
 PARENT=`dirname "${RESULTS_DIR}"`
 checkDirectory result-base "${PARENT}"
 
-# Find receiver and extract it
-checkFile receiver "${RECEIVER_ARCHIVE}"
-tar -xpf "${RECEIVER_ARCHIVE}"
-RECEIVER_BIN="${BASE_DIR}/receiver/bin/receiver"
-checkExecutable receiver "${RECEIVER_BIN}"
-
+checkFile receiver "receiver/receiver.jar"
 
 checkFile ApsectJ-Agent "${AGENT}"
 checkFile aop-file "${AOP}"
@@ -124,7 +119,7 @@ WRITER_CONFIG[2]="-Dkieker.monitoring.enabled=true -Dkieker.monitoring.writer=ki
 WRITER_CONFIG[3]="-Dkieker.monitoring.enabled=true -Dkieker.monitoring.writer=kieker.monitoring.writer.filesystem.FileWriter -Dkieker.monitoring.writer.filesystem.FileWriter.logStreamHandler=kieker.monitoring.writer.filesystem.TextLogStreamHandler -Dkieker.monitoring.writer.filesystem.FileWriter.customStoragePath=${DATA_DIR}/"
 WRITER_CONFIG[4]="-Dkieker.monitoring.enabled=true -Dkieker.monitoring.writer=kieker.monitoring.writer.filesystem.FileWriter -Dkieker.monitoring.writer.filesystem.FileWriter.logStreamHandler=kieker.monitoring.writer.filesystem.BinaryLogStreamHandler -Dkieker.monitoring.writer.filesystem.FileWriter.bufferSize=8192 -Dkieker.monitoring.writer.filesystem.FileWriter.customStoragePath=${DATA_DIR}/ -Dkieker.monitoring.writer.filesystem.FileWriter.maxLogFiles=100 -Dkieker.monitoring.core.controller.WriterController.QueuePutStrategy=kieker.monitoring.queue.putstrategy.YieldPutStrategy"
 WRITER_CONFIG[5]="-Dkieker.monitoring.writer=kieker.monitoring.writer.tcp.SingleSocketTcpWriter -Dkieker.monitoring.writer.tcp.SingleSocketTcpWriter.port=2345"
-RECEIVER[5]="${RECEIVER_BIN} 2345"
+RECEIVER[5]="java -jar receiver/receiver.jar 2345"
 
 
 
