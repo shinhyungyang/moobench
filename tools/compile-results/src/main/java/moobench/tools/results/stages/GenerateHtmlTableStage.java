@@ -21,7 +21,7 @@ public class GenerateHtmlTableStage extends AbstractTransformation<TableInformat
     protected void execute(final TableInformation tableInformation) throws Exception {
         String content = "<table>\n" + "  <tr>\n" + "    <th>setup</th>\n" + "    <th>run</th>\n"
                 + "    <th>mean</th>\n" + "    <th>ci</th>\n" + "    <th>sd</th>\n" + "    <th>1.quartile</th>\n"
-                + "    <th>median</th>\n" + "    <th>3.quartile</th>\n" + "    <th>min</th>\n" + "    <th>max</th>\n"
+                + "    <th>median</th>\n" + "    <th>3.quartile</th>\n" + "    <th>max</th>\n" + "    <th>min</th>\n"
                 + "  </tr>\n";
         final Set<String> currentKeySet = tableInformation.getCurrent().getMeasurements().keySet();
         final Set<String> previousKeySet = tableInformation.getPrevious().getMeasurements().keySet();
