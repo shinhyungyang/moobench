@@ -87,7 +87,7 @@ function getDependencies() {
   cd "${GITREPOS}"
   git clone https://github.com/shinhyungyang/${DEPNAME}.git --depth 1 --recursive
   cd "${MY_BUILD}"
-  cmake ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
+  cmake ${REPO_DIR}
   make -j$(nproc) install
   SQUASH_ROOT="${INST_DIR}"
 
@@ -95,8 +95,6 @@ function getDependencies() {
 }
 
 function buildZeroMQ() {
-  PKG_CONFIG_PATH="/usr/lib/pkgconfig"
-
   # libzmq
   DEPNAME="${DEPNAME_LIBZMQ}"
   DEPVER="${DEPVER_LIBZMQ}"
@@ -108,10 +106,8 @@ function buildZeroMQ() {
   cd "${GITREPOS}"
   git clone https://github.com/zeromq/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
   cd "${MY_BUILD}"
-  cmake ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
+  cmake ${REPO_DIR}
   make -j$(nproc) install
-  ZMQ_ROOT="${INST_DIR}"
-  PKG_CONFIG_PATH=${INST_DIR}/lib/pkgconfig:${PKG_CONFIG_PATH}
 
   # cppzmq
   DEPNAME="${DEPNAME_CPPZMQ}"
@@ -124,10 +120,8 @@ function buildZeroMQ() {
   cd "${GITREPOS}"
   git clone https://github.com/zeromq/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
   cd "${MY_BUILD}"
-  PKG_CONFIG_PATH=${PKG_CONFIG_PATH} \
-    cmake ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
+  cmake ${REPO_DIR}
   make -j$(nproc) install
-  PKG_CONFIG_PATH=${INST_DIR}/lib/pkgconfig:${PKG_CONFIG_PATH}
 
   cd "${BASE_DIR}"
 }
