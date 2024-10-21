@@ -132,6 +132,7 @@ function getCloudprofiler() {
   REPO_DIR="${GITREPOS}/${DEPNAME}"
   INST_DIR="${OPT_DIR}/${DEPNAME}/${DEPVER}"
   MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
+  rm -rf "${REPO_DIR}" ;
   rm -rf "${INST_DIR}" ; mkdir -p "${INST_DIR}"
   rm -rf "${MY_BUILD}" ; mkdir -p "${MY_BUILD}"
   cd "${GITREPOS}"
