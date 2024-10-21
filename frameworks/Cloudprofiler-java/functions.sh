@@ -82,8 +82,8 @@ function getDependencies() {
   REPO_DIR="${GITREPOS}/${DEPNAME}"
   INST_DIR="${DEPHOME_SQUASH}"
   MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
+  rm -rf "${INST_DIR}" ; mkdir -p "${INST_DIR}"
+  rm -rf "${MY_BUILD}" ; mkdir -p "${MY_BUILD}"
   cd "${GITREPOS}"
   git clone https://github.com/shinhyungyang/${DEPNAME}.git --depth 1 --recursive
   cd "${MY_BUILD}"
@@ -101,8 +101,8 @@ function buildZeroMQ() {
   REPO_DIR="${GITREPOS}/${DEPNAME}"
   INST_DIR="${DEPHOME_LIBZMQ}"
   MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
+  rm -rf "${INST_DIR}" ; mkdir -p "${INST_DIR}"
+  rm -rf "${MY_BUILD}" ; mkdir -p "${MY_BUILD}"
   cd "${GITREPOS}"
   git clone https://github.com/zeromq/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
   cd "${MY_BUILD}"
@@ -115,8 +115,8 @@ function buildZeroMQ() {
   REPO_DIR="${GITREPOS}/${DEPNAME}"
   INST_DIR="${DEPHOME_CPPZMQ}"
   MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
+  rm -rf "${INST_DIR}" ; mkdir -p "${INST_DIR}"
+  rm -rf "${MY_BUILD}" ; mkdir -p "${MY_BUILD}"
   cd "${GITREPOS}"
   git clone https://github.com/zeromq/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
   cd "${MY_BUILD}"
@@ -132,8 +132,8 @@ function getCloudprofiler() {
   REPO_DIR="${GITREPOS}/${DEPNAME}"
   INST_DIR="${OPT_DIR}/${DEPNAME}/${DEPVER}"
   MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
+  rm -rf "${INST_DIR}" ; mkdir -p "${INST_DIR}"
+  rm -rf "${MY_BUILD}" ; mkdir -p "${MY_BUILD}"
   cd "${GITREPOS}"
   git clone https://github.com/shinhyungyang/${DEPNAME}.git --branch "moobench-ci" --depth 1
   cd "${MY_BUILD}"
