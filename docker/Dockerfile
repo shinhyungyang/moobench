@@ -6,3 +6,4 @@ RUN echo "jenkins:x:4040:7001:guest:/home/jenkins:/sbin/nologin" >> /etc/passwd 
     apt -y update && apt -y upgrade && \
     apt -y install git openssh-server zip unzip r-base-core bash curl python3-pip python3-venv
 
+RUN apt -y install libboost-all-dev cmake cppzmq-dev g++ libpapi-dev pkgconf swig
