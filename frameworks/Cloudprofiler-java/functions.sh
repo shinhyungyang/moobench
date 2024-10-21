@@ -8,6 +8,15 @@ then
 fi
 
 
+function checkOSVersion() {
+  VENV_DIR="${HOME}/venv/query-distro"
+  python3 -m venv ${VENV_DIR}
+  source ${VENV_DIR}/bin/activate
+  pip install --upgrade pip distro
+  OS_VER=$(python3 <<< 'import distro ; print("{0} {1}".format(distro.id(), distro.version()))')
+  deactivate
+}
+
 function prepareFolders() {
   OPT_DIR="${BASE_DIR}/opt"
   TARBALLS="${BASE_DIR}/build/tarballs"
@@ -26,10 +35,6 @@ function CPDependencies() {
   DEPVER_CP="0.3.2"
   DEPHOME_CP="${OPT_DIR}/${DEPNAME_CP}/${DEPVER_CP}"
 
-  DEPNAME_CMAKE="CMake"
-  DEPVER_CMAKE="3.30.2"
-  DEPHOME_CMAKE="${OPT_DIR}/${DEPNAME_CMAKE}/${DEPVER_CMAKE}"
-
   DEPNAME_LIBZMQ="libzmq"
   DEPVER_LIBZMQ="4.3.4"
   DEPHOME_LIBZMQ="${OPT_DIR}/${DEPNAME_LIBZMQ}/${DEPVER_LIBZMQ}"
@@ -38,50 +43,58 @@ function CPDependencies() {
   DEPVER_CPPZMQ="4.10.0"
   DEPHOME_CPPZMQ="${OPT_DIR}/${DEPNAME_CPPZMQ}/${DEPVER_CPPZMQ}"
 
-  DEPNAME_BISON="bison"
-  DEPVER_BISON="3.8.2"
-  DEPHOME_BISON="${OPT_DIR}/${DEPNAME_BISON}/${DEPVER_BISON}"
-
-  DEPNAME_SWIG="swig"
-  DEPVER_SWIG="4.2.1"
-  DEPHOME_SWIG="${OPT_DIR}/${DEPNAME_SWIG}/${DEPVER_SWIG}"
-
-  DEPNAME_BOOST="boost"
-  DEPVER_BOOST="1.85.0"
-  DEPHOME_BOOST="${OPT_DIR}/${DEPNAME_BOOST}/${DEPVER_BOOST}"
-
   DEPNAME_SQUASH="squash"
   DEPVER_SQUASH="0.8"
   DEPHOME_SQUASH="${OPT_DIR}/${DEPNAME_SQUASH}/${DEPVER_SQUASH}"
 }
 
-function getCMake() {
-  CMAKE="cmake"
-  if ! command -v "${CMAKE}" > /dev/null 2>&1
-  then
-    info "Installing CMake.."
+function getDependencies() {
+  PKG_CONFIG_PATH="/usr/lib/pkgconfig"
+  PKG_LIST=""
 
-    DEPNAME="${DEPNAME_CMAKE}"
-    DEPVER="${DEPVER_CMAKE}"
-    REPO_DIR="${GITREPOS}/${DEPNAME}"
-    INST_DIR="${DEPHOME_CMAKE}"
-    MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-    mkdir -p "${INST_DIR}"
-    mkdir -p "${MY_BUILD}"
-    cd "${GITREPOS}"
-    git clone https://github.com/Kitware/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
-    cd "${MY_BUILD}"
-    ${REPO_DIR}/configure --prefix=${INST_DIR} --parallel=$(nproc)
-    make -j$(nproc) install
+  case "${OS_VER}" in
+    "fedora 40")
+      PKG_LIST="boost-devel cmake cppzmq-devel gcc-c++ papi-devel pkgconf swig"
+      dnf -y install "${PKG_LIST}"
+      ;;
+    "debian 12")
+      PKG_LIST="libboost-all-dev cmake cppzmq-dev g++ libpapi-dev pkgconf swig"
+      apt -y install "${PKG_LIST}"
+      ;;
+    "ubuntu 22.04")
+      buildZeroMQ
+      PKG_LIST="libboost-all-dev cmake g++ libpapi-dev pkgconf swig"
+      apt -y install "${PKG_LIST}"
+      ;;
+    "ubuntu 24.04")
+      PKG_LIST="libboost-all-dev cmake cppzmq-dev g++ libpapi-dev pkgconf swig"
+      apt -y install "${PKG_LIST}"
+      ;;
+    *)
+      >&2 echo "Could not resolve distribution information"
+      exit 1
+      ;;
+  esac
 
-    CMAKE="${INST_DIR}/bin/cmake"
-    cd "${BASE_DIR}"
-  else
-    CMAKE=`command -v cmake`
-  fi
+  # squash compression benchmark
+  DEPNAME="${DEPNAME_SQUASH}"
+  DEPVER="${DEPVER_SQUASH}"
+  REPO_DIR="${GITREPOS}/${DEPNAME}"
+  INST_DIR="${DEPHOME_SQUASH}"
+  MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
+  mkdir -p "${INST_DIR}"
+  mkdir -p "${MY_BUILD}"
+  cd "${GITREPOS}"
+  git clone https://github.com/shinhyungyang/${DEPNAME}.git --depth 1 --recursive
+  cd "${MY_BUILD}"
+  ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
+  make -j$(nproc) install
+  SQUASH_ROOT="${INST_DIR}"
+
+  cd "${BASE_DIR}"
 }
 
-function getDependencies() {
+function buildZeroMQ() {
   PKG_CONFIG_PATH="/usr/lib/pkgconfig"
 
   # libzmq
@@ -116,70 +129,6 @@ function getDependencies() {
   make -j$(nproc) install
   PKG_CONFIG_PATH=${INST_DIR}/lib/pkgconfig:${PKG_CONFIG_PATH}
 
-  # bison (swig dependency)
-  DEPNAME="${DEPNAME_BISON}"
-  DEPVER="${DEPVER_BISON}"
-  INST_DIR="${DEPHOME_BISON}"
-  MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
-  cd "${TARBALLS}"
-  wget https://ftpmirror.gnu.org/${DEPNAME}/${DEPNAME}-${DEPVER}.tar.gz
-  cd "${EXTRACTS}"
-  tar -xf ${TARBALLS}/${DEPNAME}-${DEPVER}.tar.gz
-  cd "${MY_BUILD}"
-  ${EXTRACTS}/${DEPNAME}-${DEPVER}/configure --prefix=${INST_DIR}
-  make -j$(nproc) install
-  BISON_ROOT="${INST_DIR}"
-
-  # swig
-  DEPNAME="${DEPNAME_SWIG}"
-  DEPVER="${DEPVER_SWIG}"
-  REPO_DIR="${GITREPOS}/${DEPNAME}"
-  INST_DIR="${DEPHOME_SWIG}"
-  MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
-  cd "${GITREPOS}"
-  git clone https://github.com/swig/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
-  cd "${MY_BUILD}"
-  ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR} -DBISON_ROOT=${BISON_ROOT}
-  make -j$(nproc) install
-  SWIG_ROOT="${INST_DIR}"
-
-  # boost (built in the source directory)
-  DEPNAME="${DEPNAME_BOOST}"
-  DEPVER="${DEPVER_BOOST}"
-  ALTVER="$(echo "${DEPVER}" | tr "." "_")"
-  REPO_DIR="${GITREPOS}/${DEPNAME}"
-  INST_DIR="${DEPHOME_BOOST}"
-  #MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  #mkdir -p "${MY_BUILD}"
-  cd "${TARBALLS}"
-  wget https://archives.boost.io/release/${DEPVER}/source/boost_${ALTVER}.tar.gz
-  cd "${EXTRACTS}"
-  tar -xf ${TARBALLS}/boost_${ALTVER}.tar.gz
-  cd "${EXTRACTS}/boost_${ALTVER}"
-  ./bootstrap.sh --prefix=${INST_DIR} --with-libraries=atomic,chrono,serialization,system
-  ./b2 install -j$(nproc)
-  BOOST_ROOT="${INST_DIR}"
-
-  # squash compression benchmark
-  DEPNAME="${DEPNAME_SQUASH}"
-  DEPVER="${DEPVER_SQUASH}"
-  REPO_DIR="${GITREPOS}/${DEPNAME}"
-  INST_DIR="${DEPHOME_SQUASH}"
-  MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
-  cd "${GITREPOS}"
-  git clone https://github.com/shinhyungyang/${DEPNAME}.git --depth 1 --recursive
-  cd "${MY_BUILD}"
-  ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
-  make -j$(nproc) install
-  SQUASH_ROOT="${INST_DIR}"
-
   cd "${BASE_DIR}"
 }
 
@@ -194,11 +143,7 @@ function getCloudprofiler() {
   cd "${GITREPOS}"
   git clone https://github.com/shinhyungyang/${DEPNAME}.git --branch "moobench-ci" --depth 1
   cd "${MY_BUILD}"
-  PKG_CONFIG_PATH=${PKG_CONFIG_PATH} \
-    ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR} \
-    -DBOOST_ROOT=${BOOST_ROOT} \
-    -DSWIG_ROOT=${SWIG_ROOT} \
-    -DSQUASH_ROOT=${SQUASH_ROOT}
+  ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
   make -j$(nproc) install
 }
 
