@@ -87,7 +87,7 @@ function getDependencies() {
   cd "${GITREPOS}"
   git clone https://github.com/shinhyungyang/${DEPNAME}.git --depth 1 --recursive
   cd "${MY_BUILD}"
-  ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
+  cmake ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
   make -j$(nproc) install
   SQUASH_ROOT="${INST_DIR}"
 
@@ -108,7 +108,7 @@ function buildZeroMQ() {
   cd "${GITREPOS}"
   git clone https://github.com/zeromq/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
   cd "${MY_BUILD}"
-  ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
+  cmake ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
   make -j$(nproc) install
   ZMQ_ROOT="${INST_DIR}"
   PKG_CONFIG_PATH=${INST_DIR}/lib/pkgconfig:${PKG_CONFIG_PATH}
@@ -125,7 +125,7 @@ function buildZeroMQ() {
   git clone https://github.com/zeromq/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
   cd "${MY_BUILD}"
   PKG_CONFIG_PATH=${PKG_CONFIG_PATH} \
-    ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
+    cmake ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
   make -j$(nproc) install
   PKG_CONFIG_PATH=${INST_DIR}/lib/pkgconfig:${PKG_CONFIG_PATH}
 
@@ -143,7 +143,7 @@ function getCloudprofiler() {
   cd "${GITREPOS}"
   git clone https://github.com/shinhyungyang/${DEPNAME}.git --branch "moobench-ci" --depth 1
   cd "${MY_BUILD}"
-  ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
+  cmake ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
   make -j$(nproc) install
 }
 

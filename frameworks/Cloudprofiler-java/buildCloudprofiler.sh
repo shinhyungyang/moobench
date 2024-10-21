@@ -44,6 +44,5 @@ fi
 checkOSVersion
 CPDependencies
 checkCPFiles
-getCMake
 getDependencies
 getCloudprofiler
