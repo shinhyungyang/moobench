@@ -87,7 +87,7 @@ function getDependencies() {
   cd "${GITREPOS}"
   git clone https://github.com/shinhyungyang/${DEPNAME}.git --depth 1 --recursive
   cd "${MY_BUILD}"
-  cmake ${REPO_DIR}
+  cmake ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
   make -j$(nproc) install
   SQUASH_ROOT="${INST_DIR}"
 
@@ -137,7 +137,7 @@ function getCloudprofiler() {
   cd "${GITREPOS}"
   git clone https://github.com/shinhyungyang/${DEPNAME}.git --branch "moobench-ci" --depth 1
   cd "${MY_BUILD}"
-  cmake ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
+  cmake ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR} -DSQUASH_ROOT=${SQUASH_ROOT}
   make -j$(nproc) install
 }
 
