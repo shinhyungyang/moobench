@@ -1,6 +1,7 @@
 #FROM openjdk:13-jdk-alpine
 FROM eclipse-temurin:21-jdk
 
+USER root
 RUN echo "jenkins:x:4040:7001:guest:/home/jenkins:/sbin/nologin" >> /etc/passwd && \
     mkdir /home/jenkins && chmod 777 /home/jenkins && \ 
     apt -y update && apt -y upgrade && \
