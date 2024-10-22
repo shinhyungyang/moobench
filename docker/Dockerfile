@@ -17,4 +17,4 @@ RUN echo "sya:insecure_password" | chpasswd
 
 EXPOSE 22
 
-ENTRYPOINT systemctl start ssh && bash
+ENTRYPOINT ['systemctl', 'start', 'ssh']
