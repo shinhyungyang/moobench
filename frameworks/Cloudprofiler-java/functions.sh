@@ -140,7 +140,8 @@ function getCloudprofiler() {
   git clone https://github.com/shinhyungyang/${DEPNAME}.git --branch "moobench-ci" --depth 1
   cd ${DEPNAME}
   mkdir build_rel
-  cd "${MY_BUILD}"
+  #cd "${MY_BUILD}"
+  cd build_rel
   cmake .. -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR} -DSQUASH_ROOT=${SQUASH_ROOT}
   make cloud_profiler
   make
