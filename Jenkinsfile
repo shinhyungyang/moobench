@@ -1,11 +1,8 @@
 #!/usr/bin/env groovy
 
-//
-
 pipeline {
   
   agent { 
-     def DOCKER_IMAGE = sh(script: 'grep DOCKER_IMAGE common-functions.sh |cut -d \\#  -f1 |awk -F"=" "{print \\$2}"', returnStdout: true)
      dockerfile {
        filename 'Dockerfile'
        dir 'docker/'
@@ -32,8 +29,14 @@ pipeline {
     retry(1)
     parallelsAlwaysFailFast()
   }
-
   stages {
+    stage('Initial Cleanup') {
+       def DOCKER_IMAGE_TYPE = sh(script: 'grep DOCKER_IMAGE common-functions.sh |cut -d \\#  -f1 |awk -F"=" "{print \\$2}"', returnStdout: true)
+       when {
+         beforeAgent true
+       }
+    }
+
     stage('Initial Cleanup') {
        steps {
           sh './gradlew clean'
