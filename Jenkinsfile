@@ -6,7 +6,7 @@ pipeline {
      dockerfile {
        filename 'Dockerfile'
        dir 'docker/'
-       args env.DOCKER_ARGS
+       args "${env.DOCKER_ARGS}"
      }
   }
 
