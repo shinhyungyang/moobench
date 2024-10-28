@@ -3,10 +3,18 @@
 pipeline {
   
   agent { 
-     dockerfile {
-       filename 'Dockerfile'
-       dir 'docker/'
-       args env.DOCKER_ARGS
+     if (env.BUILD_CP == false) {
+         dockerfile {
+             filename 'Dockerfile'
+                 dir 'docker/'
+                 args env.DOCKER_ARGS
+         }
+     } else {
+         dockerfile {
+             filename 'Dockerfile_CP'
+                 dir 'docker/'
+                 args env.DOCKER_ARGS
+         }
      }
   }
 
@@ -20,6 +28,7 @@ pipeline {
     UPDATE_SITE_URL = "sftp://repo@repo.se.internal/moobench"
     DOCKER_ARGS = ''
     BATCH_MODE = "yes"
+    BUILD_CP = false
   }
 
   options {
