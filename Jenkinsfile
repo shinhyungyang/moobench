@@ -31,7 +31,9 @@ pipeline {
   }
   stages {
     stage('Initial Cleanup') {
-       def DOCKER_IMAGE_TYPE = sh(script: 'grep DOCKER_IMAGE common-functions.sh |cut -d \\#  -f1 |awk -F"=" "{print \\$2}"', returnStdout: true)
+       steps {
+          def DOCKER_IMAGE_TYPE = sh(script: 'grep DOCKER_IMAGE common-functions.sh |cut -d \\#  -f1 |awk -F"=" "{print \\$2}"', returnStdout: true)
+       }
        when {
          beforeAgent true
        }
