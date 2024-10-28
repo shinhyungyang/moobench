@@ -7,7 +7,7 @@ pipeline {
        filename 'Dockerfile'
        dir 'docker/'
        args env.DOCKER_ARGS
-       additionalBuildArgs env.BUILD_ARGS
+       additionalBuildArgs ${env.BUILD_ARGS}
      }
   }
 
