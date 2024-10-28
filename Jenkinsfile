@@ -9,7 +9,7 @@ pipeline {
        filename 'Dockerfile'
        dir 'docker/'
        args env.DOCKER_ARGS
-       additionalBuildArgs "--build-arg DOCKER_IMAGE_TYPE=sh(script: 'echo "default"', returnStdout: true)"
+       additionalBuildArgs "--build-arg DOCKER_IMAGE_TYPE=sh(script: 'echo "cloudprofiler"', returnStdout: true)"
      }
   }
 
