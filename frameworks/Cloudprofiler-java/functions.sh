@@ -9,7 +9,7 @@ fi
 
 
 function prepareFolders() {
-  OPT_DIR="${BASE_DIR}/opt"
+  OPT_DIR="/opt"
   TARBALLS="${BASE_DIR}/build/tarballs"
   EXTRACTS="${BASE_DIR}/build/extracts"
   GITREPOS="${BASE_DIR}/build/gitrepos"

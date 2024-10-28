@@ -94,7 +94,7 @@ info "Experiment will take circa ${TIME} seconds."
 # general server arguments
 JAVA_ARGS="-Xms1G -Xmx2G"
 
-CP_ARGS="-Djava.library.path=${BASE_DIR}/opt/cloud_profiler/0.3.2/lib"
+CP_ARGS="-Djava.library.path=/opt/cloud_profiler/0.3.2/lib"
 
 # Title
 declare -a TITLE
