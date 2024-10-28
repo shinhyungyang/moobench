@@ -1,6 +1,6 @@
 #FROM openjdk:13-jdk-alpine
 FROM eclipse-temurin:21-jdk AS base
-ARG BUILD_CP
+#ARG BUILD_CP
 
 FROM base AS moobench-0
 RUN echo "jenkins:x:4040:7001:guest:/home/jenkins:/sbin/nologin" >> /etc/passwd && \
