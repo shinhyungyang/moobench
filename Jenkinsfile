@@ -2,21 +2,23 @@
 
 pipeline {
   
-  agent { 
-     if (env.BUILD_CP == false) {
-         dockerfile {
-             filename 'Dockerfile'
-                 dir 'docker/'
-                 args env.DOCKER_ARGS
-         }
-     } else {
-         dockerfile {
-             filename 'Dockerfile_CP'
-                 dir 'docker/'
-                 args env.DOCKER_ARGS
-         }
-     }
-  }
+    if (env.BUILD_CP == false) {
+        agent {
+            dockerfile {
+                filename 'Dockerfile'
+                    dir 'docker/'
+                    args env.DOCKER_ARGS
+            }
+        }
+    } else {
+        agent {
+            dockerfile {
+                filename 'Dockerfile_CP'
+                    dir 'docker/'
+                    args env.DOCKER_ARGS
+            }
+        }
+    }
 
   triggers {
     cron('0 1 * * 6')
