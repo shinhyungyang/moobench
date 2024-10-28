@@ -1,5 +1,7 @@
 #!/usr/bin/env groovy
 
+def MOOBENCH_DOCKER_IMAGE="default"
+
 pipeline {
   
   agent { 
@@ -7,7 +9,7 @@ pipeline {
        filename 'Dockerfile'
        dir 'docker/'
        args env.DOCKER_ARGS
-       additionalBuildArgs "${BUILD_ARGS}"
+       additionalBuildArgs "--build-arg BUILD_CP=${MOOBENCH_DOCKER_IMAGE}"
      }
   }
 
@@ -21,8 +23,6 @@ pipeline {
     UPDATE_SITE_URL = "sftp://repo@repo.se.internal/moobench"
     DOCKER_ARGS = ''
     BATCH_MODE = "yes"
-    MOOBENCH_IMAGE = "default"
-    BUILD_ARGS = "--build-arg BUILD_CP=default"
   }
 
   options {
