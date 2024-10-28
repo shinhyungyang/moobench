@@ -30,7 +30,7 @@ pipeline {
     parallelsAlwaysFailFast()
   }
   stages {
-    stage('Initial Cleanup') {
+    stage('Choose Image') {
        steps {
           def DOCKER_IMAGE_TYPE = sh(script: 'grep DOCKER_IMAGE common-functions.sh |cut -d \\#  -f1 |awk -F"=" "{print \\$2}"', returnStdout: true)
        }
