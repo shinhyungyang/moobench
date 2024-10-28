@@ -41,8 +41,17 @@ else
   exit 1
 fi
 
-CPDependencies
-checkCPFiles
+checkDocker
+if [[ $? -eq 1 ]]
+then
+  checkCPFiles
+fi
+if [[ $? -eq 1 ]]
+then
+  CPDependencies
+  getDependencies
+  getCloudprofiler
+fi
+
+cp -pr ${CPLIB} /tmp
 #getCMake
-#getDependencies
-#getCloudprofiler

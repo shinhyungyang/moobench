@@ -8,8 +8,16 @@ then
 fi
 
 
+function checkOSVersion() {
+  VENV_DIR="${HOME}/venv/query-distro"
+  python3 -m venv ${VENV_DIR}
+  source ${VENV_DIR}/bin/activate
+  pip install --upgrade pip distro
+  OS_VER=$(python3 <<< 'import distro ; print("{0} {1}".format(distro.id(), distro.version()))')
+  deactivate
+}
+
 function prepareFolders() {
-  OPT_DIR="/opt"
   TARBALLS="${BASE_DIR}/build/tarballs"
   EXTRACTS="${BASE_DIR}/build/extracts"
   GITREPOS="${BASE_DIR}/build/gitrepos"
@@ -21,10 +29,6 @@ function prepareFolders() {
 
 function CPDependencies() {
   prepareFolders
-
-  DEPNAME_CP="cloud_profiler"
-  DEPVER_CP="0.3.2"
-  DEPHOME_CP="${OPT_DIR}/${DEPNAME_CP}/${DEPVER_CP}"
 
   DEPNAME_CMAKE="CMake"
   DEPVER_CMAKE="3.30.2"
@@ -83,102 +87,78 @@ function getCMake() {
 
 function getDependencies() {
   PKG_CONFIG_PATH="/usr/lib/pkgconfig"
+  PKG_LIST=""
 
-  # libzmq
-  DEPNAME="${DEPNAME_LIBZMQ}"
-  DEPVER="${DEPVER_LIBZMQ}"
-  REPO_DIR="${GITREPOS}/${DEPNAME}"
-  INST_DIR="${DEPHOME_LIBZMQ}"
-  MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
-  cd "${GITREPOS}"
-  git clone https://github.com/zeromq/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
-  cd "${MY_BUILD}"
-  ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
-  make -j$(nproc) install
-  ZMQ_ROOT="${INST_DIR}"
-  PKG_CONFIG_PATH=${INST_DIR}/lib/pkgconfig:${PKG_CONFIG_PATH}
-
-  # cppzmq
-  DEPNAME="${DEPNAME_CPPZMQ}"
-  DEPVER="${DEPVER_CPPZMQ}"
-  REPO_DIR="${GITREPOS}/${DEPNAME}"
-  INST_DIR="${DEPHOME_CPPZMQ}"
-  MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
-  cd "${GITREPOS}"
-  git clone https://github.com/zeromq/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
-  cd "${MY_BUILD}"
-  PKG_CONFIG_PATH=${PKG_CONFIG_PATH} \
-    ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
-  make -j$(nproc) install
-  PKG_CONFIG_PATH=${INST_DIR}/lib/pkgconfig:${PKG_CONFIG_PATH}
-
-  # bison (swig dependency)
-  DEPNAME="${DEPNAME_BISON}"
-  DEPVER="${DEPVER_BISON}"
-  INST_DIR="${DEPHOME_BISON}"
-  MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
-  cd "${TARBALLS}"
-  wget https://ftpmirror.gnu.org/${DEPNAME}/${DEPNAME}-${DEPVER}.tar.gz
-  cd "${EXTRACTS}"
-  tar -xf ${TARBALLS}/${DEPNAME}-${DEPVER}.tar.gz
-  cd "${MY_BUILD}"
-  ${EXTRACTS}/${DEPNAME}-${DEPVER}/configure --prefix=${INST_DIR}
-  make -j$(nproc) install
-  BISON_ROOT="${INST_DIR}"
-
-  # swig
-  DEPNAME="${DEPNAME_SWIG}"
-  DEPVER="${DEPVER_SWIG}"
-  REPO_DIR="${GITREPOS}/${DEPNAME}"
-  INST_DIR="${DEPHOME_SWIG}"
-  MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
-  cd "${GITREPOS}"
-  git clone https://github.com/swig/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
-  cd "${MY_BUILD}"
-  ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR} -DBISON_ROOT=${BISON_ROOT}
-  make -j$(nproc) install
-  SWIG_ROOT="${INST_DIR}"
-
-  # boost (built in the source directory)
-  DEPNAME="${DEPNAME_BOOST}"
-  DEPVER="${DEPVER_BOOST}"
-  ALTVER="$(echo "${DEPVER}" | tr "." "_")"
-  REPO_DIR="${GITREPOS}/${DEPNAME}"
-  INST_DIR="${DEPHOME_BOOST}"
-  #MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  #mkdir -p "${MY_BUILD}"
-  cd "${TARBALLS}"
-  wget https://archives.boost.io/release/${DEPVER}/source/boost_${ALTVER}.tar.gz
-  cd "${EXTRACTS}"
-  tar -xf ${TARBALLS}/boost_${ALTVER}.tar.gz
-  cd "${EXTRACTS}/boost_${ALTVER}"
-  ./bootstrap.sh --prefix=${INST_DIR} --with-libraries=atomic,chrono,serialization,system
-  ./b2 install -j$(nproc)
-  BOOST_ROOT="${INST_DIR}"
+  case "${OS_VER}" in
+    "fedora 40")
+      PKG_LIST="boost-devel cmake cppzmq-devel gcc-c++ papi-devel pkgconf swig"
+      sudo dnf -y install "${PKG_LIST}"
+      ;;
+    "debian 12")
+      PKG_LIST="libboost-all-dev cmake cppzmq-dev g++ libpapi-dev pkgconf swig"
+      sudo apt -y install "${PKG_LIST}"
+      ;;
+    "ubuntu 22.04")
+      buildZeroMQ
+      PKG_LIST="libboost-all-dev cmake g++ libpapi-dev pkgconf swig"
+      sudo apt -y install "${PKG_LIST}"
+      ;;
+    "ubuntu 24.04")
+      PKG_LIST="libboost-all-dev cmake cppzmq-dev g++ libpapi-dev pkgconf swig"
+      sudo apt -y install "${PKG_LIST}"
+      ;;
+    *)
+      >&2 echo "Could not resolve distribution information"
+      exit 1
+      ;;
+  esac
 
   # squash compression benchmark
   DEPNAME="${DEPNAME_SQUASH}"
   DEPVER="${DEPVER_SQUASH}"
   REPO_DIR="${GITREPOS}/${DEPNAME}"
   INST_DIR="${DEPHOME_SQUASH}"
-  MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
+  MY_BUILD="${BASE_DIR}/build/${DEPNAME}-${DEPVER}/build_release"
+  rm -rf "${INST_DIR}" ; mkdir -p "${INST_DIR}"
+  rm -rf "${MY_BUILD}" ; mkdir -p "${MY_BUILD}"
   cd "${GITREPOS}"
   git clone https://github.com/shinhyungyang/${DEPNAME}.git --depth 1 --recursive
   cd "${MY_BUILD}"
-  ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
+  cmake ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
   make -j$(nproc) install
   SQUASH_ROOT="${INST_DIR}"
+
+  cd "${BASE_DIR}"
+}
+
+function buildZeroMQ() {
+  # libzmq
+  DEPNAME="${DEPNAME_LIBZMQ}"
+  DEPVER="${DEPVER_LIBZMQ}"
+  REPO_DIR="${GITREPOS}/${DEPNAME}"
+  INST_DIR="${DEPHOME_LIBZMQ}"
+  MY_BUILD="${BASE_DIR}/build/${DEPNAME}-${DEPVER}/build_release"
+  rm -rf "${INST_DIR}" ; mkdir -p "${INST_DIR}"
+  rm -rf "${MY_BUILD}" ; mkdir -p "${MY_BUILD}"
+  cd "${GITREPOS}"
+  git clone https://github.com/zeromq/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
+  cd "${MY_BUILD}"
+  cmake ${REPO_DIR}
+  make -j$(nproc) install
+
+  # cppzmq
+  DEPNAME="${DEPNAME_CPPZMQ}"
+  DEPVER="${DEPVER_CPPZMQ}"
+  REPO_DIR="${GITREPOS}/${DEPNAME}"
+  INST_DIR="${DEPHOME_CPPZMQ}"
+  MY_BUILD="${BASE_DIR}/build/${DEPNAME}-${DEPVER}/build_release"
+  rm -rf "${INST_DIR}" ; mkdir -p "${INST_DIR}"
+  rm -rf "${MY_BUILD}" ; mkdir -p "${MY_BUILD}"
+  cd "${GITREPOS}"
+  git clone https://github.com/zeromq/${DEPNAME}.git --branch "v${DEPVER}" --depth 1
+  cd "${MY_BUILD}"
+  cmake ${REPO_DIR}
+  make -j$(nproc) install
 
   cd "${BASE_DIR}"
 }
@@ -188,18 +168,42 @@ function getCloudprofiler() {
   DEPVER="${DEPVER_CP}"
   REPO_DIR="${GITREPOS}/${DEPNAME}"
   INST_DIR="${OPT_DIR}/${DEPNAME}/${DEPVER}"
-  MY_BUILD="${BASE_DIR}/build/build_release-${DEPNAME}-${DEPVER}"
-  mkdir -p "${INST_DIR}"
-  mkdir -p "${MY_BUILD}"
+  MY_BUILD="${BASE_DIR}/build/${DEPNAME}-${DEPVER}/build_release"
+  rm -rf "${REPO_DIR}" ;
+  rm -rf "${INST_DIR}" ; mkdir -p "${INST_DIR}"
+  rm -rf "${MY_BUILD}" ; mkdir -p "${MY_BUILD}"
   cd "${GITREPOS}"
   git clone https://github.com/shinhyungyang/${DEPNAME}.git --branch "moobench-ci" --depth 1
   cd "${MY_BUILD}"
-  PKG_CONFIG_PATH=${PKG_CONFIG_PATH} \
-    ${CMAKE} ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR} \
-    -DBOOST_ROOT=${BOOST_ROOT} \
-    -DSWIG_ROOT=${SWIG_ROOT} \
-    -DSQUASH_ROOT=${SQUASH_ROOT}
-  make -j$(nproc) install
+  cd build_rel
+  cmake ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR} -DSQUASH_ROOT=${SQUASH_ROOT}
+  make cloud_profiler
+  make
+  make install
+}
+
+# Decide OPT_DIR and confirm CP directories here
+function checkDocker() {
+  OPT_DIR="/opt"
+  DEPNAME_CP="cloud_profiler"
+  DEPVER_CP="0.3.2"
+
+  CPLIB_DIR="${OPT_DIR}/${DEPNAME_CP}/${DEPVER_CP}/lib"
+  CPLIB="${CPLIB_DIR}/lib${DEPNAME_CP}.so"
+  CPJAR="${CPLIB_DIR}/${DEPNAME_CP}JNI.jar"
+  CPNET="${CPLIB_DIR}/libnet_conf.so"
+
+  if [ \( -f "${CPLIB}" -a -f "${CPJAR}" -a -f "${CPNET}" \) ]
+  then
+    echo "Cloudprofiler is available in /opt."
+    OPT_DIR="/opt"
+    RETVAL=0
+  else
+    OPT_DIR="${BASE_DIR}/opt"
+    RETVAL=1
+  fi
+  DEPHOME_CP="${OPT_DIR}/${DEPNAME_CP}/${DEPVER_CP}"
+  exit ${RETVAL}
 }
 
 function checkCPFiles() {
@@ -210,8 +214,10 @@ function checkCPFiles() {
 
   if [ \( -f "${CPLIB}" -a -f "${CPJAR}" -a -f "${CPNET}" \) ]
   then
-    echo "Cloudprofiler is available."
+    echo "Cloudprofiler is available in ${OPT_DIR}."
     exit 0
+  else
+    exit 1
   fi
 }
 
