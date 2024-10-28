@@ -10,7 +10,7 @@ RUN echo "jenkins:x:4040:7001:guest:/home/jenkins:/sbin/nologin" >> /etc/passwd 
 FROM base AS moobench-default
 RUN echo "MooBench base image without Cloudprofiler"
 
-FROM base AS moobench-Cloudprofiler
+FROM base AS moobench-cloudprofiler
 ARG SQUASH_REPO="https://github.com/shinhyungyang/squash.git"
 ARG CP_REPO="https://github.com/shinhyungyang/cloud_profiler.git"
 ARG CP_INSTALL_PATH="/opt/cloud_profiler/0.3.2"
