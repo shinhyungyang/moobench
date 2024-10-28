@@ -2,23 +2,13 @@
 
 pipeline {
   
-    if (env.BUILD_CP == false) {
-        agent {
-            dockerfile {
-                filename 'Dockerfile'
-                    dir 'docker/'
-                    args env.DOCKER_ARGS
-            }
-        }
-    } else {
-        agent {
-            dockerfile {
-                filename 'Dockerfile_CP'
-                    dir 'docker/'
-                    args env.DOCKER_ARGS
-            }
-        }
-    }
+  agent { 
+     dockerfile {
+       filename 'Dockerfile'
+       dir 'docker/'
+       args env.DOCKER_ARGS
+     }
+  }
 
   triggers {
     cron('0 1 * * 6')
@@ -28,9 +18,8 @@ pipeline {
   environment {
     KEYSTORE = credentials('kieker-irl-key')
     UPDATE_SITE_URL = "sftp://repo@repo.se.internal/moobench"
-    DOCKER_ARGS = ''
+    DOCKER_ARGS = 'BUILD_CP="FALSE"'
     BATCH_MODE = "yes"
-    BUILD_CP = false
   }
 
   options {
