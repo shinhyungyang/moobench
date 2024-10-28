@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def DOCKER_IMAGE = sh(script: 'grep DOCKER_IMAGE common-functions.sh |cut -d \\#  -f1 |awk -F"=" "{print \\$2}"', returnStdout: true)
+#def DOCKER_IMAGE = sh(script: 'grep DOCKER_IMAGE common-functions.sh |cut -d \\#  -f1 |awk -F"=" "{print \\$2}"', returnStdout: true)
 
 pipeline {
   
@@ -9,7 +9,7 @@ pipeline {
        filename 'Dockerfile'
        dir 'docker/'
        args env.DOCKER_ARGS
-       additionalBuildArgs "--build-arg DOCKER_IMAGE_TYPE=${DOCKER_IMAGE_TYPE}"
+       additionalBuildArgs "--build-arg DOCKER_IMAGE_TYPE=sh(script: 'echo "default"', returnStdout: true)"
      }
   }
 
