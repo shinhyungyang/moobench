@@ -215,10 +215,11 @@ function checkCPFiles() {
   if [ \( -f "${CPLIB}" -a -f "${CPJAR}" -a -f "${CPNET}" \) ]
   then
     echo "Cloudprofiler is available in ${OPT_DIR}."
-    exit 0
+    RETVAL=0
   else
-    exit 1
+    RETVAL=1
   fi
+  exit ${RETVAL}
 }
 
 # experiment setups
