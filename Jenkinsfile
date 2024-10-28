@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def MOOBENCH_DOCKER_IMAGE="default"
+def DOCKER_IMAGE="default"
 
 pipeline {
   
@@ -9,7 +9,7 @@ pipeline {
        filename 'Dockerfile'
        dir 'docker/'
        args env.DOCKER_ARGS
-       additionalBuildArgs "--build-arg BUILD_CP=${MOOBENCH_DOCKER_IMAGE}"
+       additionalBuildArgs "--build-arg DOCKER_IMAGE_TYPE=${DOCKER_IMAGE_TYPE}"
      }
   }
 

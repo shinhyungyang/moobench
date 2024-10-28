@@ -1,5 +1,5 @@
 #FROM openjdk:13-jdk-alpine
-ARG BUILD_CP
+ARG DOCKER_IMAGE_TYPE
 
 FROM eclipse-temurin:21-jdk AS base
 RUN echo "jenkins:x:4040:7001:guest:/home/jenkins:/sbin/nologin" >> /etc/passwd && \
@@ -36,4 +36,4 @@ RUN rm -rf /{git,build} /tmp/cloud*txt /tmp/md0/cloud*txt
 
 RUN echo "MooBench base image with support for Cloudprofiler"
 
-FROM moobench-${BUILD_CP} AS final
+FROM moobench-${DOCKER_IMAGE_TYPE} AS final
