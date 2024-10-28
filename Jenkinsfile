@@ -7,7 +7,7 @@ pipeline {
        filename 'Dockerfile'
        dir 'docker/'
        args env.DOCKER_ARGS
-       additionalBuildArgs "--build-arg BUILD_CP=default"
+       additionalBuildArgs "--build-arg BUILD_CP=0"
      }
   }
 
