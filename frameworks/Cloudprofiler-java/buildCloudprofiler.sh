@@ -41,11 +41,11 @@ else
   exit 1
 fi
 
+CPDependencies
 checkDocker
 checkCPFiles
 if [[ $? -eq 1 ]]
 then
-  CPDependencies
   getDependencies
   getCloudprofiler
 fi
