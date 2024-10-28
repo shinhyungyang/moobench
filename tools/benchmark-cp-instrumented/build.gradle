@@ -6,7 +6,7 @@ plugins {
 dependencies {
     implementation 'com.beust:jcommander:1.72'
     implementation 'net.kieker-monitoring:kieker:2.0.0-SNAPSHOT'
-    implementation files('../../frameworks/Cloudprofiler-java/opt/cloud_profiler/0.3.2/lib/cloud_profilerJNI.jar')
+    implementation files('/opt/cloud_profiler/0.3.2/lib/cloud_profilerJNI.jar')
 }
 
 application {
