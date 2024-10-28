@@ -7,7 +7,6 @@ pipeline {
        filename 'Dockerfile'
        dir 'docker/'
        args env.DOCKER_ARGS
-       additionalBuildArgs "--build-arg BUILD_CP=0"
      }
   }
 
@@ -19,7 +18,7 @@ pipeline {
   environment {
     KEYSTORE = credentials('kieker-irl-key')
     UPDATE_SITE_URL = "sftp://repo@repo.se.internal/moobench"
-    DOCKER_ARGS = ''
+    DOCKER_ARGS = "--build-arg BUILD_CP=0"
     BATCH_MODE = "yes"
   }
 
