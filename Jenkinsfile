@@ -1,9 +1,17 @@
 #!/usr/bin/env groovy
-def DOCKER_IMAGE_TYPE = null
+
+def MOOBENCH_DOCKER_IMAGE="base"
 
 pipeline {
   
-  agent none
+  agent { 
+     dockerfile {
+       filename 'Dockerfile'
+       dir 'docker/'
+       args env.DOCKER_ARGS
+       additionalBuildArgs "--build-arg MOOBENCH_DOCKER_IMAGE=${MOOBENCH_DOCKER_IMAGE}"
+     }
+  }
 
   triggers {
     cron('0 1 * * 6')
@@ -23,27 +31,8 @@ pipeline {
     retry(1)
     parallelsAlwaysFailFast()
   }
-  stages {
-    stage('Choose Image') {
-       agent { 
-          dockerfile {
-            filename 'Dockerfile'
-            dir 'docker/'
-            args env.DOCKER_ARGS
-            additionalBuildArgs "--build-arg DOCKER_IMAGE_TYPE=default"
-          }
-       }
-       when {
-         beforeAgent true
-       }
-       steps {
-          script {
-             DOCKER_IMAGE_TYPE = sh(script: 'grep DOCKER_IMAGE common-functions.sh |cut -d \\#  -f1 |awk -F"=" "{print \\$2}"', returnStdout: true)
-          }
-          sh "echo DOCKER_IMAGE_TYPE = ${DOCKER_IMAGE_TYPE}"
-       }
-    }
 
+  stages {
     stage('Initial Cleanup') {
        steps {
           sh './gradlew clean'

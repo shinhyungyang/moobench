@@ -1,5 +1,5 @@
 #FROM openjdk:13-jdk-alpine
-ARG DOCKER_IMAGE_TYPE
+ARG MOOBENCH_DOCKER_IMAGE
 
 FROM eclipse-temurin:21-jdk AS base
 RUN echo "jenkins:x:4040:7001:guest:/home/jenkins:/sbin/nologin" >> /etc/passwd && \
@@ -7,7 +7,7 @@ RUN echo "jenkins:x:4040:7001:guest:/home/jenkins:/sbin/nologin" >> /etc/passwd 
     apt -y update && apt -y upgrade && \
     apt -y install git openssh-server zip unzip r-base-core bash curl python3-pip python3-venv
 
-FROM base AS moobench-default
+FROM base AS moobench-base
 RUN echo "MooBench base image without Cloudprofiler"
 
 FROM base AS moobench-cloudprofiler
@@ -36,4 +36,4 @@ RUN rm -rf /{git,build} /tmp/cloud*txt /tmp/md0/cloud*txt
 
 RUN echo "MooBench base image with support for Cloudprofiler"
 
-FROM moobench-${DOCKER_IMAGE_TYPE} AS final
+FROM moobench-${MOOBENCH_DOCKER_IMAGE} AS final
