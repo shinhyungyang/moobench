@@ -294,5 +294,8 @@ fi
 if [ -z $DEBUG ]; then
 	DEBUG=false		## false
 fi
+if [ -z $DOCKER_IMAGE ]; then
+	DOCKER_IMAGE=default		## false
+fi
 
 # end
