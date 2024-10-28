@@ -18,7 +18,7 @@ pipeline {
   environment {
     KEYSTORE = credentials('kieker-irl-key')
     UPDATE_SITE_URL = "sftp://repo@repo.se.internal/moobench"
-    DOCKER_ARGS = 'BUILD_CP="FALSE"'
+    DOCKER_ARGS = 'BUILD_CP="default"'
     BATCH_MODE = "yes"
   }
 
