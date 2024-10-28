@@ -3,14 +3,7 @@ def DOCKER_IMAGE_TYPE = null
 
 pipeline {
   
-  agent { 
-     dockerfile {
-       filename 'Dockerfile'
-       dir 'docker/'
-       args env.DOCKER_ARGS
-       additionalBuildArgs "--build-arg DOCKER_IMAGE_TYPE=default"
-     }
-  }
+  agent none
 
   triggers {
     cron('0 1 * * 6')
@@ -32,6 +25,14 @@ pipeline {
   }
   stages {
     stage('Choose Image') {
+       agent { 
+          dockerfile {
+            filename 'Dockerfile'
+            dir 'docker/'
+            args env.DOCKER_ARGS
+            additionalBuildArgs "--build-arg DOCKER_IMAGE_TYPE=default"
+          }
+       }
        when {
          beforeAgent true
        }
