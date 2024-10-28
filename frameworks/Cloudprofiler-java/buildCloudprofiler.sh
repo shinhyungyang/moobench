@@ -43,6 +43,6 @@ fi
 
 CPDependencies
 checkCPFiles
-getCMake
-getDependencies
-getCloudprofiler
+#getCMake
+#getDependencies
+#getCloudprofiler
