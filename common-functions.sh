@@ -277,16 +277,16 @@ if [ -z $SLEEP_TIME ]; then
 	SLEEP_TIME=30           ## 30
 fi
 if [ -z $NUM_OF_LOOPS ]; then
-	NUM_OF_LOOPS=10           ## 10
+	NUM_OF_LOOPS=1            ## 10
 fi
 if [ -z $THREADS ]; then
 	THREADS=1              ## 1
 fi
 if [ -z $RECURSION_DEPTH ]; then
-	RECURSION_DEPTH=10      ## 10
+	RECURSION_DEPTH=2       ## 10
 fi
 if [ -z $TOTAL_NUM_OF_CALLS ]; then
-	TOTAL_NUM_OF_CALLS=2000000     ## 2000000
+	TOTAL_NUM_OF_CALLS=10          ## 2000000
 fi
 if [ -z $METHOD_TIME ]; then
 	METHOD_TIME=0      ## 500000
