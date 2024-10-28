@@ -53,5 +53,5 @@ then
   getCloudprofiler
 fi
 
-cp -pr ${CPLIB} /tmp
+cp -pr ${CPJAR} /tmp
 #getCMake
