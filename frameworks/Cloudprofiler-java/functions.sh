@@ -196,7 +196,6 @@ function checkDocker() {
   if [ \( -f "${CPLIB}" -a -f "${CPJAR}" -a -f "${CPNET}" \) ]
   then
     echo "Cloudprofiler is available in /opt."
-    chmod -R 777 ${OPT_DIR}/${DEPNAME_CP}
     cp -pr "${OPT_DIR}/${DEPNAME_CP}" "${BASE_DIR}/opt"
     OPT_DIR="/opt"
     RETVAL=0

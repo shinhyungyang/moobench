@@ -25,4 +25,5 @@ RUN cd /git && \
     make -j$(nproc) install && \
     bin/cp_cppbuffertest -t$(nproc)
 
+RUN chmod -R 777 /opt/cloud_profiler
 RUN rm -rf /{git,build} /tmp/cloud*txt /tmp/md0/cloud*txt
