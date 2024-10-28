@@ -42,16 +42,10 @@ else
 fi
 
 checkDocker
-if [[ $? -eq 1 ]]
-then
-  checkCPFiles
-fi
+checkCPFiles
 if [[ $? -eq 1 ]]
 then
   CPDependencies
   getDependencies
   getCloudprofiler
 fi
-
-cp -pr ${CPJAR} /tmp
-#getCMake

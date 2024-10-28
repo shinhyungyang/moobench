@@ -18,6 +18,7 @@ function checkOSVersion() {
 }
 
 function prepareFolders() {
+  OPT_DIR="${BASE_DIR}/opt"
   TARBALLS="${BASE_DIR}/build/tarballs"
   EXTRACTS="${BASE_DIR}/build/extracts"
   GITREPOS="${BASE_DIR}/build/gitrepos"
@@ -29,6 +30,10 @@ function prepareFolders() {
 
 function CPDependencies() {
   prepareFolders
+
+  DEPNAME_CP="cloud_profiler"
+  DEPVER_CP="0.3.2"
+  DEPHOME_CP="${OPT_DIR}/${DEPNAME_CP}/${DEPVER_CP}"
 
   DEPNAME_CMAKE="CMake"
   DEPVER_CMAKE="3.30.2"
@@ -184,11 +189,7 @@ function getCloudprofiler() {
 
 # Decide OPT_DIR and confirm CP directories here
 function checkDocker() {
-  OPT_DIR="/opt"
-  DEPNAME_CP="cloud_profiler"
-  DEPVER_CP="0.3.2"
-
-  CPLIB_DIR="${OPT_DIR}/${DEPNAME_CP}/${DEPVER_CP}/lib"
+  CPLIB_DIR="/opt/${DEPNAME_CP}/${DEPVER_CP}/lib"
   CPLIB="${CPLIB_DIR}/lib${DEPNAME_CP}.so"
   CPJAR="${CPLIB_DIR}/${DEPNAME_CP}JNI.jar"
   CPNET="${CPLIB_DIR}/libnet_conf.so"
@@ -196,14 +197,12 @@ function checkDocker() {
   if [ \( -f "${CPLIB}" -a -f "${CPJAR}" -a -f "${CPNET}" \) ]
   then
     echo "Cloudprofiler is available in /opt."
-    cp -pr "${OPT_DIR}/${DEPNAME_CP}" "${BASE_DIR}/opt"
-    OPT_DIR="/opt"
+    cp -pr "/opt/${DEPNAME_CP}" "${OPT_DIR}"
     RETVAL=0
   else
-    OPT_DIR="${BASE_DIR}/opt"
     RETVAL=1
   fi
-  DEPHOME_CP="${OPT_DIR}/${DEPNAME_CP}/${DEPVER_CP}"
+
   exit ${RETVAL}
 }
 
