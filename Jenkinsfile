@@ -7,7 +7,7 @@ pipeline {
        filename 'Dockerfile'
        dir 'docker/'
        args env.DOCKER_ARGS
-       additionalBuildArgs "--build-arg BUILD_CP="env.MOOBENCH_IMAGE
+       additionalBuildArgs env.BUILD_ARGS
      }
   }
 
@@ -22,6 +22,7 @@ pipeline {
     DOCKER_ARGS = ''
     BATCH_MODE = "yes"
     MOOBENCH_IMAGE = "default"
+    BUILD_ARGS = "--build-arg BUILD_CP=default"
   }
 
   options {
