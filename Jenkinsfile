@@ -32,14 +32,14 @@ pipeline {
   }
   stages {
     stage('Choose Image') {
+       when {
+         beforeAgent true
+       }
        steps {
           script {
              DOCKER_IMAGE_TYPE = sh(script: 'grep DOCKER_IMAGE common-functions.sh |cut -d \\#  -f1 |awk -F"=" "{print \\$2}"', returnStdout: true)
           }
           sh "echo DOCKER_IMAGE_TYPE = ${DOCKER_IMAGE_TYPE}"
-       }
-       when {
-         beforeAgent true
        }
     }
 
