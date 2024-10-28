@@ -7,7 +7,7 @@ pipeline {
        filename 'Dockerfile'
        dir 'docker/'
        args env.DOCKER_ARGS
-       additionalBuildArgs "--build-arg BUILD_CP=0"
+       additionalBuildArgs "--build-arg BUILD_CP=${env.MOOBENCH_IMAGE}"
      }
   }
 
@@ -21,6 +21,7 @@ pipeline {
     UPDATE_SITE_URL = "sftp://repo@repo.se.internal/moobench"
     DOCKER_ARGS = ''
     BATCH_MODE = "yes"
+    MOOBENCH_IMAGE = "default"
   }
 
   options {

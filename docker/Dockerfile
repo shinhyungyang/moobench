@@ -7,10 +7,10 @@ RUN echo "jenkins:x:4040:7001:guest:/home/jenkins:/sbin/nologin" >> /etc/passwd 
     apt -y update && apt -y upgrade && \
     apt -y install git openssh-server zip unzip r-base-core bash curl python3-pip python3-venv
 
-FROM base AS moobench-0
-RUN echo "moobench-0"
+FROM base AS moobench-default
+RUN echo "MooBench base image without Cloudprofiler"
 
-FROM base AS moobench-1
+FROM base AS moobench-Cloudprofiler
 ARG SQUASH_REPO="https://github.com/shinhyungyang/squash.git"
 ARG CP_REPO="https://github.com/shinhyungyang/cloud_profiler.git"
 ARG CP_INSTALL_PATH="/opt/cloud_profiler/0.3.2"
@@ -33,5 +33,7 @@ RUN cd /git && \
     bin/cp_cppbuffertest -t$(nproc)
 
 RUN rm -rf /{git,build} /tmp/cloud*txt /tmp/md0/cloud*txt
+
+RUN echo "MooBench base image with support for Cloudprofiler"
 
 FROM moobench-${BUILD_CP} AS final
