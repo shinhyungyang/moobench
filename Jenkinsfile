@@ -1,25 +1,26 @@
 #!/usr/bin/env groovy
 
 pipeline {
-
-  environment {
-    KEYSTORE = credentials('kieker-irl-key')
-    UPDATE_SITE_URL = "sftp://repo@repo.se.internal/moobench"
-    DOCKER_ARGS = '-v BUILD_CP="default"'
-    BATCH_MODE = "yes"
-  }
   
   agent { 
      dockerfile {
        filename 'Dockerfile'
        dir 'docker/'
-       args env.DOCKER_ARGS ${DOCKER_ARGS}
+       args env.DOCKER_ARGS
+       additionalBuildArgs '--build-arg BUILD_CP="default"'
      }
   }
 
   triggers {
     cron('0 1 * * 6')
     // upstream(upstreamProjects: 'kieker-dev/master', threshold: hudson.model.Result.SUCCESS)
+  }
+
+  environment {
+    KEYSTORE = credentials('kieker-irl-key')
+    UPDATE_SITE_URL = "sftp://repo@repo.se.internal/moobench"
+    DOCKER_ARGS = ''
+    BATCH_MODE = "yes"
   }
 
   options {
