@@ -177,11 +177,8 @@ function getCloudprofiler() {
   cd "${GITREPOS}"
   git clone https://github.com/shinhyungyang/${DEPNAME}.git --branch "moobench-ci" --depth 1
   cd "${MY_BUILD}"
-  cd build_rel
   cmake ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR} -DSQUASH_ROOT=${SQUASH_ROOT}
-  make cloud_profiler
-  make
-  make install
+  make -j$(nproc) install
 }
 
 # Decide OPT_DIR and confirm CP directories here
