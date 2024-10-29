@@ -9,12 +9,9 @@ fi
 
 
 function checkOSVersion() {
-  VENV_DIR="${HOME}/venv/query-distro"
-  python3 -m venv ${VENV_DIR}
-  source ${VENV_DIR}/bin/activate
-  pip install --upgrade pip distro
-  OS_VER=$(python3 <<< 'import distro ; print("{0} {1}".format(distro.id(), distro.version()))')
-  deactivate
+  ID=$(cat /etc/os-release |grep "^ID=" |sed -e "s/\"//g" |cut -d"=" -f2)
+  VERSION_ID=$(cat /etc/os-release |grep "^VERSION_ID=" |sed -e "s/\"//g" |cut -d"=" -f2)
+  OS_VER="$(printf "%s %s" "${ID}" "${VERSION_ID}")"
 }
 
 function prepareFolders() {
@@ -203,7 +200,7 @@ function checkDocker() {
     RETVAL=1
   fi
 
-  exit ${RETVAL}
+  return ${RETVAL}
 }
 
 function checkCPFiles() {
@@ -219,7 +216,7 @@ function checkCPFiles() {
   else
     RETVAL=1
   fi
-  exit ${RETVAL}
+  return ${RETVAL}
 }
 
 # experiment setups
