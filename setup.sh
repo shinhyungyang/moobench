@@ -34,6 +34,8 @@ fi
 
 cd "${BASE_DIR}"
 
+./frameworks/Cloudprofiler-java/install-dependencies.sh
+
 JAVA_VERSION=`java -version`
 
 info "Java version ${JAVA_VERSION}"

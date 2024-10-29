@@ -41,12 +41,9 @@ else
   exit 1
 fi
 
-checkOSVersion
 CPDependencies
-#checkDocker
-checkCPFiles
+checkDocker
 if [[ $? -eq 1 ]]
 then
-# getDependencies
-  getCloudprofiler
+  getDependencies
 fi
