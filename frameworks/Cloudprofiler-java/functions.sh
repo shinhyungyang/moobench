@@ -115,21 +115,6 @@ function getDependencies() {
       ;;
   esac
 
-  # squash compression benchmark
-  DEPNAME="${DEPNAME_SQUASH}"
-  DEPVER="${DEPVER_SQUASH}"
-  REPO_DIR="${GITREPOS}/${DEPNAME}"
-  INST_DIR="${DEPHOME_SQUASH}"
-  MY_BUILD="${BASE_DIR}/build/${DEPNAME}-${DEPVER}/build_release"
-  rm -rf "${INST_DIR}" ; mkdir -p "${INST_DIR}"
-  rm -rf "${MY_BUILD}" ; mkdir -p "${MY_BUILD}"
-  cd "${GITREPOS}"
-  git clone https://github.com/shinhyungyang/${DEPNAME}.git --depth 1 --recursive
-  cd "${MY_BUILD}"
-  cmake ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
-  make -j$(nproc) install
-  SQUASH_ROOT="${INST_DIR}"
-
   cd "${BASE_DIR}"
 }
 
@@ -166,6 +151,21 @@ function buildZeroMQ() {
 }
 
 function getCloudprofiler() {
+  # squash compression benchmark
+  DEPNAME="${DEPNAME_SQUASH}"
+  DEPVER="${DEPVER_SQUASH}"
+  REPO_DIR="${GITREPOS}/${DEPNAME}"
+  INST_DIR="${DEPHOME_SQUASH}"
+  MY_BUILD="${BASE_DIR}/build/${DEPNAME}-${DEPVER}/build_release"
+  rm -rf "${INST_DIR}" ; mkdir -p "${INST_DIR}"
+  rm -rf "${MY_BUILD}" ; mkdir -p "${MY_BUILD}"
+  cd "${GITREPOS}"
+  git clone https://github.com/shinhyungyang/${DEPNAME}.git --depth 1 --recursive
+  cd "${MY_BUILD}"
+  cmake ${REPO_DIR} -DCMAKE_INSTALL_PREFIX:PATH=${INST_DIR}
+  make -j$(nproc) install
+  SQUASH_ROOT="${INST_DIR}"
+
   DEPNAME="${DEPNAME_CP}"
   DEPVER="${DEPVER_CP}"
   REPO_DIR="${GITREPOS}/${DEPNAME}"
