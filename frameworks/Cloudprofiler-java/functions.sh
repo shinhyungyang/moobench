@@ -94,20 +94,20 @@ function getDependencies() {
   case "${OS_VER}" in
     "fedora 40")
       PKG_LIST="boost-devel cmake cppzmq-devel gcc-c++ papi-devel pkgconf swig"
-      sudo dnf -y install "${PKG_LIST}"
+      sudo dnf -y install `echo ${PKG_LIST}`
       ;;
     "debian 12")
       PKG_LIST="libboost-all-dev cmake cppzmq-dev g++ libpapi-dev pkgconf swig"
-      sudo apt -y install "${PKG_LIST}"
+      sudo apt -y install `echo ${PKG_LIST}`
       ;;
     "ubuntu 22.04")
       buildZeroMQ
       PKG_LIST="libboost-all-dev cmake g++ libpapi-dev pkgconf swig"
-      sudo apt -y install "${PKG_LIST}"
+      sudo apt -y install `echo ${PKG_LIST}`
       ;;
     "ubuntu 24.04")
       PKG_LIST="libboost-all-dev cmake cppzmq-dev g++ libpapi-dev pkgconf swig"
-      sudo apt -y install "${PKG_LIST}"
+      sudo apt -y install `echo ${PKG_LIST}`
       ;;
     *)
       >&2 echo "Could not resolve distribution information"
