@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730866224119,
+  "lastUpdate": 1730866247596,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -37652,6 +37652,52 @@ window.BENCHMARK_DATA = {
             "value": 17828,
             "unit": "ns",
             "range": 1087.32
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "c37df5eb6458b910d51e03e8400c477a7b970dd2",
+          "message": "Update go gradle wrapper 8.10.2",
+          "timestamp": "2024-11-04T09:23:30Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c37df5eb6458b910d51e03e8400c477a7b970dd2"
+        },
+        "date": 1730866245480,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 104.495,
+            "unit": "ns",
+            "range": 0.478234
+          },
+          {
+            "name": "Configuration 1",
+            "value": 851.277,
+            "unit": "ns",
+            "range": 19.908
+          },
+          {
+            "name": "Configuration 2",
+            "value": 3310.2,
+            "unit": "ns",
+            "range": 167.313
+          },
+          {
+            "name": "Configuration 4",
+            "value": 17183.2,
+            "unit": "ns",
+            "range": 676.19
           }
         ]
       }
