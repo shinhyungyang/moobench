@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730911069402,
+  "lastUpdate": 1730911104338,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -37842,6 +37842,54 @@ window.BENCHMARK_DATA = {
             "value": 17183.2,
             "unit": "ns",
             "range": 676.19
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "8485fd63b688ad068d13b2f506c3bdf9787510f2",
+          "message": "Try to enable Prometheus again",
+          "timestamp": "2024-11-06T16:39:17+01:00",
+          "tree_id": "9dc933d722ee52ee5f1d5d696ed670888a737a43",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/8485fd63b688ad068d13b2f506c3bdf9787510f2"
+        },
+        "date": 1730911102077,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Configuration 0",
+            "value": 104.933,
+            "unit": "ns",
+            "range": 1.09297
+          },
+          {
+            "name": "Configuration 1",
+            "value": 883.343,
+            "unit": "ns",
+            "range": 21.2164
+          },
+          {
+            "name": "Configuration 2",
+            "value": 3292.55,
+            "unit": "ns",
+            "range": 130.246
+          },
+          {
+            "name": "Configuration 4",
+            "value": 18195.1,
+            "unit": "ns",
+            "range": 906.815
           }
         ]
       }
