@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731730313026,
+  "lastUpdate": 1731730605583,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -11638,6 +11638,52 @@ window.BENCHMARK_DATA = {
             "value": 3223.62,
             "unit": "ns",
             "range": 81.8412
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "fb689358a1bf07c50fa56a91fc13699b27e6c772",
+          "message": "Update to Kieker 2.0.2-SNAPSHOT",
+          "timestamp": "2024-11-09T17:23:52Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/fb689358a1bf07c50fa56a91fc13699b27e6c772"
+        },
+        "date": 1731730603800,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.655,
+            "unit": "ns",
+            "range": 0.326301
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 441.239,
+            "unit": "ns",
+            "range": 5.70145
+          },
+          {
+            "name": "No logging",
+            "value": 1853,
+            "unit": "ns",
+            "range": 36.9651
+          },
+          {
+            "name": "Binary file",
+            "value": 3215.74,
+            "unit": "ns",
+            "range": 75.3762
           }
         ]
       }
