@@ -13,9 +13,4 @@ MAIN_DIR="${BASE_DIR}/../.."
 MOOBENCH_BIN="${MAIN_DIR}/benchmark/bin/benchmark"
 
 DATA_DIR="${BASE_DIR}/data"
-AGENT="${BASE_DIR}/kieker-2.0.2-SNAPSHOT-aspectj.jar"
-
-# in-jar locations
-AOP="${BASE_DIR}/kieker.aop.xml"
-
-# end
+AGENT="${BASE_DIR}/elastic-apm-agent.jar"
