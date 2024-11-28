@@ -1,4 +1,4 @@
-name: Benchmark Kieker-java
+name: Benchmark ElasicAPM-java
 on:
   workflow_dispatch:
   push:
