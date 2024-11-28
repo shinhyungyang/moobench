@@ -56,8 +56,8 @@ fi
 
 if [ -z "$MOOBENCH_CONFIGURATIONS" ]
 then
-	MOOBENCH_CONFIGURATIONS="0 1 2 4 5"
-	echo "Setting default configuration $MOOBENCH_CONFIGURATIONS (without TextLogStreamHandler)"
+	MOOBENCH_CONFIGURATIONS="0 1 2 3"
+	echo "Setting default configuration $MOOBENCH_CONFIGURATIONS"
 fi
 echo "Running configurations: $MOOBENCH_CONFIGURATIONS"
 
@@ -72,7 +72,10 @@ info "----------------------------------"
 cd "${BASE_DIR}"
 
 # load agent
-getAgent
+if [ ! -f $AGENT ]
+then
+	getAgent
+fi
 
 checkDirectory data-dir "${DATA_DIR}" create
 checkFile log "${DATA_DIR}/kieker.log" clean
@@ -97,8 +100,6 @@ JAVA_ARGS="-Xms1G -Xmx2G"
 
 LTW_ARGS="-javaagent:elastic-apm-agent.jar"
 
-KIEKER_ARGS="-Dlog4j.configuration=log4j.cfg -Dkieker.monitoring.name=KIEKER-BENCHMARK -Dkieker.monitoring.adaptiveMonitoring.enabled=false -Dkieker.monitoring.periodicSensorsExecutorPoolSize=0"
-
 # JAVA_ARGS used to configure and setup a specific writer
 declare -a WRITER_CONFIG
 # Receiver setup if necessary
@@ -109,9 +110,12 @@ declare -a TITLE
 #
 # Different writer setups
 #
-WRITER_CONFIG[0]=""
-WRITER_CONFIG[1]="-Delastic.apm.service_name=moobench-benchmark -Delastic.apm.application_packages=moobench.application -Delastic.apm.server_url=http://127.0.0.1:8200"
 
+ELASTIC_ARGS="-Delastic.apm.service_name=moobench-benchmark -Delastic.apm.service_name=moobench-benchmark -Delastic.apm.trace_methods=moobench.application.* -Delastic.apm.application_packages=moobench.application -Delastic.apm.server_url=http://127.0.0.1:8200"
+WRITER_CONFIG[0]=""
+WRITER_CONFIG[1]="-Delastic.apm.recording=false $ELASTIC_ARGS"
+WRITER_CONFIG[2]="$ELASTIC_ARGS"
+WRITER_CONFIG[3]="-Delastic.apm.sanitize_field_names= $ELASTIC_ARGS"
 
 
 writeConfiguration

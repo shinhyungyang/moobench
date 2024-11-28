@@ -51,7 +51,7 @@ function executeExperiment() {
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
         --method-time "${METHOD_TIME}" \
         --total-threads $THREADS \
-        --recursion-depth "${recursion}"
+        --recursion-depth "${recursion}" &> "${LOG_FILE}"
 
     if [ ! -f "${RESULT_FILE}" ] ; then
         info "---------------------------------------------------"
@@ -99,7 +99,14 @@ function executeBenchmark() {
 
     for index in $MOOBENCH_CONFIGURATIONS
     do
-      executeBenchmarkBody $index $i $recursion
+      if (( $index > 0 ))
+      then
+        docker compose up -d
+        executeBenchmarkBody $index $i $recursion
+        docker compose down
+      else
+        executeBenchmarkBody $index $i $recursion
+      fi
     done
 }
 

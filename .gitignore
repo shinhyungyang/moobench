@@ -19,6 +19,9 @@
 compile-results/
 frameworks/Kieker-python/kieker-lang-pack-python/
 
+# Do not store agents
+frameworks/elasticapm-java/elastic-apm-agent.jar
+
 # Do not store measurement results
 frameworks/OpenTelemetry-java/raw*
 frameworks/OpenTelemetry-java/results-OpenTelemetry-java/
@@ -28,3 +31,4 @@ frameworks/Kieker-java/raw*
 frameworks/Kieker-java/results-Kieker-java/
 frameworks/Kieker-python/raw*
 frameworks/Kieker-python/results-Kieker-python/
+frameworks/elasticapm-java/results-elasticapm-java/
