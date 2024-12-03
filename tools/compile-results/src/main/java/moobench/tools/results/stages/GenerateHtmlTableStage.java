@@ -17,11 +17,12 @@ public class GenerateHtmlTableStage extends AbstractTransformation<TableInformat
         this.tablePath = tablePath;
     }
 
-    @Override
-    protected void execute(final TableInformation tableInformation) throws Exception {
-        String content = "<table>\n" + "  <tr>\n" + "    <th>setup</th>\n" + "    <th>run</th>\n"
-                + "    <th>mean</th>\n" + "    <th>ci</th>\n" + "    <th>sd</th>\n" + "    <th>1.quartile</th>\n"
-                + "    <th>median</th>\n" + "    <th>3.quartile</th>\n" + "    <th>max</th>\n" + "    <th>min</th>\n"
+    @Override protected void execute(final TableInformation tableInformation) throws Exception {
+        String content = "<table>\n" + "  <tr>\n" + "    <th style=\"text-align: left;\">setup</th>\n" + "    <th style=\"text-align: left;\">run</th>\n"
+                + "    <th style=\"text-align: center;\">mean</th>\n" + "    <th style=\"text-align: center;\">ci</th>\n"
+                + "    <th style=\"text-align: center;\">sd</th>\n" + "    <th style=\"text-align: center;\">1.quartile</th>\n"
+                + "    <th style=\"text-align: center;\">median</th>\n" + "    <th style=\"text-align: center;\">3.quartile</th>\n"
+                + "    <th style=\"text-align: center;\">max</th>\n" + "    <th style=\"text-align: center;\">min</th>\n"
                 + "  </tr>\n";
         final Set<String> currentKeySet = tableInformation.getCurrent().getMeasurements().keySet();
         final Set<String> previousKeySet = tableInformation.getPrevious().getMeasurements().keySet();
