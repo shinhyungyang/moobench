@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733329628785,
+  "lastUpdate": 1733329804168,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -22598,6 +22598,54 @@ window.BENCHMARK_DATA = {
             "value": 4560.38,
             "unit": "ns",
             "range": 152.153
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "e492ed02745ea03a8ea5dc26b472d41ae271fdc9",
+          "message": "Added fixes for MooBench table style\n\nIt adds two classes ``moobench-table-label`` and ``moobench-table-value``.\nThe added classes will look for the appropriate style in style.css.  The\noriginal WordPress theme for kieker-monitoring.net is uploaded on the\nnew https://github.com/shinhyungyang/wp-theme-kieker repository, and the\nfixes for the MooBench table style is committed as the\n``fix-moobench-table-style`` branch on the repository.",
+          "timestamp": "2024-12-04T16:31:33+01:00",
+          "tree_id": "dfb69ac3bd19af3a44457dea23f5ae7fbd9946b0",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/e492ed02745ea03a8ea5dc26b472d41ae271fdc9"
+        },
+        "date": 1733329802132,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.6151,
+            "unit": "ns",
+            "range": 0.17925
+          },
+          {
+            "name": "No logging",
+            "value": 2996.71,
+            "unit": "ns",
+            "range": 94.1719
+          },
+          {
+            "name": "Zipkin",
+            "value": 5085.14,
+            "unit": "ns",
+            "range": 131.322
+          },
+          {
+            "name": "Prometheus",
+            "value": 4577.71,
+            "unit": "ns",
+            "range": 193.022
           }
         ]
       }
