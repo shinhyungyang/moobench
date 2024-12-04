@@ -19,9 +19,12 @@ public class GenerateHtmlTableStage extends AbstractTransformation<TableInformat
 
     @Override
     protected void execute(final TableInformation tableInformation) throws Exception {
-        String content = "<table>\n" + "  <tr>\n" + "    <th>setup</th>\n" + "    <th>run</th>\n"
-                + "    <th>mean</th>\n" + "    <th>ci</th>\n" + "    <th>sd</th>\n" + "    <th>1.quartile</th>\n"
-                + "    <th>median</th>\n" + "    <th>3.quartile</th>\n" + "    <th>max</th>\n" + "    <th>min</th>\n"
+        String content = "<table>\n" + "  <tr>\n"
+                + "    <th class=\"moobench-table-label\">setup</th>\n" + "    <th class=\"moobench-table-label\">run</th>\n"
+                + "    <th class=\"moobench-table-value\">mean</th>\n" + "    <th class=\"moobench-table-value\">ci</th>\n"
+                + "    <th class=\"moobench-table-value\">sd</th>\n" + "    <th class=\"moobench-table-value\">1.quartile</th>\n"
+                + "    <th class=\"moobench-table-value\">median</th>\n" + "    <th class=\"moobench-table-value\">3.quartile</th>\n"
+                + "    <th class=\"moobench-table-value\">max</th>\n" + "    <th class=\"moobench-table-value\">min</th>\n"
                 + "  </tr>\n";
         final Set<String> currentKeySet = tableInformation.getCurrent().getMeasurements().keySet();
         final Set<String> previousKeySet = tableInformation.getPrevious().getMeasurements().keySet();
@@ -54,8 +57,8 @@ public class GenerateHtmlTableStage extends AbstractTransformation<TableInformat
 
     private String createRow(final String key, final String run, final Measurements measurements) {
         final StringBuilder cells = new StringBuilder();
-        cells.append(String.format("    <td style=\"text-align: left;\">%s</td>\n", key));
-        cells.append(String.format("    <td style=\"text-align: left;\">%s</td>\n", run));
+        cells.append(String.format("    <td class=\"moobench-table-label\">%s</td>\n", key));
+        cells.append(String.format("    <td class=\"moobench-table-label\">%s</td>\n", run));
 
         this.addDouble(cells, measurements.getMean());
         this.addDouble(cells, measurements.getConvidence());
@@ -70,7 +73,7 @@ public class GenerateHtmlTableStage extends AbstractTransformation<TableInformat
     }
 
     private StringBuilder addDouble(final StringBuilder cells, final Double value) {
-        return cells.append(String.format("    <td style=\"text-align: right;\">%1.3f</td>\n", value));
+        return cells.append(String.format("    <td class=\"moobench-table-value\">%1.3f</td>\n", value));
     }
 
 }
