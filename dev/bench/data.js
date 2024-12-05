@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733372907143,
+  "lastUpdate": 1733374460423,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -54552,6 +54552,52 @@ window.BENCHMARK_DATA = {
             "value": 67186.4,
             "unit": "ns",
             "range": 1954.69
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "e492ed02745ea03a8ea5dc26b472d41ae271fdc9",
+          "message": "Added fixes for MooBench table style\n\nIt adds two classes ``moobench-table-label`` and ``moobench-table-value``.\nThe added classes will look for the appropriate style in style.css.  The\noriginal WordPress theme for kieker-monitoring.net is uploaded on the\nnew https://github.com/shinhyungyang/wp-theme-kieker repository, and the\nfixes for the MooBench table style is committed as the\n``fix-moobench-table-style`` branch on the repository.",
+          "timestamp": "2024-12-04T15:06:51Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/e492ed02745ea03a8ea5dc26b472d41ae271fdc9"
+        },
+        "date": 1733374457799,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 133.624,
+            "unit": "ns",
+            "range": 8.58394
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 1465.3,
+            "unit": "ns",
+            "range": 48.3617
+          },
+          {
+            "name": "No logging",
+            "value": 6293.86,
+            "unit": "ns",
+            "range": 413.826
+          },
+          {
+            "name": "Binary file",
+            "value": 69928.9,
+            "unit": "ns",
+            "range": 4243.84
           }
         ]
       }
