@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733372859510,
+  "lastUpdate": 1733372907143,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -22692,6 +22692,52 @@ window.BENCHMARK_DATA = {
             "value": 4577.71,
             "unit": "ns",
             "range": 193.022
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "e492ed02745ea03a8ea5dc26b472d41ae271fdc9",
+          "message": "Added fixes for MooBench table style\n\nIt adds two classes ``moobench-table-label`` and ``moobench-table-value``.\nThe added classes will look for the appropriate style in style.css.  The\noriginal WordPress theme for kieker-monitoring.net is uploaded on the\nnew https://github.com/shinhyungyang/wp-theme-kieker repository, and the\nfixes for the MooBench table style is committed as the\n``fix-moobench-table-style`` branch on the repository.",
+          "timestamp": "2024-12-04T15:06:51Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/e492ed02745ea03a8ea5dc26b472d41ae271fdc9"
+        },
+        "date": 1733372904701,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.651,
+            "unit": "ns",
+            "range": 0.203521
+          },
+          {
+            "name": "No logging",
+            "value": 2911.51,
+            "unit": "ns",
+            "range": 77.3209
+          },
+          {
+            "name": "Zipkin",
+            "value": 5065.95,
+            "unit": "ns",
+            "range": 205.754
+          },
+          {
+            "name": "Prometheus",
+            "value": 4601.64,
+            "unit": "ns",
+            "range": 106.856
           }
         ]
       }
