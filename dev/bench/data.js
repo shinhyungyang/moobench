@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733374460423,
+  "lastUpdate": 1733458779119,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -33390,6 +33390,52 @@ window.BENCHMARK_DATA = {
             "value": 5710.13,
             "unit": "ns",
             "range": 775.93
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "e492ed02745ea03a8ea5dc26b472d41ae271fdc9",
+          "message": "Added fixes for MooBench table style\n\nIt adds two classes ``moobench-table-label`` and ``moobench-table-value``.\nThe added classes will look for the appropriate style in style.css.  The\noriginal WordPress theme for kieker-monitoring.net is uploaded on the\nnew https://github.com/shinhyungyang/wp-theme-kieker repository, and the\nfixes for the MooBench table style is committed as the\n``fix-moobench-table-style`` branch on the repository.",
+          "timestamp": "2024-12-04T15:06:51Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/e492ed02745ea03a8ea5dc26b472d41ae271fdc9"
+        },
+        "date": 1733458777366,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 91.9783,
+            "unit": "ns",
+            "range": 0.2319
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 549.779,
+            "unit": "ns",
+            "range": 10.1096
+          },
+          {
+            "name": "No logging",
+            "value": 2533.56,
+            "unit": "ns",
+            "range": 68.6842
+          },
+          {
+            "name": "Binary file",
+            "value": 6180.15,
+            "unit": "ns",
+            "range": 570.704
           }
         ]
       }
