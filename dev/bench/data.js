@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733631883766,
+  "lastUpdate": 1733632157537,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -44454,6 +44454,52 @@ window.BENCHMARK_DATA = {
             "value": 17524.3,
             "unit": "ns",
             "range": 1102.64
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "e492ed02745ea03a8ea5dc26b472d41ae271fdc9",
+          "message": "Added fixes for MooBench table style\n\nIt adds two classes ``moobench-table-label`` and ``moobench-table-value``.\nThe added classes will look for the appropriate style in style.css.  The\noriginal WordPress theme for kieker-monitoring.net is uploaded on the\nnew https://github.com/shinhyungyang/wp-theme-kieker repository, and the\nfixes for the MooBench table style is committed as the\n``fix-moobench-table-style`` branch on the repository.",
+          "timestamp": "2024-12-04T15:06:51Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/e492ed02745ea03a8ea5dc26b472d41ae271fdc9"
+        },
+        "date": 1733632155457,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 104.479,
+            "unit": "ns",
+            "range": 0.628358
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 872.596,
+            "unit": "ns",
+            "range": 35.8954
+          },
+          {
+            "name": "No logging",
+            "value": 3347.1,
+            "unit": "ns",
+            "range": 189.909
+          },
+          {
+            "name": "Binary file",
+            "value": 17778.5,
+            "unit": "ns",
+            "range": 1081.26
           }
         ]
       }
