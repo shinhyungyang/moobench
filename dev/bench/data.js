@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733977659600,
+  "lastUpdate": 1733977660724,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -60428,6 +60428,52 @@ window.BENCHMARK_DATA = {
             "value": 8250.98,
             "unit": "ns",
             "range": 1125.21
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "e492ed02745ea03a8ea5dc26b472d41ae271fdc9",
+          "message": "Added fixes for MooBench table style\n\nIt adds two classes ``moobench-table-label`` and ``moobench-table-value``.\nThe added classes will look for the appropriate style in style.css.  The\noriginal WordPress theme for kieker-monitoring.net is uploaded on the\nnew https://github.com/shinhyungyang/wp-theme-kieker repository, and the\nfixes for the MooBench table style is committed as the\n``fix-moobench-table-style`` branch on the repository.",
+          "timestamp": "2024-12-04T15:06:51Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/e492ed02745ea03a8ea5dc26b472d41ae271fdc9"
+        },
+        "date": 1733977657466,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.5482,
+            "unit": "ns",
+            "range": 0.182221
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 334.829,
+            "unit": "ns",
+            "range": 25.9453
+          },
+          {
+            "name": "Regular Writing",
+            "value": 7985.2,
+            "unit": "ns",
+            "range": 974.13
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 7403.52,
+            "unit": "ns",
+            "range": 693.912
           }
         ]
       }
