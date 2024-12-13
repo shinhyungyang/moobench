@@ -111,7 +111,7 @@ declare -a TITLE
 # Different writer setups
 #
 
-ELASTIC_ARGS="-Delastic.apm.service_name=moobench-benchmark -Delastic.apm.service_name=moobench-benchmark -Delastic.apm.trace_methods=moobench.application.* -Delastic.apm.application_packages=moobench.application -Delastic.apm.server_url=http://127.0.0.1:8200"
+ELASTIC_ARGS="-Delastic.apm.service_name=moobench-benchmark -Delastic.apm.trace_methods=moobench.application.* -Delastic.apm.application_packages=moobench.application -Delastic.apm.server_url=http://127.0.0.1:8200"
 WRITER_CONFIG[0]=""
 WRITER_CONFIG[1]="-Delastic.apm.recording=false $ELASTIC_ARGS"
 WRITER_CONFIG[2]="$ELASTIC_ARGS"
