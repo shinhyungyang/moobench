@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735101486630,
+  "lastUpdate": 1735185975004,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -36294,6 +36294,52 @@ window.BENCHMARK_DATA = {
             "value": 6162.67,
             "unit": "ns",
             "range": 667.417
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "910edec180c53c34a77498c9c21a102e254d5361",
+          "message": "Remove duplicated service name",
+          "timestamp": "2024-12-13T11:02:12Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/910edec180c53c34a77498c9c21a102e254d5361"
+        },
+        "date": 1735185972164,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.0852,
+            "unit": "ns",
+            "range": 0.376019
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 555.516,
+            "unit": "ns",
+            "range": 18.4705
+          },
+          {
+            "name": "No logging",
+            "value": 2574.87,
+            "unit": "ns",
+            "range": 83.8867
+          },
+          {
+            "name": "Binary file",
+            "value": 6059.84,
+            "unit": "ns",
+            "range": 364.217
           }
         ]
       }
