@@ -89,9 +89,4 @@ JAVA_ARGS_INSPECTIT_PROMETHEUS="${JAVA_ARGS_LTW} -Dinspectit.service-name=mooben
 
 executeAllLoops
 
-checkFile results.yaml "${RESULTS_DIR}/results.yaml"
-checkFile results.yaml "${RESULTS_DIR}/results.zip"
-
-info "Done."
-
 exit 0

@@ -92,9 +92,4 @@ JAVA_ARGS_OPENTELEMETRY_PROMETHEUS="${JAVA_ARGS_OPENTELEMETRY_BASIC} -Dotel.trac
 
 executeAllLoops
 
-checkFile results.yaml "${RESULTS_DIR}/results.yaml"
-checkFile results.yaml "${RESULTS_DIR}/results.zip"
-
-info "Done."
-
 exit 0

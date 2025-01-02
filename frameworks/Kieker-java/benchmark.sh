@@ -123,9 +123,4 @@ RECEIVER[5]="java -jar receiver/receiver.jar 2345"
 
 executeAllLoops
 
-checkFile results.yaml "${RESULTS_DIR}/results.yaml"
-checkFile results.yaml "${RESULTS_DIR}/results.zip"
-
-info "Done."
-
 exit 0

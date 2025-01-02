@@ -174,6 +174,11 @@ function executeAllLoops {
 	runStatistics
 
 	cleanupResults
+	
+	checkFile results.yaml "${RESULTS_DIR}/results.yaml"
+	checkFile results.yaml "${RESULTS_DIR}/results.zip"
+	
+	info "Done."
 }
 
 #
