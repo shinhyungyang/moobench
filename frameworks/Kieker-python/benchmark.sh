@@ -97,22 +97,7 @@ declare -a TITLE
 
 RECEIVER[5]="${RECEIVER_BIN} 2345"
 
-#
-# Write configuration
-#
-
-uname -a > "${RESULTS_DIR}/configuration.txt"
-cat << EOF >> "${RESULTS_DIR}/configuration.txt"
-Runtime: circa ${TIME} seconds
-
-SLEEP_TIME=${SLEEP_TIME}
-NUM_OF_LOOPS=${NUM_OF_LOOPS}
-TOTAL_NUM_OF_CALLS=${TOTAL_NUM_OF_CALLS}
-METHOD_TIME=${METHOD_TIME}
-RECURSION_DEPTH=${RECURSION_DEPTH}
-EOF
-
-sync
+writeConfiguration
 
 info "Ok"
 
