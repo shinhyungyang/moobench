@@ -1,5 +1,5 @@
 ---
-name: inspectIT-java execution check
+name: Execution Check inspectIT-java 
 on:
   push:
   pull_request:

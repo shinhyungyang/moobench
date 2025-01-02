@@ -1,5 +1,5 @@
 ---
-name: Kieker-java execution check
+name: Execution Check Kieker-java
 on:
   push:
   pull_request:

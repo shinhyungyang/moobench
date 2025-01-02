@@ -1,5 +1,5 @@
 ---
-name: Kieker-python execution check
+name: Execution Check Kieker-python
 on:
   - push
   - pull_request

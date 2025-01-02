@@ -1,5 +1,5 @@
 ---
-name: OpenTelemetry-java execution check
+name: Execution Check OpenTelemetry-java
 on:
   - push
   - pull_request
