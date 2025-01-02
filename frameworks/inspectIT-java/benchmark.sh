@@ -101,7 +101,6 @@ info "----------------------------------"
 for ((i=1;i<=${NUM_OF_LOOPS};i+=1)); do
     k=0
     info "## Starting iteration ${i}/${NUM_OF_LOOPS}"
-    echo "## Starting iteration ${i}/${NUM_OF_LOOPS}" >> "${BASE_DIR}/inspectIT.log"
 
     executeBenchmark
     printIntermediaryResults "${i}"
