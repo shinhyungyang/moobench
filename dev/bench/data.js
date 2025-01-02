@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735846238822,
+  "lastUpdate": 1735846663980,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -63198,6 +63198,54 @@ window.BENCHMARK_DATA = {
             "value": 71806.8,
             "unit": "ns",
             "range": 3631.1
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "47fb8dfa0d2ebf760919fb462ac4114160356629",
+          "message": "Move executeAllLoops code to common-functions.sh",
+          "timestamp": "2025-01-02T17:43:03+01:00",
+          "tree_id": "86ca96cc8ae7ac6d23074cc1682fabbf3b3987a6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/47fb8dfa0d2ebf760919fb462ac4114160356629"
+        },
+        "date": 1735846661474,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 134.529,
+            "unit": "ns",
+            "range": 2.73713
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 1533.41,
+            "unit": "ns",
+            "range": 82.6571
+          },
+          {
+            "name": "No logging",
+            "value": 6182.83,
+            "unit": "ns",
+            "range": 296.465
+          },
+          {
+            "name": "Binary file",
+            "value": 65890.3,
+            "unit": "ns",
+            "range": 1648.61
           }
         ]
       }
