@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735847578468,
+  "lastUpdate": 1735848052942,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -51162,6 +51162,54 @@ window.BENCHMARK_DATA = {
             "value": 18602.8,
             "unit": "ns",
             "range": 1414.01
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "92bf551518cfd8517558dad20a160b43704c06ed",
+          "message": "Also remove code duplication in elasticapm-java",
+          "timestamp": "2025-01-02T17:49:17+01:00",
+          "tree_id": "d873bbacf9becf22432c1380cb2a9e1c01c3f6fe",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/92bf551518cfd8517558dad20a160b43704c06ed"
+        },
+        "date": 1735848050465,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 104.65,
+            "unit": "ns",
+            "range": 0.712111
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 877.646,
+            "unit": "ns",
+            "range": 28.1976
+          },
+          {
+            "name": "No logging",
+            "value": 3334.01,
+            "unit": "ns",
+            "range": 170.178
+          },
+          {
+            "name": "Binary file",
+            "value": 18215.5,
+            "unit": "ns",
+            "range": 1253.91
           }
         ]
       }
