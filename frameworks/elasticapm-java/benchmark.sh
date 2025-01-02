@@ -117,40 +117,6 @@ WRITER_CONFIG[1]="-Delastic.apm.recording=false $ELASTIC_ARGS"
 WRITER_CONFIG[2]="$ELASTIC_ARGS"
 WRITER_CONFIG[3]="-Delastic.apm.sanitize_field_names= $ELASTIC_ARGS"
 
-
-writeConfiguration
-checkMoobenchConfiguration
-#
-# Run benchmark
-#
-
-info "----------------------------------"
-info "Running benchmark..."
-info "----------------------------------"
-
-for ((i=1;i<=${NUM_OF_LOOPS};i+=1))
-do
-    info "## Starting iteration ${i}/${NUM_OF_LOOPS}"
-    echo "## Starting iteration ${i}/${NUM_OF_LOOPS}" >> "${DATA_DIR}/kieker.log"
-
-    executeBenchmark
-    printIntermediaryResults "${i}"
-done
-
-# Create R labels
-LABELS=$(createRLabels)
-runStatistics
-
-cleanupResults
-
-mv "${DATA_DIR}/kieker.log" "${RESULTS_DIR}/kieker.log"
-[ -f "${RESULTS_DIR}/hotspot-1-${RECURSION_DEPTH}-1.log" ] && grep "<task " "${RESULTS_DIR}/"hotspot-*.log > "${RESULTS_DIR}/java.log"
-[ -f "${DATA_DIR}/errorlog.txt" ] && mv "${DATA_DIR}/errorlog.txt" "${RESULTS_DIR}"
-
-checkFile results.yaml "${RESULTS_DIR}/results.yaml"
-checkFile results.yaml "${RESULTS_DIR}/results.zip"
-
-info "Done."
+executeAllLoops
 
 exit 0
-# end
