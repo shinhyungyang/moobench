@@ -47,7 +47,6 @@ function executeBenchmark() {
 function runNoInstrumentation {
     k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
-    echo " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}" >> "${BASE_DIR}/inspectIT.log"
     export BENCHMARK_OPTS="${JAVA_ARGS_NOINSTR}"
     "${MOOBENCH_BIN}" --output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
@@ -60,7 +59,6 @@ function runNoInstrumentation {
 function runInspectITDeactivated {
     k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]}
-    echo " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]} >> "${BASE_DIR}/inspectIT.log"
     sleep "${SLEEP_TIME}"
     export BENCHMARK_OPTS="${JAVA_ARGS_INSPECTIT_DEACTIVATED}"
     "${MOOBENCH_BIN}" --output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
@@ -76,7 +74,6 @@ function runInspectITDeactivated {
 function runInspectITNullWriter {
     k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]}
-    echo " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]} >>${BASE_DIR}/inspectIT.log
     sleep "${SLEEP_TIME}"
     export BENCHMARK_OPTS="${JAVA_ARGS_INSPECTIT_NULLWRITER}"
     "${MOOBENCH_BIN}" --output-filename "${RAWFN}-${i}-${RECURSION_DEPTH}-${k}.csv" \
@@ -94,7 +91,6 @@ function runInspectITZipkin {
     # InspectIT (minimal)
     k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
-    echo " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}" >> "${BASE_DIR}/inspectIT.log"
     startZipkin
     sleep "${SLEEP_TIME}"
     export BENCHMARK_OPTS="${JAVA_ARGS_INSPECTIT_ZIPKIN}"
@@ -113,7 +109,6 @@ function runInspectITPrometheus {
     # InspectIT (minimal)
     k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
-    echo " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}" >> "${BASE_DIR}/inspectIT.log"
     startPrometheus
     sleep "${SLEEP_TIME}"
     export BENCHMARK_OPTS="${JAVA_ARGS_INSPECTIT_PROMETHEUS}"

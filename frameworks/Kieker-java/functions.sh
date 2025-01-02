@@ -45,7 +45,6 @@ function executeExperiment() {
     kieker_parameters="${WRITER_CONFIG[$index]}"
 
     info " # ${loop}.${recursion}.${index} ${title}"
-    echo " # ${loop}.${recursion}.${index} ${title}" >> "${DATA_DIR}/kieker.log"
 
     if [  "${kieker_parameters}" == "" ] ; then
        export BENCHMARK_OPTS="${JAVA_ARGS}"
@@ -81,8 +80,6 @@ function executeExperiment() {
     rm -rf "${DATA_DIR}"/kieker-*
 
     [ -f "${DATA_DIR}/hotspot.log" ] && mv "${DATA_DIR}/hotspot.log" "${RESULTS_DIR}/hotspot-${loop}-${recursion}-${index}.log"
-    echo >> "${DATA_DIR}/kieker.log"
-    echo >> "${DATA_DIR}/kieker.log"
     sync
     sleep "${SLEEP_TIME}"
 }

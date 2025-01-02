@@ -61,7 +61,6 @@ function runNoInstrumentation {
     # No instrumentation
     k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
-    echo " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}" >> "${BASE_DIR}/OpenTelemetry.log"
     export BENCHMARK_OPTS="${JAVA_ARGS_NOINSTR}"
     "${MOOBENCH_BIN}" --output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
@@ -75,7 +74,6 @@ function runOpenTelemetryNoLogging {
     # OpenTelemetry Instrumentation Logging Deactivated
     k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]}
-    echo " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]} >> "${BASE_DIR}/OpenTelemetry.log"
     export BENCHMARK_OPTS="${JAVA_ARGS_OPENTELEMETRY_LOGGING_DEACTIVATED}"
     "${MOOBENCH_BIN}" --output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
@@ -89,7 +87,6 @@ function runOpenTelemetryLogging {
     # OpenTelemetry Instrumentation Logging
     k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
-    echo " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}" >> "${BASE_DIR}/OpenTelemetry.log"
     export BENCHMARK_OPTS="${JAVA_ARGS_OPENTELEMETRY_LOGGING}"
     "${MOOBENCH_BIN}" --output-filename "${RAWFN}-${i}-${RECURSION_DEPTH}-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
@@ -110,7 +107,6 @@ function runOpenTelemetryZipkin {
     k=$1
     startZipkin
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
-    echo " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}" >> "${BASE_DIR}/OpenTelemetry.log"
     export BENCHMARK_OPTS="${JAVA_ARGS_OPENTELEMETRY_ZIPKIN}"
     "${MOOBENCH_BIN}" --output-filename "${RAWFN}-${i}-${RECURSION_DEPTH}-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
@@ -127,7 +123,6 @@ function runOpenTelemetryJaeger {
     k=$1
     startJaeger
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
-    echo " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}" >> "${BASE_DIR}/OpenTelemetry.log"
     export BENCHMARK_OPTS="${JAVA_ARGS_OPENTELEMETRY_JAEGER}"
     "${MOOBENCH_BIN}" --output-filename "${RAWFN}-${i}-${RECURSION_DEPTH}-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
@@ -144,7 +139,6 @@ function runOpenTelemetryPrometheus {
     k=$1
     startPrometheus
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
-    echo " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}" >> "${BASE_DIR}/OpenTelemetry.log"
     export BENCHMARK_OPTS="${JAVA_ARGS_OPENTELEMETRY_PROMETHEUS}"
     "${MOOBENCH_BIN}" --output-filename "${RAWFN}-${i}-${RECURSION_DEPTH}-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
