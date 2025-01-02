@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735853362076,
+  "lastUpdate": 1735853817428,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -14710,6 +14710,54 @@ window.BENCHMARK_DATA = {
             "value": 3300.57,
             "unit": "ns",
             "range": 110.734
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "1629f0e90ea0e86d107417c5f790697db605a3b4",
+          "message": "Remove duplicated function getSum",
+          "timestamp": "2025-01-02T20:09:15+01:00",
+          "tree_id": "e469d1c40c5b44eadd4bb55ba353a38a02925460",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/1629f0e90ea0e86d107417c5f790697db605a3b4"
+        },
+        "date": 1735853814900,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.6986,
+            "unit": "ns",
+            "range": 0.212119
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 439.471,
+            "unit": "ns",
+            "range": 3.41165
+          },
+          {
+            "name": "No logging",
+            "value": 1836.97,
+            "unit": "ns",
+            "range": 5.82749
+          },
+          {
+            "name": "Binary file",
+            "value": 3269.33,
+            "unit": "ns",
+            "range": 59.8303
           }
         ]
       }
