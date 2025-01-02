@@ -49,7 +49,7 @@ function executeBenchmark() {
 # experiment setups
 
 function runNoInstrumentation {
-    # No instrumentation
+    k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
     echo " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}" >> "${BASE_DIR}/inspectIT.log"
     export BENCHMARK_OPTS="${JAVA_ARGS_NOINSTR}"
