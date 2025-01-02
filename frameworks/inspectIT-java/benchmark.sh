@@ -103,21 +103,7 @@ for ((i=1;i<=${NUM_OF_LOOPS};i+=1)); do
     info "## Starting iteration ${i}/${NUM_OF_LOOPS}"
     echo "## Starting iteration ${i}/${NUM_OF_LOOPS}" >> "${BASE_DIR}/inspectIT.log"
 
-    runNoInstrumentation
-    cleanup
-
-    runInspectITDeactivated
-    cleanup
-
-    runInspectITNullWriter
-    cleanup
-
-    runInspectITZipkin
-    cleanup
-    
-    runInspectITPrometheus
-    cleanup
-    
+    executeBenchmark
     printIntermediaryResults "${i}"
 done
 

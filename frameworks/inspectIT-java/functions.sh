@@ -31,6 +31,20 @@ function getSum {
   awk '{sum += $1; square += $1^2} END {print "Average: "sum/NR" Standard Deviation: "sqrt(square / NR - (sum/NR)^2)" Count: "NR}'
 }
 
+function executeBenchmark() {
+   for index in $MOOBENCH_CONFIGURATIONS
+   do
+      case $index in
+         0) runNoInstrumentation 0 ;;
+         1) runInspectITDeactivated 1 ;;
+         2) runInspectITNullWriter 2 ;;
+         3) runInspectITZipkin 3 ;;
+         4) runInspectITPrometheus 4 ;;
+      esac
+      
+      cleanup
+   done
+}
 
 # experiment setups
 
@@ -48,7 +62,7 @@ function runNoInstrumentation {
 }
 
 function runInspectITDeactivated {
-    k=`expr ${k} + 1`
+    k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]}
     echo " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]} >> "${BASE_DIR}/inspectIT.log"
     sleep "${SLEEP_TIME}"
@@ -64,7 +78,7 @@ function runInspectITDeactivated {
 }
 
 function runInspectITNullWriter {
-    k=`expr ${k} + 1`
+    k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]}
     echo " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]} >>${BASE_DIR}/inspectIT.log
     sleep "${SLEEP_TIME}"
@@ -82,7 +96,7 @@ function runInspectITNullWriter {
 
 function runInspectITZipkin {
     # InspectIT (minimal)
-    k=`expr ${k} + 1`
+    k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
     echo " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}" >> "${BASE_DIR}/inspectIT.log"
     startZipkin
@@ -101,7 +115,7 @@ function runInspectITZipkin {
 
 function runInspectITPrometheus {
     # InspectIT (minimal)
-    k=`expr ${k} + 1`
+    k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
     echo " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}" >> "${BASE_DIR}/inspectIT.log"
     startPrometheus
