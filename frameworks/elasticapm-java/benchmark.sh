@@ -9,14 +9,6 @@
 BASE_DIR=$(cd "$(dirname "$0")"; pwd)
 MAIN_DIR="${BASE_DIR}/../.."
 
-# Hotfix for ASPECTJ
-# https://stackoverflow.com/questions/70411097/instrument-java-17-with-aspectj
-JAVA_VERSION=$(java -version 2>&1 | grep version | sed 's/^.* "\([0-9\.]*\).*/\1/g')
-if [ "${JAVA_VERSION}" != "1.8.0" ] ; then
-	export JAVA_OPTS="--add-opens java.base/java.lang=ALL-UNNAMED"
-	echo "Setting \$JAVA_OPTS, since Java version is bigger than 8"
-fi
-
 #
 # source functionality
 #
