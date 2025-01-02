@@ -87,32 +87,8 @@ JAVA_ARGS_INSPECTIT_NULLWRITER="${JAVA_ARGS_LTW} -Dinspectit.service-name=mooben
 JAVA_ARGS_INSPECTIT_ZIPKIN="${JAVA_ARGS_LTW} -Dinspectit.service-name=moobench-inspectit -Dinspectit.exporters.metrics.prometheus.enabled=false -Dinspectit.exporters.tracing.zipkin.url=http://127.0.0.1:9411/api/v2/spans -Dinspectit.config.file-based.path=${BASE_DIR}/config/zipkin/"
 JAVA_ARGS_INSPECTIT_PROMETHEUS="${JAVA_ARGS_LTW} -Dinspectit.service-name=moobench-inspectit -Dinspectit.exporters.metrics.zipkin.enabled=false -Dinspectit.exporters.metrics.prometheus.enabled=true -Dinspectit.config.file-based.path=${BASE_DIR}/config/prometheus/"
 
-writeConfiguration
+executeAllLoops
 
-#
-# Run benchmark
-#
-
-info "----------------------------------"
-info "Running benchmark..."
-info "----------------------------------"
-
-## Execute Benchmark
-for ((i=1;i<=${NUM_OF_LOOPS};i+=1)); do
-    k=0
-    info "## Starting iteration ${i}/${NUM_OF_LOOPS}"
-
-    executeBenchmark
-    printIntermediaryResults "${i}"
-done
-
-# Create R labels
-LABELS=$(createRLabels)
-runStatistics
-
-cleanupResults
-
-mv "${BASE_DIR}/inspectIT.log" "${RESULTS_DIR}/inspectIT.log"
 [ -f "${RESULTS_DIR}/hotspot-1-${RECURSION_DEPTH}-1.log" ] && grep "<task " "${RESULTS_DIR}/"hotspot-*.log > "${RESULTS_DIR}/java.log"
 [ -f "${BASE_DIR}/errorlog.txt" ] && mv "${BASE_DIR}/errorlog.txt" "${RESULTS_DIR}"
 
@@ -122,4 +98,3 @@ checkFile results.yaml "${RESULTS_DIR}/results.zip"
 info "Done."
 
 exit 0
-# end

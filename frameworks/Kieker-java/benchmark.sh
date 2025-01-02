@@ -121,33 +121,8 @@ WRITER_CONFIG[4]="-Dkieker.monitoring.enabled=true -Dkieker.monitoring.writer=ki
 WRITER_CONFIG[5]="-Dkieker.monitoring.writer=kieker.monitoring.writer.tcp.SingleSocketTcpWriter -Dkieker.monitoring.writer.tcp.SingleSocketTcpWriter.port=2345"
 RECEIVER[5]="java -jar receiver/receiver.jar 2345"
 
+executeAllLoops
 
-
-writeConfiguration
-checkMoobenchConfiguration
-#
-# Run benchmark
-#
-
-info "----------------------------------"
-info "Running benchmark..."
-info "----------------------------------"
-
-for ((i=1;i<=${NUM_OF_LOOPS};i+=1))
-do
-    info "## Starting iteration ${i}/${NUM_OF_LOOPS}"
-
-    executeBenchmark
-    printIntermediaryResults "${i}"
-done
-
-# Create R labels
-LABELS=$(createRLabels)
-runStatistics
-
-cleanupResults
-
-mv "${DATA_DIR}/kieker.log" "${RESULTS_DIR}/kieker.log"
 [ -f "${RESULTS_DIR}/hotspot-1-${RECURSION_DEPTH}-1.log" ] && grep "<task " "${RESULTS_DIR}/"hotspot-*.log > "${RESULTS_DIR}/java.log"
 [ -f "${DATA_DIR}/errorlog.txt" ] && mv "${DATA_DIR}/errorlog.txt" "${RESULTS_DIR}"
 
@@ -157,4 +132,3 @@ checkFile results.yaml "${RESULTS_DIR}/results.zip"
 info "Done."
 
 exit 0
-# end

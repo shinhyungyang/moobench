@@ -150,6 +150,32 @@ function checkMoobenchConfiguration {
 	done
 }
 
+function executeAllLoops {
+	writeConfiguration
+	checkMoobenchConfiguration
+	#
+	# Run benchmark
+	#
+
+	info "----------------------------------"
+	info "Running benchmark..."
+	info "----------------------------------"
+
+	for ((i=1;i<=${NUM_OF_LOOPS};i+=1))
+	do
+	    info "## Starting iteration ${i}/${NUM_OF_LOOPS}"
+
+	    executeBenchmark
+	    printIntermediaryResults "${i}"
+	done
+	
+	# Create R labels
+	LABELS=$(createRLabels)
+	runStatistics
+
+	cleanupResults
+}
+
 #
 # reporting
 #
