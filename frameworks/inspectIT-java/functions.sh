@@ -27,10 +27,6 @@ function cleanup {
 	sleep "${SLEEP_TIME}"
 }
 
-function getSum {
-  awk '{sum += $1; square += $1^2} END {print "Average: "sum/NR" Standard Deviation: "sqrt(square / NR - (sum/NR)^2)" Count: "NR}'
-}
-
 function executeBenchmark() {
    for index in $MOOBENCH_CONFIGURATIONS
    do
