@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735849118295,
+  "lastUpdate": 1735849278603,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -69532,6 +69532,54 @@ window.BENCHMARK_DATA = {
             "value": 7793.77,
             "unit": "ns",
             "range": 972.487
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "82501b1ec096c2bb13c9e2ba516a6b7fbf88badf",
+          "message": "Remove hotfix for AspectJ that is no longer needed",
+          "timestamp": "2025-01-02T17:53:09+01:00",
+          "tree_id": "9e04b3b57e9a2c975fd5116461fdbbeb262d47f1",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/82501b1ec096c2bb13c9e2ba516a6b7fbf88badf"
+        },
+        "date": 1735849275934,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.652,
+            "unit": "ns",
+            "range": 0.226604
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 323.938,
+            "unit": "ns",
+            "range": 20.8695
+          },
+          {
+            "name": "Regular Writing",
+            "value": 8005.07,
+            "unit": "ns",
+            "range": 1107.5
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 7942.65,
+            "unit": "ns",
+            "range": 1030.69
           }
         ]
       }
