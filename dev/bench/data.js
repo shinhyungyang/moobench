@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735849920342,
+  "lastUpdate": 1735850387066,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -38934,6 +38934,54 @@ window.BENCHMARK_DATA = {
             "value": 5627.67,
             "unit": "ns",
             "range": 732.97
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "d3691adeb675b9da763f6ab8f2414df92d27db14",
+          "message": "Also remove hotfix for ElasicAPM, since it was never needed there",
+          "timestamp": "2025-01-02T17:53:39+01:00",
+          "tree_id": "dd061a9d1a9f9a2844105fad422185c14c9d53ee",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/d3691adeb675b9da763f6ab8f2414df92d27db14"
+        },
+        "date": 1735850384451,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 91.9996,
+            "unit": "ns",
+            "range": 0.186719
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 559.23,
+            "unit": "ns",
+            "range": 14.3809
+          },
+          {
+            "name": "No logging",
+            "value": 2553.06,
+            "unit": "ns",
+            "range": 59.7172
+          },
+          {
+            "name": "Binary file",
+            "value": 5386.39,
+            "unit": "ns",
+            "range": 722.989
           }
         ]
       }
