@@ -106,7 +106,6 @@ function executeBenchmarkBody() {
   fi
 }
 
-## Execute Benchmark
 function executeBenchmark() {
     recursion="${RECURSION_DEPTH}"
 
@@ -116,5 +115,3 @@ function executeBenchmark() {
     done
 }
 
-
-# end
