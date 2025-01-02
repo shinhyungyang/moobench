@@ -1,9 +1,12 @@
 ---
 name: inspectIT-java execution check
 on:
-  - push
-  - pull_request
-  - workflow_dispatch
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 */8 * * *
+
 jobs:
   build:
     strategy:
@@ -13,6 +16,7 @@ jobs:
         java:
           - 11
           - 17
+          - 21
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: Java ${{ matrix.java }} OS ${{ matrix.os }} sample
