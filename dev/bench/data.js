@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735844534570,
+  "lastUpdate": 1735844641877,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -68572,6 +68572,54 @@ window.BENCHMARK_DATA = {
             "value": 7825.62,
             "unit": "ns",
             "range": 1069.05
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "47fb8dfa0d2ebf760919fb462ac4114160356629",
+          "message": "Move executeAllLoops code to common-functions.sh",
+          "timestamp": "2025-01-02T17:43:03+01:00",
+          "tree_id": "86ca96cc8ae7ac6d23074cc1682fabbf3b3987a6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/47fb8dfa0d2ebf760919fb462ac4114160356629"
+        },
+        "date": 1735844639389,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.6964,
+            "unit": "ns",
+            "range": 0.16615
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 326.473,
+            "unit": "ns",
+            "range": 24.0429
+          },
+          {
+            "name": "Regular Writing",
+            "value": 8062.84,
+            "unit": "ns",
+            "range": 964.122
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 8263.94,
+            "unit": "ns",
+            "range": 1202.72
           }
         ]
       }
