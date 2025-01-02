@@ -89,9 +89,6 @@ JAVA_ARGS_INSPECTIT_PROMETHEUS="${JAVA_ARGS_LTW} -Dinspectit.service-name=mooben
 
 executeAllLoops
 
-[ -f "${RESULTS_DIR}/hotspot-1-${RECURSION_DEPTH}-1.log" ] && grep "<task " "${RESULTS_DIR}/"hotspot-*.log > "${RESULTS_DIR}/java.log"
-[ -f "${BASE_DIR}/errorlog.txt" ] && mv "${BASE_DIR}/errorlog.txt" "${RESULTS_DIR}"
-
 checkFile results.yaml "${RESULTS_DIR}/results.yaml"
 checkFile results.yaml "${RESULTS_DIR}/results.zip"
 
