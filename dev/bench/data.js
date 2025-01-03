@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735898427125,
+  "lastUpdate": 1735898998079,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -27182,6 +27182,54 @@ window.BENCHMARK_DATA = {
             "value": 4424.21,
             "unit": "ns",
             "range": 188.372
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "139f8802736b8d4d458de6e36976350283972d77",
+          "message": "Adapt inspectIT and OpenTelemetry, so different prometheus metrics ports\nare supported",
+          "timestamp": "2025-01-03T10:11:26+01:00",
+          "tree_id": "68c022c66b83c9128ff05a16ce01ecb71a27dca6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/139f8802736b8d4d458de6e36976350283972d77"
+        },
+        "date": 1735898994924,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.7707,
+            "unit": "ns",
+            "range": 0.132357
+          },
+          {
+            "name": "No logging",
+            "value": 2866.25,
+            "unit": "ns",
+            "range": 118.106
+          },
+          {
+            "name": "Zipkin",
+            "value": 4840.36,
+            "unit": "ns",
+            "range": 109.319
+          },
+          {
+            "name": "Prometheus",
+            "value": 4361.02,
+            "unit": "ns",
+            "range": 130.5
           }
         ]
       }
