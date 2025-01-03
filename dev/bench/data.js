@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735933541322,
+  "lastUpdate": 1735933847032,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -42144,6 +42144,54 @@ window.BENCHMARK_DATA = {
             "value": 6175.69,
             "unit": "ns",
             "range": 581.603
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "4cf5c7a5106da3d125689499f2eaf6dc40d809c3",
+          "message": "Change to init.sh in all benchmark.sh files",
+          "timestamp": "2025-01-03T19:54:22+01:00",
+          "tree_id": "170c03061a8bff98d481bdfdaf03829222af3019",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/4cf5c7a5106da3d125689499f2eaf6dc40d809c3"
+        },
+        "date": 1735933844100,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.1652,
+            "unit": "ns",
+            "range": 0.330424
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 553.893,
+            "unit": "ns",
+            "range": 10.0577
+          },
+          {
+            "name": "No logging",
+            "value": 2579.11,
+            "unit": "ns",
+            "range": 89.0473
+          },
+          {
+            "name": "Binary file",
+            "value": 5861.19,
+            "unit": "ns",
+            "range": 741.618
           }
         ]
       }
