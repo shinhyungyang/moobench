@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735929676271,
+  "lastUpdate": 1735929765873,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -76236,6 +76236,60 @@ window.BENCHMARK_DATA = {
             "value": 9639.49,
             "unit": "ns",
             "range": 232.766
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "5477fad704b7a819bc22354c0d7f160b970c0dee",
+          "message": "Define MOOBENCH_BIN and RSCRIPT_PATH in experiment.rc; don't specify\nMAIN_DIR twice (always defined in benchmark.sh)",
+          "timestamp": "2025-01-03T16:58:21+01:00",
+          "tree_id": "6137cc1adea40491b95bb95228990eb87a7a91cc",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5477fad704b7a819bc22354c0d7f160b970c0dee"
+        },
+        "date": 1735929762983,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.6725,
+            "unit": "ns",
+            "range": 0.101109
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 5438.44,
+            "unit": "ns",
+            "range": 155.71
+          },
+          {
+            "name": "No logging",
+            "value": 15448.1,
+            "unit": "ns",
+            "range": 353.493
+          },
+          {
+            "name": "Zipkin",
+            "value": 16815.7,
+            "unit": "ns",
+            "range": 267.431
+          },
+          {
+            "name": "Prometheus",
+            "value": 9394.46,
+            "unit": "ns",
+            "range": 205.783
           }
         ]
       }
