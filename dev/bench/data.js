@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735900130444,
+  "lastUpdate": 1735900555950,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -66260,6 +66260,54 @@ window.BENCHMARK_DATA = {
             "value": 67015.1,
             "unit": "ns",
             "range": 3464.76
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "139f8802736b8d4d458de6e36976350283972d77",
+          "message": "Adapt inspectIT and OpenTelemetry, so different prometheus metrics ports\nare supported",
+          "timestamp": "2025-01-03T10:11:26+01:00",
+          "tree_id": "68c022c66b83c9128ff05a16ce01ecb71a27dca6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/139f8802736b8d4d458de6e36976350283972d77"
+        },
+        "date": 1735900553351,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 131.926,
+            "unit": "ns",
+            "range": 8.30934
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 1452.95,
+            "unit": "ns",
+            "range": 33.061
+          },
+          {
+            "name": "No logging",
+            "value": 5966.72,
+            "unit": "ns",
+            "range": 179.486
+          },
+          {
+            "name": "Binary file",
+            "value": 65545.6,
+            "unit": "ns",
+            "range": 907.747
           }
         ]
       }
