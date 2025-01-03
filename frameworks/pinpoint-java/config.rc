@@ -4,7 +4,13 @@ source ${MAIN_DIR}/config.rc
 
 JAVA_BIN=`which java`
 
+RSCRIPT_PATH="${BASE_DIR}/../statistics.r"
+
 AGENT_JAR="${BASE_DIR}/lib/opentelemetry-javaagent.jar"
 
 #MORE_PARAMS="--quickstart"
 MORE_PARAMS="--application moobench.application.MonitoredClassSimple ${MORE_PARAMS}"
+
+MOOBENCH_BIN="${BASE_DIR}/../../benchmark/bin/benchmark"
+
+
