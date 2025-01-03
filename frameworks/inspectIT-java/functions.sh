@@ -15,6 +15,7 @@ function getAgent() {
 		mkdir "${BASE_DIR}/agent"
 		cd "${BASE_DIR}/agent"
 		wget https://github.com/inspectIT/inspectit-ocelot/releases/download/$INSPECTIT_VERSION/inspectit-ocelot-agent-$INSPECTIT_VERSION.jar
+		mv inspectit-ocelot-agent-$INSPECTIT_VERSION.jar inspectit-ocelot-agent.jar
 		cd "${BASE_DIR}"
 	fi
 }
