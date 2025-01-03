@@ -2,7 +2,5 @@
 
 source ${MAIN_DIR}/config.rc
 
-JAVA_BIN=`which java`
-
 #MORE_PARAMS="--quickstart"
 MORE_PARAMS="--application moobench.application.MonitoredClassSimple ${MORE_PARAMS}"

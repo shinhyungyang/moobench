@@ -2,8 +2,6 @@
 
 source ${MAIN_DIR}/config.rc
 
-JAVA_BIN=`which java`
-
 AGENT_JAR="${BASE_DIR}/lib/opentelemetry-javaagent.jar"
 
 #MORE_PARAMS="--quickstart"
