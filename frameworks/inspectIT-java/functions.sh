@@ -1,6 +1,6 @@
 # inspectIT specific functions
 
-export INSPECTIT_VERSION="1.16.1"
+export INSPECTIT_VERSION="2.6.6"
 
 # ensure the script is sourced
 if [ "${BASH_SOURCE[0]}" -ef "$0" ]
