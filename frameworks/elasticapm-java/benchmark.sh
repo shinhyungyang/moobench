@@ -25,27 +25,6 @@ else
 	exit 1
 fi
 
-# load configuration and common functions
-if [ -f "${BASE_DIR}/config.rc" ] ; then
-	source "${BASE_DIR}/config.rc"
-else
-	echo "Missing configuration: ${BASE_DIR}/config.rc"
-	exit 1
-fi
-
-if [ -f "${BASE_DIR}/functions.sh" ] ; then
-	source "${BASE_DIR}/functions.sh"
-else
-	echo "Missing: ${BASE_DIR}/functions.sh"
-	exit 1
-fi
-if [ -f "${BASE_DIR}/labels.sh" ] ; then
-	source "${BASE_DIR}/labels.sh"
-else
-	echo "Missing file: ${BASE_DIR}/labels.sh"
-	exit 1
-fi
-
 if [ -z "$MOOBENCH_CONFIGURATIONS" ]
 then
 	MOOBENCH_CONFIGURATIONS="0 1 2 3"
