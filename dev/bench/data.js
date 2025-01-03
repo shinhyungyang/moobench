@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735922836167,
+  "lastUpdate": 1735922933884,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -27902,6 +27902,54 @@ window.BENCHMARK_DATA = {
             "value": 4420.39,
             "unit": "ns",
             "range": 139.381
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "3a16f58d6e06d27ec1ba6d7a16fe89ebc3355dff",
+          "message": "Set MORE_PARAMS to the same values in Kieker-java and inspectIT-java",
+          "timestamp": "2025-01-03T16:50:21+01:00",
+          "tree_id": "f636a6688bbf0e216280f01384c08c1d5e9c6c6b",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/3a16f58d6e06d27ec1ba6d7a16fe89ebc3355dff"
+        },
+        "date": 1735922931055,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.6961,
+            "unit": "ns",
+            "range": 0.230251
+          },
+          {
+            "name": "No logging",
+            "value": 2975.05,
+            "unit": "ns",
+            "range": 112.94
+          },
+          {
+            "name": "Zipkin",
+            "value": 4899.9,
+            "unit": "ns",
+            "range": 163.228
+          },
+          {
+            "name": "Prometheus",
+            "value": 4351.97,
+            "unit": "ns",
+            "range": 183.454
           }
         ]
       }
