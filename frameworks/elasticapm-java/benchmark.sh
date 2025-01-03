@@ -18,10 +18,10 @@ if [ ! -d "${BASE_DIR}" ] ; then
 	exit 1
 fi
 
-if [ -f "${MAIN_DIR}/common-functions.sh" ] ; then
-	source "${MAIN_DIR}/common-functions.sh"
+if [ -f "${MAIN_DIR}/init.sh" ] ; then
+	source "${MAIN_DIR}/init.sh"
 else
-	echo "Missing library: ${MAIN_DIR}/common-functions.sh"
+	echo "Missing library: ${MAIN_DIR}/init.sh"
 	exit 1
 fi
 
