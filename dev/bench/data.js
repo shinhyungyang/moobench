@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735908274002,
+  "lastUpdate": 1735908568309,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -73600,6 +73600,54 @@ window.BENCHMARK_DATA = {
             "value": 7911.16,
             "unit": "ns",
             "range": 1031.6
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "3a4d9580d223275edb5d6c1af46c68c9655bd927",
+          "message": "Update to inspectIT 2.6.6 to fix Java 21",
+          "timestamp": "2025-01-03T12:53:32+01:00",
+          "tree_id": "38ddad459ec1714cc4a316a07d8785f56ae05091",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/3a4d9580d223275edb5d6c1af46c68c9655bd927"
+        },
+        "date": 1735908564983,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.4958,
+            "unit": "ns",
+            "range": 0.18228
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 319.359,
+            "unit": "ns",
+            "range": 26.0086
+          },
+          {
+            "name": "Regular Writing",
+            "value": 8770.02,
+            "unit": "ns",
+            "range": 933.523
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 8211.54,
+            "unit": "ns",
+            "range": 1041.87
           }
         ]
       }
