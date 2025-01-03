@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735929422561,
+  "lastUpdate": 1735929447252,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -28238,6 +28238,54 @@ window.BENCHMARK_DATA = {
             "value": 4415.18,
             "unit": "ns",
             "range": 138.57
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "8a1f2a07d25c38ebf336f70fbe5fe29b5ce177a3",
+          "message": "Use AGENT_JAR also for elasticapm",
+          "timestamp": "2025-01-03T17:00:25+01:00",
+          "tree_id": "374f16d9804827420aeb15cc5ae77eee2ce99525",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/8a1f2a07d25c38ebf336f70fbe5fe29b5ce177a3"
+        },
+        "date": 1735929444045,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.6923,
+            "unit": "ns",
+            "range": 0.268628
+          },
+          {
+            "name": "No logging",
+            "value": 2957.37,
+            "unit": "ns",
+            "range": 70.1638
+          },
+          {
+            "name": "Zipkin",
+            "value": 4888.46,
+            "unit": "ns",
+            "range": 231.124
+          },
+          {
+            "name": "Prometheus",
+            "value": 4398.13,
+            "unit": "ns",
+            "range": 130.558
           }
         ]
       }
