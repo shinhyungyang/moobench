@@ -26,22 +26,22 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4211,
             "unit": "ns"
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 531.567,
             "unit": "ns"
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2038.81,
             "unit": "ns"
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3451.99,
             "unit": "ns"
           }
@@ -70,22 +70,22 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5236,
             "unit": "ns"
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 535.877,
             "unit": "ns"
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2044.68,
             "unit": "ns"
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3443.47,
             "unit": "ns"
           }
@@ -114,22 +114,22 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5471,
             "unit": "microseconds"
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 538.501,
             "unit": "microseconds"
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2030.37,
             "unit": "microseconds"
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3484.2,
             "unit": "microseconds"
           }
@@ -158,22 +158,22 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4978,
             "unit": "ns"
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 536.174,
             "unit": "ns"
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2036.76,
             "unit": "ns"
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3474.85,
             "unit": "ns"
           }
@@ -202,22 +202,22 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.513,
             "unit": "ns"
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 541.027,
             "unit": "ns"
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2091.62,
             "unit": "ns"
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3395.82,
             "unit": "ns"
           }
@@ -244,22 +244,22 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4161,
             "unit": "ns"
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 533.326,
             "unit": "ns"
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2079.57,
             "unit": "ns"
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3409.76,
             "unit": "ns"
           }
@@ -288,22 +288,22 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7452,
             "unit": "ns"
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 443.03,
             "unit": "ns"
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.86,
             "unit": "ns"
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3385.92,
             "unit": "ns"
           }
@@ -330,22 +330,22 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6746,
             "unit": "ns"
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 442.099,
             "unit": "ns"
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1834.49,
             "unit": "ns"
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3405.15,
             "unit": "ns"
           }
@@ -372,22 +372,22 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.682,
             "unit": "ns"
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.613,
             "unit": "ns"
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.32,
             "unit": "ns"
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3345.26,
             "unit": "ns"
           }
@@ -414,22 +414,22 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6172,
             "unit": "ns"
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 443.966,
             "unit": "ns"
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.41,
             "unit": "ns"
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3434.88,
             "unit": "ns"
           }
@@ -458,22 +458,22 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8062,
             "unit": "ns"
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 444.757,
             "unit": "ns"
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1848.84,
             "unit": "ns"
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3055.39,
             "unit": "ns"
           }
@@ -500,22 +500,22 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6392,
             "unit": "ns"
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.255,
             "unit": "ns"
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1836.77,
             "unit": "ns"
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 2996.14,
             "unit": "ns"
           }
@@ -544,25 +544,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5963,
             "unit": "ns",
             "range": 0.191102
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 442.937,
             "unit": "ns",
             "range": 8.0273
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1837.31,
             "unit": "ns",
             "range": 4.94279
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3050.66,
             "unit": "ns",
             "range": 78.5733
@@ -590,25 +590,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5816,
             "unit": "ns",
             "range": 0.167297
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 445.844,
             "unit": "ns",
             "range": 11.3045
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1836.28,
             "unit": "ns",
             "range": 8.65724
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3090.03,
             "unit": "ns",
             "range": 103.853
@@ -638,25 +638,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6006,
             "unit": "ns",
             "range": 0.0905737
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.163,
             "unit": "ns",
             "range": 4.0122
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1834,
             "unit": "ns",
             "range": 6.987
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 2995.83,
             "unit": "ns",
             "range": 131.739
@@ -686,25 +686,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7799,
             "unit": "ns",
             "range": 0.209681
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.67,
             "unit": "ns",
             "range": 3.9865
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1837.76,
             "unit": "ns",
             "range": 8.43202
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3127.76,
             "unit": "ns",
             "range": 50.6695
@@ -734,25 +734,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.622,
             "unit": "ns",
             "range": 0.171575
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 442.465,
             "unit": "ns",
             "range": 8.08586
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1836.25,
             "unit": "ns",
             "range": 4.73618
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3059.03,
             "unit": "ns",
             "range": 87.745
@@ -780,25 +780,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6306,
             "unit": "ns",
             "range": 0.179937
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.504,
             "unit": "ns",
             "range": 5.53451
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1831.83,
             "unit": "ns",
             "range": 7.89353
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3045.98,
             "unit": "ns",
             "range": 95.3251
@@ -826,25 +826,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6471,
             "unit": "ns",
             "range": 0.152128
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 443.056,
             "unit": "ns",
             "range": 8.11238
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1840.92,
             "unit": "ns",
             "range": 15.5802
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3027.59,
             "unit": "ns",
             "range": 168.531
@@ -872,25 +872,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6476,
             "unit": "ns",
             "range": 0.223875
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.468,
             "unit": "ns",
             "range": 4.9736
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1835.46,
             "unit": "ns",
             "range": 6.73714
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3065.53,
             "unit": "ns",
             "range": 105.406
@@ -918,25 +918,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5949,
             "unit": "ns",
             "range": 0.189434
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 442.06,
             "unit": "ns",
             "range": 17.7742
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1831.25,
             "unit": "ns",
             "range": 6.43635
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3039.88,
             "unit": "ns",
             "range": 87.7582
@@ -964,25 +964,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5573,
             "unit": "ns",
             "range": 0.189682
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.679,
             "unit": "ns",
             "range": 4.33476
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1833.96,
             "unit": "ns",
             "range": 8.9762
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3093.57,
             "unit": "ns",
             "range": 110.052
@@ -1010,25 +1010,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5524,
             "unit": "ns",
             "range": 0.17375
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.254,
             "unit": "ns",
             "range": 5.84599
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1837.91,
             "unit": "ns",
             "range": 8.95573
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3113.33,
             "unit": "ns",
             "range": 105.3
@@ -1056,25 +1056,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6439,
             "unit": "ns",
             "range": 0.200144
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.682,
             "unit": "ns",
             "range": 3.10619
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1832.76,
             "unit": "ns",
             "range": 8.35664
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3009.64,
             "unit": "ns",
             "range": 100.97
@@ -1102,25 +1102,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6495,
             "unit": "ns",
             "range": 0.24248
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 444.304,
             "unit": "ns",
             "range": 3.86629
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1848.48,
             "unit": "ns",
             "range": 16.8341
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3057.94,
             "unit": "ns",
             "range": 69.8992
@@ -1148,25 +1148,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6985,
             "unit": "ns",
             "range": 0.191038
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.465,
             "unit": "ns",
             "range": 6.82532
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1830.79,
             "unit": "ns",
             "range": 9.15302
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3119.59,
             "unit": "ns",
             "range": 82.927
@@ -1194,25 +1194,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5371,
             "unit": "ns",
             "range": 0.162479
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.703,
             "unit": "ns",
             "range": 7.37435
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1835.16,
             "unit": "ns",
             "range": 8.57326
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3084.46,
             "unit": "ns",
             "range": 93.6419
@@ -1240,25 +1240,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.773,
             "unit": "ns",
             "range": 0.203738
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.743,
             "unit": "ns",
             "range": 9.0464
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1837.99,
             "unit": "ns",
             "range": 7.09998
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3104.06,
             "unit": "ns",
             "range": 52.9009
@@ -1286,25 +1286,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.557,
             "unit": "ns",
             "range": 0.171004
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 442.444,
             "unit": "ns",
             "range": 6.09871
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1831.05,
             "unit": "ns",
             "range": 7.47613
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3105.51,
             "unit": "ns",
             "range": 42.9885
@@ -1332,25 +1332,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5411,
             "unit": "ns",
             "range": 0.115508
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 442.44,
             "unit": "ns",
             "range": 11.6143
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1834.96,
             "unit": "ns",
             "range": 3.10545
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3038.51,
             "unit": "ns",
             "range": 94.0331
@@ -1380,25 +1380,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7632,
             "unit": "ns",
             "range": 0.135881
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 447.746,
             "unit": "ns",
             "range": 8.4227
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1849.6,
             "unit": "ns",
             "range": 9.39841
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3010.46,
             "unit": "ns",
             "range": 116.085
@@ -1426,25 +1426,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6829,
             "unit": "ns",
             "range": 0.180866
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 441.049,
             "unit": "ns",
             "range": 5.61025
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1836.82,
             "unit": "ns",
             "range": 7.3981
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3074.47,
             "unit": "ns",
             "range": 116.936
@@ -1472,25 +1472,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.627,
             "unit": "ns",
             "range": 0.193176
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.688,
             "unit": "ns",
             "range": 6.97425
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1833.64,
             "unit": "ns",
             "range": 8.22101
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3108.66,
             "unit": "ns",
             "range": 122.273
@@ -1518,25 +1518,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6381,
             "unit": "ns",
             "range": 0.165843
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 442.897,
             "unit": "ns",
             "range": 6.68907
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1834.36,
             "unit": "ns",
             "range": 9.20488
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3123.6,
             "unit": "ns",
             "range": 130.256
@@ -1564,25 +1564,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6187,
             "unit": "ns",
             "range": 0.156212
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 441.094,
             "unit": "ns",
             "range": 3.82671
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1834.3,
             "unit": "ns",
             "range": 7.4275
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3033.37,
             "unit": "ns",
             "range": 133.491
@@ -1610,25 +1610,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6841,
             "unit": "ns",
             "range": 0.204355
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 441.54,
             "unit": "ns",
             "range": 9.83551
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1840.29,
             "unit": "ns",
             "range": 10.0218
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 2950.07,
             "unit": "ns",
             "range": 163.988
@@ -1656,25 +1656,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7175,
             "unit": "ns",
             "range": 0.159688
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 442.332,
             "unit": "ns",
             "range": 4.58228
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1845.04,
             "unit": "ns",
             "range": 9.32206
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3004.42,
             "unit": "ns",
             "range": 118.536
@@ -1702,25 +1702,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7071,
             "unit": "ns",
             "range": 0.189055
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.496,
             "unit": "ns",
             "range": 5.58923
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1842.21,
             "unit": "ns",
             "range": 22.4055
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3033.42,
             "unit": "ns",
             "range": 150.377
@@ -1748,25 +1748,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7309,
             "unit": "ns",
             "range": 0.182068
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.059,
             "unit": "ns",
             "range": 5.65366
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1845.04,
             "unit": "ns",
             "range": 3.8711
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3087.31,
             "unit": "ns",
             "range": 107.97
@@ -1794,25 +1794,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6488,
             "unit": "ns",
             "range": 0.19593
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 432.561,
             "unit": "ns",
             "range": 3.92572
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.5,
             "unit": "ns",
             "range": 8.30491
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 2962.76,
             "unit": "ns",
             "range": 123.13
@@ -1842,25 +1842,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7045,
             "unit": "ns",
             "range": 0.126338
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.146,
             "unit": "ns",
             "range": 5.23252
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1837.86,
             "unit": "ns",
             "range": 7.70435
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3038.49,
             "unit": "ns",
             "range": 107.32
@@ -1888,25 +1888,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.708,
             "unit": "ns",
             "range": 0.142524
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.925,
             "unit": "ns",
             "range": 5.17334
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1837.18,
             "unit": "ns",
             "range": 6.53468
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 2949.23,
             "unit": "ns",
             "range": 153.734
@@ -1934,25 +1934,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6939,
             "unit": "ns",
             "range": 0.13847
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.16,
             "unit": "ns",
             "range": 3.96238
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1849.02,
             "unit": "ns",
             "range": 19.5069
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3066.31,
             "unit": "ns",
             "range": 96.4265
@@ -1980,25 +1980,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5984,
             "unit": "ns",
             "range": 0.150521
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 448.706,
             "unit": "ns",
             "range": 30.4878
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1847.11,
             "unit": "ns",
             "range": 9.94384
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3028.12,
             "unit": "ns",
             "range": 115.76
@@ -2026,25 +2026,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6741,
             "unit": "ns",
             "range": 0.193068
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.959,
             "unit": "ns",
             "range": 6.22049
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1838.45,
             "unit": "ns",
             "range": 5.40114
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3052.21,
             "unit": "ns",
             "range": 95.0215
@@ -2074,25 +2074,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7105,
             "unit": "ns",
             "range": 0.115094
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 450.867,
             "unit": "ns",
             "range": 27.5278
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1848.02,
             "unit": "ns",
             "range": 9.73605
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3131.09,
             "unit": "ns",
             "range": 91.9468
@@ -2122,25 +2122,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0319,
             "unit": "ns",
             "range": 0.690597
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.733,
             "unit": "ns",
             "range": 6.08266
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1846.87,
             "unit": "ns",
             "range": 7.26565
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3148.78,
             "unit": "ns",
             "range": 136.902
@@ -2170,25 +2170,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6491,
             "unit": "ns",
             "range": 0.245644
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 441.377,
             "unit": "ns",
             "range": 4.13848
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1847.16,
             "unit": "ns",
             "range": 5.14364
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3120.16,
             "unit": "ns",
             "range": 97.7621
@@ -2216,25 +2216,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6568,
             "unit": "ns",
             "range": 0.226737
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.868,
             "unit": "ns",
             "range": 3.93055
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1841.58,
             "unit": "ns",
             "range": 10.2533
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3141.85,
             "unit": "ns",
             "range": 157.078
@@ -2262,25 +2262,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6568,
             "unit": "ns",
             "range": 0.212613
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.501,
             "unit": "ns",
             "range": 7.87509
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1842.25,
             "unit": "ns",
             "range": 10.2449
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3120.68,
             "unit": "ns",
             "range": 141.932
@@ -2308,25 +2308,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7359,
             "unit": "ns",
             "range": 0.156174
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 433.467,
             "unit": "ns",
             "range": 3.50372
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1836.7,
             "unit": "ns",
             "range": 8.43708
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3127.37,
             "unit": "ns",
             "range": 92.6029
@@ -2356,25 +2356,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.824,
             "unit": "ns",
             "range": 0.18218
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.026,
             "unit": "ns",
             "range": 11.4182
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1850.82,
             "unit": "ns",
             "range": 12.5708
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3144.21,
             "unit": "ns",
             "range": 83.9765
@@ -2404,25 +2404,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6381,
             "unit": "ns",
             "range": 0.20476
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.089,
             "unit": "ns",
             "range": 5.47488
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1835.52,
             "unit": "ns",
             "range": 3.84234
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3117.39,
             "unit": "ns",
             "range": 101.051
@@ -2450,25 +2450,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7549,
             "unit": "ns",
             "range": 0.127909
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.508,
             "unit": "ns",
             "range": 4.87441
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1843.67,
             "unit": "ns",
             "range": 8.89196
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3191.21,
             "unit": "ns",
             "range": 101.762
@@ -2498,25 +2498,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8255,
             "unit": "ns",
             "range": 0.276069
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.532,
             "unit": "ns",
             "range": 5.5875
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1838.15,
             "unit": "ns",
             "range": 5.52622
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3172.5,
             "unit": "ns",
             "range": 114.168
@@ -2546,25 +2546,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0084,
             "unit": "ns",
             "range": 0.673876
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.197,
             "unit": "ns",
             "range": 7.06342
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.44,
             "unit": "ns",
             "range": 8.55758
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3159.07,
             "unit": "ns",
             "range": 64.4585
@@ -2594,25 +2594,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6783,
             "unit": "ns",
             "range": 0.22388
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.156,
             "unit": "ns",
             "range": 5.51199
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1841.39,
             "unit": "ns",
             "range": 5.43261
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3175.38,
             "unit": "ns",
             "range": 88.1466
@@ -2640,25 +2640,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7004,
             "unit": "ns",
             "range": 0.177892
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.689,
             "unit": "ns",
             "range": 5.94043
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.03,
             "unit": "ns",
             "range": 3.59318
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3106.81,
             "unit": "ns",
             "range": 85.1631
@@ -2686,25 +2686,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7186,
             "unit": "ns",
             "range": 0.230719
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.836,
             "unit": "ns",
             "range": 5.0042
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1849.34,
             "unit": "ns",
             "range": 9.20471
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3216.73,
             "unit": "ns",
             "range": 68.5208
@@ -2732,25 +2732,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6985,
             "unit": "ns",
             "range": 0.157754
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.144,
             "unit": "ns",
             "range": 4.9776
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1852.38,
             "unit": "ns",
             "range": 24.5749
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3097.74,
             "unit": "ns",
             "range": 134.837
@@ -2778,25 +2778,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6841,
             "unit": "ns",
             "range": 0.154415
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.059,
             "unit": "ns",
             "range": 6.39045
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1842.31,
             "unit": "ns",
             "range": 12.2487
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3120.7,
             "unit": "ns",
             "range": 88.6388
@@ -2824,25 +2824,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0403,
             "unit": "ns",
             "range": 0.760789
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.626,
             "unit": "ns",
             "range": 3.56405
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.26,
             "unit": "ns",
             "range": 11.4744
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3156.22,
             "unit": "ns",
             "range": 92.8789
@@ -2870,25 +2870,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6734,
             "unit": "ns",
             "range": 0.122909
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 433.952,
             "unit": "ns",
             "range": 5.32696
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1838.74,
             "unit": "ns",
             "range": 6.39138
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3114.5,
             "unit": "ns",
             "range": 55.8264
@@ -2916,25 +2916,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6776,
             "unit": "ns",
             "range": 0.193724
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.244,
             "unit": "ns",
             "range": 3.91118
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1841.98,
             "unit": "ns",
             "range": 10.0448
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3141.34,
             "unit": "ns",
             "range": 121.99
@@ -2962,25 +2962,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7218,
             "unit": "ns",
             "range": 0.139622
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.903,
             "unit": "ns",
             "range": 7.2657
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1836.08,
             "unit": "ns",
             "range": 6.4119
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3206.41,
             "unit": "ns",
             "range": 90.0183
@@ -3008,25 +3008,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7208,
             "unit": "ns",
             "range": 0.117025
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.586,
             "unit": "ns",
             "range": 5.3649
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1838.89,
             "unit": "ns",
             "range": 5.83826
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3151.2,
             "unit": "ns",
             "range": 63.8532
@@ -3054,25 +3054,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6661,
             "unit": "ns",
             "range": 0.114828
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.902,
             "unit": "ns",
             "range": 6.35534
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1873.73,
             "unit": "ns",
             "range": 76.6835
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3117.77,
             "unit": "ns",
             "range": 138.83
@@ -3100,25 +3100,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6986,
             "unit": "ns",
             "range": 0.121509
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.775,
             "unit": "ns",
             "range": 6.25819
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1843.72,
             "unit": "ns",
             "range": 12.4973
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3143.97,
             "unit": "ns",
             "range": 114.43
@@ -3146,25 +3146,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6644,
             "unit": "ns",
             "range": 0.123632
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.166,
             "unit": "ns",
             "range": 5.23288
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1845,
             "unit": "ns",
             "range": 5.79398
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3164.13,
             "unit": "ns",
             "range": 114.559
@@ -3192,25 +3192,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7522,
             "unit": "ns",
             "range": 0.195057
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.829,
             "unit": "ns",
             "range": 4.37296
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1846.21,
             "unit": "ns",
             "range": 7.49654
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3200.62,
             "unit": "ns",
             "range": 112.748
@@ -3238,25 +3238,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7837,
             "unit": "ns",
             "range": 0.146702
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.901,
             "unit": "ns",
             "range": 4.4334
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1841.29,
             "unit": "ns",
             "range": 7.21996
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3183.16,
             "unit": "ns",
             "range": 76.0827
@@ -3284,25 +3284,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6855,
             "unit": "ns",
             "range": 0.124308
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 432.834,
             "unit": "ns",
             "range": 6.17872
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.09,
             "unit": "ns",
             "range": 8.37292
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3105.91,
             "unit": "ns",
             "range": 106.05
@@ -3330,25 +3330,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6353,
             "unit": "ns",
             "range": 0.138239
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.297,
             "unit": "ns",
             "range": 5.69358
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1840.03,
             "unit": "ns",
             "range": 5.35854
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3101.22,
             "unit": "ns",
             "range": 177.159
@@ -3376,25 +3376,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.658,
             "unit": "ns",
             "range": 0.164566
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.305,
             "unit": "ns",
             "range": 4.98653
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1850.22,
             "unit": "ns",
             "range": 18.2512
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3159.87,
             "unit": "ns",
             "range": 98.9154
@@ -3422,25 +3422,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.725,
             "unit": "ns",
             "range": 0.142687
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.637,
             "unit": "ns",
             "range": 2.96664
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1840.81,
             "unit": "ns",
             "range": 5.32056
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3201.24,
             "unit": "ns",
             "range": 76.9593
@@ -3468,25 +3468,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6643,
             "unit": "ns",
             "range": 0.162018
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.118,
             "unit": "ns",
             "range": 4.57375
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1837.64,
             "unit": "ns",
             "range": 6.24659
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3150.31,
             "unit": "ns",
             "range": 85.0936
@@ -3514,25 +3514,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6781,
             "unit": "ns",
             "range": 0.12857
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.429,
             "unit": "ns",
             "range": 9.1221
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1840.71,
             "unit": "ns",
             "range": 11.4177
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3104.72,
             "unit": "ns",
             "range": 110.486
@@ -3560,25 +3560,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6545,
             "unit": "ns",
             "range": 0.194476
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.819,
             "unit": "ns",
             "range": 3.69408
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.46,
             "unit": "ns",
             "range": 4.85549
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3115.84,
             "unit": "ns",
             "range": 118.329
@@ -3606,25 +3606,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7105,
             "unit": "ns",
             "range": 0.182776
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.883,
             "unit": "ns",
             "range": 5.48233
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1837.17,
             "unit": "ns",
             "range": 7.12188
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3177.03,
             "unit": "ns",
             "range": 91.1339
@@ -3652,25 +3652,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.813,
             "unit": "ns",
             "range": 0.453183
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.617,
             "unit": "ns",
             "range": 5.18402
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1833.07,
             "unit": "ns",
             "range": 6.91672
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3103.18,
             "unit": "ns",
             "range": 69.6555
@@ -3698,25 +3698,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7218,
             "unit": "ns",
             "range": 0.170858
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 448.505,
             "unit": "ns",
             "range": 31.6346
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.23,
             "unit": "ns",
             "range": 6.87191
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3193.49,
             "unit": "ns",
             "range": 81.8914
@@ -3744,25 +3744,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8022,
             "unit": "ns",
             "range": 0.113027
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.497,
             "unit": "ns",
             "range": 5.71442
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1847.4,
             "unit": "ns",
             "range": 7.52413
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3153.34,
             "unit": "ns",
             "range": 95.3028
@@ -3790,25 +3790,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6947,
             "unit": "ns",
             "range": 0.149751
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.273,
             "unit": "ns",
             "range": 5.63528
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1841.37,
             "unit": "ns",
             "range": 10.5657
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3116.41,
             "unit": "ns",
             "range": 69.2199
@@ -3836,25 +3836,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8972,
             "unit": "ns",
             "range": 0.622152
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.29,
             "unit": "ns",
             "range": 4.8384
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1843.67,
             "unit": "ns",
             "range": 22.941
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3160.09,
             "unit": "ns",
             "range": 85.6319
@@ -3882,25 +3882,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6812,
             "unit": "ns",
             "range": 0.179938
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.106,
             "unit": "ns",
             "range": 6.99186
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1843.59,
             "unit": "ns",
             "range": 11.5564
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3152.26,
             "unit": "ns",
             "range": 77.2329
@@ -3928,25 +3928,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7375,
             "unit": "ns",
             "range": 0.197308
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.068,
             "unit": "ns",
             "range": 2.90493
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.1,
             "unit": "ns",
             "range": 9.71572
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3200.97,
             "unit": "ns",
             "range": 63.0205
@@ -3974,25 +3974,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8477,
             "unit": "ns",
             "range": 0.254107
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.438,
             "unit": "ns",
             "range": 5.04215
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1843.72,
             "unit": "ns",
             "range": 8.86571
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3182.74,
             "unit": "ns",
             "range": 58.1804
@@ -4020,25 +4020,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6329,
             "unit": "ns",
             "range": 0.203598
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 444.132,
             "unit": "ns",
             "range": 26.7532
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1838.72,
             "unit": "ns",
             "range": 7.21084
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3143.49,
             "unit": "ns",
             "range": 93.1833
@@ -4066,25 +4066,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7441,
             "unit": "ns",
             "range": 0.189106
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.746,
             "unit": "ns",
             "range": 6.42056
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1834.78,
             "unit": "ns",
             "range": 6.79583
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3115.78,
             "unit": "ns",
             "range": 109.673
@@ -4112,25 +4112,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7395,
             "unit": "ns",
             "range": 0.282154
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.987,
             "unit": "ns",
             "range": 6.47038
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1837.13,
             "unit": "ns",
             "range": 7.86777
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3172.67,
             "unit": "ns",
             "range": 95.4998
@@ -4158,25 +4158,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6821,
             "unit": "ns",
             "range": 0.144893
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.945,
             "unit": "ns",
             "range": 5.07823
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1842.01,
             "unit": "ns",
             "range": 6.37356
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3186.11,
             "unit": "ns",
             "range": 120.373
@@ -4204,25 +4204,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.0548,
             "unit": "ns",
             "range": 0.759636
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 433.8,
             "unit": "ns",
             "range": 8.28694
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1834.58,
             "unit": "ns",
             "range": 18.1682
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3137.76,
             "unit": "ns",
             "range": 98.0691
@@ -4250,25 +4250,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6103,
             "unit": "ns",
             "range": 0.15113
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 431.111,
             "unit": "ns",
             "range": 4.27212
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1841.34,
             "unit": "ns",
             "range": 5.52444
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3121.44,
             "unit": "ns",
             "range": 100.878
@@ -4298,25 +4298,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7149,
             "unit": "ns",
             "range": 0.187901
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.108,
             "unit": "ns",
             "range": 4.99013
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1835.92,
             "unit": "ns",
             "range": 10.8886
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3185.33,
             "unit": "ns",
             "range": 122.88
@@ -4344,25 +4344,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.685,
             "unit": "ns",
             "range": 0.178993
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.751,
             "unit": "ns",
             "range": 5.23048
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.5,
             "unit": "ns",
             "range": 8.23893
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3104.1,
             "unit": "ns",
             "range": 96.4508
@@ -4390,25 +4390,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.776,
             "unit": "ns",
             "range": 0.516524
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.537,
             "unit": "ns",
             "range": 5.38743
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1841.25,
             "unit": "ns",
             "range": 5.86338
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3176.59,
             "unit": "ns",
             "range": 124.283
@@ -4436,25 +4436,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6212,
             "unit": "ns",
             "range": 0.131439
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.603,
             "unit": "ns",
             "range": 4.369
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1838.79,
             "unit": "ns",
             "range": 7.31873
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3127.73,
             "unit": "ns",
             "range": 112.795
@@ -4482,25 +4482,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7453,
             "unit": "ns",
             "range": 0.144211
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.101,
             "unit": "ns",
             "range": 7.45724
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.15,
             "unit": "ns",
             "range": 4.94158
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3148.14,
             "unit": "ns",
             "range": 75.3993
@@ -4528,25 +4528,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7589,
             "unit": "ns",
             "range": 0.150224
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.256,
             "unit": "ns",
             "range": 3.15958
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1846.18,
             "unit": "ns",
             "range": 3.94103
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3170.24,
             "unit": "ns",
             "range": 95.511
@@ -4574,25 +4574,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7033,
             "unit": "ns",
             "range": 0.142184
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 441.044,
             "unit": "ns",
             "range": 5.96643
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.7,
             "unit": "ns",
             "range": 8.55853
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3090.27,
             "unit": "ns",
             "range": 125.646
@@ -4620,25 +4620,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.806,
             "unit": "ns",
             "range": 0.138453
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 433.141,
             "unit": "ns",
             "range": 5.73099
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1843.81,
             "unit": "ns",
             "range": 16.7247
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3107.53,
             "unit": "ns",
             "range": 55.6093
@@ -4666,25 +4666,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7677,
             "unit": "ns",
             "range": 0.0896507
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.066,
             "unit": "ns",
             "range": 3.1575
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1836.25,
             "unit": "ns",
             "range": 4.19714
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3111.41,
             "unit": "ns",
             "range": 159.28
@@ -4714,25 +4714,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8904,
             "unit": "ns",
             "range": 0.384882
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.861,
             "unit": "ns",
             "range": 5.81441
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1846.51,
             "unit": "ns",
             "range": 6.06558
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3138.75,
             "unit": "ns",
             "range": 111.026
@@ -4762,25 +4762,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7029,
             "unit": "ns",
             "range": 0.123161
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.435,
             "unit": "ns",
             "range": 6.70621
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1845.8,
             "unit": "ns",
             "range": 10.5129
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3124.04,
             "unit": "ns",
             "range": 131.05
@@ -4810,25 +4810,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7588,
             "unit": "ns",
             "range": 0.356346
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.189,
             "unit": "ns",
             "range": 6.26141
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1845.33,
             "unit": "ns",
             "range": 8.20658
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3112.03,
             "unit": "ns",
             "range": 130.86
@@ -4858,25 +4858,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6256,
             "unit": "ns",
             "range": 0.179784
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 458.637,
             "unit": "ns",
             "range": 51.9846
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1847.4,
             "unit": "ns",
             "range": 5.43176
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3228.48,
             "unit": "ns",
             "range": 71.7061
@@ -4906,25 +4906,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7911,
             "unit": "ns",
             "range": 0.192192
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.508,
             "unit": "ns",
             "range": 2.11715
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1847.77,
             "unit": "ns",
             "range": 9.97755
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3152.61,
             "unit": "ns",
             "range": 133.703
@@ -4954,25 +4954,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7097,
             "unit": "ns",
             "range": 0.126923
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.15,
             "unit": "ns",
             "range": 3.12498
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.26,
             "unit": "ns",
             "range": 14.0074
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3124.37,
             "unit": "ns",
             "range": 139.686
@@ -5002,25 +5002,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6289,
             "unit": "ns",
             "range": 0.146883
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 447.272,
             "unit": "ns",
             "range": 26.9846
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.79,
             "unit": "ns",
             "range": 9.40299
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3143.75,
             "unit": "ns",
             "range": 79.524
@@ -5048,25 +5048,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6248,
             "unit": "ns",
             "range": 0.277387
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.35,
             "unit": "ns",
             "range": 4.79026
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1859.36,
             "unit": "ns",
             "range": 22.8013
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3125.23,
             "unit": "ns",
             "range": 107.653
@@ -5094,25 +5094,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7228,
             "unit": "ns",
             "range": 0.162265
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.807,
             "unit": "ns",
             "range": 3.85138
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.13,
             "unit": "ns",
             "range": 7.69411
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3113.75,
             "unit": "ns",
             "range": 88.4623
@@ -5140,25 +5140,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6351,
             "unit": "ns",
             "range": 0.205923
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.809,
             "unit": "ns",
             "range": 5.24443
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1837.02,
             "unit": "ns",
             "range": 9.24201
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3138.97,
             "unit": "ns",
             "range": 119.503
@@ -5186,25 +5186,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8286,
             "unit": "ns",
             "range": 0.136514
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 432.849,
             "unit": "ns",
             "range": 3.09196
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.71,
             "unit": "ns",
             "range": 4.704
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3161.82,
             "unit": "ns",
             "range": 90.1739
@@ -5234,25 +5234,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.9262,
             "unit": "ns",
             "range": 0.462526
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 461.433,
             "unit": "ns",
             "range": 52.955
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1845.56,
             "unit": "ns",
             "range": 7.85753
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3141.12,
             "unit": "ns",
             "range": 74.5345
@@ -5282,25 +5282,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6461,
             "unit": "ns",
             "range": 0.224881
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.789,
             "unit": "ns",
             "range": 5.53416
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1838,
             "unit": "ns",
             "range": 8.15998
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3205.96,
             "unit": "ns",
             "range": 122.693
@@ -5328,25 +5328,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7088,
             "unit": "ns",
             "range": 0.157275
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.813,
             "unit": "ns",
             "range": 3.99262
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1842.71,
             "unit": "ns",
             "range": 11.7078
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3113.84,
             "unit": "ns",
             "range": 84.5775
@@ -5374,25 +5374,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.65,
             "unit": "ns",
             "range": 0.0929052
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.393,
             "unit": "ns",
             "range": 6.75176
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1835.11,
             "unit": "ns",
             "range": 6.42941
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3125.91,
             "unit": "ns",
             "range": 113.497
@@ -5420,25 +5420,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6918,
             "unit": "ns",
             "range": 0.187907
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.149,
             "unit": "ns",
             "range": 5.35515
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1838.23,
             "unit": "ns",
             "range": 7.44535
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3171.73,
             "unit": "ns",
             "range": 39.7929
@@ -5466,25 +5466,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7509,
             "unit": "ns",
             "range": 0.176214
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 433.215,
             "unit": "ns",
             "range": 6.22741
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1841.07,
             "unit": "ns",
             "range": 12.8823
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3213.26,
             "unit": "ns",
             "range": 92.1297
@@ -5512,25 +5512,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6982,
             "unit": "ns",
             "range": 0.104642
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.496,
             "unit": "ns",
             "range": 4.73149
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1846.1,
             "unit": "ns",
             "range": 22.716
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3176,
             "unit": "ns",
             "range": 133.478
@@ -5558,25 +5558,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7163,
             "unit": "ns",
             "range": 0.117196
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.41,
             "unit": "ns",
             "range": 6.70375
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1833.62,
             "unit": "ns",
             "range": 9.94374
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3175.55,
             "unit": "ns",
             "range": 174.185
@@ -5604,25 +5604,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7847,
             "unit": "ns",
             "range": 0.204883
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.182,
             "unit": "ns",
             "range": 5.41896
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1864.89,
             "unit": "ns",
             "range": 56.8907
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3110.06,
             "unit": "ns",
             "range": 143.855
@@ -5650,25 +5650,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7302,
             "unit": "ns",
             "range": 0.136433
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.499,
             "unit": "ns",
             "range": 4.37051
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1863.45,
             "unit": "ns",
             "range": 63.1551
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3191.22,
             "unit": "ns",
             "range": 105.847
@@ -5696,25 +5696,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6861,
             "unit": "ns",
             "range": 0.183227
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.258,
             "unit": "ns",
             "range": 3.8787
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1840.98,
             "unit": "ns",
             "range": 3.91455
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3066.58,
             "unit": "ns",
             "range": 142.824
@@ -5742,25 +5742,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6224,
             "unit": "ns",
             "range": 0.145785
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.699,
             "unit": "ns",
             "range": 2.76244
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1837.67,
             "unit": "ns",
             "range": 7.88452
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3163.66,
             "unit": "ns",
             "range": 147.286
@@ -5788,25 +5788,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6673,
             "unit": "ns",
             "range": 0.160622
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 432.958,
             "unit": "ns",
             "range": 5.32027
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1835.82,
             "unit": "ns",
             "range": 5.53684
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3195.31,
             "unit": "ns",
             "range": 78.6245
@@ -5834,25 +5834,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8391,
             "unit": "ns",
             "range": 0.197129
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.354,
             "unit": "ns",
             "range": 5.14972
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.32,
             "unit": "ns",
             "range": 12.0667
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3138.37,
             "unit": "ns",
             "range": 151.794
@@ -5880,25 +5880,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7396,
             "unit": "ns",
             "range": 0.170703
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.892,
             "unit": "ns",
             "range": 4.2994
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.62,
             "unit": "ns",
             "range": 5.9867
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3183.72,
             "unit": "ns",
             "range": 77.699
@@ -5926,25 +5926,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6929,
             "unit": "ns",
             "range": 0.216647
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 442.955,
             "unit": "ns",
             "range": 3.49228
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1845.1,
             "unit": "ns",
             "range": 10.0293
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3163.83,
             "unit": "ns",
             "range": 126.543
@@ -5972,25 +5972,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7879,
             "unit": "ns",
             "range": 0.232151
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.021,
             "unit": "ns",
             "range": 4.82409
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1840.97,
             "unit": "ns",
             "range": 5.75451
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3152.45,
             "unit": "ns",
             "range": 98.3425
@@ -6018,25 +6018,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6399,
             "unit": "ns",
             "range": 0.199619
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.21,
             "unit": "ns",
             "range": 4.71531
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1842.51,
             "unit": "ns",
             "range": 8.17031
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3094,
             "unit": "ns",
             "range": 93.9464
@@ -6064,25 +6064,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.622,
             "unit": "ns",
             "range": 0.222716
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.343,
             "unit": "ns",
             "range": 3.98282
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1840.91,
             "unit": "ns",
             "range": 8.33985
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3124.57,
             "unit": "ns",
             "range": 82.9731
@@ -6110,25 +6110,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6034,
             "unit": "ns",
             "range": 0.277095
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.861,
             "unit": "ns",
             "range": 4.86254
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.43,
             "unit": "ns",
             "range": 4.54804
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3188.65,
             "unit": "ns",
             "range": 104.25
@@ -6156,25 +6156,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6115,
             "unit": "ns",
             "range": 0.220031
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 441.386,
             "unit": "ns",
             "range": 4.75743
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1840.58,
             "unit": "ns",
             "range": 8.39729
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3212.2,
             "unit": "ns",
             "range": 86.4304
@@ -6202,25 +6202,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5658,
             "unit": "ns",
             "range": 0.166874
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.002,
             "unit": "ns",
             "range": 5.61871
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1842.93,
             "unit": "ns",
             "range": 9.53496
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3199.7,
             "unit": "ns",
             "range": 98.9779
@@ -6250,25 +6250,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5421,
             "unit": "ns",
             "range": 0.164822
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.753,
             "unit": "ns",
             "range": 10.2612
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1840.4,
             "unit": "ns",
             "range": 7.98167
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3238.82,
             "unit": "ns",
             "range": 82.9724
@@ -6298,25 +6298,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6063,
             "unit": "ns",
             "range": 0.134
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.462,
             "unit": "ns",
             "range": 5.84897
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1849.29,
             "unit": "ns",
             "range": 9.93597
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3152.19,
             "unit": "ns",
             "range": 90.3733
@@ -6346,25 +6346,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5695,
             "unit": "ns",
             "range": 0.213697
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.862,
             "unit": "ns",
             "range": 5.14202
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1842.8,
             "unit": "ns",
             "range": 6.18581
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3142.69,
             "unit": "ns",
             "range": 113.134
@@ -6394,25 +6394,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5795,
             "unit": "ns",
             "range": 0.210133
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.451,
             "unit": "ns",
             "range": 7.36074
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1848.47,
             "unit": "ns",
             "range": 13.3798
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3254.11,
             "unit": "ns",
             "range": 97.5747
@@ -6442,25 +6442,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.3618,
             "unit": "ns",
             "range": 0.433722
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.925,
             "unit": "ns",
             "range": 7.93992
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1846.65,
             "unit": "ns",
             "range": 14.4478
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3174.89,
             "unit": "ns",
             "range": 88.5127
@@ -6488,25 +6488,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.61,
             "unit": "ns",
             "range": 0.186579
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.801,
             "unit": "ns",
             "range": 4.90537
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1847.25,
             "unit": "ns",
             "range": 8.43286
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3176.13,
             "unit": "ns",
             "range": 62.7535
@@ -6534,25 +6534,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5742,
             "unit": "ns",
             "range": 0.136984
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.967,
             "unit": "ns",
             "range": 5.32475
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.02,
             "unit": "ns",
             "range": 11.5277
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3191.77,
             "unit": "ns",
             "range": 121.287
@@ -6580,25 +6580,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5807,
             "unit": "ns",
             "range": 0.240005
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 443.757,
             "unit": "ns",
             "range": 13.4349
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1848.04,
             "unit": "ns",
             "range": 8.79286
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3146.56,
             "unit": "ns",
             "range": 101.365
@@ -6626,25 +6626,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.566,
             "unit": "ns",
             "range": 0.172556
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.639,
             "unit": "ns",
             "range": 3.99722
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.46,
             "unit": "ns",
             "range": 9.92919
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3243.29,
             "unit": "ns",
             "range": 68.4772
@@ -6672,25 +6672,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6005,
             "unit": "ns",
             "range": 0.155108
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.952,
             "unit": "ns",
             "range": 6.03366
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1846.51,
             "unit": "ns",
             "range": 3.23467
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3193.48,
             "unit": "ns",
             "range": 124.625
@@ -6718,25 +6718,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5289,
             "unit": "ns",
             "range": 0.145995
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.552,
             "unit": "ns",
             "range": 5.484
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1846.05,
             "unit": "ns",
             "range": 9.36974
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3193.44,
             "unit": "ns",
             "range": 71.2592
@@ -6766,25 +6766,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.561,
             "unit": "ns",
             "range": 0.201971
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.541,
             "unit": "ns",
             "range": 5.01987
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.56,
             "unit": "ns",
             "range": 7.39105
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3153.88,
             "unit": "ns",
             "range": 119.48
@@ -6812,25 +6812,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4798,
             "unit": "ns",
             "range": 0.177579
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.947,
             "unit": "ns",
             "range": 6.06937
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1847.15,
             "unit": "ns",
             "range": 16.4509
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3208.45,
             "unit": "ns",
             "range": 99.3069
@@ -6858,25 +6858,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5085,
             "unit": "ns",
             "range": 0.187423
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.246,
             "unit": "ns",
             "range": 4.88472
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1848.81,
             "unit": "ns",
             "range": 10.7753
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3181.56,
             "unit": "ns",
             "range": 96.9296
@@ -6904,25 +6904,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8965,
             "unit": "ns",
             "range": 0.701746
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.283,
             "unit": "ns",
             "range": 4.68166
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1851.64,
             "unit": "ns",
             "range": 12.789
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3141.26,
             "unit": "ns",
             "range": 130.56
@@ -6950,25 +6950,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.506,
             "unit": "ns",
             "range": 0.136125
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.156,
             "unit": "ns",
             "range": 4.74156
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1841.73,
             "unit": "ns",
             "range": 6.21281
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3109.31,
             "unit": "ns",
             "range": 75.6898
@@ -6996,25 +6996,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6714,
             "unit": "ns",
             "range": 0.215953
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.994,
             "unit": "ns",
             "range": 3.39449
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1847.41,
             "unit": "ns",
             "range": 7.6082
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3236.26,
             "unit": "ns",
             "range": 90.1641
@@ -7042,25 +7042,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4822,
             "unit": "ns",
             "range": 0.181123
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.592,
             "unit": "ns",
             "range": 10.6775
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1849.71,
             "unit": "ns",
             "range": 12.1389
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3194.21,
             "unit": "ns",
             "range": 86.3998
@@ -7088,25 +7088,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7097,
             "unit": "ns",
             "range": 0.419894
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.924,
             "unit": "ns",
             "range": 6.02605
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1838.47,
             "unit": "ns",
             "range": 10.4428
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3192.92,
             "unit": "ns",
             "range": 87.2311
@@ -7134,25 +7134,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4928,
             "unit": "ns",
             "range": 0.146809
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.051,
             "unit": "ns",
             "range": 5.59786
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1848.17,
             "unit": "ns",
             "range": 7.42069
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3165.26,
             "unit": "ns",
             "range": 81.7632
@@ -7180,25 +7180,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5339,
             "unit": "ns",
             "range": 0.0918408
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 432.513,
             "unit": "ns",
             "range": 4.0916
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1866.71,
             "unit": "ns",
             "range": 68.2322
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3200.48,
             "unit": "ns",
             "range": 109.998
@@ -7226,25 +7226,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5853,
             "unit": "ns",
             "range": 0.231012
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.444,
             "unit": "ns",
             "range": 12.3092
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.63,
             "unit": "ns",
             "range": 6.44844
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3197.56,
             "unit": "ns",
             "range": 86.8424
@@ -7272,25 +7272,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4726,
             "unit": "ns",
             "range": 0.151547
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.666,
             "unit": "ns",
             "range": 5.11059
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1838.13,
             "unit": "ns",
             "range": 9.13645
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3207.16,
             "unit": "ns",
             "range": 88.7669
@@ -7320,25 +7320,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.703,
             "unit": "ns",
             "range": 0.197556
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.941,
             "unit": "ns",
             "range": 5.49836
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1843.78,
             "unit": "ns",
             "range": 5.51368
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3160.18,
             "unit": "ns",
             "range": 140.116
@@ -7366,25 +7366,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5513,
             "unit": "ns",
             "range": 0.233498
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.904,
             "unit": "ns",
             "range": 6.14501
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1841.68,
             "unit": "ns",
             "range": 8.01723
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3215.07,
             "unit": "ns",
             "range": 109.335
@@ -7412,25 +7412,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5832,
             "unit": "ns",
             "range": 0.160911
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.099,
             "unit": "ns",
             "range": 6.49541
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1849.82,
             "unit": "ns",
             "range": 18.2399
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3209.49,
             "unit": "ns",
             "range": 110.36
@@ -7458,25 +7458,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5977,
             "unit": "ns",
             "range": 0.106
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.765,
             "unit": "ns",
             "range": 6.07123
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.03,
             "unit": "ns",
             "range": 5.4961
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3229.51,
             "unit": "ns",
             "range": 93.0143
@@ -7504,25 +7504,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5588,
             "unit": "ns",
             "range": 0.178814
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 452.89,
             "unit": "ns",
             "range": 55.3854
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1848.33,
             "unit": "ns",
             "range": 6.78551
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3205.52,
             "unit": "ns",
             "range": 77.8543
@@ -7550,25 +7550,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4526,
             "unit": "ns",
             "range": 0.129446
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.241,
             "unit": "ns",
             "range": 3.47465
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1848.62,
             "unit": "ns",
             "range": 15.7508
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3165.64,
             "unit": "ns",
             "range": 78.6351
@@ -7598,25 +7598,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6119,
             "unit": "ns",
             "range": 0.158744
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 443.98,
             "unit": "ns",
             "range": 11.9732
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1854.39,
             "unit": "ns",
             "range": 9.09359
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3157.94,
             "unit": "ns",
             "range": 69.078
@@ -7646,25 +7646,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1615,
             "unit": "ns",
             "range": 4.0779
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.459,
             "unit": "ns",
             "range": 5.06225
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1846.92,
             "unit": "ns",
             "range": 9.97481
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3187.71,
             "unit": "ns",
             "range": 98.2727
@@ -7692,25 +7692,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4816,
             "unit": "ns",
             "range": 0.203957
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.419,
             "unit": "ns",
             "range": 6.89631
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1848.69,
             "unit": "ns",
             "range": 14.0492
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3202.59,
             "unit": "ns",
             "range": 68.3469
@@ -7738,25 +7738,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.604,
             "unit": "ns",
             "range": 0.199597
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.099,
             "unit": "ns",
             "range": 3.93951
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.91,
             "unit": "ns",
             "range": 10.7605
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3186.93,
             "unit": "ns",
             "range": 95.0403
@@ -7784,25 +7784,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5631,
             "unit": "ns",
             "range": 0.139464
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.819,
             "unit": "ns",
             "range": 4.80404
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1848.66,
             "unit": "ns",
             "range": 9.75097
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3178.52,
             "unit": "ns",
             "range": 136.315
@@ -7830,25 +7830,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6972,
             "unit": "ns",
             "range": 0.419587
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 431.719,
             "unit": "ns",
             "range": 4.85523
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.07,
             "unit": "ns",
             "range": 7.29888
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3193.15,
             "unit": "ns",
             "range": 80.9712
@@ -7876,25 +7876,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5409,
             "unit": "ns",
             "range": 0.140067
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.99,
             "unit": "ns",
             "range": 5.57556
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1848.31,
             "unit": "ns",
             "range": 9.21166
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3256.41,
             "unit": "ns",
             "range": 71.1779
@@ -7922,25 +7922,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6951,
             "unit": "ns",
             "range": 0.587168
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.224,
             "unit": "ns",
             "range": 8.07322
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1847.5,
             "unit": "ns",
             "range": 10.5446
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3209.22,
             "unit": "ns",
             "range": 96.5275
@@ -7968,25 +7968,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.482,
             "unit": "ns",
             "range": 0.14872
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.725,
             "unit": "ns",
             "range": 10.9113
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1851.73,
             "unit": "ns",
             "range": 10.0079
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3202.25,
             "unit": "ns",
             "range": 85.0453
@@ -8014,25 +8014,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6035,
             "unit": "ns",
             "range": 0.140197
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.569,
             "unit": "ns",
             "range": 5.3474
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1842.48,
             "unit": "ns",
             "range": 7.60954
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3233.17,
             "unit": "ns",
             "range": 54.6887
@@ -8060,25 +8060,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4177,
             "unit": "ns",
             "range": 0.097905
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.291,
             "unit": "ns",
             "range": 6.5733
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.77,
             "unit": "ns",
             "range": 14.379
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3253.58,
             "unit": "ns",
             "range": 77.8617
@@ -8106,25 +8106,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6726,
             "unit": "ns",
             "range": 0.231267
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.342,
             "unit": "ns",
             "range": 5.77416
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1849.25,
             "unit": "ns",
             "range": 7.87064
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3182.16,
             "unit": "ns",
             "range": 78.1687
@@ -8152,25 +8152,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5129,
             "unit": "ns",
             "range": 0.148146
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.977,
             "unit": "ns",
             "range": 8.15917
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1842.85,
             "unit": "ns",
             "range": 5.45807
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3171.11,
             "unit": "ns",
             "range": 93.169
@@ -8198,25 +8198,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6832,
             "unit": "ns",
             "range": 0.237984
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 445.13,
             "unit": "ns",
             "range": 20.1027
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1843.71,
             "unit": "ns",
             "range": 8.40649
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3147.49,
             "unit": "ns",
             "range": 68.6454
@@ -8244,25 +8244,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6072,
             "unit": "ns",
             "range": 0.154708
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.221,
             "unit": "ns",
             "range": 4.61248
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1842.37,
             "unit": "ns",
             "range": 7.77344
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3183.56,
             "unit": "ns",
             "range": 90.0741
@@ -8290,25 +8290,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.615,
             "unit": "ns",
             "range": 0.163688
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.87,
             "unit": "ns",
             "range": 3.99633
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1857.22,
             "unit": "ns",
             "range": 16.2327
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3150.13,
             "unit": "ns",
             "range": 45.9579
@@ -8336,25 +8336,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5516,
             "unit": "ns",
             "range": 0.155376
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.732,
             "unit": "ns",
             "range": 13.6984
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.75,
             "unit": "ns",
             "range": 9.49099
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3229.43,
             "unit": "ns",
             "range": 50.4787
@@ -8382,25 +8382,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4744,
             "unit": "ns",
             "range": 0.269362
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.29,
             "unit": "ns",
             "range": 11.7192
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.65,
             "unit": "ns",
             "range": 13.7614
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3121.03,
             "unit": "ns",
             "range": 123.681
@@ -8428,25 +8428,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7439,
             "unit": "ns",
             "range": 0.224585
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.214,
             "unit": "ns",
             "range": 4.02217
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1843.52,
             "unit": "ns",
             "range": 5.94741
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3142.04,
             "unit": "ns",
             "range": 112.737
@@ -8474,25 +8474,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5341,
             "unit": "ns",
             "range": 0.162922
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439,
             "unit": "ns",
             "range": 5.30636
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1852.46,
             "unit": "ns",
             "range": 16.4036
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3167.13,
             "unit": "ns",
             "range": 97.7636
@@ -8520,25 +8520,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5215,
             "unit": "ns",
             "range": 0.229772
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.977,
             "unit": "ns",
             "range": 5.38487
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1846.68,
             "unit": "ns",
             "range": 8.89629
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3222.73,
             "unit": "ns",
             "range": 87.1559
@@ -8566,25 +8566,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6117,
             "unit": "ns",
             "range": 0.141359
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.808,
             "unit": "ns",
             "range": 8.63066
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.04,
             "unit": "ns",
             "range": 8.93909
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3166.88,
             "unit": "ns",
             "range": 85.0797
@@ -8612,25 +8612,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.1585,
             "unit": "ns",
             "range": 0.135651
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 452.723,
             "unit": "ns",
             "range": 4.53533
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1877.48,
             "unit": "ns",
             "range": 11.5074
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3732.79,
             "unit": "ns",
             "range": 68.3748
@@ -8658,25 +8658,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.142,
             "unit": "ns",
             "range": 0.163506
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 441.101,
             "unit": "ns",
             "range": 5.20523
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1858.36,
             "unit": "ns",
             "range": 6.85901
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3812.15,
             "unit": "ns",
             "range": 72.7202
@@ -8704,25 +8704,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0561,
             "unit": "ns",
             "range": 0.15364
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.911,
             "unit": "ns",
             "range": 3.01059
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1854.61,
             "unit": "ns",
             "range": 7.85815
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3856.4,
             "unit": "ns",
             "range": 46.192
@@ -8750,25 +8750,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0669,
             "unit": "ns",
             "range": 0.498558
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.248,
             "unit": "ns",
             "range": 5.40039
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1856.02,
             "unit": "ns",
             "range": 14.1302
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3831.24,
             "unit": "ns",
             "range": 77.1895
@@ -8796,25 +8796,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0445,
             "unit": "ns",
             "range": 0.244037
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 443.086,
             "unit": "ns",
             "range": 12.4963
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1846.46,
             "unit": "ns",
             "range": 9.04922
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3842.43,
             "unit": "ns",
             "range": 70.095
@@ -8842,25 +8842,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.1006,
             "unit": "ns",
             "range": 0.132597
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 442.257,
             "unit": "ns",
             "range": 3.47997
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1858.39,
             "unit": "ns",
             "range": 5.12348
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3846.94,
             "unit": "ns",
             "range": 76.0543
@@ -8888,25 +8888,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.2267,
             "unit": "ns",
             "range": 0.563543
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 444.775,
             "unit": "ns",
             "range": 5.08586
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1856.77,
             "unit": "ns",
             "range": 8.01044
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3842.39,
             "unit": "ns",
             "range": 60.9589
@@ -8934,25 +8934,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.1173,
             "unit": "ns",
             "range": 0.153707
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.345,
             "unit": "ns",
             "range": 4.51807
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1856.39,
             "unit": "ns",
             "range": 9.35097
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3829.95,
             "unit": "ns",
             "range": 92.2764
@@ -8980,25 +8980,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.3555,
             "unit": "ns",
             "range": 0.858442
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 445.834,
             "unit": "ns",
             "range": 9.3522
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1876.79,
             "unit": "ns",
             "range": 14.8246
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3900.4,
             "unit": "ns",
             "range": 107.531
@@ -9026,25 +9026,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.205,
             "unit": "ns",
             "range": 0.191314
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 447.524,
             "unit": "ns",
             "range": 9.74953
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1856.1,
             "unit": "ns",
             "range": 6.96182
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3782.65,
             "unit": "ns",
             "range": 60.5891
@@ -9072,25 +9072,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0089,
             "unit": "ns",
             "range": 0.187514
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.987,
             "unit": "ns",
             "range": 5.29991
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1854.6,
             "unit": "ns",
             "range": 13.251
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3869.89,
             "unit": "ns",
             "range": 64.7903
@@ -9118,25 +9118,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.1206,
             "unit": "ns",
             "range": 0.237772
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 444.834,
             "unit": "ns",
             "range": 6.3242
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1865.45,
             "unit": "ns",
             "range": 8.78445
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3852.4,
             "unit": "ns",
             "range": 70.8926
@@ -9164,25 +9164,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0268,
             "unit": "ns",
             "range": 0.178087
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 441.359,
             "unit": "ns",
             "range": 3.10027
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1862.5,
             "unit": "ns",
             "range": 15.4567
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3845.15,
             "unit": "ns",
             "range": 54.5547
@@ -9210,25 +9210,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0871,
             "unit": "ns",
             "range": 0.220835
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 445.602,
             "unit": "ns",
             "range": 4.52594
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1859.14,
             "unit": "ns",
             "range": 8.70039
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3824.62,
             "unit": "ns",
             "range": 63.8494
@@ -9256,25 +9256,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0923,
             "unit": "ns",
             "range": 0.157193
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 450.224,
             "unit": "ns",
             "range": 12.8621
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1856.94,
             "unit": "ns",
             "range": 7.10652
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3855.86,
             "unit": "ns",
             "range": 64.5102
@@ -9302,25 +9302,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.983,
             "unit": "ns",
             "range": 0.17722
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.935,
             "unit": "ns",
             "range": 5.95171
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1857.87,
             "unit": "ns",
             "range": 8.76474
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3817.35,
             "unit": "ns",
             "range": 96.8764
@@ -9348,25 +9348,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.2342,
             "unit": "ns",
             "range": 0.250064
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 442.018,
             "unit": "ns",
             "range": 10.5013
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1855.69,
             "unit": "ns",
             "range": 11.5089
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3932.81,
             "unit": "ns",
             "range": 253.242
@@ -9394,25 +9394,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.1715,
             "unit": "ns",
             "range": 0.168033
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 445.403,
             "unit": "ns",
             "range": 8.82735
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1859.97,
             "unit": "ns",
             "range": 8.86025
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3857.74,
             "unit": "ns",
             "range": 95.2027
@@ -9440,25 +9440,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0672,
             "unit": "ns",
             "range": 0.166286
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 443.277,
             "unit": "ns",
             "range": 8.29085
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1851.7,
             "unit": "ns",
             "range": 11.2687
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3865.29,
             "unit": "ns",
             "range": 88.6244
@@ -9486,25 +9486,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.047,
             "unit": "ns",
             "range": 0.205292
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 442.524,
             "unit": "ns",
             "range": 5.90136
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1859.61,
             "unit": "ns",
             "range": 11.4526
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3839.07,
             "unit": "ns",
             "range": 66.3577
@@ -9532,25 +9532,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.1418,
             "unit": "ns",
             "range": 0.208393
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 443.047,
             "unit": "ns",
             "range": 4.27163
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1874.6,
             "unit": "ns",
             "range": 18.6191
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3839.84,
             "unit": "ns",
             "range": 117.589
@@ -9578,25 +9578,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.1631,
             "unit": "ns",
             "range": 0.272282
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.187,
             "unit": "ns",
             "range": 5.0467
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1850.16,
             "unit": "ns",
             "range": 8.52789
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3882.71,
             "unit": "ns",
             "range": 56.06
@@ -9624,25 +9624,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4702,
             "unit": "ns",
             "range": 0.154691
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 441.047,
             "unit": "ns",
             "range": 5.80344
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1849.34,
             "unit": "ns",
             "range": 8.60089
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3150.9,
             "unit": "ns",
             "range": 128.946
@@ -9670,25 +9670,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5443,
             "unit": "ns",
             "range": 0.340019
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.841,
             "unit": "ns",
             "range": 4.57069
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1847.7,
             "unit": "ns",
             "range": 9.8195
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3151.09,
             "unit": "ns",
             "range": 117.514
@@ -9716,25 +9716,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7035,
             "unit": "ns",
             "range": 0.178317
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.59,
             "unit": "ns",
             "range": 5.09621
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1846.97,
             "unit": "ns",
             "range": 9.17193
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3148.79,
             "unit": "ns",
             "range": 88.7766
@@ -9762,25 +9762,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.011,
             "unit": "ns",
             "range": 1.08485
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.476,
             "unit": "ns",
             "range": 4.33076
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1846.11,
             "unit": "ns",
             "range": 18.6039
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3199.46,
             "unit": "ns",
             "range": 110.633
@@ -9810,25 +9810,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5606,
             "unit": "ns",
             "range": 0.166389
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.444,
             "unit": "ns",
             "range": 6.95914
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1847.17,
             "unit": "ns",
             "range": 10.6803
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3154.47,
             "unit": "ns",
             "range": 96.5807
@@ -9856,25 +9856,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5894,
             "unit": "ns",
             "range": 0.21252
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.979,
             "unit": "ns",
             "range": 4.52132
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1837.46,
             "unit": "ns",
             "range": 6.14897
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3189.29,
             "unit": "ns",
             "range": 74.1035
@@ -9902,25 +9902,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7403,
             "unit": "ns",
             "range": 0.382131
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.796,
             "unit": "ns",
             "range": 5.38063
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1857.46,
             "unit": "ns",
             "range": 14.7948
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3178,
             "unit": "ns",
             "range": 104.97
@@ -9948,25 +9948,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.642,
             "unit": "ns",
             "range": 0.170799
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.459,
             "unit": "ns",
             "range": 4.9839
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1842.89,
             "unit": "ns",
             "range": 6.96079
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3207.78,
             "unit": "ns",
             "range": 106.734
@@ -9994,25 +9994,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6029,
             "unit": "ns",
             "range": 0.210421
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.743,
             "unit": "ns",
             "range": 9.5733
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1851.24,
             "unit": "ns",
             "range": 22.3563
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3273.5,
             "unit": "ns",
             "range": 98.2673
@@ -10042,25 +10042,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.663,
             "unit": "ns",
             "range": 0.135617
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.186,
             "unit": "ns",
             "range": 2.59416
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1842.22,
             "unit": "ns",
             "range": 11.8293
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3244.25,
             "unit": "ns",
             "range": 122.396
@@ -10088,25 +10088,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5549,
             "unit": "ns",
             "range": 0.175773
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.684,
             "unit": "ns",
             "range": 14.4653
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1849.2,
             "unit": "ns",
             "range": 11.5489
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3151.9,
             "unit": "ns",
             "range": 108.214
@@ -10134,25 +10134,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5959,
             "unit": "ns",
             "range": 0.121866
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.446,
             "unit": "ns",
             "range": 4.04951
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1845.23,
             "unit": "ns",
             "range": 12.3824
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3239.25,
             "unit": "ns",
             "range": 187.556
@@ -10180,25 +10180,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6192,
             "unit": "ns",
             "range": 0.184566
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.262,
             "unit": "ns",
             "range": 3.99444
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1846.63,
             "unit": "ns",
             "range": 6.36789
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3244.96,
             "unit": "ns",
             "range": 107.146
@@ -10226,25 +10226,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5993,
             "unit": "ns",
             "range": 0.167012
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.243,
             "unit": "ns",
             "range": 9.40585
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1850.04,
             "unit": "ns",
             "range": 7.85244
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3260.43,
             "unit": "ns",
             "range": 64.7562
@@ -10272,25 +10272,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5916,
             "unit": "ns",
             "range": 0.156382
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.739,
             "unit": "ns",
             "range": 4.21444
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1840.63,
             "unit": "ns",
             "range": 5.07459
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3289.34,
             "unit": "ns",
             "range": 97.5596
@@ -10318,25 +10318,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6333,
             "unit": "ns",
             "range": 0.187554
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 444.543,
             "unit": "ns",
             "range": 19.246
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1848.35,
             "unit": "ns",
             "range": 10.4413
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3225.99,
             "unit": "ns",
             "range": 93.6862
@@ -10364,25 +10364,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5622,
             "unit": "ns",
             "range": 0.207714
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 432.722,
             "unit": "ns",
             "range": 6.38861
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1841.5,
             "unit": "ns",
             "range": 8.55388
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3236.7,
             "unit": "ns",
             "range": 43.6673
@@ -10410,25 +10410,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5721,
             "unit": "ns",
             "range": 0.108807
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.837,
             "unit": "ns",
             "range": 5.05672
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1849.58,
             "unit": "ns",
             "range": 11.8493
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3268.02,
             "unit": "ns",
             "range": 68.6292
@@ -10456,25 +10456,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6217,
             "unit": "ns",
             "range": 0.160483
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.108,
             "unit": "ns",
             "range": 4.13606
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1842.78,
             "unit": "ns",
             "range": 9.82741
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3250.45,
             "unit": "ns",
             "range": 81.1622
@@ -10502,25 +10502,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5292,
             "unit": "ns",
             "range": 0.10229
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 443.465,
             "unit": "ns",
             "range": 8.22604
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1848.09,
             "unit": "ns",
             "range": 11.3398
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3308.87,
             "unit": "ns",
             "range": 125.478
@@ -10548,25 +10548,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5777,
             "unit": "ns",
             "range": 0.178653
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.377,
             "unit": "ns",
             "range": 4.142
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1838.85,
             "unit": "ns",
             "range": 6.30491
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3243.25,
             "unit": "ns",
             "range": 81.7246
@@ -10594,25 +10594,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6003,
             "unit": "ns",
             "range": 0.184459
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.978,
             "unit": "ns",
             "range": 8.68596
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1846.06,
             "unit": "ns",
             "range": 19.3389
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3306.35,
             "unit": "ns",
             "range": 91.1036
@@ -10640,25 +10640,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6778,
             "unit": "ns",
             "range": 0.147702
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 435.936,
             "unit": "ns",
             "range": 4.76124
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.79,
             "unit": "ns",
             "range": 6.38357
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3257.09,
             "unit": "ns",
             "range": 80.3938
@@ -10686,25 +10686,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5942,
             "unit": "ns",
             "range": 0.24843
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.132,
             "unit": "ns",
             "range": 6.49218
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1851.21,
             "unit": "ns",
             "range": 16.1494
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3239.27,
             "unit": "ns",
             "range": 117.142
@@ -10732,25 +10732,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.585,
             "unit": "ns",
             "range": 0.143811
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 437.451,
             "unit": "ns",
             "range": 5.30246
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1844.58,
             "unit": "ns",
             "range": 16.9713
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3275.09,
             "unit": "ns",
             "range": 114.37
@@ -10778,25 +10778,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5397,
             "unit": "ns",
             "range": 0.171734
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438.676,
             "unit": "ns",
             "range": 5.87625
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1845.32,
             "unit": "ns",
             "range": 15.9139
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3259.99,
             "unit": "ns",
             "range": 101.42
@@ -10826,25 +10826,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5043,
             "unit": "ns",
             "range": 0.235272
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 438,
             "unit": "ns",
             "range": 5.08242
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1851.76,
             "unit": "ns",
             "range": 15.3859
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3280.66,
             "unit": "ns",
             "range": 90.8396
@@ -10872,25 +10872,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5777,
             "unit": "ns",
             "range": 0.183434
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 432.97,
             "unit": "ns",
             "range": 2.75783
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1845.05,
             "unit": "ns",
             "range": 10.705
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3291.06,
             "unit": "ns",
             "range": 46.9252
@@ -10918,25 +10918,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5076,
             "unit": "ns",
             "range": 0.130516
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 434.969,
             "unit": "ns",
             "range": 5.42602
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1836.91,
             "unit": "ns",
             "range": 6.82981
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3292.63,
             "unit": "ns",
             "range": 53.6039
@@ -10966,25 +10966,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6031,
             "unit": "ns",
             "range": 0.139639
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 473.915,
             "unit": "ns",
             "range": 105.926
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1849.31,
             "unit": "ns",
             "range": 4.62512
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3296.65,
             "unit": "ns",
             "range": 77.0337
@@ -11012,25 +11012,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6745,
             "unit": "ns",
             "range": 0.22452
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 436.132,
             "unit": "ns",
             "range": 5.48004
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1843.68,
             "unit": "ns",
             "range": 6.53318
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3276.65,
             "unit": "ns",
             "range": 75.463
@@ -11058,25 +11058,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5555,
             "unit": "ns",
             "range": 0.15887
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 433.958,
             "unit": "ns",
             "range": 5.73006
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1843.8,
             "unit": "ns",
             "range": 11.4458
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3305.91,
             "unit": "ns",
             "range": 57.5454
@@ -11106,25 +11106,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7203,
             "unit": "ns",
             "range": 0.203383
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.985,
             "unit": "ns",
             "range": 3.32825
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1839.79,
             "unit": "ns",
             "range": 9.09732
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3246.55,
             "unit": "ns",
             "range": 75.8954
@@ -11152,25 +11152,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7613,
             "unit": "ns",
             "range": 0.236233
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 443.177,
             "unit": "ns",
             "range": 5.82544
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1840.7,
             "unit": "ns",
             "range": 7.18972
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3282.86,
             "unit": "ns",
             "range": 70.6064
@@ -11198,25 +11198,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8038,
             "unit": "ns",
             "range": 0.177294
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 439.079,
             "unit": "ns",
             "range": 4.12346
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1837.63,
             "unit": "ns",
             "range": 8.34945
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3299.34,
             "unit": "ns",
             "range": 59.6815
@@ -11244,25 +11244,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7409,
             "unit": "ns",
             "range": 0.206616
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 440.392,
             "unit": "ns",
             "range": 8.12896
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 1837.17,
             "unit": "ns",
             "range": 3.61163
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 3279.55,
             "unit": "ns",
             "range": 61.3545
@@ -15264,19 +15264,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6184,
             "unit": "ns",
             "range": 0.179537
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2731.83,
             "unit": "ns",
             "range": 70.0771
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4608.73,
             "unit": "ns",
             "range": 91.9406
@@ -15304,19 +15304,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7838,
             "unit": "ns",
             "range": 0.213118
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2643.31,
             "unit": "ns",
             "range": 118.872
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4792.07,
             "unit": "ns",
             "range": 240.496
@@ -15344,19 +15344,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6207,
             "unit": "ns",
             "range": 0.108372
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2711.2,
             "unit": "ns",
             "range": 124.263
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4735.5,
             "unit": "ns",
             "range": 218.271
@@ -15384,19 +15384,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6683,
             "unit": "ns",
             "range": 0.21049
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2656.97,
             "unit": "ns",
             "range": 123.213
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4662.27,
             "unit": "ns",
             "range": 129.625
@@ -15424,19 +15424,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5285,
             "unit": "ns",
             "range": 0.214227
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2703.56,
             "unit": "ns",
             "range": 78.2555
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4629.63,
             "unit": "ns",
             "range": 144.55
@@ -15464,19 +15464,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5555,
             "unit": "ns",
             "range": 0.191728
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2685.45,
             "unit": "ns",
             "range": 72.1215
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4719.54,
             "unit": "ns",
             "range": 94.2761
@@ -15504,19 +15504,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.616,
             "unit": "ns",
             "range": 0.12533
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2745.95,
             "unit": "ns",
             "range": 135.859
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4686.95,
             "unit": "ns",
             "range": 118.944
@@ -15544,19 +15544,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6304,
             "unit": "ns",
             "range": 0.163735
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2762.37,
             "unit": "ns",
             "range": 151.158
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4723.22,
             "unit": "ns",
             "range": 157.238
@@ -15584,19 +15584,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.661,
             "unit": "ns",
             "range": 0.402031
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2770.8,
             "unit": "ns",
             "range": 125.84
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4748.24,
             "unit": "ns",
             "range": 110.822
@@ -15624,19 +15624,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5645,
             "unit": "ns",
             "range": 0.126442
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2728.25,
             "unit": "ns",
             "range": 103.765
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4825.46,
             "unit": "ns",
             "range": 107.981
@@ -15666,19 +15666,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6568,
             "unit": "ns",
             "range": 0.278755
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2659.45,
             "unit": "ns",
             "range": 95.5017
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4739.47,
             "unit": "ns",
             "range": 189.707
@@ -15706,19 +15706,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6283,
             "unit": "ns",
             "range": 0.212315
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2699.68,
             "unit": "ns",
             "range": 81.5713
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4824.14,
             "unit": "ns",
             "range": 167.94
@@ -15746,19 +15746,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5473,
             "unit": "ns",
             "range": 0.181933
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2738.03,
             "unit": "ns",
             "range": 89.7115
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4779.37,
             "unit": "ns",
             "range": 69.3831
@@ -15786,19 +15786,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5195,
             "unit": "ns",
             "range": 0.162835
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2714.87,
             "unit": "ns",
             "range": 159.884
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4737.57,
             "unit": "ns",
             "range": 134.76
@@ -15826,19 +15826,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5917,
             "unit": "ns",
             "range": 0.102932
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2701.18,
             "unit": "ns",
             "range": 62.3315
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4909.22,
             "unit": "ns",
             "range": 185.092
@@ -15868,19 +15868,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5424,
             "unit": "ns",
             "range": 0.145943
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2780.86,
             "unit": "ns",
             "range": 111.202
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4767.01,
             "unit": "ns",
             "range": 154.176
@@ -15910,19 +15910,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7773,
             "unit": "ns",
             "range": 0.562131
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2714.3,
             "unit": "ns",
             "range": 90.1706
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4825.65,
             "unit": "ns",
             "range": 174.6
@@ -15952,19 +15952,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5828,
             "unit": "ns",
             "range": 0.677315
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2706.46,
             "unit": "ns",
             "range": 98.5017
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4781.64,
             "unit": "ns",
             "range": 139.56
@@ -15992,19 +15992,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5337,
             "unit": "ns",
             "range": 0.143157
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2722.4,
             "unit": "ns",
             "range": 93.4094
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4723.26,
             "unit": "ns",
             "range": 99.7966
@@ -16032,19 +16032,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5003,
             "unit": "ns",
             "range": 0.147663
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2697.43,
             "unit": "ns",
             "range": 103.228
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4691.68,
             "unit": "ns",
             "range": 153.823
@@ -16072,19 +16072,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6178,
             "unit": "ns",
             "range": 0.156838
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2694.03,
             "unit": "ns",
             "range": 85.0463
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4719.88,
             "unit": "ns",
             "range": 63.219
@@ -16114,19 +16114,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6691,
             "unit": "ns",
             "range": 0.192033
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2712.15,
             "unit": "ns",
             "range": 53.4108
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4773.07,
             "unit": "ns",
             "range": 129.007
@@ -16156,19 +16156,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8409,
             "unit": "ns",
             "range": 0.118719
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2735.69,
             "unit": "ns",
             "range": 83.7341
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4739.33,
             "unit": "ns",
             "range": 130.107
@@ -16196,19 +16196,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6603,
             "unit": "ns",
             "range": 0.349814
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2684.93,
             "unit": "ns",
             "range": 83.7667
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4808.44,
             "unit": "ns",
             "range": 60.5248
@@ -16238,19 +16238,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7242,
             "unit": "ns",
             "range": 0.158018
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2774.71,
             "unit": "ns",
             "range": 65.9795
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4845.18,
             "unit": "ns",
             "range": 147.629
@@ -16280,19 +16280,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.9365,
             "unit": "ns",
             "range": 0.354375
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2742.08,
             "unit": "ns",
             "range": 26.074
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4843.79,
             "unit": "ns",
             "range": 224.69
@@ -16322,19 +16322,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6577,
             "unit": "ns",
             "range": 0.0938597
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2695.37,
             "unit": "ns",
             "range": 80.8134
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4782.5,
             "unit": "ns",
             "range": 135.527
@@ -16362,19 +16362,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5879,
             "unit": "ns",
             "range": 0.172945
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2742.7,
             "unit": "ns",
             "range": 54.1426
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4763.69,
             "unit": "ns",
             "range": 135.177
@@ -16402,19 +16402,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5328,
             "unit": "ns",
             "range": 0.144227
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2691.86,
             "unit": "ns",
             "range": 87.7078
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4809.05,
             "unit": "ns",
             "range": 84.4379
@@ -16442,19 +16442,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6177,
             "unit": "ns",
             "range": 0.23253
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2732.74,
             "unit": "ns",
             "range": 37.3291
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4785.02,
             "unit": "ns",
             "range": 114.145
@@ -16482,19 +16482,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5364,
             "unit": "ns",
             "range": 0.196132
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2696.78,
             "unit": "ns",
             "range": 77.4566
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4742.11,
             "unit": "ns",
             "range": 165.752
@@ -16522,19 +16522,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4647,
             "unit": "ns",
             "range": 0.115889
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2777.17,
             "unit": "ns",
             "range": 154.874
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4767.81,
             "unit": "ns",
             "range": 105.259
@@ -16562,19 +16562,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8354,
             "unit": "ns",
             "range": 0.941123
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2685.23,
             "unit": "ns",
             "range": 72.7277
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4807.36,
             "unit": "ns",
             "range": 99.7508
@@ -16602,19 +16602,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5665,
             "unit": "ns",
             "range": 0.152836
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2718.16,
             "unit": "ns",
             "range": 72.9542
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4798.34,
             "unit": "ns",
             "range": 152.566
@@ -16642,19 +16642,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.9976,
             "unit": "ns",
             "range": 0.93777
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2727.23,
             "unit": "ns",
             "range": 81.4018
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4802.71,
             "unit": "ns",
             "range": 73.5699
@@ -16682,19 +16682,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6584,
             "unit": "ns",
             "range": 0.239041
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2706.7,
             "unit": "ns",
             "range": 112.018
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4731.48,
             "unit": "ns",
             "range": 116.295
@@ -16722,19 +16722,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8709,
             "unit": "ns",
             "range": 0.670726
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2686.74,
             "unit": "ns",
             "range": 70.0386
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4737.54,
             "unit": "ns",
             "range": 96.6226
@@ -16762,19 +16762,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 88.594,
             "unit": "ns",
             "range": 0.865367
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2692.46,
             "unit": "ns",
             "range": 49.2504
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4717.91,
             "unit": "ns",
             "range": 119.06
@@ -16802,19 +16802,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7785,
             "unit": "ns",
             "range": 0.340479
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2740.9,
             "unit": "ns",
             "range": 67.7598
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4804.91,
             "unit": "ns",
             "range": 94.186
@@ -16842,19 +16842,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.556,
             "unit": "ns",
             "range": 0.153052
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2709.03,
             "unit": "ns",
             "range": 33.534
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4716.32,
             "unit": "ns",
             "range": 172.606
@@ -16882,19 +16882,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8738,
             "unit": "ns",
             "range": 0.62314
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2740.07,
             "unit": "ns",
             "range": 86.0964
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4792.11,
             "unit": "ns",
             "range": 128.717
@@ -16922,19 +16922,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 88.2914,
             "unit": "ns",
             "range": 1.67456
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2628.68,
             "unit": "ns",
             "range": 122.667
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4664.41,
             "unit": "ns",
             "range": 112.593
@@ -16962,19 +16962,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5367,
             "unit": "ns",
             "range": 0.179485
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2730.4,
             "unit": "ns",
             "range": 45.7226
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4733.23,
             "unit": "ns",
             "range": 106.044
@@ -17002,19 +17002,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7534,
             "unit": "ns",
             "range": 0.399686
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2717.51,
             "unit": "ns",
             "range": 94.5716
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4634.59,
             "unit": "ns",
             "range": 170.146
@@ -17042,19 +17042,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4775,
             "unit": "ns",
             "range": 0.0982679
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2734.29,
             "unit": "ns",
             "range": 110.634
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4768.55,
             "unit": "ns",
             "range": 161.773
@@ -17082,19 +17082,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5936,
             "unit": "ns",
             "range": 0.111411
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2668.86,
             "unit": "ns",
             "range": 75.1396
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4670.45,
             "unit": "ns",
             "range": 126
@@ -17122,19 +17122,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5808,
             "unit": "ns",
             "range": 0.150489
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2727.08,
             "unit": "ns",
             "range": 72.9931
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4828.86,
             "unit": "ns",
             "range": 135.941
@@ -17162,19 +17162,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.9225,
             "unit": "ns",
             "range": 0.706983
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2730.52,
             "unit": "ns",
             "range": 99.1789
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4720.76,
             "unit": "ns",
             "range": 154.426
@@ -17202,19 +17202,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5427,
             "unit": "ns",
             "range": 0.19102
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2759.89,
             "unit": "ns",
             "range": 75.6274
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4774.07,
             "unit": "ns",
             "range": 187.404
@@ -17242,19 +17242,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.613,
             "unit": "ns",
             "range": 0.254213
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2737.3,
             "unit": "ns",
             "range": 34.1659
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4757.13,
             "unit": "ns",
             "range": 125.531
@@ -17282,19 +17282,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.64,
             "unit": "ns",
             "range": 0.128772
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2732.67,
             "unit": "ns",
             "range": 66.5806
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4788.54,
             "unit": "ns",
             "range": 127.914
@@ -17322,19 +17322,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4103,
             "unit": "ns",
             "range": 0.122833
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2687.31,
             "unit": "ns",
             "range": 101.243
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4748.79,
             "unit": "ns",
             "range": 86.8306
@@ -17362,19 +17362,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6564,
             "unit": "ns",
             "range": 0.214419
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2699.31,
             "unit": "ns",
             "range": 94.7943
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4766.23,
             "unit": "ns",
             "range": 86.5486
@@ -17402,19 +17402,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5519,
             "unit": "ns",
             "range": 0.185006
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2689.44,
             "unit": "ns",
             "range": 83.2559
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4733.47,
             "unit": "ns",
             "range": 83.9401
@@ -17442,19 +17442,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6521,
             "unit": "ns",
             "range": 0.263871
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2730.39,
             "unit": "ns",
             "range": 73.9549
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4741.5,
             "unit": "ns",
             "range": 96.2296
@@ -17482,19 +17482,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7412,
             "unit": "ns",
             "range": 0.192073
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2781.11,
             "unit": "ns",
             "range": 70.9236
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4817.36,
             "unit": "ns",
             "range": 120.384
@@ -17522,19 +17522,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.2356,
             "unit": "ns",
             "range": 2.01517
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2727.16,
             "unit": "ns",
             "range": 91.8495
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4819.52,
             "unit": "ns",
             "range": 107.55
@@ -17562,19 +17562,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5616,
             "unit": "ns",
             "range": 0.250776
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2713.65,
             "unit": "ns",
             "range": 50.9707
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4779.84,
             "unit": "ns",
             "range": 174.158
@@ -17602,19 +17602,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6355,
             "unit": "ns",
             "range": 0.164369
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2770.79,
             "unit": "ns",
             "range": 75.1909
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4735.48,
             "unit": "ns",
             "range": 71.7218
@@ -17642,19 +17642,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 88.5855,
             "unit": "ns",
             "range": 1.22545
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2655.97,
             "unit": "ns",
             "range": 74.0578
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4637.94,
             "unit": "ns",
             "range": 187.462
@@ -17682,19 +17682,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5341,
             "unit": "ns",
             "range": 0.113282
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2688.4,
             "unit": "ns",
             "range": 104.568
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4747.88,
             "unit": "ns",
             "range": 94.7405
@@ -17722,19 +17722,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6515,
             "unit": "ns",
             "range": 0.177422
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2694.72,
             "unit": "ns",
             "range": 126.979
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4800.74,
             "unit": "ns",
             "range": 133.552
@@ -17764,19 +17764,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7429,
             "unit": "ns",
             "range": 0.182243
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2695.81,
             "unit": "ns",
             "range": 80.8796
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4758.9,
             "unit": "ns",
             "range": 103.678
@@ -17804,19 +17804,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6011,
             "unit": "ns",
             "range": 0.194306
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2730.57,
             "unit": "ns",
             "range": 41.4301
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4763.58,
             "unit": "ns",
             "range": 128.752
@@ -17844,19 +17844,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6462,
             "unit": "ns",
             "range": 0.204991
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2748.24,
             "unit": "ns",
             "range": 146.492
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4831.5,
             "unit": "ns",
             "range": 92.5017
@@ -17884,19 +17884,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8558,
             "unit": "ns",
             "range": 0.662183
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2704.83,
             "unit": "ns",
             "range": 106.782
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4802.49,
             "unit": "ns",
             "range": 125.992
@@ -17924,19 +17924,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.639,
             "unit": "ns",
             "range": 0.132213
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2723.9,
             "unit": "ns",
             "range": 69.9646
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4793.58,
             "unit": "ns",
             "range": 150.547
@@ -17964,19 +17964,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6263,
             "unit": "ns",
             "range": 0.204429
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2733.24,
             "unit": "ns",
             "range": 97.4301
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4722.05,
             "unit": "ns",
             "range": 152.131
@@ -18004,19 +18004,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7699,
             "unit": "ns",
             "range": 0.743786
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2767.26,
             "unit": "ns",
             "range": 196.371
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4712.59,
             "unit": "ns",
             "range": 107.787
@@ -18044,19 +18044,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7549,
             "unit": "ns",
             "range": 0.352842
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2715.41,
             "unit": "ns",
             "range": 69.6655
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4764.69,
             "unit": "ns",
             "range": 129.207
@@ -18084,19 +18084,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.511,
             "unit": "ns",
             "range": 0.155949
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2745.61,
             "unit": "ns",
             "range": 84.4699
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4801.57,
             "unit": "ns",
             "range": 128.666
@@ -18126,19 +18126,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 89.7824,
             "unit": "ns",
             "range": 0.901133
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2707.54,
             "unit": "ns",
             "range": 73.033
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4648.5,
             "unit": "ns",
             "range": 187.05
@@ -18168,19 +18168,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7204,
             "unit": "ns",
             "range": 0.216111
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2722.72,
             "unit": "ns",
             "range": 65.4083
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4815.92,
             "unit": "ns",
             "range": 101.346
@@ -18210,19 +18210,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5826,
             "unit": "ns",
             "range": 0.207993
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2798.37,
             "unit": "ns",
             "range": 81.1662
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4733.12,
             "unit": "ns",
             "range": 102.243
@@ -18252,19 +18252,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8689,
             "unit": "ns",
             "range": 0.742188
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2713.14,
             "unit": "ns",
             "range": 79.7916
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4797.48,
             "unit": "ns",
             "range": 180.528
@@ -18294,19 +18294,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6971,
             "unit": "ns",
             "range": 0.141691
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2710.9,
             "unit": "ns",
             "range": 97.9686
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4798.57,
             "unit": "ns",
             "range": 147.153
@@ -18336,19 +18336,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6357,
             "unit": "ns",
             "range": 0.108011
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2679.27,
             "unit": "ns",
             "range": 133.898
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4728.19,
             "unit": "ns",
             "range": 134.844
@@ -18378,19 +18378,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7321,
             "unit": "ns",
             "range": 0.185959
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2708.8,
             "unit": "ns",
             "range": 123.505
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4767.62,
             "unit": "ns",
             "range": 175.723
@@ -18418,19 +18418,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6747,
             "unit": "ns",
             "range": 0.32127
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2727.01,
             "unit": "ns",
             "range": 43.5094
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4789.56,
             "unit": "ns",
             "range": 99.0352
@@ -18458,19 +18458,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.9293,
             "unit": "ns",
             "range": 0.868261
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2774.04,
             "unit": "ns",
             "range": 127.862
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4771.98,
             "unit": "ns",
             "range": 153.132
@@ -18498,19 +18498,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6189,
             "unit": "ns",
             "range": 0.254469
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2682.81,
             "unit": "ns",
             "range": 82.3157
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4866.33,
             "unit": "ns",
             "range": 66.2983
@@ -18538,19 +18538,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.665,
             "unit": "ns",
             "range": 0.178382
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2731.8,
             "unit": "ns",
             "range": 66.4684
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4749.06,
             "unit": "ns",
             "range": 131.117
@@ -18580,19 +18580,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5767,
             "unit": "ns",
             "range": 0.169538
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2737.84,
             "unit": "ns",
             "range": 61.6254
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4734.6,
             "unit": "ns",
             "range": 80.2028
@@ -18622,19 +18622,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7378,
             "unit": "ns",
             "range": 0.216343
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2705.05,
             "unit": "ns",
             "range": 98.211
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4756.04,
             "unit": "ns",
             "range": 160.071
@@ -18662,19 +18662,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6103,
             "unit": "ns",
             "range": 0.162467
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2765.32,
             "unit": "ns",
             "range": 75.6584
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4801.42,
             "unit": "ns",
             "range": 173.204
@@ -18702,19 +18702,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6675,
             "unit": "ns",
             "range": 0.522756
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2923.24,
             "unit": "ns",
             "range": 81.1851
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4875.73,
             "unit": "ns",
             "range": 88.545
@@ -18742,19 +18742,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5916,
             "unit": "ns",
             "range": 0.182711
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2929.05,
             "unit": "ns",
             "range": 49.6697
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4895.78,
             "unit": "ns",
             "range": 148.053
@@ -18782,19 +18782,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5225,
             "unit": "ns",
             "range": 0.11559
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2927.94,
             "unit": "ns",
             "range": 81.6122
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4788.47,
             "unit": "ns",
             "range": 113.508
@@ -18822,19 +18822,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.9455,
             "unit": "ns",
             "range": 0.985666
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2903.7,
             "unit": "ns",
             "range": 103.518
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4796.13,
             "unit": "ns",
             "range": 131.795
@@ -18862,19 +18862,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.741,
             "unit": "ns",
             "range": 0.21407
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2855.86,
             "unit": "ns",
             "range": 102.257
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4899.89,
             "unit": "ns",
             "range": 163.927
@@ -18902,19 +18902,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6388,
             "unit": "ns",
             "range": 0.202211
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2870.23,
             "unit": "ns",
             "range": 103.568
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4914.17,
             "unit": "ns",
             "range": 166.966
@@ -18942,19 +18942,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6061,
             "unit": "ns",
             "range": 0.218265
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2918.55,
             "unit": "ns",
             "range": 122.211
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4866.83,
             "unit": "ns",
             "range": 89.9957
@@ -18982,19 +18982,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6467,
             "unit": "ns",
             "range": 0.295524
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2894.57,
             "unit": "ns",
             "range": 101.713
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4895.96,
             "unit": "ns",
             "range": 130.863
@@ -19022,19 +19022,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6587,
             "unit": "ns",
             "range": 0.126916
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2924.81,
             "unit": "ns",
             "range": 45.5534
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4852.52,
             "unit": "ns",
             "range": 101.859
@@ -19062,19 +19062,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6297,
             "unit": "ns",
             "range": 0.27063
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2870.32,
             "unit": "ns",
             "range": 176.791
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4926.77,
             "unit": "ns",
             "range": 110.61
@@ -19102,19 +19102,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6298,
             "unit": "ns",
             "range": 0.36709
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2900.41,
             "unit": "ns",
             "range": 92.3002
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4882.46,
             "unit": "ns",
             "range": 133.15
@@ -19142,19 +19142,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6598,
             "unit": "ns",
             "range": 0.118053
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2863.37,
             "unit": "ns",
             "range": 93.3961
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4948.86,
             "unit": "ns",
             "range": 178.264
@@ -19182,19 +19182,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5625,
             "unit": "ns",
             "range": 0.180753
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2863.76,
             "unit": "ns",
             "range": 141.655
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4862.37,
             "unit": "ns",
             "range": 192.906
@@ -19222,19 +19222,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5472,
             "unit": "ns",
             "range": 0.167052
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2867.31,
             "unit": "ns",
             "range": 74.3257
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4869.89,
             "unit": "ns",
             "range": 144.491
@@ -19262,19 +19262,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6367,
             "unit": "ns",
             "range": 0.177168
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2917.55,
             "unit": "ns",
             "range": 49.6286
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4833.09,
             "unit": "ns",
             "range": 95.2099
@@ -19302,19 +19302,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5642,
             "unit": "ns",
             "range": 0.170425
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2890.18,
             "unit": "ns",
             "range": 58.7012
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4905.72,
             "unit": "ns",
             "range": 74.3909
@@ -19342,19 +19342,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6472,
             "unit": "ns",
             "range": 0.17636
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2887.6,
             "unit": "ns",
             "range": 92.4891
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4708.14,
             "unit": "ns",
             "range": 275.153
@@ -19382,19 +19382,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6076,
             "unit": "ns",
             "range": 0.194358
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2903.62,
             "unit": "ns",
             "range": 50.6051
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4459.28,
             "unit": "ns",
             "range": 141.072
@@ -19422,19 +19422,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.596,
             "unit": "ns",
             "range": 0.197232
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2818.4,
             "unit": "ns",
             "range": 103.947
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4501.09,
             "unit": "ns",
             "range": 210.578
@@ -19464,19 +19464,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5889,
             "unit": "ns",
             "range": 0.167245
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2863.73,
             "unit": "ns",
             "range": 116.265
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4357.85,
             "unit": "ns",
             "range": 209.391
@@ -19506,19 +19506,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6906,
             "unit": "ns",
             "range": 0.185328
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2853.8,
             "unit": "ns",
             "range": 140.542
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4408.43,
             "unit": "ns",
             "range": 174.469
@@ -19548,19 +19548,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6409,
             "unit": "ns",
             "range": 0.112138
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2826.14,
             "unit": "ns",
             "range": 100.671
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4661.08,
             "unit": "ns",
             "range": 253.499
@@ -19590,19 +19590,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5405,
             "unit": "ns",
             "range": 0.149045
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2831.75,
             "unit": "ns",
             "range": 128.93
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4550.19,
             "unit": "ns",
             "range": 191.794
@@ -19632,19 +19632,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6225,
             "unit": "ns",
             "range": 0.202071
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2791.4,
             "unit": "ns",
             "range": 129.339
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4464.27,
             "unit": "ns",
             "range": 111.377
@@ -19674,19 +19674,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7091,
             "unit": "ns",
             "range": 0.379263
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2877.88,
             "unit": "ns",
             "range": 82.7877
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4529.63,
             "unit": "ns",
             "range": 192.805
@@ -19714,19 +19714,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5948,
             "unit": "ns",
             "range": 0.215311
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2864.78,
             "unit": "ns",
             "range": 53.7152
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4589.74,
             "unit": "ns",
             "range": 206.368
@@ -19754,19 +19754,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5347,
             "unit": "ns",
             "range": 0.262535
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2862.27,
             "unit": "ns",
             "range": 113.605
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4541.61,
             "unit": "ns",
             "range": 239.69
@@ -19794,19 +19794,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5612,
             "unit": "ns",
             "range": 0.206003
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2851.38,
             "unit": "ns",
             "range": 134.315
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4509.42,
             "unit": "ns",
             "range": 260.29
@@ -19834,19 +19834,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6099,
             "unit": "ns",
             "range": 0.146123
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2849.07,
             "unit": "ns",
             "range": 76.4877
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4520.24,
             "unit": "ns",
             "range": 217.855
@@ -19874,19 +19874,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5862,
             "unit": "ns",
             "range": 0.174228
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2809.51,
             "unit": "ns",
             "range": 108.299
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4592.45,
             "unit": "ns",
             "range": 184.544
@@ -19914,19 +19914,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.8841,
             "unit": "ns",
             "range": 0.448532
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2903.99,
             "unit": "ns",
             "range": 83.2503
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4619.48,
             "unit": "ns",
             "range": 231.17
@@ -19956,19 +19956,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6091,
             "unit": "ns",
             "range": 0.182702
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2865.76,
             "unit": "ns",
             "range": 161.739
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4689.68,
             "unit": "ns",
             "range": 216.504
@@ -19996,19 +19996,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5925,
             "unit": "ns",
             "range": 0.226322
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2855.87,
             "unit": "ns",
             "range": 61.7706
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4423.94,
             "unit": "ns",
             "range": 81.6578
@@ -20036,19 +20036,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4721,
             "unit": "ns",
             "range": 0.113946
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2860.77,
             "unit": "ns",
             "range": 65.6813
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4751.59,
             "unit": "ns",
             "range": 249.699
@@ -20076,19 +20076,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.559,
             "unit": "ns",
             "range": 0.256481
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2876.45,
             "unit": "ns",
             "range": 99.3137
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4620.34,
             "unit": "ns",
             "range": 341.393
@@ -20116,19 +20116,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7576,
             "unit": "ns",
             "range": 0.460219
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2915.96,
             "unit": "ns",
             "range": 90.6218
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4556.79,
             "unit": "ns",
             "range": 208.308
@@ -20156,19 +20156,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7818,
             "unit": "ns",
             "range": 0.13695
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2834.67,
             "unit": "ns",
             "range": 79.2215
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4647.29,
             "unit": "ns",
             "range": 165.356
@@ -20196,19 +20196,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5234,
             "unit": "ns",
             "range": 0.114052
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2906.13,
             "unit": "ns",
             "range": 123.724
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4861.67,
             "unit": "ns",
             "range": 90.7905
@@ -20236,19 +20236,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6809,
             "unit": "ns",
             "range": 0.177274
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2878.53,
             "unit": "ns",
             "range": 114.593
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4901.33,
             "unit": "ns",
             "range": 170.855
@@ -20276,19 +20276,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6066,
             "unit": "ns",
             "range": 0.161575
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2846.1,
             "unit": "ns",
             "range": 139.062
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4898.49,
             "unit": "ns",
             "range": 80.81
@@ -20316,19 +20316,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.595,
             "unit": "ns",
             "range": 0.184051
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2909.51,
             "unit": "ns",
             "range": 114.871
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4810.9,
             "unit": "ns",
             "range": 152.445
@@ -20356,19 +20356,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5682,
             "unit": "ns",
             "range": 0.233393
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2874.53,
             "unit": "ns",
             "range": 89.037
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4937.63,
             "unit": "ns",
             "range": 152.454
@@ -20396,19 +20396,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5231,
             "unit": "ns",
             "range": 0.198229
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2878.17,
             "unit": "ns",
             "range": 76.7246
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4827.86,
             "unit": "ns",
             "range": 104.119
@@ -20438,19 +20438,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5075,
             "unit": "ns",
             "range": 0.149166
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2905.63,
             "unit": "ns",
             "range": 55.7562
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4921.87,
             "unit": "ns",
             "range": 111.596
@@ -20478,19 +20478,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6218,
             "unit": "ns",
             "range": 0.211582
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2954.71,
             "unit": "ns",
             "range": 72.3659
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4870.4,
             "unit": "ns",
             "range": 153.225
@@ -20518,19 +20518,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6367,
             "unit": "ns",
             "range": 0.136622
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2854.3,
             "unit": "ns",
             "range": 143.237
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4886.22,
             "unit": "ns",
             "range": 151.91
@@ -20558,19 +20558,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5796,
             "unit": "ns",
             "range": 0.148787
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2865.77,
             "unit": "ns",
             "range": 114.474
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4866.49,
             "unit": "ns",
             "range": 144.164
@@ -20598,19 +20598,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5405,
             "unit": "ns",
             "range": 0.181283
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2844.89,
             "unit": "ns",
             "range": 79.258
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5009.04,
             "unit": "ns",
             "range": 180.973
@@ -20638,19 +20638,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.9056,
             "unit": "ns",
             "range": 1.07523
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2904.89,
             "unit": "ns",
             "range": 104.31
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4802.81,
             "unit": "ns",
             "range": 126.879
@@ -20680,19 +20680,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7525,
             "unit": "ns",
             "range": 0.10046
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2890.14,
             "unit": "ns",
             "range": 90.7469
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4896.83,
             "unit": "ns",
             "range": 158.57
@@ -20722,19 +20722,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5375,
             "unit": "ns",
             "range": 0.161602
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2891.75,
             "unit": "ns",
             "range": 105.409
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4855.25,
             "unit": "ns",
             "range": 132.796
@@ -20762,19 +20762,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6573,
             "unit": "ns",
             "range": 0.182088
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2865.8,
             "unit": "ns",
             "range": 117.009
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4872.99,
             "unit": "ns",
             "range": 70.9096
@@ -20802,19 +20802,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5342,
             "unit": "ns",
             "range": 0.18033
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2835.75,
             "unit": "ns",
             "range": 107.684
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4860.15,
             "unit": "ns",
             "range": 117.315
@@ -20842,19 +20842,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6538,
             "unit": "ns",
             "range": 0.216189
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2865.64,
             "unit": "ns",
             "range": 90.5093
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4866.81,
             "unit": "ns",
             "range": 157.554
@@ -20882,19 +20882,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6668,
             "unit": "ns",
             "range": 0.159239
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2883.28,
             "unit": "ns",
             "range": 153.477
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4856.64,
             "unit": "ns",
             "range": 152.45
@@ -20922,19 +20922,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6041,
             "unit": "ns",
             "range": 0.187872
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2838.04,
             "unit": "ns",
             "range": 98.6747
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4855.3,
             "unit": "ns",
             "range": 179.702
@@ -20962,19 +20962,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6272,
             "unit": "ns",
             "range": 0.165765
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2949.04,
             "unit": "ns",
             "range": 64.3352
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4967.66,
             "unit": "ns",
             "range": 115.912
@@ -21002,19 +21002,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6659,
             "unit": "ns",
             "range": 0.203961
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2835.82,
             "unit": "ns",
             "range": 108.217
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4902.94,
             "unit": "ns",
             "range": 194.846
@@ -21042,19 +21042,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7598,
             "unit": "ns",
             "range": 0.283827
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2807.73,
             "unit": "ns",
             "range": 98.0386
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4784.94,
             "unit": "ns",
             "range": 179.607
@@ -21082,19 +21082,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6388,
             "unit": "ns",
             "range": 0.275349
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2933.36,
             "unit": "ns",
             "range": 69.2148
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4945.2,
             "unit": "ns",
             "range": 195.766
@@ -21122,19 +21122,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7315,
             "unit": "ns",
             "range": 0.175743
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2935.12,
             "unit": "ns",
             "range": 106.522
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4904.15,
             "unit": "ns",
             "range": 178.883
@@ -21162,19 +21162,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6822,
             "unit": "ns",
             "range": 0.242275
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2844.87,
             "unit": "ns",
             "range": 92.2588
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4929.78,
             "unit": "ns",
             "range": 135.324
@@ -21202,19 +21202,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6545,
             "unit": "ns",
             "range": 0.158003
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2943.89,
             "unit": "ns",
             "range": 79.9262
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4930.71,
             "unit": "ns",
             "range": 133.009
@@ -21242,19 +21242,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5261,
             "unit": "ns",
             "range": 0.113427
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2904.8,
             "unit": "ns",
             "range": 66.2265
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4831.93,
             "unit": "ns",
             "range": 86.6036
@@ -21282,19 +21282,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6537,
             "unit": "ns",
             "range": 0.19655
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2927.76,
             "unit": "ns",
             "range": 106.091
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4966.01,
             "unit": "ns",
             "range": 196.91
@@ -21322,19 +21322,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6669,
             "unit": "ns",
             "range": 0.170252
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2875.82,
             "unit": "ns",
             "range": 115.676
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4905.6,
             "unit": "ns",
             "range": 67.0375
@@ -21362,19 +21362,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7091,
             "unit": "ns",
             "range": 0.123428
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2917.99,
             "unit": "ns",
             "range": 62.5448
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4835.25,
             "unit": "ns",
             "range": 132.735
@@ -21402,19 +21402,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5405,
             "unit": "ns",
             "range": 0.173976
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2875.09,
             "unit": "ns",
             "range": 112.833
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5036.96,
             "unit": "ns",
             "range": 126.809
@@ -21442,19 +21442,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 85.3575,
             "unit": "ns",
             "range": 0.874608
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2722.84,
             "unit": "ns",
             "range": 96.8957
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4617.91,
             "unit": "ns",
             "range": 154.015
@@ -21482,19 +21482,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5996,
             "unit": "ns",
             "range": 0.176499
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2879.42,
             "unit": "ns",
             "range": 75.3696
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5089.79,
             "unit": "ns",
             "range": 192.466
@@ -21522,19 +21522,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6345,
             "unit": "ns",
             "range": 0.163462
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2903.98,
             "unit": "ns",
             "range": 79.8865
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4930.04,
             "unit": "ns",
             "range": 168.845
@@ -21562,19 +21562,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6493,
             "unit": "ns",
             "range": 0.237269
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2863.17,
             "unit": "ns",
             "range": 105.559
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5078.48,
             "unit": "ns",
             "range": 156.41
@@ -21602,19 +21602,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6431,
             "unit": "ns",
             "range": 0.18268
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2915.76,
             "unit": "ns",
             "range": 59.6514
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4990.46,
             "unit": "ns",
             "range": 157.993
@@ -21642,19 +21642,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.1292,
             "unit": "ns",
             "range": 0.279014
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2871.34,
             "unit": "ns",
             "range": 86.0682
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5078.49,
             "unit": "ns",
             "range": 83.133
@@ -21682,19 +21682,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0865,
             "unit": "ns",
             "range": 0.17618
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2893.24,
             "unit": "ns",
             "range": 117.638
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4981.11,
             "unit": "ns",
             "range": 84.1857
@@ -21722,19 +21722,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.1149,
             "unit": "ns",
             "range": 0.264068
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2799.08,
             "unit": "ns",
             "range": 111.777
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5028.5,
             "unit": "ns",
             "range": 149.613
@@ -21762,19 +21762,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 89.7391,
             "unit": "ns",
             "range": 0.586099
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2875.14,
             "unit": "ns",
             "range": 111.715
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4950.31,
             "unit": "ns",
             "range": 149.961
@@ -21802,19 +21802,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.1435,
             "unit": "ns",
             "range": 0.19161
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2953.84,
             "unit": "ns",
             "range": 117.378
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5035.69,
             "unit": "ns",
             "range": 119.943
@@ -21842,19 +21842,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0394,
             "unit": "ns",
             "range": 0.210122
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2943.13,
             "unit": "ns",
             "range": 109.636
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4991.86,
             "unit": "ns",
             "range": 94.7037
@@ -21882,19 +21882,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.217,
             "unit": "ns",
             "range": 0.185319
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2916.38,
             "unit": "ns",
             "range": 74.6055
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4995.91,
             "unit": "ns",
             "range": 131.819
@@ -21922,19 +21922,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.1244,
             "unit": "ns",
             "range": 0.229618
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2858,
             "unit": "ns",
             "range": 85.9857
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5005.41,
             "unit": "ns",
             "range": 159.708
@@ -21962,19 +21962,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.1343,
             "unit": "ns",
             "range": 0.281162
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2897.13,
             "unit": "ns",
             "range": 119.042
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5042.79,
             "unit": "ns",
             "range": 94.6334
@@ -22002,19 +22002,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0713,
             "unit": "ns",
             "range": 0.189885
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2919.16,
             "unit": "ns",
             "range": 85.4599
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4998.84,
             "unit": "ns",
             "range": 135.357
@@ -22042,19 +22042,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.2327,
             "unit": "ns",
             "range": 0.162433
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2946.03,
             "unit": "ns",
             "range": 85.4637
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4954.61,
             "unit": "ns",
             "range": 121.297
@@ -22082,19 +22082,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0597,
             "unit": "ns",
             "range": 0.202626
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2884.06,
             "unit": "ns",
             "range": 82.3835
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5011.53,
             "unit": "ns",
             "range": 101.418
@@ -22122,19 +22122,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0906,
             "unit": "ns",
             "range": 0.253695
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2896.08,
             "unit": "ns",
             "range": 75.0054
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5067.34,
             "unit": "ns",
             "range": 159.331
@@ -22162,19 +22162,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.1659,
             "unit": "ns",
             "range": 0.206529
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2899.01,
             "unit": "ns",
             "range": 117.634
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4996.72,
             "unit": "ns",
             "range": 97.7381
@@ -22202,19 +22202,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.3007,
             "unit": "ns",
             "range": 0.478136
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2899.74,
             "unit": "ns",
             "range": 121.382
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5016.5,
             "unit": "ns",
             "range": 128.883
@@ -22242,19 +22242,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.2251,
             "unit": "ns",
             "range": 0.627532
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2889.63,
             "unit": "ns",
             "range": 91.0657
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4904.79,
             "unit": "ns",
             "range": 131.838
@@ -22282,19 +22282,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.033,
             "unit": "ns",
             "range": 0.166034
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2882.24,
             "unit": "ns",
             "range": 61.4177
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5036.91,
             "unit": "ns",
             "range": 92.9251
@@ -22322,19 +22322,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0537,
             "unit": "ns",
             "range": 0.245528
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2903.69,
             "unit": "ns",
             "range": 95.527
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4975.31,
             "unit": "ns",
             "range": 153.903
@@ -22362,19 +22362,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.2614,
             "unit": "ns",
             "range": 0.132233
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2978.4,
             "unit": "ns",
             "range": 64.0759
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4983.62,
             "unit": "ns",
             "range": 149.246
@@ -22402,19 +22402,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.0514,
             "unit": "ns",
             "range": 0.183955
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2924.44,
             "unit": "ns",
             "range": 169.296
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4965.63,
             "unit": "ns",
             "range": 127.997
@@ -22442,19 +22442,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.3566,
             "unit": "ns",
             "range": 0.345581
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2884.7,
             "unit": "ns",
             "range": 113.064
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5036.05,
             "unit": "ns",
             "range": 162.001
@@ -22482,19 +22482,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6341,
             "unit": "ns",
             "range": 0.194001
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2840.56,
             "unit": "ns",
             "range": 114.793
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4938.17,
             "unit": "ns",
             "range": 120.723
@@ -22522,19 +22522,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5949,
             "unit": "ns",
             "range": 0.205413
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2918.94,
             "unit": "ns",
             "range": 117.681
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5008.64,
             "unit": "ns",
             "range": 152.262
@@ -22562,19 +22562,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6624,
             "unit": "ns",
             "range": 0.144141
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2886.63,
             "unit": "ns",
             "range": 98.7608
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4972.51,
             "unit": "ns",
             "range": 106.914
@@ -22602,19 +22602,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 89.969,
             "unit": "ns",
             "range": 0.556774
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2804.94,
             "unit": "ns",
             "range": 105.825
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4990.01,
             "unit": "ns",
             "range": 123.875
@@ -22644,19 +22644,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5901,
             "unit": "ns",
             "range": 0.154346
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2869.97,
             "unit": "ns",
             "range": 91.1206
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5046.03,
             "unit": "ns",
             "range": 173.663
@@ -22684,19 +22684,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 88.7494,
             "unit": "ns",
             "range": 0.684913
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2836.05,
             "unit": "ns",
             "range": 84.9249
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4865.55,
             "unit": "ns",
             "range": 122.52
@@ -22724,19 +22724,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6091,
             "unit": "ns",
             "range": 0.147199
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2845.04,
             "unit": "ns",
             "range": 93.5887
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4963.73,
             "unit": "ns",
             "range": 126.5
@@ -22764,19 +22764,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7051,
             "unit": "ns",
             "range": 0.252382
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2912.12,
             "unit": "ns",
             "range": 63.4243
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4949.36,
             "unit": "ns",
             "range": 193.151
@@ -22804,19 +22804,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5438,
             "unit": "ns",
             "range": 0.170544
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2872.43,
             "unit": "ns",
             "range": 101.503
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5058.27,
             "unit": "ns",
             "range": 132.469
@@ -22846,19 +22846,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6288,
             "unit": "ns",
             "range": 0.186047
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2921.96,
             "unit": "ns",
             "range": 90.3352
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5002.81,
             "unit": "ns",
             "range": 164.268
@@ -22886,19 +22886,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5189,
             "unit": "ns",
             "range": 0.110286
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2854.3,
             "unit": "ns",
             "range": 107.935
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4786.29,
             "unit": "ns",
             "range": 153.224
@@ -22926,19 +22926,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4499,
             "unit": "ns",
             "range": 0.142003
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2878.84,
             "unit": "ns",
             "range": 106.717
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4904.42,
             "unit": "ns",
             "range": 97.4066
@@ -22966,19 +22966,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.71,
             "unit": "ns",
             "range": 0.162224
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2842.32,
             "unit": "ns",
             "range": 108.67
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4989.05,
             "unit": "ns",
             "range": 104.682
@@ -23006,19 +23006,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6408,
             "unit": "ns",
             "range": 0.152582
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2834.46,
             "unit": "ns",
             "range": 143.705
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4995.83,
             "unit": "ns",
             "range": 178.692
@@ -23046,19 +23046,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.4506,
             "unit": "ns",
             "range": 0.112519
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2831.71,
             "unit": "ns",
             "range": 91.8013
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4950.75,
             "unit": "ns",
             "range": 158.797
@@ -23086,19 +23086,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6561,
             "unit": "ns",
             "range": 0.185066
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2830.83,
             "unit": "ns",
             "range": 111.231
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5020.82,
             "unit": "ns",
             "range": 164.703
@@ -23126,19 +23126,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5531,
             "unit": "ns",
             "range": 0.155559
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2784.45,
             "unit": "ns",
             "range": 83.5536
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4921.95,
             "unit": "ns",
             "range": 129.776
@@ -23166,19 +23166,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5485,
             "unit": "ns",
             "range": 0.178531
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2860.27,
             "unit": "ns",
             "range": 99.7033
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4949.67,
             "unit": "ns",
             "range": 167.569
@@ -23206,19 +23206,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.771,
             "unit": "ns",
             "range": 0.440893
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2834.85,
             "unit": "ns",
             "range": 78.0366
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4978.65,
             "unit": "ns",
             "range": 217.287
@@ -23246,19 +23246,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6499,
             "unit": "ns",
             "range": 0.191507
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2822.94,
             "unit": "ns",
             "range": 143.451
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4922.31,
             "unit": "ns",
             "range": 180.395
@@ -23286,19 +23286,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6544,
             "unit": "ns",
             "range": 0.291699
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2824.54,
             "unit": "ns",
             "range": 137.15
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4911.49,
             "unit": "ns",
             "range": 113.763
@@ -23326,19 +23326,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5177,
             "unit": "ns",
             "range": 0.139685
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2789.82,
             "unit": "ns",
             "range": 86.1148
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4985.73,
             "unit": "ns",
             "range": 123.626
@@ -23366,19 +23366,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5313,
             "unit": "ns",
             "range": 0.144117
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2853.1,
             "unit": "ns",
             "range": 83.171
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5016.55,
             "unit": "ns",
             "range": 220.923
@@ -23406,19 +23406,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6729,
             "unit": "ns",
             "range": 0.155867
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2794.73,
             "unit": "ns",
             "range": 118.585
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5010.98,
             "unit": "ns",
             "range": 134.434
@@ -23446,19 +23446,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7313,
             "unit": "ns",
             "range": 0.164441
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2747.77,
             "unit": "ns",
             "range": 162.488
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5007.61,
             "unit": "ns",
             "range": 103.708
@@ -23486,19 +23486,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5966,
             "unit": "ns",
             "range": 0.193918
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2809.22,
             "unit": "ns",
             "range": 97.9776
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4930.96,
             "unit": "ns",
             "range": 172.697
@@ -23528,19 +23528,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6038,
             "unit": "ns",
             "range": 0.151946
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2788.94,
             "unit": "ns",
             "range": 103.252
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4960.9,
             "unit": "ns",
             "range": 111.333
@@ -23568,19 +23568,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5334,
             "unit": "ns",
             "range": 0.127528
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2834.33,
             "unit": "ns",
             "range": 92.1486
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4829.64,
             "unit": "ns",
             "range": 153.208
@@ -23608,19 +23608,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5849,
             "unit": "ns",
             "range": 0.192682
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2808.06,
             "unit": "ns",
             "range": 120.876
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4903.78,
             "unit": "ns",
             "range": 168.865
@@ -23650,19 +23650,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.5516,
             "unit": "ns",
             "range": 0.154476
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2808.9,
             "unit": "ns",
             "range": 119.674
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4986.09,
             "unit": "ns",
             "range": 145.061
@@ -23690,19 +23690,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6619,
             "unit": "ns",
             "range": 0.176505
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2869.14,
             "unit": "ns",
             "range": 145.679
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4898.76,
             "unit": "ns",
             "range": 127.345
@@ -23730,19 +23730,19 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6522,
             "unit": "ns",
             "range": 0.198296
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2818.66,
             "unit": "ns",
             "range": 105.047
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4931.12,
             "unit": "ns",
             "range": 148.763
@@ -23772,25 +23772,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6216,
             "unit": "ns",
             "range": 0.236559
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2845.18,
             "unit": "ns",
             "range": 80.4651
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 5035.17,
             "unit": "ns",
             "range": 175.669
           },
           {
-            "name": "Configuration 4",
+            "name": "Prometheus",
             "value": 4500.34,
             "unit": "ns",
             "range": 119.43
@@ -23818,25 +23818,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7714,
             "unit": "ns",
             "range": 0.20673
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2946.12,
             "unit": "ns",
             "range": 145.477
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4909.11,
             "unit": "ns",
             "range": 115.43
           },
           {
-            "name": "Configuration 4",
+            "name": "Prometheus",
             "value": 4592.58,
             "unit": "ns",
             "range": 83.8982
@@ -23864,25 +23864,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.7337,
             "unit": "ns",
             "range": 0.164911
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2827.2,
             "unit": "ns",
             "range": 111.063
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4967.27,
             "unit": "ns",
             "range": 107.057
           },
           {
-            "name": "Configuration 4",
+            "name": "Prometheus",
             "value": 4413.57,
             "unit": "ns",
             "range": 168.658
@@ -23910,25 +23910,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 90.6254,
             "unit": "ns",
             "range": 0.139531
           },
           {
-            "name": "Configuration 1",
+            "name": "No logging",
             "value": 2826.88,
             "unit": "ns",
             "range": 109.735
           },
           {
-            "name": "Configuration 3",
+            "name": "Zipkin",
             "value": 4910.45,
             "unit": "ns",
             "range": 93.8758
           },
           {
-            "name": "Configuration 4",
+            "name": "Prometheus",
             "value": 4485.56,
             "unit": "ns",
             "range": 126.455
@@ -27642,25 +27642,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.2771,
             "unit": "ns",
             "range": 0.328394
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 560.907,
             "unit": "ns",
             "range": 11.3079
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2565.41,
             "unit": "ns",
             "range": 83.8673
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6101.11,
             "unit": "ns",
             "range": 757.937
@@ -27690,25 +27690,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9503,
             "unit": "ns",
             "range": 0.149761
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 556.605,
             "unit": "ns",
             "range": 17.9099
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2546.5,
             "unit": "ns",
             "range": 97.3321
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6158.83,
             "unit": "ns",
             "range": 782.582
@@ -27736,25 +27736,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9401,
             "unit": "ns",
             "range": 0.32148
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 571.994,
             "unit": "ns",
             "range": 27.4573
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2614.73,
             "unit": "ns",
             "range": 75.7884
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6206.39,
             "unit": "ns",
             "range": 728.315
@@ -27782,25 +27782,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1985,
             "unit": "ns",
             "range": 0.230465
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 570.015,
             "unit": "ns",
             "range": 7.68143
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2591.7,
             "unit": "ns",
             "range": 74.8605
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6298.74,
             "unit": "ns",
             "range": 444.347
@@ -27828,25 +27828,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9428,
             "unit": "ns",
             "range": 0.192591
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 560.597,
             "unit": "ns",
             "range": 32.098
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2601.23,
             "unit": "ns",
             "range": 106.378
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5926.17,
             "unit": "ns",
             "range": 635.583
@@ -27874,25 +27874,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.6703,
             "unit": "ns",
             "range": 1.68195
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 562.518,
             "unit": "ns",
             "range": 20.4892
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2613.58,
             "unit": "ns",
             "range": 95.2944
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6473.22,
             "unit": "ns",
             "range": 695.626
@@ -27920,25 +27920,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.882,
             "unit": "ns",
             "range": 0.271621
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 559.121,
             "unit": "ns",
             "range": 15.0098
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2602.58,
             "unit": "ns",
             "range": 98.0674
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6182.32,
             "unit": "ns",
             "range": 740.007
@@ -27968,25 +27968,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1813,
             "unit": "ns",
             "range": 0.277588
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 555.495,
             "unit": "ns",
             "range": 23.9654
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2583.34,
             "unit": "ns",
             "range": 77.5232
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6418.6,
             "unit": "ns",
             "range": 476.017
@@ -28016,25 +28016,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.2247,
             "unit": "ns",
             "range": 0.113762
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 572.82,
             "unit": "ns",
             "range": 32.5304
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2613.87,
             "unit": "ns",
             "range": 88.0536
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6629.1,
             "unit": "ns",
             "range": 828.142
@@ -28062,25 +28062,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9747,
             "unit": "ns",
             "range": 0.394308
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 558.228,
             "unit": "ns",
             "range": 17.9935
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2593.73,
             "unit": "ns",
             "range": 66.6008
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6718.76,
             "unit": "ns",
             "range": 416.94
@@ -28110,25 +28110,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0324,
             "unit": "ns",
             "range": 0.21937
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 564.884,
             "unit": "ns",
             "range": 13.7864
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2601.96,
             "unit": "ns",
             "range": 94.1513
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6455.83,
             "unit": "ns",
             "range": 960.399
@@ -28158,25 +28158,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0828,
             "unit": "ns",
             "range": 0.201477
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 576.054,
             "unit": "ns",
             "range": 24.9592
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2585.35,
             "unit": "ns",
             "range": 109.935
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6340.92,
             "unit": "ns",
             "range": 687.505
@@ -28206,25 +28206,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0629,
             "unit": "ns",
             "range": 0.346652
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 558.687,
             "unit": "ns",
             "range": 19.4929
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2595.23,
             "unit": "ns",
             "range": 77.2737
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6232.18,
             "unit": "ns",
             "range": 767.679
@@ -28252,25 +28252,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0021,
             "unit": "ns",
             "range": 0.216421
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 566.59,
             "unit": "ns",
             "range": 18.7834
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2591.54,
             "unit": "ns",
             "range": 99.5551
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6592.14,
             "unit": "ns",
             "range": 735.118
@@ -28298,25 +28298,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.2458,
             "unit": "ns",
             "range": 0.404382
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 571.776,
             "unit": "ns",
             "range": 18.7828
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2594.92,
             "unit": "ns",
             "range": 90.298
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6186.08,
             "unit": "ns",
             "range": 829.872
@@ -28344,25 +28344,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9147,
             "unit": "ns",
             "range": 0.203113
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 556.652,
             "unit": "ns",
             "range": 17.4493
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2596.01,
             "unit": "ns",
             "range": 87.843
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6040.57,
             "unit": "ns",
             "range": 799.738
@@ -28390,25 +28390,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8152,
             "unit": "ns",
             "range": 0.143761
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 564.592,
             "unit": "ns",
             "range": 20.7007
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2616.44,
             "unit": "ns",
             "range": 113.553
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6237.06,
             "unit": "ns",
             "range": 882.992
@@ -28436,25 +28436,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0757,
             "unit": "ns",
             "range": 0.227528
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 548.022,
             "unit": "ns",
             "range": 14.4496
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2565.43,
             "unit": "ns",
             "range": 54.5972
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6636.95,
             "unit": "ns",
             "range": 728.827
@@ -28482,25 +28482,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8648,
             "unit": "ns",
             "range": 0.119032
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 559.687,
             "unit": "ns",
             "range": 12.9173
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2521.66,
             "unit": "ns",
             "range": 42.427
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6438.04,
             "unit": "ns",
             "range": 878.753
@@ -28528,25 +28528,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.7969,
             "unit": "ns",
             "range": 0.389658
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 566.533,
             "unit": "ns",
             "range": 25.1885
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2508.27,
             "unit": "ns",
             "range": 41.6762
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6291.49,
             "unit": "ns",
             "range": 499.895
@@ -28574,25 +28574,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9967,
             "unit": "ns",
             "range": 0.162949
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 556.295,
             "unit": "ns",
             "range": 23.6775
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2546.14,
             "unit": "ns",
             "range": 82.4385
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6246.42,
             "unit": "ns",
             "range": 617.724
@@ -28620,25 +28620,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 96.7481,
             "unit": "ns",
             "range": 11.3094
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 641.804,
             "unit": "ns",
             "range": 164.938
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2676.31,
             "unit": "ns",
             "range": 248.253
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 9313.16,
             "unit": "ns",
             "range": 4595.51
@@ -28666,25 +28666,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9077,
             "unit": "ns",
             "range": 0.237055
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 559.371,
             "unit": "ns",
             "range": 18.9507
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2590.38,
             "unit": "ns",
             "range": 106.703
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6120.04,
             "unit": "ns",
             "range": 616.704
@@ -28712,25 +28712,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.817,
             "unit": "ns",
             "range": 0.148429
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 580.36,
             "unit": "ns",
             "range": 41.8765
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2539.34,
             "unit": "ns",
             "range": 47.5843
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6353.99,
             "unit": "ns",
             "range": 799.093
@@ -28758,25 +28758,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0526,
             "unit": "ns",
             "range": 0.209713
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 571.304,
             "unit": "ns",
             "range": 10.9656
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2583.24,
             "unit": "ns",
             "range": 109.759
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6269.85,
             "unit": "ns",
             "range": 549.098
@@ -28804,25 +28804,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0336,
             "unit": "ns",
             "range": 0.192473
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 564.402,
             "unit": "ns",
             "range": 12.5689
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2607.02,
             "unit": "ns",
             "range": 94.1623
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6677.77,
             "unit": "ns",
             "range": 315.757
@@ -28850,25 +28850,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8841,
             "unit": "ns",
             "range": 0.21429
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 558.922,
             "unit": "ns",
             "range": 19.5886
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2579.03,
             "unit": "ns",
             "range": 60.4555
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6109.15,
             "unit": "ns",
             "range": 684.442
@@ -28896,25 +28896,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.3416,
             "unit": "ns",
             "range": 0.887031
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 569.137,
             "unit": "ns",
             "range": 18.8336
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2553.08,
             "unit": "ns",
             "range": 46.7271
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5739.16,
             "unit": "ns",
             "range": 535.508
@@ -28942,25 +28942,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0033,
             "unit": "ns",
             "range": 0.160317
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 555.909,
             "unit": "ns",
             "range": 11.2204
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2554.03,
             "unit": "ns",
             "range": 118.616
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6487.19,
             "unit": "ns",
             "range": 906.487
@@ -28988,25 +28988,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9844,
             "unit": "ns",
             "range": 0.29791
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 556.172,
             "unit": "ns",
             "range": 16.2196
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2561.68,
             "unit": "ns",
             "range": 60.4983
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6492.97,
             "unit": "ns",
             "range": 507.723
@@ -29034,25 +29034,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.96,
             "unit": "ns",
             "range": 0.215017
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 557.574,
             "unit": "ns",
             "range": 19.8187
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2556.08,
             "unit": "ns",
             "range": 99.0075
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6149.87,
             "unit": "ns",
             "range": 1010.35
@@ -29080,25 +29080,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.3487,
             "unit": "ns",
             "range": 0.411674
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 562.499,
             "unit": "ns",
             "range": 18.4071
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2556.53,
             "unit": "ns",
             "range": 51.9161
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6492,
             "unit": "ns",
             "range": 548.688
@@ -29126,25 +29126,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1633,
             "unit": "ns",
             "range": 0.172098
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 563.544,
             "unit": "ns",
             "range": 17.9886
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2570.46,
             "unit": "ns",
             "range": 97.8251
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6111.84,
             "unit": "ns",
             "range": 847.715
@@ -29172,25 +29172,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0732,
             "unit": "ns",
             "range": 0.282165
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 569.805,
             "unit": "ns",
             "range": 21.5925
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2546.47,
             "unit": "ns",
             "range": 94.274
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6609.05,
             "unit": "ns",
             "range": 853.584
@@ -29218,25 +29218,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9932,
             "unit": "ns",
             "range": 0.272652
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 558.348,
             "unit": "ns",
             "range": 13.7024
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2580.11,
             "unit": "ns",
             "range": 57.9803
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6194.31,
             "unit": "ns",
             "range": 876.745
@@ -29264,25 +29264,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.6618,
             "unit": "ns",
             "range": 1.42244
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 563.203,
             "unit": "ns",
             "range": 31.3959
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2597.47,
             "unit": "ns",
             "range": 82.2134
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6637.54,
             "unit": "ns",
             "range": 562.68
@@ -29310,25 +29310,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0907,
             "unit": "ns",
             "range": 0.212967
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 565.689,
             "unit": "ns",
             "range": 11.3326
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2579.89,
             "unit": "ns",
             "range": 102.048
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6423.78,
             "unit": "ns",
             "range": 789.479
@@ -29356,25 +29356,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1674,
             "unit": "ns",
             "range": 0.320144
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 580.285,
             "unit": "ns",
             "range": 17.2376
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2610.93,
             "unit": "ns",
             "range": 125.243
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5811.6,
             "unit": "ns",
             "range": 817.001
@@ -29402,25 +29402,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0208,
             "unit": "ns",
             "range": 0.235334
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 569.174,
             "unit": "ns",
             "range": 23.3008
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2566.99,
             "unit": "ns",
             "range": 104.118
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6267.04,
             "unit": "ns",
             "range": 798.959
@@ -29448,25 +29448,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9856,
             "unit": "ns",
             "range": 0.206401
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 553.778,
             "unit": "ns",
             "range": 18.7046
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2593.75,
             "unit": "ns",
             "range": 63.9093
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6300.89,
             "unit": "ns",
             "range": 476.122
@@ -29494,25 +29494,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1753,
             "unit": "ns",
             "range": 0.246917
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 558.827,
             "unit": "ns",
             "range": 14.455
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2582.82,
             "unit": "ns",
             "range": 81.5137
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6196.52,
             "unit": "ns",
             "range": 858.607
@@ -29540,25 +29540,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0702,
             "unit": "ns",
             "range": 0.225159
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 571.932,
             "unit": "ns",
             "range": 16.5124
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2540.48,
             "unit": "ns",
             "range": 60.5482
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6405.65,
             "unit": "ns",
             "range": 596.101
@@ -29586,25 +29586,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0397,
             "unit": "ns",
             "range": 0.294126
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 560.764,
             "unit": "ns",
             "range": 18.3842
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2503.54,
             "unit": "ns",
             "range": 56.4235
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6230.38,
             "unit": "ns",
             "range": 716.471
@@ -29632,25 +29632,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.2682,
             "unit": "ns",
             "range": 0.366626
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 567.127,
             "unit": "ns",
             "range": 20.2727
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2613.04,
             "unit": "ns",
             "range": 88.6813
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6398.72,
             "unit": "ns",
             "range": 470.985
@@ -29678,25 +29678,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.939,
             "unit": "ns",
             "range": 0.16725
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 562.397,
             "unit": "ns",
             "range": 19.4621
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2569.28,
             "unit": "ns",
             "range": 63.6866
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6297.2,
             "unit": "ns",
             "range": 779.229
@@ -29724,25 +29724,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1286,
             "unit": "ns",
             "range": 0.225205
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 571.961,
             "unit": "ns",
             "range": 22.9683
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2566.16,
             "unit": "ns",
             "range": 104.327
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6372.82,
             "unit": "ns",
             "range": 639.029
@@ -29770,25 +29770,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.584,
             "unit": "ns",
             "range": 0.563669
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 561.084,
             "unit": "ns",
             "range": 22.5509
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2522.71,
             "unit": "ns",
             "range": 76.5704
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5719.93,
             "unit": "ns",
             "range": 674.732
@@ -29816,25 +29816,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0027,
             "unit": "ns",
             "range": 0.220748
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 574.081,
             "unit": "ns",
             "range": 40.1162
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2560.34,
             "unit": "ns",
             "range": 66.418
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6078.49,
             "unit": "ns",
             "range": 775.271
@@ -29862,25 +29862,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1291,
             "unit": "ns",
             "range": 0.225016
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 583.051,
             "unit": "ns",
             "range": 16.8822
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2605.25,
             "unit": "ns",
             "range": 67.6994
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6181.36,
             "unit": "ns",
             "range": 982.282
@@ -29910,25 +29910,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.206,
             "unit": "ns",
             "range": 0.294864
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 584.81,
             "unit": "ns",
             "range": 14.9962
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2608.99,
             "unit": "ns",
             "range": 92.87
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6459.51,
             "unit": "ns",
             "range": 979.011
@@ -29956,25 +29956,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9361,
             "unit": "ns",
             "range": 0.176068
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 558.212,
             "unit": "ns",
             "range": 25.7024
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2580.4,
             "unit": "ns",
             "range": 76.3546
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6720.51,
             "unit": "ns",
             "range": 675.999
@@ -30002,25 +30002,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0789,
             "unit": "ns",
             "range": 0.189761
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 570.91,
             "unit": "ns",
             "range": 21.4596
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2550.54,
             "unit": "ns",
             "range": 94.6243
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6227.45,
             "unit": "ns",
             "range": 719.29
@@ -30048,25 +30048,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0775,
             "unit": "ns",
             "range": 0.230029
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 578.144,
             "unit": "ns",
             "range": 15.2088
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2590.07,
             "unit": "ns",
             "range": 103.451
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6203.58,
             "unit": "ns",
             "range": 764.867
@@ -30094,25 +30094,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0519,
             "unit": "ns",
             "range": 0.150214
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 561.709,
             "unit": "ns",
             "range": 29.9285
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2614.98,
             "unit": "ns",
             "range": 100.097
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6446.85,
             "unit": "ns",
             "range": 861.449
@@ -30140,25 +30140,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1982,
             "unit": "ns",
             "range": 0.592857
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 562.22,
             "unit": "ns",
             "range": 8.33547
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2588.41,
             "unit": "ns",
             "range": 94.2256
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5809.09,
             "unit": "ns",
             "range": 780.922
@@ -30186,25 +30186,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.2741,
             "unit": "ns",
             "range": 0.522363
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 552.742,
             "unit": "ns",
             "range": 12.6427
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2597.46,
             "unit": "ns",
             "range": 81.0363
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5765.98,
             "unit": "ns",
             "range": 748.138
@@ -30232,25 +30232,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1325,
             "unit": "ns",
             "range": 0.274126
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 562.008,
             "unit": "ns",
             "range": 17.2239
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2564.61,
             "unit": "ns",
             "range": 41.7965
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5949.86,
             "unit": "ns",
             "range": 702.342
@@ -30278,25 +30278,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9439,
             "unit": "ns",
             "range": 0.224846
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 562.958,
             "unit": "ns",
             "range": 20.8846
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2531.11,
             "unit": "ns",
             "range": 80.1824
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6211.2,
             "unit": "ns",
             "range": 514.247
@@ -30326,25 +30326,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9622,
             "unit": "ns",
             "range": 0.181913
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 573.793,
             "unit": "ns",
             "range": 17.6996
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2520.04,
             "unit": "ns",
             "range": 34.2861
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5945.89,
             "unit": "ns",
             "range": 661.495
@@ -30374,25 +30374,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8978,
             "unit": "ns",
             "range": 0.246097
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 565.023,
             "unit": "ns",
             "range": 15.4177
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2539.61,
             "unit": "ns",
             "range": 108.461
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6175.91,
             "unit": "ns",
             "range": 595.43
@@ -30422,25 +30422,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1642,
             "unit": "ns",
             "range": 0.352938
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 560.105,
             "unit": "ns",
             "range": 20.1418
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2584.23,
             "unit": "ns",
             "range": 91.001
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6251.47,
             "unit": "ns",
             "range": 844.76
@@ -30470,25 +30470,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1014,
             "unit": "ns",
             "range": 0.23803
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 566.585,
             "unit": "ns",
             "range": 11.8625
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2606.77,
             "unit": "ns",
             "range": 80.1405
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6042.47,
             "unit": "ns",
             "range": 568.485
@@ -30518,25 +30518,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.3158,
             "unit": "ns",
             "range": 0.335424
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 568.509,
             "unit": "ns",
             "range": 20.4644
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2634.2,
             "unit": "ns",
             "range": 144.724
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6249.21,
             "unit": "ns",
             "range": 595.912
@@ -30566,25 +30566,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1836,
             "unit": "ns",
             "range": 0.529231
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 561.803,
             "unit": "ns",
             "range": 35.0335
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2570.92,
             "unit": "ns",
             "range": 56.8459
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6133.34,
             "unit": "ns",
             "range": 898.265
@@ -30614,25 +30614,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0523,
             "unit": "ns",
             "range": 0.297753
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 582.277,
             "unit": "ns",
             "range": 20.1572
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2541.29,
             "unit": "ns",
             "range": 50.9353
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6050.84,
             "unit": "ns",
             "range": 712.231
@@ -30660,25 +30660,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9587,
             "unit": "ns",
             "range": 0.186476
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 563.379,
             "unit": "ns",
             "range": 10.9163
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2610.72,
             "unit": "ns",
             "range": 82.4013
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6450.78,
             "unit": "ns",
             "range": 792.113
@@ -30706,25 +30706,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0613,
             "unit": "ns",
             "range": 0.181905
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 558.254,
             "unit": "ns",
             "range": 15.3318
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2686.53,
             "unit": "ns",
             "range": 51.8975
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6609.11,
             "unit": "ns",
             "range": 466.401
@@ -30752,25 +30752,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1421,
             "unit": "ns",
             "range": 0.147782
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 568.195,
             "unit": "ns",
             "range": 21.8684
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2612.46,
             "unit": "ns",
             "range": 113.928
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5872.95,
             "unit": "ns",
             "range": 868.05
@@ -30798,25 +30798,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1016,
             "unit": "ns",
             "range": 0.438661
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 556.222,
             "unit": "ns",
             "range": 20.8748
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2554.53,
             "unit": "ns",
             "range": 98.8583
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6096.97,
             "unit": "ns",
             "range": 467.565
@@ -30846,25 +30846,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9797,
             "unit": "ns",
             "range": 0.140753
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 570.102,
             "unit": "ns",
             "range": 20.2391
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2526.67,
             "unit": "ns",
             "range": 64.3115
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6265.19,
             "unit": "ns",
             "range": 469.122
@@ -30894,25 +30894,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1055,
             "unit": "ns",
             "range": 0.338335
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 559.434,
             "unit": "ns",
             "range": 12.3112
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2571.12,
             "unit": "ns",
             "range": 87.631
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5962.46,
             "unit": "ns",
             "range": 756.598
@@ -30940,25 +30940,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1364,
             "unit": "ns",
             "range": 0.312148
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 549.227,
             "unit": "ns",
             "range": 23.8731
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2569.16,
             "unit": "ns",
             "range": 80.4373
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5885.69,
             "unit": "ns",
             "range": 485.853
@@ -30986,25 +30986,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1767,
             "unit": "ns",
             "range": 0.280174
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 562.342,
             "unit": "ns",
             "range": 12.2311
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2525.58,
             "unit": "ns",
             "range": 80.0065
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6510.87,
             "unit": "ns",
             "range": 367.104
@@ -31032,25 +31032,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.234,
             "unit": "ns",
             "range": 0.830088
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 566.446,
             "unit": "ns",
             "range": 14.2277
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2572.49,
             "unit": "ns",
             "range": 78.8334
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6157.11,
             "unit": "ns",
             "range": 895.876
@@ -31078,25 +31078,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.2704,
             "unit": "ns",
             "range": 0.432506
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 561.706,
             "unit": "ns",
             "range": 17.1809
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2524.55,
             "unit": "ns",
             "range": 34.5114
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6395.78,
             "unit": "ns",
             "range": 604.985
@@ -31124,25 +31124,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.7705,
             "unit": "ns",
             "range": 0.297709
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 575.899,
             "unit": "ns",
             "range": 19.1897
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2528.81,
             "unit": "ns",
             "range": 80.7233
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5731.23,
             "unit": "ns",
             "range": 706.066
@@ -31170,25 +31170,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0748,
             "unit": "ns",
             "range": 0.297421
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 556.281,
             "unit": "ns",
             "range": 13.3662
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2595.64,
             "unit": "ns",
             "range": 93.5523
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6200.73,
             "unit": "ns",
             "range": 813.936
@@ -31216,25 +31216,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0352,
             "unit": "ns",
             "range": 0.36293
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 559.313,
             "unit": "ns",
             "range": 23.3498
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2589.81,
             "unit": "ns",
             "range": 88.7337
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6191.49,
             "unit": "ns",
             "range": 745.405
@@ -31262,25 +31262,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0264,
             "unit": "ns",
             "range": 0.144691
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 560.108,
             "unit": "ns",
             "range": 21.6105
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2555.34,
             "unit": "ns",
             "range": 91.9532
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5777.38,
             "unit": "ns",
             "range": 853.757
@@ -31308,25 +31308,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9972,
             "unit": "ns",
             "range": 0.255019
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 585.617,
             "unit": "ns",
             "range": 20.7454
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2550.62,
             "unit": "ns",
             "range": 70.2145
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6098.07,
             "unit": "ns",
             "range": 930.973
@@ -31354,25 +31354,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9868,
             "unit": "ns",
             "range": 0.0876648
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 562.838,
             "unit": "ns",
             "range": 12.9826
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2529.24,
             "unit": "ns",
             "range": 72.6378
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6456.89,
             "unit": "ns",
             "range": 880.526
@@ -31400,25 +31400,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9355,
             "unit": "ns",
             "range": 0.141677
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 555.876,
             "unit": "ns",
             "range": 21.501
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2547.52,
             "unit": "ns",
             "range": 63.5031
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6095.86,
             "unit": "ns",
             "range": 785.359
@@ -31446,25 +31446,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8564,
             "unit": "ns",
             "range": 0.148777
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 562.86,
             "unit": "ns",
             "range": 17.8012
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2570.56,
             "unit": "ns",
             "range": 90.2451
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6255.36,
             "unit": "ns",
             "range": 919.358
@@ -31492,25 +31492,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9824,
             "unit": "ns",
             "range": 0.193615
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 558.227,
             "unit": "ns",
             "range": 8.04692
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2593.07,
             "unit": "ns",
             "range": 98.083
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5827.51,
             "unit": "ns",
             "range": 872.542
@@ -31538,25 +31538,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9845,
             "unit": "ns",
             "range": 0.224854
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 562.871,
             "unit": "ns",
             "range": 16.6161
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2568.73,
             "unit": "ns",
             "range": 80.8412
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6250.16,
             "unit": "ns",
             "range": 568.171
@@ -31584,25 +31584,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1904,
             "unit": "ns",
             "range": 0.312746
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 561.702,
             "unit": "ns",
             "range": 15.4415
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2541.16,
             "unit": "ns",
             "range": 81.1054
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6659.63,
             "unit": "ns",
             "range": 253.108
@@ -31630,25 +31630,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9711,
             "unit": "ns",
             "range": 0.191346
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 551.354,
             "unit": "ns",
             "range": 13.5333
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2575.54,
             "unit": "ns",
             "range": 103.411
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6413.8,
             "unit": "ns",
             "range": 853.335
@@ -31676,25 +31676,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0352,
             "unit": "ns",
             "range": 0.306826
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 556.812,
             "unit": "ns",
             "range": 30.717
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2602.21,
             "unit": "ns",
             "range": 92.8139
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5640.37,
             "unit": "ns",
             "range": 518.547
@@ -31722,25 +31722,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0025,
             "unit": "ns",
             "range": 0.241524
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 565.395,
             "unit": "ns",
             "range": 21.6149
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2599.75,
             "unit": "ns",
             "range": 103.028
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6473.81,
             "unit": "ns",
             "range": 778.76
@@ -31768,25 +31768,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9052,
             "unit": "ns",
             "range": 0.137083
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 552.146,
             "unit": "ns",
             "range": 15.723
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2530.22,
             "unit": "ns",
             "range": 126.015
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6078.29,
             "unit": "ns",
             "range": 668.759
@@ -31816,25 +31816,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9424,
             "unit": "ns",
             "range": 0.283492
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 554.572,
             "unit": "ns",
             "range": 14.1927
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2563.71,
             "unit": "ns",
             "range": 104.071
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5994,
             "unit": "ns",
             "range": 805.117
@@ -31864,25 +31864,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8001,
             "unit": "ns",
             "range": 0.157708
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 556.65,
             "unit": "ns",
             "range": 17.7125
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2531.14,
             "unit": "ns",
             "range": 40.1875
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6497.16,
             "unit": "ns",
             "range": 705.962
@@ -31912,25 +31912,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0025,
             "unit": "ns",
             "range": 0.273552
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 550.259,
             "unit": "ns",
             "range": 7.10296
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2581.19,
             "unit": "ns",
             "range": 106.89
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5817.01,
             "unit": "ns",
             "range": 684.524
@@ -31960,25 +31960,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0003,
             "unit": "ns",
             "range": 0.327431
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 554.824,
             "unit": "ns",
             "range": 12.4847
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2576.56,
             "unit": "ns",
             "range": 87.4044
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5854.31,
             "unit": "ns",
             "range": 594.848
@@ -32008,25 +32008,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9708,
             "unit": "ns",
             "range": 0.274781
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 557.538,
             "unit": "ns",
             "range": 16.1748
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2533.36,
             "unit": "ns",
             "range": 63.6945
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6167.95,
             "unit": "ns",
             "range": 609.581
@@ -32054,25 +32054,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.7813,
             "unit": "ns",
             "range": 0.116609
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 555.896,
             "unit": "ns",
             "range": 33.5817
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2576.38,
             "unit": "ns",
             "range": 61.5426
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6341.51,
             "unit": "ns",
             "range": 648.394
@@ -32100,25 +32100,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8462,
             "unit": "ns",
             "range": 0.190396
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 556.691,
             "unit": "ns",
             "range": 11.5486
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2590.58,
             "unit": "ns",
             "range": 114.374
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5726.93,
             "unit": "ns",
             "range": 911.876
@@ -32146,25 +32146,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9037,
             "unit": "ns",
             "range": 0.220196
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 560.458,
             "unit": "ns",
             "range": 26.4285
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2627.13,
             "unit": "ns",
             "range": 138.58
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5863.08,
             "unit": "ns",
             "range": 701.25
@@ -32192,25 +32192,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.864,
             "unit": "ns",
             "range": 0.242098
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 559.734,
             "unit": "ns",
             "range": 17.4767
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2534.44,
             "unit": "ns",
             "range": 53.2385
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6540.74,
             "unit": "ns",
             "range": 466.943
@@ -32238,25 +32238,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9267,
             "unit": "ns",
             "range": 0.137942
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 577.531,
             "unit": "ns",
             "range": 33.2195
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2543,
             "unit": "ns",
             "range": 57.661
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6317.83,
             "unit": "ns",
             "range": 541.536
@@ -32284,25 +32284,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8825,
             "unit": "ns",
             "range": 0.145528
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 560.043,
             "unit": "ns",
             "range": 19.1408
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2557.05,
             "unit": "ns",
             "range": 112.378
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6151.5,
             "unit": "ns",
             "range": 719.156
@@ -32332,25 +32332,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9206,
             "unit": "ns",
             "range": 0.264108
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 557.513,
             "unit": "ns",
             "range": 17.1908
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2560.49,
             "unit": "ns",
             "range": 98.9431
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5997.04,
             "unit": "ns",
             "range": 643.783
@@ -32378,25 +32378,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.6704,
             "unit": "ns",
             "range": 1.88361
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 557.773,
             "unit": "ns",
             "range": 7.39713
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2582.4,
             "unit": "ns",
             "range": 78.1157
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6842.16,
             "unit": "ns",
             "range": 532.647
@@ -32424,25 +32424,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8873,
             "unit": "ns",
             "range": 0.189222
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 560.322,
             "unit": "ns",
             "range": 16.4062
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2541.96,
             "unit": "ns",
             "range": 55.4027
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6479.49,
             "unit": "ns",
             "range": 852.163
@@ -32470,25 +32470,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8928,
             "unit": "ns",
             "range": 0.146855
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 549.222,
             "unit": "ns",
             "range": 14.2251
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2558.2,
             "unit": "ns",
             "range": 95.3031
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6283.52,
             "unit": "ns",
             "range": 417.852
@@ -32516,25 +32516,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9557,
             "unit": "ns",
             "range": 0.256413
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 561.085,
             "unit": "ns",
             "range": 19.8083
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2619.99,
             "unit": "ns",
             "range": 98.4795
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6528.74,
             "unit": "ns",
             "range": 522.485
@@ -32562,25 +32562,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.7973,
             "unit": "ns",
             "range": 0.133193
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 561.803,
             "unit": "ns",
             "range": 38.7523
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2544.82,
             "unit": "ns",
             "range": 94.3339
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5760.64,
             "unit": "ns",
             "range": 921.666
@@ -32608,25 +32608,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.7582,
             "unit": "ns",
             "range": 0.134856
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 555.259,
             "unit": "ns",
             "range": 15.584
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2543.26,
             "unit": "ns",
             "range": 107.701
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6060.78,
             "unit": "ns",
             "range": 458.32
@@ -32654,25 +32654,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9869,
             "unit": "ns",
             "range": 0.212239
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 559.764,
             "unit": "ns",
             "range": 26.8883
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2553.7,
             "unit": "ns",
             "range": 89.5928
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6313.95,
             "unit": "ns",
             "range": 747.265
@@ -32700,25 +32700,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9994,
             "unit": "ns",
             "range": 0.2204
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 545.895,
             "unit": "ns",
             "range": 14.7455
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2593.15,
             "unit": "ns",
             "range": 106.197
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6281.12,
             "unit": "ns",
             "range": 662.607
@@ -32746,25 +32746,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9707,
             "unit": "ns",
             "range": 0.251497
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 570.499,
             "unit": "ns",
             "range": 23.148
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2569.37,
             "unit": "ns",
             "range": 91.0975
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5975.05,
             "unit": "ns",
             "range": 743.515
@@ -32792,25 +32792,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0972,
             "unit": "ns",
             "range": 0.648762
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 559.112,
             "unit": "ns",
             "range": 11.2657
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2522.55,
             "unit": "ns",
             "range": 100.701
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6445.76,
             "unit": "ns",
             "range": 727.861
@@ -32838,25 +32838,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8837,
             "unit": "ns",
             "range": 0.0785858
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 552.338,
             "unit": "ns",
             "range": 17.0232
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2517.46,
             "unit": "ns",
             "range": 67.9014
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6460.67,
             "unit": "ns",
             "range": 734.763
@@ -32886,25 +32886,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1034,
             "unit": "ns",
             "range": 0.34866
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 571.799,
             "unit": "ns",
             "range": 20.3758
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2618.4,
             "unit": "ns",
             "range": 99.9212
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6113.64,
             "unit": "ns",
             "range": 708.852
@@ -32932,25 +32932,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0614,
             "unit": "ns",
             "range": 0.293992
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 575.026,
             "unit": "ns",
             "range": 14.5705
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2585.65,
             "unit": "ns",
             "range": 79.3349
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5966.32,
             "unit": "ns",
             "range": 474.625
@@ -32978,25 +32978,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9394,
             "unit": "ns",
             "range": 0.275683
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 555.932,
             "unit": "ns",
             "range": 20.3743
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2582.12,
             "unit": "ns",
             "range": 68.1886
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6338.86,
             "unit": "ns",
             "range": 627.311
@@ -33024,25 +33024,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9512,
             "unit": "ns",
             "range": 0.224311
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 560.936,
             "unit": "ns",
             "range": 17.327
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2550.18,
             "unit": "ns",
             "range": 86.995
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6250.12,
             "unit": "ns",
             "range": 606.766
@@ -33070,25 +33070,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1416,
             "unit": "ns",
             "range": 0.523379
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 560.946,
             "unit": "ns",
             "range": 24.3837
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2554.19,
             "unit": "ns",
             "range": 93.6198
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6339.82,
             "unit": "ns",
             "range": 627.817
@@ -33116,25 +33116,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9118,
             "unit": "ns",
             "range": 0.155253
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 552.985,
             "unit": "ns",
             "range": 15.3856
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2576.07,
             "unit": "ns",
             "range": 75.1864
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6394.91,
             "unit": "ns",
             "range": 450.045
@@ -33164,25 +33164,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9437,
             "unit": "ns",
             "range": 0.164564
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 554.04,
             "unit": "ns",
             "range": 18.3491
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2618.28,
             "unit": "ns",
             "range": 77.8364
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5939.18,
             "unit": "ns",
             "range": 466.002
@@ -33212,25 +33212,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0241,
             "unit": "ns",
             "range": 0.281785
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 545.437,
             "unit": "ns",
             "range": 25.0332
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2590,
             "unit": "ns",
             "range": 108.285
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6195.49,
             "unit": "ns",
             "range": 649.988
@@ -33258,25 +33258,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8889,
             "unit": "ns",
             "range": 0.276178
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 569.785,
             "unit": "ns",
             "range": 31.5028
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2564.94,
             "unit": "ns",
             "range": 86.9598
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6164.2,
             "unit": "ns",
             "range": 727.849
@@ -33304,25 +33304,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.871,
             "unit": "ns",
             "range": 0.24651
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 547.885,
             "unit": "ns",
             "range": 17.9472
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2504.79,
             "unit": "ns",
             "range": 41.5497
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6282.02,
             "unit": "ns",
             "range": 820.809
@@ -33350,25 +33350,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9792,
             "unit": "ns",
             "range": 0.325751
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 560.638,
             "unit": "ns",
             "range": 18.8245
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2552.09,
             "unit": "ns",
             "range": 79.0241
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6462.94,
             "unit": "ns",
             "range": 886.151
@@ -33396,25 +33396,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9364,
             "unit": "ns",
             "range": 0.244598
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 555.963,
             "unit": "ns",
             "range": 8.9938
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2580.77,
             "unit": "ns",
             "range": 97.2361
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6466.19,
             "unit": "ns",
             "range": 318.141
@@ -33442,25 +33442,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8807,
             "unit": "ns",
             "range": 0.253755
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 553.993,
             "unit": "ns",
             "range": 8.39291
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2513.48,
             "unit": "ns",
             "range": 74.6763
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6676.07,
             "unit": "ns",
             "range": 381.161
@@ -33488,25 +33488,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.7591,
             "unit": "ns",
             "range": 0.280429
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 560.981,
             "unit": "ns",
             "range": 16.1367
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2559.87,
             "unit": "ns",
             "range": 112.535
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6172.2,
             "unit": "ns",
             "range": 766.069
@@ -33534,25 +33534,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0047,
             "unit": "ns",
             "range": 0.264534
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 561.817,
             "unit": "ns",
             "range": 17.5512
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2517.7,
             "unit": "ns",
             "range": 65.3707
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6329.17,
             "unit": "ns",
             "range": 726.271
@@ -33580,25 +33580,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 93.2145,
             "unit": "ns",
             "range": 3.5017
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 550.899,
             "unit": "ns",
             "range": 21.4679
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2564.69,
             "unit": "ns",
             "range": 78.1057
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6032.99,
             "unit": "ns",
             "range": 667.901
@@ -33626,25 +33626,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8051,
             "unit": "ns",
             "range": 0.0908271
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 550.75,
             "unit": "ns",
             "range": 12.8723
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2580,
             "unit": "ns",
             "range": 111.635
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6270.86,
             "unit": "ns",
             "range": 572.542
@@ -33672,25 +33672,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.7392,
             "unit": "ns",
             "range": 0.205624
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 564.725,
             "unit": "ns",
             "range": 30.8337
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2557.34,
             "unit": "ns",
             "range": 65.877
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6043.2,
             "unit": "ns",
             "range": 812.714
@@ -33718,25 +33718,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1813,
             "unit": "ns",
             "range": 0.366711
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 552.53,
             "unit": "ns",
             "range": 22.6557
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2600.02,
             "unit": "ns",
             "range": 73.9508
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6019.74,
             "unit": "ns",
             "range": 806.124
@@ -33764,25 +33764,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9054,
             "unit": "ns",
             "range": 0.213921
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 544.908,
             "unit": "ns",
             "range": 6.26595
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2557.05,
             "unit": "ns",
             "range": 93.693
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6452.88,
             "unit": "ns",
             "range": 606.504
@@ -33810,25 +33810,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0521,
             "unit": "ns",
             "range": 0.299042
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 551.355,
             "unit": "ns",
             "range": 19.576
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2558.93,
             "unit": "ns",
             "range": 94.4944
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6180.24,
             "unit": "ns",
             "range": 722.505
@@ -33856,25 +33856,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0247,
             "unit": "ns",
             "range": 0.256492
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 548.019,
             "unit": "ns",
             "range": 9.63997
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2562.52,
             "unit": "ns",
             "range": 92.1867
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6174.68,
             "unit": "ns",
             "range": 888.57
@@ -33902,25 +33902,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0115,
             "unit": "ns",
             "range": 0.495233
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 541.352,
             "unit": "ns",
             "range": 15.8626
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2557.4,
             "unit": "ns",
             "range": 85.5231
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6010.57,
             "unit": "ns",
             "range": 591.874
@@ -33948,25 +33948,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8642,
             "unit": "ns",
             "range": 0.166863
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 574.362,
             "unit": "ns",
             "range": 22.2568
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2516.06,
             "unit": "ns",
             "range": 36.1252
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6310.27,
             "unit": "ns",
             "range": 434.775
@@ -33994,25 +33994,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.2362,
             "unit": "ns",
             "range": 0.882984
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 550.3,
             "unit": "ns",
             "range": 11.7995
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2574.6,
             "unit": "ns",
             "range": 118.668
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6230.86,
             "unit": "ns",
             "range": 390.902
@@ -34040,25 +34040,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8445,
             "unit": "ns",
             "range": 0.224399
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 544.958,
             "unit": "ns",
             "range": 20.8966
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2582.57,
             "unit": "ns",
             "range": 79.0157
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6072.12,
             "unit": "ns",
             "range": 738.186
@@ -34086,25 +34086,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8698,
             "unit": "ns",
             "range": 0.337155
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 556.417,
             "unit": "ns",
             "range": 20.1977
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2513.75,
             "unit": "ns",
             "range": 77.689
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5803.25,
             "unit": "ns",
             "range": 584.674
@@ -34132,25 +34132,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1569,
             "unit": "ns",
             "range": 0.295533
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 550.188,
             "unit": "ns",
             "range": 17.0337
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2598.21,
             "unit": "ns",
             "range": 59.8729
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6065.26,
             "unit": "ns",
             "range": 557.985
@@ -34178,25 +34178,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8524,
             "unit": "ns",
             "range": 0.200125
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 567.054,
             "unit": "ns",
             "range": 21.7318
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2605.47,
             "unit": "ns",
             "range": 72.4788
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6170.35,
             "unit": "ns",
             "range": 813.666
@@ -34224,25 +34224,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.6641,
             "unit": "ns",
             "range": 0.242344
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 568.409,
             "unit": "ns",
             "range": 12.1209
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2554.17,
             "unit": "ns",
             "range": 82.3386
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5207.17,
             "unit": "ns",
             "range": 561.033
@@ -34270,25 +34270,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.3172,
             "unit": "ns",
             "range": 1.23228
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 547.081,
             "unit": "ns",
             "range": 24.3482
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2540.3,
             "unit": "ns",
             "range": 103.71
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5236.29,
             "unit": "ns",
             "range": 745.744
@@ -34316,25 +34316,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.4018,
             "unit": "ns",
             "range": 0.269295
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 555.878,
             "unit": "ns",
             "range": 19.9562
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2576.78,
             "unit": "ns",
             "range": 75.3276
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5136.86,
             "unit": "ns",
             "range": 780.51
@@ -34362,25 +34362,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 93.3039,
             "unit": "ns",
             "range": 1.70771
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 557.987,
             "unit": "ns",
             "range": 12.9533
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2653.23,
             "unit": "ns",
             "range": 54.0944
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5429.65,
             "unit": "ns",
             "range": 527.461
@@ -34408,25 +34408,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.7628,
             "unit": "ns",
             "range": 0.824637
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 562.065,
             "unit": "ns",
             "range": 13.6773
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2565.52,
             "unit": "ns",
             "range": 74.8283
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 4758.91,
             "unit": "ns",
             "range": 800.003
@@ -34454,25 +34454,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.6848,
             "unit": "ns",
             "range": 0.22389
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 558.484,
             "unit": "ns",
             "range": 13.4787
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2606.62,
             "unit": "ns",
             "range": 69.1728
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5307.8,
             "unit": "ns",
             "range": 648.216
@@ -34500,25 +34500,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.3631,
             "unit": "ns",
             "range": 0.314832
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 545.752,
             "unit": "ns",
             "range": 21.4242
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2531.92,
             "unit": "ns",
             "range": 54.2479
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 4754.37,
             "unit": "ns",
             "range": 792.804
@@ -34546,25 +34546,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.4847,
             "unit": "ns",
             "range": 0.187551
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 550.507,
             "unit": "ns",
             "range": 5.27637
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2557.52,
             "unit": "ns",
             "range": 45.938
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5026.78,
             "unit": "ns",
             "range": 616.374
@@ -34592,25 +34592,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.4783,
             "unit": "ns",
             "range": 0.211509
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 548.849,
             "unit": "ns",
             "range": 8.15029
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2583.31,
             "unit": "ns",
             "range": 65.3558
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 4998.09,
             "unit": "ns",
             "range": 807.842
@@ -34638,25 +34638,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.447,
             "unit": "ns",
             "range": 0.260201
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 555.786,
             "unit": "ns",
             "range": 6.16457
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2595.77,
             "unit": "ns",
             "range": 41.5
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 4775.48,
             "unit": "ns",
             "range": 725.591
@@ -34684,25 +34684,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.4354,
             "unit": "ns",
             "range": 0.180577
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 554.798,
             "unit": "ns",
             "range": 21.8348
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2631.53,
             "unit": "ns",
             "range": 103.312
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5154.34,
             "unit": "ns",
             "range": 835.833
@@ -34730,25 +34730,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.7575,
             "unit": "ns",
             "range": 0.370735
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 563.129,
             "unit": "ns",
             "range": 16.419
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2608.78,
             "unit": "ns",
             "range": 106.265
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5193.81,
             "unit": "ns",
             "range": 698.844
@@ -34776,25 +34776,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.3943,
             "unit": "ns",
             "range": 0.216795
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 555.115,
             "unit": "ns",
             "range": 16.0883
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2536.89,
             "unit": "ns",
             "range": 80.6411
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5047.8,
             "unit": "ns",
             "range": 693.061
@@ -34822,25 +34822,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.4266,
             "unit": "ns",
             "range": 0.185944
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 553.349,
             "unit": "ns",
             "range": 13.8579
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2591.66,
             "unit": "ns",
             "range": 93.437
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5093.85,
             "unit": "ns",
             "range": 728.576
@@ -34868,25 +34868,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.5804,
             "unit": "ns",
             "range": 0.246108
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 543.017,
             "unit": "ns",
             "range": 21.5951
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2580.01,
             "unit": "ns",
             "range": 94.2908
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5226.61,
             "unit": "ns",
             "range": 732.522
@@ -34914,25 +34914,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.597,
             "unit": "ns",
             "range": 0.349777
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 555.587,
             "unit": "ns",
             "range": 18.869
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2625.63,
             "unit": "ns",
             "range": 109.268
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5036.08,
             "unit": "ns",
             "range": 646.995
@@ -34960,25 +34960,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.4869,
             "unit": "ns",
             "range": 0.345501
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 557.277,
             "unit": "ns",
             "range": 19.1528
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2549.36,
             "unit": "ns",
             "range": 52.5847
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5476.97,
             "unit": "ns",
             "range": 712.602
@@ -35006,25 +35006,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.4622,
             "unit": "ns",
             "range": 0.380861
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 555.642,
             "unit": "ns",
             "range": 6.90788
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2634.98,
             "unit": "ns",
             "range": 120.683
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 4812.02,
             "unit": "ns",
             "range": 829.492
@@ -35052,25 +35052,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.4967,
             "unit": "ns",
             "range": 0.191646
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 552.757,
             "unit": "ns",
             "range": 11.0445
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2604.28,
             "unit": "ns",
             "range": 90.6113
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 4772.25,
             "unit": "ns",
             "range": 689.674
@@ -35098,25 +35098,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.5824,
             "unit": "ns",
             "range": 0.17981
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 570.436,
             "unit": "ns",
             "range": 45.4711
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2529.87,
             "unit": "ns",
             "range": 70.2029
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 4860.54,
             "unit": "ns",
             "range": 687.162
@@ -35144,25 +35144,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.3431,
             "unit": "ns",
             "range": 0.211157
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 560.619,
             "unit": "ns",
             "range": 21.0043
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2624.54,
             "unit": "ns",
             "range": 84.5674
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 4786.63,
             "unit": "ns",
             "range": 822.344
@@ -35190,25 +35190,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.5265,
             "unit": "ns",
             "range": 0.128154
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 558.218,
             "unit": "ns",
             "range": 22.9263
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2625.25,
             "unit": "ns",
             "range": 92.4685
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5410.57,
             "unit": "ns",
             "range": 811.745
@@ -35236,25 +35236,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9734,
             "unit": "ns",
             "range": 0.237932
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 559.299,
             "unit": "ns",
             "range": 17.1185
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2552.99,
             "unit": "ns",
             "range": 119.606
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6044.74,
             "unit": "ns",
             "range": 756.775
@@ -35282,25 +35282,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0298,
             "unit": "ns",
             "range": 0.268518
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 558.96,
             "unit": "ns",
             "range": 15.642
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2537.55,
             "unit": "ns",
             "range": 78.0023
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5754.06,
             "unit": "ns",
             "range": 678.627
@@ -35328,25 +35328,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0606,
             "unit": "ns",
             "range": 0.340542
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 552.432,
             "unit": "ns",
             "range": 15.121
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2565.79,
             "unit": "ns",
             "range": 65.4115
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6581.83,
             "unit": "ns",
             "range": 726.737
@@ -35374,25 +35374,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0298,
             "unit": "ns",
             "range": 0.206386
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 556.062,
             "unit": "ns",
             "range": 16.3054
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2565.58,
             "unit": "ns",
             "range": 76.8155
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6197.12,
             "unit": "ns",
             "range": 741.203
@@ -35422,25 +35422,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9283,
             "unit": "ns",
             "range": 0.221836
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 558.518,
             "unit": "ns",
             "range": 25.9313
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2575.62,
             "unit": "ns",
             "range": 65.8332
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6309.84,
             "unit": "ns",
             "range": 574.654
@@ -35468,25 +35468,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9725,
             "unit": "ns",
             "range": 0.266291
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 555.075,
             "unit": "ns",
             "range": 20.6915
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2516.54,
             "unit": "ns",
             "range": 54.5425
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6779.94,
             "unit": "ns",
             "range": 862.317
@@ -35514,25 +35514,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0367,
             "unit": "ns",
             "range": 0.294796
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 549.97,
             "unit": "ns",
             "range": 14.9209
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2612.64,
             "unit": "ns",
             "range": 115.036
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5928.78,
             "unit": "ns",
             "range": 800.764
@@ -35560,25 +35560,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9735,
             "unit": "ns",
             "range": 0.252978
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 549.557,
             "unit": "ns",
             "range": 11.4648
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2570.55,
             "unit": "ns",
             "range": 70.781
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6054.89,
             "unit": "ns",
             "range": 938.361
@@ -35606,25 +35606,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9439,
             "unit": "ns",
             "range": 0.218067
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 556.444,
             "unit": "ns",
             "range": 14.0234
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2545.64,
             "unit": "ns",
             "range": 74.0641
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6052.5,
             "unit": "ns",
             "range": 834.647
@@ -35654,25 +35654,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.866,
             "unit": "ns",
             "range": 0.225945
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 557.67,
             "unit": "ns",
             "range": 24.9291
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2524.87,
             "unit": "ns",
             "range": 54.4821
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6343.3,
             "unit": "ns",
             "range": 779.563
@@ -35700,25 +35700,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9434,
             "unit": "ns",
             "range": 0.254205
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 560.419,
             "unit": "ns",
             "range": 25.7167
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2592.25,
             "unit": "ns",
             "range": 113.563
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6349.29,
             "unit": "ns",
             "range": 392.169
@@ -35746,25 +35746,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0058,
             "unit": "ns",
             "range": 0.242207
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 556.51,
             "unit": "ns",
             "range": 10.2624
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2581.51,
             "unit": "ns",
             "range": 95.3499
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6071.97,
             "unit": "ns",
             "range": 618.634
@@ -35792,25 +35792,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8676,
             "unit": "ns",
             "range": 0.33523
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 557.365,
             "unit": "ns",
             "range": 18.3027
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2588.07,
             "unit": "ns",
             "range": 97.667
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6159.18,
             "unit": "ns",
             "range": 664.312
@@ -35838,25 +35838,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9598,
             "unit": "ns",
             "range": 0.336716
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 575.892,
             "unit": "ns",
             "range": 19.7422
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2539.76,
             "unit": "ns",
             "range": 90.2296
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5633.27,
             "unit": "ns",
             "range": 512.531
@@ -35884,25 +35884,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9271,
             "unit": "ns",
             "range": 0.217151
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 561.793,
             "unit": "ns",
             "range": 16.918
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2566.1,
             "unit": "ns",
             "range": 87.1345
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6067.67,
             "unit": "ns",
             "range": 870.746
@@ -35930,25 +35930,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9835,
             "unit": "ns",
             "range": 0.269887
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 560.839,
             "unit": "ns",
             "range": 25.4605
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2549.7,
             "unit": "ns",
             "range": 80.1656
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6171.4,
             "unit": "ns",
             "range": 614.189
@@ -35976,25 +35976,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9609,
             "unit": "ns",
             "range": 0.245204
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 543.515,
             "unit": "ns",
             "range": 15.3445
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2525.64,
             "unit": "ns",
             "range": 56.6723
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5620.11,
             "unit": "ns",
             "range": 615.023
@@ -36022,25 +36022,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9023,
             "unit": "ns",
             "range": 0.199803
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 559.2,
             "unit": "ns",
             "range": 11.334
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2581.66,
             "unit": "ns",
             "range": 82.0112
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6071.86,
             "unit": "ns",
             "range": 816.634
@@ -36068,25 +36068,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.7982,
             "unit": "ns",
             "range": 0.194401
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 559.981,
             "unit": "ns",
             "range": 20.4797
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2569.04,
             "unit": "ns",
             "range": 53.8179
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6323.9,
             "unit": "ns",
             "range": 399.717
@@ -36114,25 +36114,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9367,
             "unit": "ns",
             "range": 0.239069
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 552.415,
             "unit": "ns",
             "range": 22.7444
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2534.55,
             "unit": "ns",
             "range": 71.5768
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6110.68,
             "unit": "ns",
             "range": 781.592
@@ -36160,25 +36160,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8459,
             "unit": "ns",
             "range": 0.14951
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 559.477,
             "unit": "ns",
             "range": 18.1205
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2597.27,
             "unit": "ns",
             "range": 114.023
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5924.27,
             "unit": "ns",
             "range": 673.099
@@ -36206,25 +36206,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0437,
             "unit": "ns",
             "range": 0.315139
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 563.371,
             "unit": "ns",
             "range": 33.0385
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2537.44,
             "unit": "ns",
             "range": 52.3917
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5900.85,
             "unit": "ns",
             "range": 570.425
@@ -36252,25 +36252,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8861,
             "unit": "ns",
             "range": 0.188581
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 554.42,
             "unit": "ns",
             "range": 21.4311
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2605.47,
             "unit": "ns",
             "range": 78.2353
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5548.82,
             "unit": "ns",
             "range": 614.064
@@ -36298,25 +36298,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9801,
             "unit": "ns",
             "range": 0.293394
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 561.023,
             "unit": "ns",
             "range": 28.4198
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2591.11,
             "unit": "ns",
             "range": 69.897
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6192.67,
             "unit": "ns",
             "range": 674.3
@@ -36344,25 +36344,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9473,
             "unit": "ns",
             "range": 0.213223
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 558.238,
             "unit": "ns",
             "range": 13.422
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2515.43,
             "unit": "ns",
             "range": 45.3389
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5927.3,
             "unit": "ns",
             "range": 679.331
@@ -36390,25 +36390,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.1845,
             "unit": "ns",
             "range": 0.630213
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 555.981,
             "unit": "ns",
             "range": 17.6389
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2529.84,
             "unit": "ns",
             "range": 47.0296
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5881.44,
             "unit": "ns",
             "range": 645.845
@@ -36438,25 +36438,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9675,
             "unit": "ns",
             "range": 0.220381
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 550.239,
             "unit": "ns",
             "range": 22.4181
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2520.28,
             "unit": "ns",
             "range": 54.5209
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6116.68,
             "unit": "ns",
             "range": 830.68
@@ -36484,25 +36484,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.021,
             "unit": "ns",
             "range": 0.412149
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 552.3,
             "unit": "ns",
             "range": 16.3035
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2543.26,
             "unit": "ns",
             "range": 97.3688
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6083.19,
             "unit": "ns",
             "range": 577.226
@@ -36530,25 +36530,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.8558,
             "unit": "ns",
             "range": 0.204627
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 550.615,
             "unit": "ns",
             "range": 19.7639
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2566.26,
             "unit": "ns",
             "range": 106.922
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5592.6,
             "unit": "ns",
             "range": 631.562
@@ -36578,25 +36578,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.2754,
             "unit": "ns",
             "range": 0.654172
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 567.17,
             "unit": "ns",
             "range": 25.5409
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2605.11,
             "unit": "ns",
             "range": 73.7958
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6174.66,
             "unit": "ns",
             "range": 734.492
@@ -36624,25 +36624,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0334,
             "unit": "ns",
             "range": 0.236696
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 550.081,
             "unit": "ns",
             "range": 19.5493
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2535.36,
             "unit": "ns",
             "range": 90.8369
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6033.47,
             "unit": "ns",
             "range": 521.197
@@ -36670,25 +36670,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.857,
             "unit": "ns",
             "range": 0.140627
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 563.848,
             "unit": "ns",
             "range": 27.1793
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2554.5,
             "unit": "ns",
             "range": 81.0837
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6050.58,
             "unit": "ns",
             "range": 530.155
@@ -36718,25 +36718,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.3301,
             "unit": "ns",
             "range": 0.516285
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 566.59,
             "unit": "ns",
             "range": 22.7519
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2560.27,
             "unit": "ns",
             "range": 85.0789
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 6122.13,
             "unit": "ns",
             "range": 494.225
@@ -36764,25 +36764,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.078,
             "unit": "ns",
             "range": 0.292985
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 554.054,
             "unit": "ns",
             "range": 18.3816
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2513.73,
             "unit": "ns",
             "range": 78.2796
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5714.25,
             "unit": "ns",
             "range": 582.95
@@ -36810,25 +36810,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 92.0104,
             "unit": "ns",
             "range": 0.203867
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 564.784,
             "unit": "ns",
             "range": 18.5443
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2558.97,
             "unit": "ns",
             "range": 115.76
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5951.13,
             "unit": "ns",
             "range": 777.603
@@ -36856,25 +36856,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 91.9981,
             "unit": "ns",
             "range": 0.244576
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 553.028,
             "unit": "ns",
             "range": 9.9734
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 2572.07,
             "unit": "ns",
             "range": 71.2678
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 5894.06,
             "unit": "ns",
             "range": 521.016
@@ -40876,25 +40876,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 113.108,
             "unit": "ns",
             "range": 4.43267
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1040.8,
             "unit": "ns",
             "range": 63.9496
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3390.69,
             "unit": "ns",
             "range": 129.657
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 23736.3,
             "unit": "ns",
             "range": 2298.61
@@ -40922,25 +40922,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.11,
             "unit": "ns",
             "range": 0.689342
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 881.233,
             "unit": "ns",
             "range": 10.2782
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3262.57,
             "unit": "ns",
             "range": 166.979
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18663.2,
             "unit": "ns",
             "range": 1311.25
@@ -40968,25 +40968,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.51,
             "unit": "ns",
             "range": 1.50514
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 873.162,
             "unit": "ns",
             "range": 13.029
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3341.47,
             "unit": "ns",
             "range": 172.673
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18932,
             "unit": "ns",
             "range": 777.901
@@ -41014,25 +41014,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.486,
             "unit": "ns",
             "range": 0.911533
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 870.011,
             "unit": "ns",
             "range": 20.4606
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3345.94,
             "unit": "ns",
             "range": 132.696
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19170.1,
             "unit": "ns",
             "range": 1087.67
@@ -41060,25 +41060,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.683,
             "unit": "ns",
             "range": 0.944455
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 875.37,
             "unit": "ns",
             "range": 27.6761
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3273.26,
             "unit": "ns",
             "range": 126.766
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18532.5,
             "unit": "ns",
             "range": 996.152
@@ -41106,25 +41106,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.268,
             "unit": "ns",
             "range": 0.709079
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 882.381,
             "unit": "ns",
             "range": 27.4151
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3272.32,
             "unit": "ns",
             "range": 146.752
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19074.9,
             "unit": "ns",
             "range": 1033.8
@@ -41154,25 +41154,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.267,
             "unit": "ns",
             "range": 0.716854
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 858.32,
             "unit": "ns",
             "range": 19.3093
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3308.33,
             "unit": "ns",
             "range": 187.349
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18748,
             "unit": "ns",
             "range": 806.182
@@ -41202,25 +41202,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.524,
             "unit": "ns",
             "range": 1.36283
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 868.111,
             "unit": "ns",
             "range": 21.0623
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3263.26,
             "unit": "ns",
             "range": 165.256
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18958.9,
             "unit": "ns",
             "range": 972.717
@@ -41248,25 +41248,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.442,
             "unit": "ns",
             "range": 0.89804
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 877.428,
             "unit": "ns",
             "range": 17.5897
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3326.01,
             "unit": "ns",
             "range": 184.072
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18969.9,
             "unit": "ns",
             "range": 1013.49
@@ -41296,25 +41296,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.047,
             "unit": "ns",
             "range": 0.624081
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 881.585,
             "unit": "ns",
             "range": 26.2594
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3289.06,
             "unit": "ns",
             "range": 122.951
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19375.1,
             "unit": "ns",
             "range": 977.877
@@ -41344,25 +41344,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.209,
             "unit": "ns",
             "range": 0.578523
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 872.688,
             "unit": "ns",
             "range": 10.3703
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3272.41,
             "unit": "ns",
             "range": 149.869
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19324.7,
             "unit": "ns",
             "range": 980.656
@@ -41392,25 +41392,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.378,
             "unit": "ns",
             "range": 0.863068
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 871.153,
             "unit": "ns",
             "range": 26.397
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3264.56,
             "unit": "ns",
             "range": 183.155
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19345.6,
             "unit": "ns",
             "range": 968.089
@@ -41438,25 +41438,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.387,
             "unit": "ns",
             "range": 0.616684
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 863.752,
             "unit": "ns",
             "range": 9.67546
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3343.06,
             "unit": "ns",
             "range": 154.291
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19070.8,
             "unit": "ns",
             "range": 1086.02
@@ -41484,25 +41484,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.34,
             "unit": "ns",
             "range": 0.452883
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 877.982,
             "unit": "ns",
             "range": 33.0208
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3276.76,
             "unit": "ns",
             "range": 130.776
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19627.3,
             "unit": "ns",
             "range": 702.786
@@ -41530,25 +41530,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.783,
             "unit": "ns",
             "range": 1.68623
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 865.248,
             "unit": "ns",
             "range": 21.4014
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3380.04,
             "unit": "ns",
             "range": 118.334
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19075,
             "unit": "ns",
             "range": 892.975
@@ -41576,25 +41576,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.633,
             "unit": "ns",
             "range": 1.94792
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 863.974,
             "unit": "ns",
             "range": 33.6495
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3193.82,
             "unit": "ns",
             "range": 120.733
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18270.3,
             "unit": "ns",
             "range": 790.449
@@ -41622,25 +41622,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.341,
             "unit": "ns",
             "range": 0.742903
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 865.304,
             "unit": "ns",
             "range": 23.2637
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3290.57,
             "unit": "ns",
             "range": 111.358
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18713.9,
             "unit": "ns",
             "range": 1158.43
@@ -41668,25 +41668,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.242,
             "unit": "ns",
             "range": 0.403695
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 872.955,
             "unit": "ns",
             "range": 18.6713
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3267.78,
             "unit": "ns",
             "range": 94.7689
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18700.9,
             "unit": "ns",
             "range": 764.717
@@ -41714,25 +41714,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.463,
             "unit": "ns",
             "range": 0.815062
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 874.776,
             "unit": "ns",
             "range": 22.7055
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3296.72,
             "unit": "ns",
             "range": 111.878
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17854.3,
             "unit": "ns",
             "range": 673.996
@@ -41760,25 +41760,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.377,
             "unit": "ns",
             "range": 0.817497
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 875.82,
             "unit": "ns",
             "range": 14.2323
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3288.06,
             "unit": "ns",
             "range": 105.093
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18705.5,
             "unit": "ns",
             "range": 759.807
@@ -41806,25 +41806,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.843,
             "unit": "ns",
             "range": 0.513156
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 869.118,
             "unit": "ns",
             "range": 13.7492
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3209.52,
             "unit": "ns",
             "range": 117.065
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18373.4,
             "unit": "ns",
             "range": 828.885
@@ -41852,25 +41852,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.126,
             "unit": "ns",
             "range": 0.417358
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 869.28,
             "unit": "ns",
             "range": 19.5881
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3315.05,
             "unit": "ns",
             "range": 166.122
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19009.2,
             "unit": "ns",
             "range": 1140.95
@@ -41898,25 +41898,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.229,
             "unit": "ns",
             "range": 0.755222
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 870.696,
             "unit": "ns",
             "range": 26.2469
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3233.81,
             "unit": "ns",
             "range": 94.4028
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18744.3,
             "unit": "ns",
             "range": 998.723
@@ -41944,25 +41944,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.969,
             "unit": "ns",
             "range": 0.555276
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 871.084,
             "unit": "ns",
             "range": 15.6535
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3375.46,
             "unit": "ns",
             "range": 143.535
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18351.8,
             "unit": "ns",
             "range": 666.172
@@ -41990,25 +41990,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.363,
             "unit": "ns",
             "range": 0.774017
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 865.641,
             "unit": "ns",
             "range": 18.0379
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3262.82,
             "unit": "ns",
             "range": 143.235
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18605.5,
             "unit": "ns",
             "range": 707.979
@@ -42036,25 +42036,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.974,
             "unit": "ns",
             "range": 0.560234
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 873.807,
             "unit": "ns",
             "range": 13.9875
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3274.27,
             "unit": "ns",
             "range": 194.218
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19244.3,
             "unit": "ns",
             "range": 912.965
@@ -42082,25 +42082,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.597,
             "unit": "ns",
             "range": 1.55155
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 883.35,
             "unit": "ns",
             "range": 26.3281
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3287.48,
             "unit": "ns",
             "range": 145.241
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19411,
             "unit": "ns",
             "range": 936.48
@@ -42128,25 +42128,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.968,
             "unit": "ns",
             "range": 2.02464
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 849.405,
             "unit": "ns",
             "range": 18.3078
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3263.51,
             "unit": "ns",
             "range": 109.387
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17709.2,
             "unit": "ns",
             "range": 973.084
@@ -42174,25 +42174,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.98,
             "unit": "ns",
             "range": 0.417562
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 877.8,
             "unit": "ns",
             "range": 19.1521
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3343.29,
             "unit": "ns",
             "range": 217.499
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19220.5,
             "unit": "ns",
             "range": 1081.03
@@ -42220,25 +42220,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.874,
             "unit": "ns",
             "range": 0.533451
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 863.638,
             "unit": "ns",
             "range": 25.2176
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3245.4,
             "unit": "ns",
             "range": 171.856
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19082.2,
             "unit": "ns",
             "range": 962.485
@@ -42266,25 +42266,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.081,
             "unit": "ns",
             "range": 0.522738
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 867.451,
             "unit": "ns",
             "range": 24.0434
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3350.9,
             "unit": "ns",
             "range": 153.951
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19154.9,
             "unit": "ns",
             "range": 915.204
@@ -42312,25 +42312,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.881,
             "unit": "ns",
             "range": 0.637641
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 868.032,
             "unit": "ns",
             "range": 12.8065
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3237.37,
             "unit": "ns",
             "range": 119.655
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18843.7,
             "unit": "ns",
             "range": 951.542
@@ -42358,25 +42358,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.606,
             "unit": "ns",
             "range": 0.445109
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 865.852,
             "unit": "ns",
             "range": 22.9901
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3268.43,
             "unit": "ns",
             "range": 134.912
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18692.5,
             "unit": "ns",
             "range": 987.345
@@ -42404,25 +42404,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.283,
             "unit": "ns",
             "range": 0.587288
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 865.572,
             "unit": "ns",
             "range": 29.469
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3279.87,
             "unit": "ns",
             "range": 112.069
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19007.4,
             "unit": "ns",
             "range": 1060.63
@@ -42450,25 +42450,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.35,
             "unit": "ns",
             "range": 0.665465
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 860.609,
             "unit": "ns",
             "range": 25.074
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3364.71,
             "unit": "ns",
             "range": 188.34
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19780.4,
             "unit": "ns",
             "range": 1795.81
@@ -42496,25 +42496,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.961,
             "unit": "ns",
             "range": 0.474829
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 880.604,
             "unit": "ns",
             "range": 18.4031
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3297.62,
             "unit": "ns",
             "range": 172.922
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19059.2,
             "unit": "ns",
             "range": 856.669
@@ -42542,25 +42542,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.378,
             "unit": "ns",
             "range": 0.568192
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 867.538,
             "unit": "ns",
             "range": 16.002
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3241.26,
             "unit": "ns",
             "range": 131.027
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18774,
             "unit": "ns",
             "range": 788.33
@@ -42588,25 +42588,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.503,
             "unit": "ns",
             "range": 0.853855
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 873.8,
             "unit": "ns",
             "range": 15.1017
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3247.89,
             "unit": "ns",
             "range": 137.312
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17942.8,
             "unit": "ns",
             "range": 936.142
@@ -42634,25 +42634,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.345,
             "unit": "ns",
             "range": 0.581913
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 869.514,
             "unit": "ns",
             "range": 7.40786
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3358.49,
             "unit": "ns",
             "range": 206.795
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18985.9,
             "unit": "ns",
             "range": 1282.85
@@ -42680,25 +42680,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.783,
             "unit": "ns",
             "range": 0.564947
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 869.267,
             "unit": "ns",
             "range": 10.1792
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3330.36,
             "unit": "ns",
             "range": 150.367
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19253.3,
             "unit": "ns",
             "range": 985.962
@@ -42726,25 +42726,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.536,
             "unit": "ns",
             "range": 0.453142
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 862.689,
             "unit": "ns",
             "range": 27.6893
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3368.93,
             "unit": "ns",
             "range": 178.181
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19043.2,
             "unit": "ns",
             "range": 990.619
@@ -42772,25 +42772,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.095,
             "unit": "ns",
             "range": 0.532317
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 863.171,
             "unit": "ns",
             "range": 15.225
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3272.61,
             "unit": "ns",
             "range": 161.281
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19128.8,
             "unit": "ns",
             "range": 917.711
@@ -42818,25 +42818,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.282,
             "unit": "ns",
             "range": 0.672973
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 880.171,
             "unit": "ns",
             "range": 24.7106
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3279.93,
             "unit": "ns",
             "range": 133.034
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19295.8,
             "unit": "ns",
             "range": 1104.97
@@ -42864,25 +42864,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.409,
             "unit": "ns",
             "range": 0.608759
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 860.046,
             "unit": "ns",
             "range": 18.1881
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3323.23,
             "unit": "ns",
             "range": 110.455
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18421.2,
             "unit": "ns",
             "range": 876.123
@@ -42910,25 +42910,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.445,
             "unit": "ns",
             "range": 0.521816
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 869.042,
             "unit": "ns",
             "range": 19.4762
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3350.55,
             "unit": "ns",
             "range": 159.14
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18534.4,
             "unit": "ns",
             "range": 913.57
@@ -42956,25 +42956,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.016,
             "unit": "ns",
             "range": 1.41603
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 852.033,
             "unit": "ns",
             "range": 19.8181
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3316.56,
             "unit": "ns",
             "range": 134.07
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19173,
             "unit": "ns",
             "range": 1078.47
@@ -43002,25 +43002,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.962,
             "unit": "ns",
             "range": 2.76965
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 892.517,
             "unit": "ns",
             "range": 22.2385
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3285.52,
             "unit": "ns",
             "range": 170.25
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18647.6,
             "unit": "ns",
             "range": 863.22
@@ -43048,25 +43048,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.674,
             "unit": "ns",
             "range": 1.19876
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 869.296,
             "unit": "ns",
             "range": 25.6923
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3293.98,
             "unit": "ns",
             "range": 186.204
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18023.9,
             "unit": "ns",
             "range": 1121.07
@@ -43096,25 +43096,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.344,
             "unit": "ns",
             "range": 0.736486
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 878.022,
             "unit": "ns",
             "range": 21.0787
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3344.12,
             "unit": "ns",
             "range": 161.099
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19521.1,
             "unit": "ns",
             "range": 1070.37
@@ -43142,25 +43142,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.691,
             "unit": "ns",
             "range": 1.23396
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 885.471,
             "unit": "ns",
             "range": 19.4522
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3276.61,
             "unit": "ns",
             "range": 121.754
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19501,
             "unit": "ns",
             "range": 899.467
@@ -43188,25 +43188,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 99.4474,
             "unit": "ns",
             "range": 1.77891
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 827.783,
             "unit": "ns",
             "range": 21.5902
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3156.89,
             "unit": "ns",
             "range": 161.899
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17813.3,
             "unit": "ns",
             "range": 833.24
@@ -43234,25 +43234,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.387,
             "unit": "ns",
             "range": 0.847932
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 864.545,
             "unit": "ns",
             "range": 14.1804
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3218.67,
             "unit": "ns",
             "range": 90.255
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18490.8,
             "unit": "ns",
             "range": 1144.72
@@ -43280,25 +43280,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.68,
             "unit": "ns",
             "range": 5.01782
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 861.142,
             "unit": "ns",
             "range": 28.7258
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3303.19,
             "unit": "ns",
             "range": 77.3586
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18712,
             "unit": "ns",
             "range": 691.946
@@ -43326,25 +43326,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.915,
             "unit": "ns",
             "range": 0.30644
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 878.47,
             "unit": "ns",
             "range": 14.3378
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3353.77,
             "unit": "ns",
             "range": 129.558
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19203.2,
             "unit": "ns",
             "range": 936.181
@@ -43372,25 +43372,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.306,
             "unit": "ns",
             "range": 0.520702
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 863.764,
             "unit": "ns",
             "range": 29.7702
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3297.41,
             "unit": "ns",
             "range": 120.827
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19044.5,
             "unit": "ns",
             "range": 743.903
@@ -43418,25 +43418,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.147,
             "unit": "ns",
             "range": 0.690616
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 874.633,
             "unit": "ns",
             "range": 14.3909
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3269.16,
             "unit": "ns",
             "range": 138.817
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19386.4,
             "unit": "ns",
             "range": 884.104
@@ -43464,25 +43464,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.997,
             "unit": "ns",
             "range": 0.423253
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 859.901,
             "unit": "ns",
             "range": 12.6379
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3344.85,
             "unit": "ns",
             "range": 183.365
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18716.2,
             "unit": "ns",
             "range": 924.299
@@ -43512,25 +43512,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.148,
             "unit": "ns",
             "range": 0.431909
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 861.304,
             "unit": "ns",
             "range": 24.4826
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3281.96,
             "unit": "ns",
             "range": 127.592
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19102.7,
             "unit": "ns",
             "range": 939.587
@@ -43560,25 +43560,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.542,
             "unit": "ns",
             "range": 1.09969
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 863.423,
             "unit": "ns",
             "range": 24.4567
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3355.33,
             "unit": "ns",
             "range": 146.592
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18944.7,
             "unit": "ns",
             "range": 806.882
@@ -43608,25 +43608,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.107,
             "unit": "ns",
             "range": 0.521548
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 861.675,
             "unit": "ns",
             "range": 26.7025
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3258.99,
             "unit": "ns",
             "range": 111.087
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19446.7,
             "unit": "ns",
             "range": 613.632
@@ -43656,25 +43656,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.258,
             "unit": "ns",
             "range": 1.00944
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 876.792,
             "unit": "ns",
             "range": 19.3041
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3269.24,
             "unit": "ns",
             "range": 191.439
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18755.8,
             "unit": "ns",
             "range": 1045.85
@@ -43704,25 +43704,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.522,
             "unit": "ns",
             "range": 0.839573
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 875.11,
             "unit": "ns",
             "range": 18.0586
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3225.84,
             "unit": "ns",
             "range": 119.493
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18809.5,
             "unit": "ns",
             "range": 1138.87
@@ -43752,25 +43752,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.221,
             "unit": "ns",
             "range": 0.557611
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 865.053,
             "unit": "ns",
             "range": 17.3067
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3231.94,
             "unit": "ns",
             "range": 167.77
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19151.8,
             "unit": "ns",
             "range": 1047.35
@@ -43800,25 +43800,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.945,
             "unit": "ns",
             "range": 0.631748
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 880.362,
             "unit": "ns",
             "range": 27.3112
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3373.1,
             "unit": "ns",
             "range": 127.736
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19090.8,
             "unit": "ns",
             "range": 984.21
@@ -43846,25 +43846,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.209,
             "unit": "ns",
             "range": 0.713801
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 874.341,
             "unit": "ns",
             "range": 20.7188
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3467.75,
             "unit": "ns",
             "range": 105.056
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18687.3,
             "unit": "ns",
             "range": 863.083
@@ -43892,25 +43892,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.958,
             "unit": "ns",
             "range": 0.57923
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 869.968,
             "unit": "ns",
             "range": 15.5942
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3341.72,
             "unit": "ns",
             "range": 163.765
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19234.4,
             "unit": "ns",
             "range": 1034.63
@@ -43938,25 +43938,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.6,
             "unit": "ns",
             "range": 0.469938
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 866.291,
             "unit": "ns",
             "range": 26.6181
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3179.77,
             "unit": "ns",
             "range": 30.7113
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17859.5,
             "unit": "ns",
             "range": 1061.71
@@ -43984,25 +43984,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.526,
             "unit": "ns",
             "range": 1.43841
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 870.939,
             "unit": "ns",
             "range": 22.4489
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3290.95,
             "unit": "ns",
             "range": 126.979
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18959.6,
             "unit": "ns",
             "range": 687.176
@@ -44032,25 +44032,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.195,
             "unit": "ns",
             "range": 0.609934
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 860.024,
             "unit": "ns",
             "range": 16.0044
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3245.35,
             "unit": "ns",
             "range": 121.924
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19624,
             "unit": "ns",
             "range": 950.621
@@ -44080,25 +44080,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.934,
             "unit": "ns",
             "range": 0.868523
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 880.024,
             "unit": "ns",
             "range": 26.4674
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3234.69,
             "unit": "ns",
             "range": 95.1068
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19276.1,
             "unit": "ns",
             "range": 1225.93
@@ -44126,25 +44126,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.319,
             "unit": "ns",
             "range": 1.001
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 867.839,
             "unit": "ns",
             "range": 14.029
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3302.77,
             "unit": "ns",
             "range": 118.478
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18295.3,
             "unit": "ns",
             "range": 558.053
@@ -44172,25 +44172,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.106,
             "unit": "ns",
             "range": 0.509598
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 863.673,
             "unit": "ns",
             "range": 21.4249
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3271.94,
             "unit": "ns",
             "range": 146.758
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18532.9,
             "unit": "ns",
             "range": 736.466
@@ -44218,25 +44218,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.394,
             "unit": "ns",
             "range": 1.09551
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 843.074,
             "unit": "ns",
             "range": 17.7842
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3244.27,
             "unit": "ns",
             "range": 89.4318
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18676,
             "unit": "ns",
             "range": 698.142
@@ -44264,25 +44264,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.45,
             "unit": "ns",
             "range": 1.22476
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 878.333,
             "unit": "ns",
             "range": 31.9811
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3359.98,
             "unit": "ns",
             "range": 176.659
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18752.8,
             "unit": "ns",
             "range": 768.252
@@ -44310,25 +44310,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.542,
             "unit": "ns",
             "range": 0.693848
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 871.185,
             "unit": "ns",
             "range": 17.6508
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3381.96,
             "unit": "ns",
             "range": 110.837
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18498.9,
             "unit": "ns",
             "range": 874.191
@@ -44356,25 +44356,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.226,
             "unit": "ns",
             "range": 0.709498
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 869.975,
             "unit": "ns",
             "range": 13.855
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3296.43,
             "unit": "ns",
             "range": 180.079
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18792.6,
             "unit": "ns",
             "range": 714.315
@@ -44402,25 +44402,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.078,
             "unit": "ns",
             "range": 0.506948
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 859.97,
             "unit": "ns",
             "range": 30.7723
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3311.05,
             "unit": "ns",
             "range": 150.571
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18279.8,
             "unit": "ns",
             "range": 938.302
@@ -44448,25 +44448,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.238,
             "unit": "ns",
             "range": 0.736246
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 867.219,
             "unit": "ns",
             "range": 22.2321
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3290.23,
             "unit": "ns",
             "range": 143.629
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19115,
             "unit": "ns",
             "range": 1096.85
@@ -44494,25 +44494,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.1,
             "unit": "ns",
             "range": 0.651057
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 866.918,
             "unit": "ns",
             "range": 13.0738
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3338.87,
             "unit": "ns",
             "range": 114.816
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19021.9,
             "unit": "ns",
             "range": 942.521
@@ -44540,25 +44540,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.07,
             "unit": "ns",
             "range": 0.552053
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 868.531,
             "unit": "ns",
             "range": 19.2645
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3307.39,
             "unit": "ns",
             "range": 154.173
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19165.6,
             "unit": "ns",
             "range": 988.064
@@ -44586,25 +44586,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.211,
             "unit": "ns",
             "range": 0.819225
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 874.1,
             "unit": "ns",
             "range": 17.6299
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3271.34,
             "unit": "ns",
             "range": 96.7746
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18789.5,
             "unit": "ns",
             "range": 967.137
@@ -44632,25 +44632,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.879,
             "unit": "ns",
             "range": 0.351777
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 858.965,
             "unit": "ns",
             "range": 27.1066
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3249.59,
             "unit": "ns",
             "range": 135.746
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18907.4,
             "unit": "ns",
             "range": 990.419
@@ -44678,25 +44678,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.714,
             "unit": "ns",
             "range": 0.918776
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 881.202,
             "unit": "ns",
             "range": 31.4001
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3263.67,
             "unit": "ns",
             "range": 130.077
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18483.7,
             "unit": "ns",
             "range": 1021.31
@@ -44724,25 +44724,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.041,
             "unit": "ns",
             "range": 0.350175
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 859.206,
             "unit": "ns",
             "range": 14.6238
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3318.98,
             "unit": "ns",
             "range": 139.418
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18865.8,
             "unit": "ns",
             "range": 1048.38
@@ -44770,25 +44770,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.272,
             "unit": "ns",
             "range": 0.821175
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 877.394,
             "unit": "ns",
             "range": 14.8229
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3303.57,
             "unit": "ns",
             "range": 119.195
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18074.5,
             "unit": "ns",
             "range": 202.66
@@ -44816,25 +44816,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 99.9029,
             "unit": "ns",
             "range": 1.16513
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 799.273,
             "unit": "ns",
             "range": 28.0185
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3156.25,
             "unit": "ns",
             "range": 164.158
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18231.6,
             "unit": "ns",
             "range": 708.526
@@ -44862,25 +44862,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.091,
             "unit": "ns",
             "range": 0.579315
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 831.494,
             "unit": "ns",
             "range": 29.3445
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3330.36,
             "unit": "ns",
             "range": 135.657
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18397.5,
             "unit": "ns",
             "range": 707.793
@@ -44908,25 +44908,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.378,
             "unit": "ns",
             "range": 0.509701
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 850.377,
             "unit": "ns",
             "range": 16.3423
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3331.36,
             "unit": "ns",
             "range": 194.283
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19001.4,
             "unit": "ns",
             "range": 1015.16
@@ -44954,25 +44954,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.187,
             "unit": "ns",
             "range": 0.524947
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 853.281,
             "unit": "ns",
             "range": 29.6147
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3222.65,
             "unit": "ns",
             "range": 134.121
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18903.8,
             "unit": "ns",
             "range": 894.081
@@ -45000,25 +45000,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 103.933,
             "unit": "ns",
             "range": 0.261079
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 865.976,
             "unit": "ns",
             "range": 19.2355
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3243.95,
             "unit": "ns",
             "range": 147.938
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19409.7,
             "unit": "ns",
             "range": 774.663
@@ -45048,25 +45048,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.573,
             "unit": "ns",
             "range": 0.66584
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 856.648,
             "unit": "ns",
             "range": 20.319
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3271.32,
             "unit": "ns",
             "range": 105.088
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18959.3,
             "unit": "ns",
             "range": 643.538
@@ -45096,25 +45096,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.18,
             "unit": "ns",
             "range": 0.791158
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 856.746,
             "unit": "ns",
             "range": 26.2385
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3322.27,
             "unit": "ns",
             "range": 159.542
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19314.1,
             "unit": "ns",
             "range": 1171.79
@@ -45144,25 +45144,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.275,
             "unit": "ns",
             "range": 2.02055
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 869.4,
             "unit": "ns",
             "range": 19.0285
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3268.72,
             "unit": "ns",
             "range": 126.474
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18970.7,
             "unit": "ns",
             "range": 1126.02
@@ -45192,25 +45192,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.567,
             "unit": "ns",
             "range": 0.664968
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 864.726,
             "unit": "ns",
             "range": 25.8158
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3238.42,
             "unit": "ns",
             "range": 115.281
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18272.6,
             "unit": "ns",
             "range": 1016.01
@@ -45240,25 +45240,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.462,
             "unit": "ns",
             "range": 0.556019
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 860.635,
             "unit": "ns",
             "range": 18.2948
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3296.75,
             "unit": "ns",
             "range": 80.6618
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18276.9,
             "unit": "ns",
             "range": 898.267
@@ -45286,25 +45286,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.66,
             "unit": "ns",
             "range": 0.840572
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 840.465,
             "unit": "ns",
             "range": 14.1218
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3246.08,
             "unit": "ns",
             "range": 126.989
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18904.5,
             "unit": "ns",
             "range": 1131
@@ -45332,25 +45332,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.579,
             "unit": "ns",
             "range": 0.605865
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 868.636,
             "unit": "ns",
             "range": 31.195
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3372.22,
             "unit": "ns",
             "range": 145.687
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19922.5,
             "unit": "ns",
             "range": 868.085
@@ -45378,25 +45378,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.57,
             "unit": "ns",
             "range": 1.06629
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 855.089,
             "unit": "ns",
             "range": 21.4812
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3286.71,
             "unit": "ns",
             "range": 122.437
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18956.3,
             "unit": "ns",
             "range": 951.046
@@ -45424,25 +45424,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.878,
             "unit": "ns",
             "range": 0.721368
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 870.709,
             "unit": "ns",
             "range": 21.1535
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3257.85,
             "unit": "ns",
             "range": 174.211
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18998.7,
             "unit": "ns",
             "range": 706.45
@@ -45470,25 +45470,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.682,
             "unit": "ns",
             "range": 0.77056
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 862.051,
             "unit": "ns",
             "range": 22.1723
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3312.17,
             "unit": "ns",
             "range": 175.761
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19132.5,
             "unit": "ns",
             "range": 914.54
@@ -45516,25 +45516,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.396,
             "unit": "ns",
             "range": 0.583209
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 848.333,
             "unit": "ns",
             "range": 19.6563
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3310.8,
             "unit": "ns",
             "range": 182.324
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19104,
             "unit": "ns",
             "range": 942.927
@@ -45564,25 +45564,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.947,
             "unit": "ns",
             "range": 0.567064
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 850.592,
             "unit": "ns",
             "range": 37.1711
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3217.09,
             "unit": "ns",
             "range": 113.223
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18873.3,
             "unit": "ns",
             "range": 1082.76
@@ -45610,25 +45610,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.286,
             "unit": "ns",
             "range": 0.753932
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 853.193,
             "unit": "ns",
             "range": 14.7918
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3236.83,
             "unit": "ns",
             "range": 111.86
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18899.9,
             "unit": "ns",
             "range": 664.355
@@ -45656,25 +45656,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.358,
             "unit": "ns",
             "range": 0.729132
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 853.641,
             "unit": "ns",
             "range": 15.91
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3298.45,
             "unit": "ns",
             "range": 139.88
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18482,
             "unit": "ns",
             "range": 756.036
@@ -45702,25 +45702,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.306,
             "unit": "ns",
             "range": 0.53186
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 861.601,
             "unit": "ns",
             "range": 18.2242
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3313.41,
             "unit": "ns",
             "range": 133.538
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18229.3,
             "unit": "ns",
             "range": 698.308
@@ -45748,25 +45748,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.315,
             "unit": "ns",
             "range": 1.13099
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 848.854,
             "unit": "ns",
             "range": 19.4486
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3221.21,
             "unit": "ns",
             "range": 128.295
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19345.9,
             "unit": "ns",
             "range": 995.108
@@ -45794,25 +45794,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.252,
             "unit": "ns",
             "range": 0.69227
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 857.476,
             "unit": "ns",
             "range": 28.901
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3276.45,
             "unit": "ns",
             "range": 171.594
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18891,
             "unit": "ns",
             "range": 819.673
@@ -45840,25 +45840,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.261,
             "unit": "ns",
             "range": 0.542272
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 854.838,
             "unit": "ns",
             "range": 27.4286
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3258.82,
             "unit": "ns",
             "range": 138.129
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18692,
             "unit": "ns",
             "range": 880.983
@@ -45886,25 +45886,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.516,
             "unit": "ns",
             "range": 0.97938
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 855.501,
             "unit": "ns",
             "range": 13.1881
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3280.19,
             "unit": "ns",
             "range": 125.483
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18560.5,
             "unit": "ns",
             "range": 1053.21
@@ -45932,25 +45932,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.151,
             "unit": "ns",
             "range": 0.389107
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 851.975,
             "unit": "ns",
             "range": 18.5296
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3216.01,
             "unit": "ns",
             "range": 106.375
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18888.6,
             "unit": "ns",
             "range": 902.96
@@ -45978,25 +45978,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.484,
             "unit": "ns",
             "range": 0.924499
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 853.74,
             "unit": "ns",
             "range": 33.8485
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3236.85,
             "unit": "ns",
             "range": 107.125
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18158.8,
             "unit": "ns",
             "range": 721.821
@@ -46024,25 +46024,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.517,
             "unit": "ns",
             "range": 0.841449
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 860.304,
             "unit": "ns",
             "range": 25.2863
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3376.91,
             "unit": "ns",
             "range": 140.95
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18699.6,
             "unit": "ns",
             "range": 823.064
@@ -46072,25 +46072,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.381,
             "unit": "ns",
             "range": 0.96735
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 876.13,
             "unit": "ns",
             "range": 28.9906
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3311.41,
             "unit": "ns",
             "range": 95.9739
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 20141.2,
             "unit": "ns",
             "range": 940.421
@@ -46118,25 +46118,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.26,
             "unit": "ns",
             "range": 0.521034
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 849.651,
             "unit": "ns",
             "range": 18.7157
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3324.59,
             "unit": "ns",
             "range": 132.455
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18599.3,
             "unit": "ns",
             "range": 1112
@@ -46164,25 +46164,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.455,
             "unit": "ns",
             "range": 0.853178
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 850.775,
             "unit": "ns",
             "range": 23.9436
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3269.92,
             "unit": "ns",
             "range": 139.198
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18501,
             "unit": "ns",
             "range": 529.642
@@ -46210,25 +46210,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.374,
             "unit": "ns",
             "range": 0.796073
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 853.06,
             "unit": "ns",
             "range": 28.0744
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3378.3,
             "unit": "ns",
             "range": 123.936
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18452.5,
             "unit": "ns",
             "range": 620.834
@@ -46256,25 +46256,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.68,
             "unit": "ns",
             "range": 0.898541
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 851.85,
             "unit": "ns",
             "range": 23.0698
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3340.01,
             "unit": "ns",
             "range": 154.659
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17874.3,
             "unit": "ns",
             "range": 997.768
@@ -46302,25 +46302,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.62,
             "unit": "ns",
             "range": 0.793147
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 848.577,
             "unit": "ns",
             "range": 12.2088
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3295.23,
             "unit": "ns",
             "range": 107.653
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19293.3,
             "unit": "ns",
             "range": 1046
@@ -46350,25 +46350,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.2,
             "unit": "ns",
             "range": 0.459851
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 850.223,
             "unit": "ns",
             "range": 14.4427
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3373.03,
             "unit": "ns",
             "range": 96.2236
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17945.5,
             "unit": "ns",
             "range": 832.889
@@ -46398,25 +46398,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.349,
             "unit": "ns",
             "range": 0.61515
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 863.294,
             "unit": "ns",
             "range": 32.6761
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3251.48,
             "unit": "ns",
             "range": 113.679
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19007,
             "unit": "ns",
             "range": 1017.88
@@ -46444,25 +46444,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.479,
             "unit": "ns",
             "range": 0.779749
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 877.051,
             "unit": "ns",
             "range": 23.5349
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3502.06,
             "unit": "ns",
             "range": 158.501
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18277.8,
             "unit": "ns",
             "range": 850.938
@@ -46490,25 +46490,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.738,
             "unit": "ns",
             "range": 0.573455
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 851.946,
             "unit": "ns",
             "range": 33.6246
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3244.59,
             "unit": "ns",
             "range": 120.298
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18758.6,
             "unit": "ns",
             "range": 948.051
@@ -46536,25 +46536,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.41,
             "unit": "ns",
             "range": 0.775851
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 851.103,
             "unit": "ns",
             "range": 12.7475
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3254.54,
             "unit": "ns",
             "range": 179.688
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18263.6,
             "unit": "ns",
             "range": 1048.87
@@ -46582,25 +46582,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.465,
             "unit": "ns",
             "range": 0.762036
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 863.702,
             "unit": "ns",
             "range": 29.3161
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3253.48,
             "unit": "ns",
             "range": 159.912
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18763.4,
             "unit": "ns",
             "range": 959.997
@@ -46628,25 +46628,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.414,
             "unit": "ns",
             "range": 0.545866
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 841.718,
             "unit": "ns",
             "range": 22.0822
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3140.9,
             "unit": "ns",
             "range": 79.8254
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19014.9,
             "unit": "ns",
             "range": 680.263
@@ -46674,25 +46674,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.147,
             "unit": "ns",
             "range": 0.645949
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 853.116,
             "unit": "ns",
             "range": 14.7917
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3258.45,
             "unit": "ns",
             "range": 127.801
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18703.4,
             "unit": "ns",
             "range": 1080.55
@@ -46720,25 +46720,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.204,
             "unit": "ns",
             "range": 0.743831
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 861.99,
             "unit": "ns",
             "range": 18.638
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3280.16,
             "unit": "ns",
             "range": 119.362
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18751.4,
             "unit": "ns",
             "range": 777.017
@@ -46766,25 +46766,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.605,
             "unit": "ns",
             "range": 1.54375
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 868.281,
             "unit": "ns",
             "range": 23.8007
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3340.97,
             "unit": "ns",
             "range": 98.3824
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19658,
             "unit": "ns",
             "range": 816.662
@@ -46812,25 +46812,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.132,
             "unit": "ns",
             "range": 0.519065
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 835.285,
             "unit": "ns",
             "range": 30.167
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3336.66,
             "unit": "ns",
             "range": 130.164
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18593.7,
             "unit": "ns",
             "range": 855.925
@@ -46858,25 +46858,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.082,
             "unit": "ns",
             "range": 1.70973
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 855.652,
             "unit": "ns",
             "range": 34.0563
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3261.56,
             "unit": "ns",
             "range": 143.266
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18830.8,
             "unit": "ns",
             "range": 814.152
@@ -46904,25 +46904,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.207,
             "unit": "ns",
             "range": 0.363331
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 846.993,
             "unit": "ns",
             "range": 19.7938
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3236.32,
             "unit": "ns",
             "range": 113.795
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19091.2,
             "unit": "ns",
             "range": 966.397
@@ -46950,25 +46950,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.654,
             "unit": "ns",
             "range": 1.32062
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 845.261,
             "unit": "ns",
             "range": 12.3555
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3284.02,
             "unit": "ns",
             "range": 144.158
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18545.9,
             "unit": "ns",
             "range": 669.745
@@ -46996,25 +46996,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.437,
             "unit": "ns",
             "range": 0.665972
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 865.682,
             "unit": "ns",
             "range": 12.4564
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3245.79,
             "unit": "ns",
             "range": 132.852
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18491,
             "unit": "ns",
             "range": 814.749
@@ -47042,25 +47042,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.769,
             "unit": "ns",
             "range": 1.58269
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 852.084,
             "unit": "ns",
             "range": 24.7186
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3257.97,
             "unit": "ns",
             "range": 164.35
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18224.1,
             "unit": "ns",
             "range": 953.176
@@ -47088,25 +47088,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.279,
             "unit": "ns",
             "range": 0.417646
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 874.803,
             "unit": "ns",
             "range": 28.951
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3308.59,
             "unit": "ns",
             "range": 128.906
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17875.7,
             "unit": "ns",
             "range": 1228.96
@@ -47134,25 +47134,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.213,
             "unit": "ns",
             "range": 0.343257
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 859.732,
             "unit": "ns",
             "range": 15.302
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3261.96,
             "unit": "ns",
             "range": 102.031
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18578.7,
             "unit": "ns",
             "range": 591.979
@@ -47180,25 +47180,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.734,
             "unit": "ns",
             "range": 0.767229
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 852.842,
             "unit": "ns",
             "range": 27.5895
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3335.29,
             "unit": "ns",
             "range": 144.343
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17834.5,
             "unit": "ns",
             "range": 280.841
@@ -47226,25 +47226,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.929,
             "unit": "ns",
             "range": 1.16684
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 869.9,
             "unit": "ns",
             "range": 24.2619
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3312.97,
             "unit": "ns",
             "range": 108.378
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19063.8,
             "unit": "ns",
             "range": 626.848
@@ -47272,25 +47272,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.753,
             "unit": "ns",
             "range": 0.533243
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 858.12,
             "unit": "ns",
             "range": 26.894
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3318.44,
             "unit": "ns",
             "range": 169.06
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18185.5,
             "unit": "ns",
             "range": 757.962
@@ -47318,25 +47318,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.269,
             "unit": "ns",
             "range": 0.79933
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 852.665,
             "unit": "ns",
             "range": 27.4273
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3226.79,
             "unit": "ns",
             "range": 119.697
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18407.5,
             "unit": "ns",
             "range": 757.184
@@ -47364,25 +47364,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.708,
             "unit": "ns",
             "range": 0.560312
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 848.456,
             "unit": "ns",
             "range": 22.5919
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3240.02,
             "unit": "ns",
             "range": 136.874
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18814.8,
             "unit": "ns",
             "range": 967.635
@@ -47410,25 +47410,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.33,
             "unit": "ns",
             "range": 0.581077
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 858.693,
             "unit": "ns",
             "range": 26.4542
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3258.93,
             "unit": "ns",
             "range": 175.331
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18581.7,
             "unit": "ns",
             "range": 1115.52
@@ -47456,25 +47456,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 106.504,
             "unit": "ns",
             "range": 0.594487
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 869.656,
             "unit": "ns",
             "range": 16.8027
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3343.39,
             "unit": "ns",
             "range": 134.037
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16632,
             "unit": "ns",
             "range": 1010.49
@@ -47502,25 +47502,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 106.035,
             "unit": "ns",
             "range": 0.758853
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 865.699,
             "unit": "ns",
             "range": 16.8243
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3342.6,
             "unit": "ns",
             "range": 165.652
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16543.8,
             "unit": "ns",
             "range": 330.695
@@ -47548,25 +47548,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 106.231,
             "unit": "ns",
             "range": 0.522153
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 852.56,
             "unit": "ns",
             "range": 13.8883
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3382.41,
             "unit": "ns",
             "range": 163.247
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16635.7,
             "unit": "ns",
             "range": 491.94
@@ -47594,25 +47594,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 106.425,
             "unit": "ns",
             "range": 0.739193
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 862.185,
             "unit": "ns",
             "range": 21.8192
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3362.65,
             "unit": "ns",
             "range": 143.83
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16816.4,
             "unit": "ns",
             "range": 552.406
@@ -47640,25 +47640,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.742,
             "unit": "ns",
             "range": 0.416874
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 853.915,
             "unit": "ns",
             "range": 16.8464
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3347.07,
             "unit": "ns",
             "range": 165.423
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16795.4,
             "unit": "ns",
             "range": 671.597
@@ -47686,25 +47686,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 106.063,
             "unit": "ns",
             "range": 0.647655
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 849.725,
             "unit": "ns",
             "range": 15.825
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3296.95,
             "unit": "ns",
             "range": 144.576
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16554.1,
             "unit": "ns",
             "range": 640.208
@@ -47732,25 +47732,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 106.299,
             "unit": "ns",
             "range": 0.461114
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 844.416,
             "unit": "ns",
             "range": 23.0695
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3328.62,
             "unit": "ns",
             "range": 199.808
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16463.2,
             "unit": "ns",
             "range": 748.452
@@ -47778,25 +47778,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.433,
             "unit": "ns",
             "range": 0.550609
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 863.08,
             "unit": "ns",
             "range": 21.1063
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3298.56,
             "unit": "ns",
             "range": 169.05
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16649.7,
             "unit": "ns",
             "range": 213.435
@@ -47824,25 +47824,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 106.108,
             "unit": "ns",
             "range": 0.829743
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 853.958,
             "unit": "ns",
             "range": 15.0786
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3279.21,
             "unit": "ns",
             "range": 113.991
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16659.4,
             "unit": "ns",
             "range": 801.466
@@ -47870,25 +47870,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 106.274,
             "unit": "ns",
             "range": 0.764961
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 859.744,
             "unit": "ns",
             "range": 16.9635
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3346.85,
             "unit": "ns",
             "range": 181.399
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16283.9,
             "unit": "ns",
             "range": 265.76
@@ -47916,25 +47916,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 106.241,
             "unit": "ns",
             "range": 0.663792
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 875.999,
             "unit": "ns",
             "range": 32.7075
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3451.69,
             "unit": "ns",
             "range": 143.886
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16472.3,
             "unit": "ns",
             "range": 438.165
@@ -47962,25 +47962,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.872,
             "unit": "ns",
             "range": 0.496882
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 861.178,
             "unit": "ns",
             "range": 15.5346
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3341.4,
             "unit": "ns",
             "range": 155.057
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16641.8,
             "unit": "ns",
             "range": 521.579
@@ -48008,25 +48008,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.992,
             "unit": "ns",
             "range": 0.491511
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 865.44,
             "unit": "ns",
             "range": 16.7746
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3321.76,
             "unit": "ns",
             "range": 176.647
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16242.8,
             "unit": "ns",
             "range": 354.216
@@ -48054,25 +48054,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 106.258,
             "unit": "ns",
             "range": 0.885589
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 870.466,
             "unit": "ns",
             "range": 24.4465
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3394.08,
             "unit": "ns",
             "range": 127.366
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16783.9,
             "unit": "ns",
             "range": 900.739
@@ -48100,25 +48100,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.84,
             "unit": "ns",
             "range": 0.827364
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 875.709,
             "unit": "ns",
             "range": 28.6464
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3350.89,
             "unit": "ns",
             "range": 72.9421
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16649.4,
             "unit": "ns",
             "range": 495.54
@@ -48146,25 +48146,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 106.091,
             "unit": "ns",
             "range": 0.73685
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 863.41,
             "unit": "ns",
             "range": 19.2841
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3322.03,
             "unit": "ns",
             "range": 123.919
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16646.9,
             "unit": "ns",
             "range": 687.953
@@ -48192,25 +48192,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 106.043,
             "unit": "ns",
             "range": 0.744695
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 861.489,
             "unit": "ns",
             "range": 18.1386
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3346.48,
             "unit": "ns",
             "range": 160.468
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16453.8,
             "unit": "ns",
             "range": 336.583
@@ -48238,25 +48238,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.972,
             "unit": "ns",
             "range": 0.689543
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 867.517,
             "unit": "ns",
             "range": 22.8574
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3366.49,
             "unit": "ns",
             "range": 143.379
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16624.2,
             "unit": "ns",
             "range": 521.166
@@ -48284,25 +48284,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.245,
             "unit": "ns",
             "range": 0.855179
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 846.552,
             "unit": "ns",
             "range": 18.2112
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3319.93,
             "unit": "ns",
             "range": 145.748
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16508,
             "unit": "ns",
             "range": 287.448
@@ -48330,25 +48330,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 106.155,
             "unit": "ns",
             "range": 0.939955
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 859.211,
             "unit": "ns",
             "range": 22.9081
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3386.81,
             "unit": "ns",
             "range": 154.876
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17249.9,
             "unit": "ns",
             "range": 715.161
@@ -48376,25 +48376,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.701,
             "unit": "ns",
             "range": 0.705389
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 866.992,
             "unit": "ns",
             "range": 17.0756
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3226.04,
             "unit": "ns",
             "range": 138.979
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16948.1,
             "unit": "ns",
             "range": 1001.41
@@ -48422,25 +48422,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.791,
             "unit": "ns",
             "range": 0.891899
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 859.198,
             "unit": "ns",
             "range": 18.0618
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3306.92,
             "unit": "ns",
             "range": 173.61
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18975.5,
             "unit": "ns",
             "range": 1083.7
@@ -48468,25 +48468,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.221,
             "unit": "ns",
             "range": 0.747374
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 869.124,
             "unit": "ns",
             "range": 29.082
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3236.45,
             "unit": "ns",
             "range": 197.92
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18911.3,
             "unit": "ns",
             "range": 1260.85
@@ -48514,25 +48514,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.676,
             "unit": "ns",
             "range": 0.91728
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 855.319,
             "unit": "ns",
             "range": 20.8841
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3305.04,
             "unit": "ns",
             "range": 198.297
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18429.5,
             "unit": "ns",
             "range": 1051.85
@@ -48560,25 +48560,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.964,
             "unit": "ns",
             "range": 0.812394
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 858.323,
             "unit": "ns",
             "range": 15.6605
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3379.82,
             "unit": "ns",
             "range": 141.046
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18580,
             "unit": "ns",
             "range": 854.356
@@ -48608,25 +48608,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.394,
             "unit": "ns",
             "range": 0.872753
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 857.138,
             "unit": "ns",
             "range": 18.9848
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3320.84,
             "unit": "ns",
             "range": 195.107
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19001.3,
             "unit": "ns",
             "range": 952.775
@@ -48654,25 +48654,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.324,
             "unit": "ns",
             "range": 0.675968
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 860.378,
             "unit": "ns",
             "range": 16.9232
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3381.52,
             "unit": "ns",
             "range": 165.237
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18733,
             "unit": "ns",
             "range": 798.482
@@ -48700,25 +48700,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.241,
             "unit": "ns",
             "range": 1.16946
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 848.156,
             "unit": "ns",
             "range": 17.3472
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3273.89,
             "unit": "ns",
             "range": 146.976
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18430.1,
             "unit": "ns",
             "range": 813.232
@@ -48746,25 +48746,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.55,
             "unit": "ns",
             "range": 0.701605
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 856.804,
             "unit": "ns",
             "range": 21.1445
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3269.09,
             "unit": "ns",
             "range": 115.097
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19348.8,
             "unit": "ns",
             "range": 1121.6
@@ -48792,25 +48792,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.759,
             "unit": "ns",
             "range": 1.15748
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 843.15,
             "unit": "ns",
             "range": 28.0868
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3245.62,
             "unit": "ns",
             "range": 106.925
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18890.5,
             "unit": "ns",
             "range": 1249.74
@@ -48840,25 +48840,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.675,
             "unit": "ns",
             "range": 0.596005
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 860.02,
             "unit": "ns",
             "range": 26.3151
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3323.72,
             "unit": "ns",
             "range": 155.366
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19411.3,
             "unit": "ns",
             "range": 902.073
@@ -48886,25 +48886,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.169,
             "unit": "ns",
             "range": 0.749562
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 855.401,
             "unit": "ns",
             "range": 28.8091
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3323.3,
             "unit": "ns",
             "range": 79.8652
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18179,
             "unit": "ns",
             "range": 647.159
@@ -48932,25 +48932,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.856,
             "unit": "ns",
             "range": 1.0305
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 862.116,
             "unit": "ns",
             "range": 20.2549
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3261.93,
             "unit": "ns",
             "range": 156.641
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18378.7,
             "unit": "ns",
             "range": 495.736
@@ -48978,25 +48978,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.417,
             "unit": "ns",
             "range": 0.520605
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 865.093,
             "unit": "ns",
             "range": 19.3045
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3361.24,
             "unit": "ns",
             "range": 196.68
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17911.6,
             "unit": "ns",
             "range": 958.999
@@ -49024,25 +49024,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 101.615,
             "unit": "ns",
             "range": 1.36534
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 849.751,
             "unit": "ns",
             "range": 18.947
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3110.3,
             "unit": "ns",
             "range": 110.964
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 16853.9,
             "unit": "ns",
             "range": 810.262
@@ -49070,25 +49070,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.167,
             "unit": "ns",
             "range": 1.25872
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 848.842,
             "unit": "ns",
             "range": 29.5582
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3239.41,
             "unit": "ns",
             "range": 140.628
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17255.1,
             "unit": "ns",
             "range": 973.524
@@ -49116,25 +49116,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.087,
             "unit": "ns",
             "range": 0.43804
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 870.267,
             "unit": "ns",
             "range": 15.2838
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3269.07,
             "unit": "ns",
             "range": 111.401
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 19235.2,
             "unit": "ns",
             "range": 958.037
@@ -49162,25 +49162,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.689,
             "unit": "ns",
             "range": 0.716143
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 855.382,
             "unit": "ns",
             "range": 21.6814
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3263.19,
             "unit": "ns",
             "range": 171.363
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18217.4,
             "unit": "ns",
             "range": 1544.89
@@ -49208,25 +49208,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.416,
             "unit": "ns",
             "range": 0.605493
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 872.815,
             "unit": "ns",
             "range": 28.2325
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3250.55,
             "unit": "ns",
             "range": 114.536
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18006.8,
             "unit": "ns",
             "range": 1449.69
@@ -49254,25 +49254,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.796,
             "unit": "ns",
             "range": 0.890289
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 850.547,
             "unit": "ns",
             "range": 37.5268
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3296.76,
             "unit": "ns",
             "range": 131.568
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18419.5,
             "unit": "ns",
             "range": 1303.38
@@ -49300,25 +49300,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.436,
             "unit": "ns",
             "range": 0.826174
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 852.276,
             "unit": "ns",
             "range": 25.1679
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3304.27,
             "unit": "ns",
             "range": 184.929
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18093.7,
             "unit": "ns",
             "range": 1271.63
@@ -49346,25 +49346,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.247,
             "unit": "ns",
             "range": 0.749205
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 844.424,
             "unit": "ns",
             "range": 21.2918
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3228.05,
             "unit": "ns",
             "range": 99.7949
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17888.9,
             "unit": "ns",
             "range": 1094.11
@@ -49392,25 +49392,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.498,
             "unit": "ns",
             "range": 0.757608
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 870.121,
             "unit": "ns",
             "range": 18.6856
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3250.86,
             "unit": "ns",
             "range": 163.183
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17828.2,
             "unit": "ns",
             "range": 907.005
@@ -49438,25 +49438,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.295,
             "unit": "ns",
             "range": 0.489571
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 885.934,
             "unit": "ns",
             "range": 20.4175
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3274.5,
             "unit": "ns",
             "range": 182.286
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17972,
             "unit": "ns",
             "range": 1382.07
@@ -49484,25 +49484,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.606,
             "unit": "ns",
             "range": 0.596913
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 868.078,
             "unit": "ns",
             "range": 22.6077
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3282.75,
             "unit": "ns",
             "range": 158.712
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17701.8,
             "unit": "ns",
             "range": 957.301
@@ -49530,25 +49530,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.494,
             "unit": "ns",
             "range": 0.507432
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 854.069,
             "unit": "ns",
             "range": 20.3951
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3309.24,
             "unit": "ns",
             "range": 209.549
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17511.8,
             "unit": "ns",
             "range": 1147.29
@@ -49576,25 +49576,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.588,
             "unit": "ns",
             "range": 0.815998
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 869.659,
             "unit": "ns",
             "range": 19.3871
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3272.91,
             "unit": "ns",
             "range": 164.842
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17543.1,
             "unit": "ns",
             "range": 1140.85
@@ -49624,25 +49624,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.483,
             "unit": "ns",
             "range": 0.606428
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 861.064,
             "unit": "ns",
             "range": 10.3783
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3242.47,
             "unit": "ns",
             "range": 102.772
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18163.8,
             "unit": "ns",
             "range": 1069.37
@@ -49670,25 +49670,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.661,
             "unit": "ns",
             "range": 0.576355
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 864.509,
             "unit": "ns",
             "range": 21.7103
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3228.21,
             "unit": "ns",
             "range": 107.66
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17677.3,
             "unit": "ns",
             "range": 1157.05
@@ -49716,25 +49716,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.294,
             "unit": "ns",
             "range": 0.565058
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 849.316,
             "unit": "ns",
             "range": 20.1694
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3382.16,
             "unit": "ns",
             "range": 144.734
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18120.5,
             "unit": "ns",
             "range": 1254.71
@@ -49764,25 +49764,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.368,
             "unit": "ns",
             "range": 0.450189
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 854.973,
             "unit": "ns",
             "range": 12.9125
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3273.88,
             "unit": "ns",
             "range": 116.208
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18910.8,
             "unit": "ns",
             "range": 962.081
@@ -49810,25 +49810,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.417,
             "unit": "ns",
             "range": 1.12056
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 853.206,
             "unit": "ns",
             "range": 17.2057
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3348.55,
             "unit": "ns",
             "range": 179.636
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17828,
             "unit": "ns",
             "range": 1087.32
@@ -49856,25 +49856,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.495,
             "unit": "ns",
             "range": 0.478234
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 851.277,
             "unit": "ns",
             "range": 19.908
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3310.2,
             "unit": "ns",
             "range": 167.313
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17183.2,
             "unit": "ns",
             "range": 676.19
@@ -49904,25 +49904,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.933,
             "unit": "ns",
             "range": 1.09297
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 883.343,
             "unit": "ns",
             "range": 21.2164
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3292.55,
             "unit": "ns",
             "range": 130.246
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18195.1,
             "unit": "ns",
             "range": 906.815
@@ -49950,25 +49950,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.817,
             "unit": "ns",
             "range": 0.599681
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 889.576,
             "unit": "ns",
             "range": 17.9413
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3362.77,
             "unit": "ns",
             "range": 126.997
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 18832.7,
             "unit": "ns",
             "range": 939.899
@@ -49996,25 +49996,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 104.614,
             "unit": "ns",
             "range": 1.05142
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 894.752,
             "unit": "ns",
             "range": 16.1455
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3292.09,
             "unit": "ns",
             "range": 213.782
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17832.4,
             "unit": "ns",
             "range": 1160.47
@@ -50042,25 +50042,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 105.209,
             "unit": "ns",
             "range": 0.974127
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 880.205,
             "unit": "ns",
             "range": 18.6246
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 3292.07,
             "unit": "ns",
             "range": 130.318
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 17756,
             "unit": "ns",
             "range": 840.714
@@ -54062,25 +54062,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 155.099,
             "unit": "ns",
             "range": 8.57785
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1537.53,
             "unit": "ns",
             "range": 38.5168
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6296.13,
             "unit": "ns",
             "range": 305.765
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72330.8,
             "unit": "ns",
             "range": 2260.17
@@ -54108,25 +54108,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 154.065,
             "unit": "ns",
             "range": 9.18428
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1547.39,
             "unit": "ns",
             "range": 45.8011
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6268.47,
             "unit": "ns",
             "range": 361.288
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71257.9,
             "unit": "ns",
             "range": 2025.03
@@ -54154,25 +54154,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 159.84,
             "unit": "ns",
             "range": 8.72704
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1510.94,
             "unit": "ns",
             "range": 57.0178
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6227.37,
             "unit": "ns",
             "range": 410.841
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71831.6,
             "unit": "ns",
             "range": 4023.99
@@ -54200,25 +54200,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 159.035,
             "unit": "ns",
             "range": 6.09839
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1529.16,
             "unit": "ns",
             "range": 57.8077
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6270.48,
             "unit": "ns",
             "range": 414.08
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71948.1,
             "unit": "ns",
             "range": 2677.38
@@ -54246,25 +54246,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 164.33,
             "unit": "ns",
             "range": 7.7707
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1636.22,
             "unit": "ns",
             "range": 40.7694
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6463.5,
             "unit": "ns",
             "range": 355.587
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72968.2,
             "unit": "ns",
             "range": 3029.22
@@ -54292,25 +54292,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 157.257,
             "unit": "ns",
             "range": 7.15863
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1531.12,
             "unit": "ns",
             "range": 60.6037
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6479.79,
             "unit": "ns",
             "range": 448.955
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70971.3,
             "unit": "ns",
             "range": 1361.4
@@ -54340,25 +54340,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 158.983,
             "unit": "ns",
             "range": 6.24607
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1581.68,
             "unit": "ns",
             "range": 62.6909
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6441.39,
             "unit": "ns",
             "range": 431.711
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72085.1,
             "unit": "ns",
             "range": 2372.08
@@ -54388,25 +54388,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 155.362,
             "unit": "ns",
             "range": 6.95524
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1517.33,
             "unit": "ns",
             "range": 54.2198
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6437.96,
             "unit": "ns",
             "range": 475.321
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72169,
             "unit": "ns",
             "range": 3853.48
@@ -54434,25 +54434,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 152.848,
             "unit": "ns",
             "range": 7.55537
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1539.29,
             "unit": "ns",
             "range": 62.307
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6332.18,
             "unit": "ns",
             "range": 372.533
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 73326.6,
             "unit": "ns",
             "range": 4146.41
@@ -54482,25 +54482,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 148.81,
             "unit": "ns",
             "range": 9.02407
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1503.53,
             "unit": "ns",
             "range": 39.8915
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6433.88,
             "unit": "ns",
             "range": 544.301
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 73488.9,
             "unit": "ns",
             "range": 3316.55
@@ -54530,25 +54530,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 153.637,
             "unit": "ns",
             "range": 8.43934
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1558.39,
             "unit": "ns",
             "range": 68.4572
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6319.65,
             "unit": "ns",
             "range": 366.087
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71269,
             "unit": "ns",
             "range": 2441.08
@@ -54578,25 +54578,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 150.498,
             "unit": "ns",
             "range": 6.51531
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1507.65,
             "unit": "ns",
             "range": 88.3576
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6312.33,
             "unit": "ns",
             "range": 388.384
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70108.2,
             "unit": "ns",
             "range": 3551.59
@@ -54624,25 +54624,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 159.234,
             "unit": "ns",
             "range": 6.82549
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1564.82,
             "unit": "ns",
             "range": 44.824
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6192.24,
             "unit": "ns",
             "range": 424.105
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72843.4,
             "unit": "ns",
             "range": 3491.96
@@ -54670,25 +54670,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 159.745,
             "unit": "ns",
             "range": 6.06289
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1496.61,
             "unit": "ns",
             "range": 61.6951
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6272.2,
             "unit": "ns",
             "range": 423.859
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70562.8,
             "unit": "ns",
             "range": 3007.08
@@ -54716,25 +54716,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 158.108,
             "unit": "ns",
             "range": 8.60404
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1546.3,
             "unit": "ns",
             "range": 27.9903
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6391.54,
             "unit": "ns",
             "range": 408.814
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72684.7,
             "unit": "ns",
             "range": 974.734
@@ -54762,25 +54762,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 158.606,
             "unit": "ns",
             "range": 7.94998
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1540.02,
             "unit": "ns",
             "range": 45.252
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6407.2,
             "unit": "ns",
             "range": 294.44
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72457.1,
             "unit": "ns",
             "range": 3594.34
@@ -54808,25 +54808,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 161.704,
             "unit": "ns",
             "range": 10.2524
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1527.08,
             "unit": "ns",
             "range": 56.4436
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6335.23,
             "unit": "ns",
             "range": 476.006
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71024.9,
             "unit": "ns",
             "range": 2095.43
@@ -54854,25 +54854,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 157.258,
             "unit": "ns",
             "range": 8.04429
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1530.74,
             "unit": "ns",
             "range": 51.7096
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6319.44,
             "unit": "ns",
             "range": 403.043
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71575.4,
             "unit": "ns",
             "range": 4582.8
@@ -54900,25 +54900,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 160.144,
             "unit": "ns",
             "range": 9.23827
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1563.37,
             "unit": "ns",
             "range": 53.3766
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6518.18,
             "unit": "ns",
             "range": 293.319
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 73247,
             "unit": "ns",
             "range": 2648.9
@@ -54946,25 +54946,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 159.712,
             "unit": "ns",
             "range": 5.7327
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1564.62,
             "unit": "ns",
             "range": 34.6065
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6380.83,
             "unit": "ns",
             "range": 472.539
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 68978.3,
             "unit": "ns",
             "range": 2005.8
@@ -54992,25 +54992,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 153.418,
             "unit": "ns",
             "range": 7.87374
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1493.47,
             "unit": "ns",
             "range": 51.748
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6086.57,
             "unit": "ns",
             "range": 338.629
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71210.5,
             "unit": "ns",
             "range": 3125.29
@@ -55038,25 +55038,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 158.268,
             "unit": "ns",
             "range": 10.0978
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1543.1,
             "unit": "ns",
             "range": 58.4995
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6348.41,
             "unit": "ns",
             "range": 386.804
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 77713.4,
             "unit": "ns",
             "range": 6565.55
@@ -55084,25 +55084,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 147.823,
             "unit": "ns",
             "range": 6.64947
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1535.86,
             "unit": "ns",
             "range": 51.2921
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6185.77,
             "unit": "ns",
             "range": 320.221
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71181.6,
             "unit": "ns",
             "range": 2209.78
@@ -55130,25 +55130,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 153.271,
             "unit": "ns",
             "range": 5.45451
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1557.25,
             "unit": "ns",
             "range": 66.5603
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6335.52,
             "unit": "ns",
             "range": 248.444
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69125.9,
             "unit": "ns",
             "range": 3147.34
@@ -55176,25 +55176,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 158.887,
             "unit": "ns",
             "range": 9.43078
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1541.29,
             "unit": "ns",
             "range": 50.1563
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6188.8,
             "unit": "ns",
             "range": 312.461
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71882.3,
             "unit": "ns",
             "range": 3619.88
@@ -55222,25 +55222,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 155.632,
             "unit": "ns",
             "range": 6.67636
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1534.91,
             "unit": "ns",
             "range": 36.6801
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6350.75,
             "unit": "ns",
             "range": 304.465
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72324.6,
             "unit": "ns",
             "range": 3126.37
@@ -55268,25 +55268,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 152.395,
             "unit": "ns",
             "range": 5.21403
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1520.15,
             "unit": "ns",
             "range": 35.9473
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6397.1,
             "unit": "ns",
             "range": 426.043
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72075.5,
             "unit": "ns",
             "range": 4813.13
@@ -55314,25 +55314,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 155.666,
             "unit": "ns",
             "range": 9.23672
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1526.44,
             "unit": "ns",
             "range": 63.5589
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6397.12,
             "unit": "ns",
             "range": 306.356
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 74672.5,
             "unit": "ns",
             "range": 3363.29
@@ -55360,25 +55360,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 160.626,
             "unit": "ns",
             "range": 7.32695
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1547.22,
             "unit": "ns",
             "range": 53.6625
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6273.88,
             "unit": "ns",
             "range": 471.783
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 66350.2,
             "unit": "ns",
             "range": 1012.6
@@ -55406,25 +55406,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 144.418,
             "unit": "ns",
             "range": 7.08074
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1494.48,
             "unit": "ns",
             "range": 40.6975
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6253.67,
             "unit": "ns",
             "range": 423.939
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72708.6,
             "unit": "ns",
             "range": 4107.65
@@ -55452,25 +55452,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 150.242,
             "unit": "ns",
             "range": 4.46519
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1522.52,
             "unit": "ns",
             "range": 44.2904
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6209.82,
             "unit": "ns",
             "range": 395.871
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69772.2,
             "unit": "ns",
             "range": 2943.49
@@ -55498,25 +55498,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 155.653,
             "unit": "ns",
             "range": 5.83905
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1540.14,
             "unit": "ns",
             "range": 63.2087
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6499.77,
             "unit": "ns",
             "range": 431.913
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 75614.4,
             "unit": "ns",
             "range": 2699.63
@@ -55544,25 +55544,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 152.291,
             "unit": "ns",
             "range": 6.81366
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1528.7,
             "unit": "ns",
             "range": 76.2899
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6347.88,
             "unit": "ns",
             "range": 431.869
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72285.1,
             "unit": "ns",
             "range": 4436.08
@@ -55590,25 +55590,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 150.408,
             "unit": "ns",
             "range": 7.33972
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1553.92,
             "unit": "ns",
             "range": 43.1999
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6137.08,
             "unit": "ns",
             "range": 380.565
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70773.3,
             "unit": "ns",
             "range": 2940.38
@@ -55636,25 +55636,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 158.051,
             "unit": "ns",
             "range": 13.2808
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1510.11,
             "unit": "ns",
             "range": 45.9911
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6306.57,
             "unit": "ns",
             "range": 308.263
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70234.4,
             "unit": "ns",
             "range": 2527.92
@@ -55682,25 +55682,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 152.647,
             "unit": "ns",
             "range": 6.51534
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1546.54,
             "unit": "ns",
             "range": 38.28
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6257.8,
             "unit": "ns",
             "range": 378.666
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71135,
             "unit": "ns",
             "range": 3429.53
@@ -55728,25 +55728,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 153.807,
             "unit": "ns",
             "range": 7.24132
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1518.13,
             "unit": "ns",
             "range": 33.4369
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6385.12,
             "unit": "ns",
             "range": 370.362
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71408.8,
             "unit": "ns",
             "range": 2116.59
@@ -55774,25 +55774,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 151.97,
             "unit": "ns",
             "range": 6.92617
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1567.95,
             "unit": "ns",
             "range": 70.1443
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6366.96,
             "unit": "ns",
             "range": 422.383
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70365.3,
             "unit": "ns",
             "range": 2732.44
@@ -55820,25 +55820,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 157.736,
             "unit": "ns",
             "range": 5.37576
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1545.47,
             "unit": "ns",
             "range": 59.3957
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6147.21,
             "unit": "ns",
             "range": 321.771
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71499.1,
             "unit": "ns",
             "range": 2691.37
@@ -55866,25 +55866,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 159.311,
             "unit": "ns",
             "range": 6.94937
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1548.18,
             "unit": "ns",
             "range": 57.2806
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6274.67,
             "unit": "ns",
             "range": 388.091
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71370.3,
             "unit": "ns",
             "range": 3733.48
@@ -55912,25 +55912,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 153.313,
             "unit": "ns",
             "range": 6.12049
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1510.93,
             "unit": "ns",
             "range": 58.0357
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6605.54,
             "unit": "ns",
             "range": 447.277
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69936.2,
             "unit": "ns",
             "range": 652.553
@@ -55958,25 +55958,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 155.89,
             "unit": "ns",
             "range": 5.4718
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1556.51,
             "unit": "ns",
             "range": 58.7379
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6484.77,
             "unit": "ns",
             "range": 331.56
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71748.4,
             "unit": "ns",
             "range": 3353.09
@@ -56004,25 +56004,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 157.854,
             "unit": "ns",
             "range": 9.83312
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1531.92,
             "unit": "ns",
             "range": 36.5226
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6453.03,
             "unit": "ns",
             "range": 431.597
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72230.8,
             "unit": "ns",
             "range": 3309.5
@@ -56050,25 +56050,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 153.011,
             "unit": "ns",
             "range": 4.40486
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1526.89,
             "unit": "ns",
             "range": 68.6692
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6237.14,
             "unit": "ns",
             "range": 413.716
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71176.6,
             "unit": "ns",
             "range": 2927.31
@@ -56096,25 +56096,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 156.261,
             "unit": "ns",
             "range": 7.8458
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1532.15,
             "unit": "ns",
             "range": 42.4465
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6344.01,
             "unit": "ns",
             "range": 388.047
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71418.3,
             "unit": "ns",
             "range": 2034.3
@@ -56142,25 +56142,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 159.339,
             "unit": "ns",
             "range": 7.2104
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1552.24,
             "unit": "ns",
             "range": 79.5785
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6608.03,
             "unit": "ns",
             "range": 354.892
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70638.9,
             "unit": "ns",
             "range": 3392.93
@@ -56188,25 +56188,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 158.334,
             "unit": "ns",
             "range": 6.14771
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1545.46,
             "unit": "ns",
             "range": 47.0785
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6154.4,
             "unit": "ns",
             "range": 312.41
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69048.2,
             "unit": "ns",
             "range": 3642.14
@@ -56236,25 +56236,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 153.823,
             "unit": "ns",
             "range": 10.0299
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1510.15,
             "unit": "ns",
             "range": 58.5755
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6256.51,
             "unit": "ns",
             "range": 350.582
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 73227.8,
             "unit": "ns",
             "range": 3582.38
@@ -56282,25 +56282,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 161.579,
             "unit": "ns",
             "range": 4.78067
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1489.49,
             "unit": "ns",
             "range": 52.4844
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6393.16,
             "unit": "ns",
             "range": 354.531
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71671.7,
             "unit": "ns",
             "range": 2763.61
@@ -56328,25 +56328,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 152.63,
             "unit": "ns",
             "range": 11.2716
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1553.32,
             "unit": "ns",
             "range": 49.9451
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6563.92,
             "unit": "ns",
             "range": 322.491
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69736.6,
             "unit": "ns",
             "range": 942.107
@@ -56374,25 +56374,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 158.73,
             "unit": "ns",
             "range": 7.21561
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1561.78,
             "unit": "ns",
             "range": 42.9503
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6516.82,
             "unit": "ns",
             "range": 540.901
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70169.1,
             "unit": "ns",
             "range": 3308.67
@@ -56420,25 +56420,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 152.543,
             "unit": "ns",
             "range": 5.6202
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1573.87,
             "unit": "ns",
             "range": 39.535
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6347.08,
             "unit": "ns",
             "range": 348.657
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 73146.2,
             "unit": "ns",
             "range": 2978.47
@@ -56466,25 +56466,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 154.737,
             "unit": "ns",
             "range": 6.69725
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1520.04,
             "unit": "ns",
             "range": 57.0332
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6249,
             "unit": "ns",
             "range": 435.931
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71306.8,
             "unit": "ns",
             "range": 1855.7
@@ -56512,25 +56512,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 158.546,
             "unit": "ns",
             "range": 8.66476
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1519.98,
             "unit": "ns",
             "range": 67.1377
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6360.52,
             "unit": "ns",
             "range": 508.13
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 73192.7,
             "unit": "ns",
             "range": 3105.15
@@ -56558,25 +56558,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 154.442,
             "unit": "ns",
             "range": 2.94895
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1564.22,
             "unit": "ns",
             "range": 59.8579
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6396.83,
             "unit": "ns",
             "range": 469.027
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 73759.2,
             "unit": "ns",
             "range": 3740.91
@@ -56604,25 +56604,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 153.993,
             "unit": "ns",
             "range": 8.83058
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1514.78,
             "unit": "ns",
             "range": 60.1983
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6412.85,
             "unit": "ns",
             "range": 388.136
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72652.1,
             "unit": "ns",
             "range": 2324.99
@@ -56652,25 +56652,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 154.965,
             "unit": "ns",
             "range": 9.09679
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1567.43,
             "unit": "ns",
             "range": 33.2706
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6475.75,
             "unit": "ns",
             "range": 377.049
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70028.2,
             "unit": "ns",
             "range": 769.796
@@ -56700,25 +56700,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 152.554,
             "unit": "ns",
             "range": 4.41457
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1534.42,
             "unit": "ns",
             "range": 60.5319
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6473.77,
             "unit": "ns",
             "range": 438.144
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72821.4,
             "unit": "ns",
             "range": 2645.08
@@ -56748,25 +56748,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 151.879,
             "unit": "ns",
             "range": 8.64516
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1496.06,
             "unit": "ns",
             "range": 45.3213
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6293.2,
             "unit": "ns",
             "range": 399.094
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69778.5,
             "unit": "ns",
             "range": 2533.98
@@ -56796,25 +56796,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 154.426,
             "unit": "ns",
             "range": 7.00547
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1550.91,
             "unit": "ns",
             "range": 34.158
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6345.16,
             "unit": "ns",
             "range": 488.958
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71919.6,
             "unit": "ns",
             "range": 1312.61
@@ -56844,25 +56844,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 156.957,
             "unit": "ns",
             "range": 6.99208
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1524.4,
             "unit": "ns",
             "range": 37.3349
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6220.32,
             "unit": "ns",
             "range": 374.554
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70091.9,
             "unit": "ns",
             "range": 2081.31
@@ -56892,25 +56892,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 151.003,
             "unit": "ns",
             "range": 6.12137
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1532.41,
             "unit": "ns",
             "range": 44.6149
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6422.02,
             "unit": "ns",
             "range": 478.591
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 68520.8,
             "unit": "ns",
             "range": 1556.85
@@ -56940,25 +56940,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 155.311,
             "unit": "ns",
             "range": 6.73875
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1531.41,
             "unit": "ns",
             "range": 63.3774
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6428.48,
             "unit": "ns",
             "range": 275.669
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71351,
             "unit": "ns",
             "range": 2463.68
@@ -56986,25 +56986,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 159.115,
             "unit": "ns",
             "range": 7.25055
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1576.75,
             "unit": "ns",
             "range": 39.5279
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6332.2,
             "unit": "ns",
             "range": 449.725
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71162.7,
             "unit": "ns",
             "range": 2057.98
@@ -57032,25 +57032,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 160.691,
             "unit": "ns",
             "range": 7.30762
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1537.91,
             "unit": "ns",
             "range": 38.2196
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6217.03,
             "unit": "ns",
             "range": 398.593
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71641.7,
             "unit": "ns",
             "range": 2269.11
@@ -57078,25 +57078,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 149.404,
             "unit": "ns",
             "range": 7.06731
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1519.85,
             "unit": "ns",
             "range": 45.6432
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6367.57,
             "unit": "ns",
             "range": 362.626
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71765.6,
             "unit": "ns",
             "range": 3127.81
@@ -57124,25 +57124,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 156.249,
             "unit": "ns",
             "range": 9.53786
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1520.52,
             "unit": "ns",
             "range": 25.6834
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6230.44,
             "unit": "ns",
             "range": 319.405
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71052,
             "unit": "ns",
             "range": 2726.02
@@ -57172,25 +57172,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 156.931,
             "unit": "ns",
             "range": 5.97298
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1528.09,
             "unit": "ns",
             "range": 41.1942
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6247.41,
             "unit": "ns",
             "range": 381.077
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 73332.8,
             "unit": "ns",
             "range": 4502.68
@@ -57220,25 +57220,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 149.208,
             "unit": "ns",
             "range": 6.26866
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1547.82,
             "unit": "ns",
             "range": 38.1873
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6435.78,
             "unit": "ns",
             "range": 424.455
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70149.8,
             "unit": "ns",
             "range": 3011.04
@@ -57266,25 +57266,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 152.401,
             "unit": "ns",
             "range": 8.16219
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1525.52,
             "unit": "ns",
             "range": 27.1015
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6519.3,
             "unit": "ns",
             "range": 509.238
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72119.6,
             "unit": "ns",
             "range": 3103.97
@@ -57312,25 +57312,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 149.396,
             "unit": "ns",
             "range": 6.179
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1522.84,
             "unit": "ns",
             "range": 49.1911
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6157.38,
             "unit": "ns",
             "range": 331.776
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72108.6,
             "unit": "ns",
             "range": 3515.26
@@ -57358,25 +57358,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 157.23,
             "unit": "ns",
             "range": 5.89995
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1568.71,
             "unit": "ns",
             "range": 57.1169
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6436.26,
             "unit": "ns",
             "range": 354.184
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70923.1,
             "unit": "ns",
             "range": 3567.12
@@ -57404,25 +57404,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 159.229,
             "unit": "ns",
             "range": 10.4461
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1503.54,
             "unit": "ns",
             "range": 64.7017
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6679.03,
             "unit": "ns",
             "range": 462.741
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 73946.6,
             "unit": "ns",
             "range": 4561.86
@@ -57450,25 +57450,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 150.477,
             "unit": "ns",
             "range": 5.48631
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1539.5,
             "unit": "ns",
             "range": 38.0578
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6353.2,
             "unit": "ns",
             "range": 437.953
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 75774.4,
             "unit": "ns",
             "range": 2409.9
@@ -57496,25 +57496,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 146.024,
             "unit": "ns",
             "range": 9.27031
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1494.38,
             "unit": "ns",
             "range": 42.8953
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6198.22,
             "unit": "ns",
             "range": 398.505
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72086.1,
             "unit": "ns",
             "range": 2869.37
@@ -57542,25 +57542,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 156.03,
             "unit": "ns",
             "range": 8.558
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1521.66,
             "unit": "ns",
             "range": 41.1401
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6215.48,
             "unit": "ns",
             "range": 261.126
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71842.3,
             "unit": "ns",
             "range": 3942.18
@@ -57588,25 +57588,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 159.85,
             "unit": "ns",
             "range": 11.5974
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1483.98,
             "unit": "ns",
             "range": 51.6798
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6265.88,
             "unit": "ns",
             "range": 421.418
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70778.2,
             "unit": "ns",
             "range": 2042.03
@@ -57634,25 +57634,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 160.447,
             "unit": "ns",
             "range": 8.39486
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1552.79,
             "unit": "ns",
             "range": 32.7046
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6167.24,
             "unit": "ns",
             "range": 323.279
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70009,
             "unit": "ns",
             "range": 671.618
@@ -57680,25 +57680,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 164.923,
             "unit": "ns",
             "range": 8.32436
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1540,
             "unit": "ns",
             "range": 42.3656
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6571.3,
             "unit": "ns",
             "range": 363.883
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69852.9,
             "unit": "ns",
             "range": 2745.36
@@ -57726,25 +57726,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 148.169,
             "unit": "ns",
             "range": 4.3298
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1516.48,
             "unit": "ns",
             "range": 46.5853
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6428.61,
             "unit": "ns",
             "range": 438.306
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70677.3,
             "unit": "ns",
             "range": 4884.12
@@ -57772,25 +57772,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 163.136,
             "unit": "ns",
             "range": 7.19402
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1567.92,
             "unit": "ns",
             "range": 48.7408
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6291.79,
             "unit": "ns",
             "range": 295.995
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 74428.8,
             "unit": "ns",
             "range": 4267.03
@@ -57818,25 +57818,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 162.254,
             "unit": "ns",
             "range": 9.33836
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1572.94,
             "unit": "ns",
             "range": 41.8555
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6597.22,
             "unit": "ns",
             "range": 463.795
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69110,
             "unit": "ns",
             "range": 3512.45
@@ -57864,25 +57864,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 161.638,
             "unit": "ns",
             "range": 10.9543
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1546.03,
             "unit": "ns",
             "range": 41.6824
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6531.36,
             "unit": "ns",
             "range": 400.323
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 73805.7,
             "unit": "ns",
             "range": 3560.7
@@ -57910,25 +57910,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 149.4,
             "unit": "ns",
             "range": 9.58726
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1534.28,
             "unit": "ns",
             "range": 45.1783
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6463.53,
             "unit": "ns",
             "range": 426.083
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72200.9,
             "unit": "ns",
             "range": 3505.07
@@ -57956,25 +57956,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 162.728,
             "unit": "ns",
             "range": 6.89375
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1528.9,
             "unit": "ns",
             "range": 46.2759
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6498.27,
             "unit": "ns",
             "range": 299.712
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 74196.4,
             "unit": "ns",
             "range": 3530.09
@@ -58002,25 +58002,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 147.643,
             "unit": "ns",
             "range": 4.77498
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1479.82,
             "unit": "ns",
             "range": 35.6181
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6442.29,
             "unit": "ns",
             "range": 418.017
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72535.8,
             "unit": "ns",
             "range": 3288.03
@@ -58048,25 +58048,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 171.094,
             "unit": "ns",
             "range": 7.70545
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1511.93,
             "unit": "ns",
             "range": 60.9689
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6091.04,
             "unit": "ns",
             "range": 371.473
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69755,
             "unit": "ns",
             "range": 2486.29
@@ -58094,25 +58094,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 160.821,
             "unit": "ns",
             "range": 5.32165
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1546.14,
             "unit": "ns",
             "range": 25.4525
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6169.95,
             "unit": "ns",
             "range": 391.458
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 68754.1,
             "unit": "ns",
             "range": 3064.99
@@ -58140,25 +58140,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 167.295,
             "unit": "ns",
             "range": 5.39926
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1512.34,
             "unit": "ns",
             "range": 42.0716
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6316.07,
             "unit": "ns",
             "range": 433.162
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70856,
             "unit": "ns",
             "range": 2898.93
@@ -58188,25 +58188,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 163.858,
             "unit": "ns",
             "range": 6.51992
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1549.57,
             "unit": "ns",
             "range": 22.7175
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6247.03,
             "unit": "ns",
             "range": 303.708
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71009.8,
             "unit": "ns",
             "range": 3071.18
@@ -58236,25 +58236,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 165.579,
             "unit": "ns",
             "range": 4.49291
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1534.89,
             "unit": "ns",
             "range": 43.8726
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6065.47,
             "unit": "ns",
             "range": 249.121
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70614.9,
             "unit": "ns",
             "range": 1014.48
@@ -58284,25 +58284,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 160.639,
             "unit": "ns",
             "range": 7.98824
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1518.94,
             "unit": "ns",
             "range": 45.8025
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6272.62,
             "unit": "ns",
             "range": 381.529
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70259.2,
             "unit": "ns",
             "range": 2344.71
@@ -58332,25 +58332,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 163.357,
             "unit": "ns",
             "range": 8.46458
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1491.4,
             "unit": "ns",
             "range": 39.2469
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6322.85,
             "unit": "ns",
             "range": 420.055
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72807,
             "unit": "ns",
             "range": 3638.92
@@ -58380,25 +58380,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 163.02,
             "unit": "ns",
             "range": 7.01639
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1533.09,
             "unit": "ns",
             "range": 37.8536
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6390.8,
             "unit": "ns",
             "range": 400.74
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71454.1,
             "unit": "ns",
             "range": 2777.92
@@ -58426,25 +58426,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 168.351,
             "unit": "ns",
             "range": 8.92673
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1561.2,
             "unit": "ns",
             "range": 53.8726
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6368.7,
             "unit": "ns",
             "range": 360.853
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70657.7,
             "unit": "ns",
             "range": 2530.51
@@ -58472,25 +58472,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 167.054,
             "unit": "ns",
             "range": 4.31194
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1503.37,
             "unit": "ns",
             "range": 24.9429
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6203,
             "unit": "ns",
             "range": 357.1
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69459.3,
             "unit": "ns",
             "range": 2850.47
@@ -58518,25 +58518,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 163.724,
             "unit": "ns",
             "range": 11.495
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1522.88,
             "unit": "ns",
             "range": 33.8065
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6418.99,
             "unit": "ns",
             "range": 450.288
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72645,
             "unit": "ns",
             "range": 3532.32
@@ -58564,25 +58564,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 165.409,
             "unit": "ns",
             "range": 10.3089
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1548,
             "unit": "ns",
             "range": 67.2482
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6318.08,
             "unit": "ns",
             "range": 393.855
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 73361.2,
             "unit": "ns",
             "range": 3019.28
@@ -58610,25 +58610,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 169.478,
             "unit": "ns",
             "range": 8.01929
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1529.59,
             "unit": "ns",
             "range": 35.8558
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6448.21,
             "unit": "ns",
             "range": 456.539
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71084.5,
             "unit": "ns",
             "range": 2917.13
@@ -58656,25 +58656,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 165.028,
             "unit": "ns",
             "range": 3.94902
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1534.26,
             "unit": "ns",
             "range": 60.4608
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6079.51,
             "unit": "ns",
             "range": 278.127
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71419.5,
             "unit": "ns",
             "range": 2493.19
@@ -58704,25 +58704,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 160.225,
             "unit": "ns",
             "range": 4.99074
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1528.71,
             "unit": "ns",
             "range": 40.4981
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6320.1,
             "unit": "ns",
             "range": 417.891
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71661.3,
             "unit": "ns",
             "range": 1949.28
@@ -58750,25 +58750,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 162.753,
             "unit": "ns",
             "range": 7.13755
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1507.59,
             "unit": "ns",
             "range": 55.5345
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6212.23,
             "unit": "ns",
             "range": 378.691
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69811.6,
             "unit": "ns",
             "range": 1232.4
@@ -58796,25 +58796,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 163.212,
             "unit": "ns",
             "range": 10.0585
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1531.59,
             "unit": "ns",
             "range": 40.0606
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6246.71,
             "unit": "ns",
             "range": 412.87
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71530.9,
             "unit": "ns",
             "range": 1367.98
@@ -58842,25 +58842,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 176.94,
             "unit": "ns",
             "range": 11.2129
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1541.84,
             "unit": "ns",
             "range": 50.9314
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6252.68,
             "unit": "ns",
             "range": 312.646
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71611.6,
             "unit": "ns",
             "range": 1441.68
@@ -58888,25 +58888,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 163.031,
             "unit": "ns",
             "range": 7.25392
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1523.49,
             "unit": "ns",
             "range": 35.7651
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6243.57,
             "unit": "ns",
             "range": 482.962
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70391.9,
             "unit": "ns",
             "range": 2724.47
@@ -58934,25 +58934,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 165.028,
             "unit": "ns",
             "range": 8.95639
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1502.15,
             "unit": "ns",
             "range": 32.4079
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6188.63,
             "unit": "ns",
             "range": 366.885
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72534.3,
             "unit": "ns",
             "range": 2517.13
@@ -58980,25 +58980,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 166.738,
             "unit": "ns",
             "range": 11.6638
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1509.18,
             "unit": "ns",
             "range": 43.5717
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6480.98,
             "unit": "ns",
             "range": 410.541
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72217.5,
             "unit": "ns",
             "range": 2875.74
@@ -59026,25 +59026,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 159.675,
             "unit": "ns",
             "range": 8.39519
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1516.98,
             "unit": "ns",
             "range": 43.5017
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6169.4,
             "unit": "ns",
             "range": 297.354
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69504,
             "unit": "ns",
             "range": 1544.88
@@ -59072,25 +59072,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 158.258,
             "unit": "ns",
             "range": 8.53324
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1516.2,
             "unit": "ns",
             "range": 33.4083
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6001.39,
             "unit": "ns",
             "range": 222.972
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 73534.4,
             "unit": "ns",
             "range": 4093.52
@@ -59118,25 +59118,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 158.721,
             "unit": "ns",
             "range": 6.50404
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1539.56,
             "unit": "ns",
             "range": 65.6352
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6297.04,
             "unit": "ns",
             "range": 407.673
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70745,
             "unit": "ns",
             "range": 2732.69
@@ -59164,25 +59164,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 167.051,
             "unit": "ns",
             "range": 5.15103
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1506.66,
             "unit": "ns",
             "range": 42.4441
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6049.54,
             "unit": "ns",
             "range": 240.081
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71158.7,
             "unit": "ns",
             "range": 3195.23
@@ -59210,25 +59210,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 169.657,
             "unit": "ns",
             "range": 7.50863
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1501.61,
             "unit": "ns",
             "range": 45.3235
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6606.85,
             "unit": "ns",
             "range": 371.081
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70594.7,
             "unit": "ns",
             "range": 2640.24
@@ -59258,25 +59258,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 165.818,
             "unit": "ns",
             "range": 5.28691
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1573.51,
             "unit": "ns",
             "range": 51.7304
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6121.27,
             "unit": "ns",
             "range": 173.012
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71029.2,
             "unit": "ns",
             "range": 1992.06
@@ -59304,25 +59304,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 162.574,
             "unit": "ns",
             "range": 6.34172
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1542.04,
             "unit": "ns",
             "range": 45.2483
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6179.76,
             "unit": "ns",
             "range": 311.339
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71993.3,
             "unit": "ns",
             "range": 3558.28
@@ -59350,25 +59350,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 164.776,
             "unit": "ns",
             "range": 9.49201
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1553.21,
             "unit": "ns",
             "range": 15.7471
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6277.98,
             "unit": "ns",
             "range": 439.433
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 73290.3,
             "unit": "ns",
             "range": 2717.77
@@ -59396,25 +59396,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 169.252,
             "unit": "ns",
             "range": 7.44923
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1514.11,
             "unit": "ns",
             "range": 29.5372
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6347.68,
             "unit": "ns",
             "range": 319.33
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72629.7,
             "unit": "ns",
             "range": 2498.93
@@ -59442,25 +59442,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 169.126,
             "unit": "ns",
             "range": 8.2571
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1571.47,
             "unit": "ns",
             "range": 53.7551
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6234.56,
             "unit": "ns",
             "range": 362.257
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69592.3,
             "unit": "ns",
             "range": 3092.7
@@ -59488,25 +59488,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 167.469,
             "unit": "ns",
             "range": 7.87061
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1556.04,
             "unit": "ns",
             "range": 57.5946
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6386.78,
             "unit": "ns",
             "range": 365.268
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70265.3,
             "unit": "ns",
             "range": 1974.15
@@ -59536,25 +59536,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 163.543,
             "unit": "ns",
             "range": 7.58942
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1535.97,
             "unit": "ns",
             "range": 61.0272
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6192.16,
             "unit": "ns",
             "range": 323.511
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70632.5,
             "unit": "ns",
             "range": 1621.79
@@ -59584,25 +59584,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 164.459,
             "unit": "ns",
             "range": 9.06003
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1547.57,
             "unit": "ns",
             "range": 44.6411
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6199.17,
             "unit": "ns",
             "range": 334.495
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72082.3,
             "unit": "ns",
             "range": 3141.62
@@ -59630,25 +59630,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 161.78,
             "unit": "ns",
             "range": 6.3877
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1536.43,
             "unit": "ns",
             "range": 37
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6230.82,
             "unit": "ns",
             "range": 360.01
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71207,
             "unit": "ns",
             "range": 1535.06
@@ -59676,25 +59676,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 162.036,
             "unit": "ns",
             "range": 8.43845
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1531.86,
             "unit": "ns",
             "range": 55.6584
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6046.13,
             "unit": "ns",
             "range": 240.251
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70374.1,
             "unit": "ns",
             "range": 2050.36
@@ -59722,25 +59722,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 165.062,
             "unit": "ns",
             "range": 4.84087
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1527.57,
             "unit": "ns",
             "range": 47.2447
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6173.84,
             "unit": "ns",
             "range": 505.399
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69834.7,
             "unit": "ns",
             "range": 848.231
@@ -59768,25 +59768,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 159.236,
             "unit": "ns",
             "range": 6.03726
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1523.01,
             "unit": "ns",
             "range": 31.9403
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6328.99,
             "unit": "ns",
             "range": 345.377
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71504.4,
             "unit": "ns",
             "range": 3334.24
@@ -59814,25 +59814,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 167.644,
             "unit": "ns",
             "range": 8.25288
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1527.45,
             "unit": "ns",
             "range": 67.1053
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6067.86,
             "unit": "ns",
             "range": 352.041
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70259.1,
             "unit": "ns",
             "range": 2219.76
@@ -59860,25 +59860,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 167.433,
             "unit": "ns",
             "range": 5.41716
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1508.06,
             "unit": "ns",
             "range": 67.9014
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6129.45,
             "unit": "ns",
             "range": 283.734
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69084.1,
             "unit": "ns",
             "range": 3585.69
@@ -59906,25 +59906,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 163.404,
             "unit": "ns",
             "range": 8.82746
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1516.19,
             "unit": "ns",
             "range": 57.6647
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6249.11,
             "unit": "ns",
             "range": 382.691
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70877.8,
             "unit": "ns",
             "range": 2313.56
@@ -59952,25 +59952,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 164.145,
             "unit": "ns",
             "range": 7.8747
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1542.59,
             "unit": "ns",
             "range": 48.2629
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6532.58,
             "unit": "ns",
             "range": 446.718
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71214.1,
             "unit": "ns",
             "range": 2691.22
@@ -59998,25 +59998,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 167.326,
             "unit": "ns",
             "range": 12.3819
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1552.29,
             "unit": "ns",
             "range": 48.8805
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6277.39,
             "unit": "ns",
             "range": 352.802
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70352.3,
             "unit": "ns",
             "range": 1069.62
@@ -60044,25 +60044,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 161.396,
             "unit": "ns",
             "range": 9.41642
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1527.91,
             "unit": "ns",
             "range": 39.5843
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6401.68,
             "unit": "ns",
             "range": 429
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 73438.3,
             "unit": "ns",
             "range": 4260.75
@@ -60090,25 +60090,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 171.069,
             "unit": "ns",
             "range": 8.94052
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1515.28,
             "unit": "ns",
             "range": 53.8178
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6207.26,
             "unit": "ns",
             "range": 240.983
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69660.4,
             "unit": "ns",
             "range": 1216.16
@@ -60136,25 +60136,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 165.637,
             "unit": "ns",
             "range": 9.20452
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1550.59,
             "unit": "ns",
             "range": 79.2968
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6005.95,
             "unit": "ns",
             "range": 115.72
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70515.5,
             "unit": "ns",
             "range": 3057.64
@@ -60182,25 +60182,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 157.098,
             "unit": "ns",
             "range": 6.96803
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1527.49,
             "unit": "ns",
             "range": 60.649
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6357.28,
             "unit": "ns",
             "range": 428.314
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71220.1,
             "unit": "ns",
             "range": 3946.49
@@ -60228,25 +60228,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 163.291,
             "unit": "ns",
             "range": 11.2253
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1509.44,
             "unit": "ns",
             "range": 47.5423
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6502.9,
             "unit": "ns",
             "range": 309.451
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70937.8,
             "unit": "ns",
             "range": 2933.47
@@ -60274,25 +60274,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 161.548,
             "unit": "ns",
             "range": 6.67199
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1501.59,
             "unit": "ns",
             "range": 54.2696
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6078.7,
             "unit": "ns",
             "range": 294.97
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72162.9,
             "unit": "ns",
             "range": 3023.66
@@ -60320,25 +60320,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 163.006,
             "unit": "ns",
             "range": 7.6162
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1522.85,
             "unit": "ns",
             "range": 49.5251
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6412.04,
             "unit": "ns",
             "range": 369.902
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70302.6,
             "unit": "ns",
             "range": 2625.22
@@ -60366,25 +60366,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 162.089,
             "unit": "ns",
             "range": 6.26892
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1480.71,
             "unit": "ns",
             "range": 49.9168
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6210.34,
             "unit": "ns",
             "range": 348.045
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70571.4,
             "unit": "ns",
             "range": 2955.36
@@ -60412,25 +60412,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 161.337,
             "unit": "ns",
             "range": 4.13006
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1497.51,
             "unit": "ns",
             "range": 32.0542
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6703.39,
             "unit": "ns",
             "range": 509.989
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72126.6,
             "unit": "ns",
             "range": 4102.31
@@ -60458,25 +60458,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 168.796,
             "unit": "ns",
             "range": 8.31045
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1522.21,
             "unit": "ns",
             "range": 40.5735
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6302.42,
             "unit": "ns",
             "range": 329.172
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71532.1,
             "unit": "ns",
             "range": 4718.38
@@ -60504,25 +60504,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 165.045,
             "unit": "ns",
             "range": 7.05819
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1544.62,
             "unit": "ns",
             "range": 92.5108
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6354.77,
             "unit": "ns",
             "range": 354.104
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69417.6,
             "unit": "ns",
             "range": 3183.44
@@ -60550,25 +60550,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 161.554,
             "unit": "ns",
             "range": 7.29107
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1496.78,
             "unit": "ns",
             "range": 34.0091
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6369.04,
             "unit": "ns",
             "range": 357.725
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72688.7,
             "unit": "ns",
             "range": 3208.79
@@ -60596,25 +60596,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 169.743,
             "unit": "ns",
             "range": 8.3746
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1533.74,
             "unit": "ns",
             "range": 38.8876
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6396.14,
             "unit": "ns",
             "range": 359.347
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70813.3,
             "unit": "ns",
             "range": 2766.27
@@ -60642,25 +60642,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 195.145,
             "unit": "ns",
             "range": 4.92766
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1608.78,
             "unit": "ns",
             "range": 53.5026
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6289,
             "unit": "ns",
             "range": 256.748
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 59262.1,
             "unit": "ns",
             "range": 1456.61
@@ -60688,25 +60688,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 194.834,
             "unit": "ns",
             "range": 5.84587
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1602.95,
             "unit": "ns",
             "range": 37.3298
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6518.86,
             "unit": "ns",
             "range": 424.184
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 59539.4,
             "unit": "ns",
             "range": 3330.12
@@ -60734,25 +60734,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 194.544,
             "unit": "ns",
             "range": 2.81869
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1611.55,
             "unit": "ns",
             "range": 31.6835
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6273.75,
             "unit": "ns",
             "range": 519.847
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 56741.1,
             "unit": "ns",
             "range": 683.525
@@ -60780,25 +60780,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 196.386,
             "unit": "ns",
             "range": 4.67748
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1621.07,
             "unit": "ns",
             "range": 49.3784
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6456.49,
             "unit": "ns",
             "range": 417.356
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 59533.1,
             "unit": "ns",
             "range": 2233.77
@@ -60826,25 +60826,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 195.084,
             "unit": "ns",
             "range": 4.67288
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1585.48,
             "unit": "ns",
             "range": 36.4166
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6467.37,
             "unit": "ns",
             "range": 490.312
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 59589.5,
             "unit": "ns",
             "range": 1149.18
@@ -60872,25 +60872,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 195.559,
             "unit": "ns",
             "range": 2.35453
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1613.9,
             "unit": "ns",
             "range": 36.5417
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6241.96,
             "unit": "ns",
             "range": 413.307
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 58792.2,
             "unit": "ns",
             "range": 1376.86
@@ -60918,25 +60918,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 195.381,
             "unit": "ns",
             "range": 4.3346
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1595.03,
             "unit": "ns",
             "range": 53.0196
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6198.07,
             "unit": "ns",
             "range": 370.174
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 59055.5,
             "unit": "ns",
             "range": 858.081
@@ -60964,25 +60964,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 197.277,
             "unit": "ns",
             "range": 4.47816
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1579.4,
             "unit": "ns",
             "range": 25.3847
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6308.82,
             "unit": "ns",
             "range": 301.829
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 59270.6,
             "unit": "ns",
             "range": 1550.02
@@ -61010,25 +61010,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 197.595,
             "unit": "ns",
             "range": 5.10541
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1594.21,
             "unit": "ns",
             "range": 27.9854
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6404.8,
             "unit": "ns",
             "range": 407.546
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 60496.3,
             "unit": "ns",
             "range": 1628.26
@@ -61056,25 +61056,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 196.793,
             "unit": "ns",
             "range": 3.67679
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1601.22,
             "unit": "ns",
             "range": 47.4722
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6413.43,
             "unit": "ns",
             "range": 348.74
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 58079.8,
             "unit": "ns",
             "range": 1509.26
@@ -61102,25 +61102,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 186.806,
             "unit": "ns",
             "range": 7.04832
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1527.18,
             "unit": "ns",
             "range": 41.8115
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 5897.19,
             "unit": "ns",
             "range": 244.218
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 53911,
             "unit": "ns",
             "range": 760.581
@@ -61148,25 +61148,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 197.268,
             "unit": "ns",
             "range": 4.34127
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1602.96,
             "unit": "ns",
             "range": 42.458
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6534.46,
             "unit": "ns",
             "range": 340.306
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 58410.2,
             "unit": "ns",
             "range": 1317.16
@@ -61194,25 +61194,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 194.118,
             "unit": "ns",
             "range": 6.0299
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1591.68,
             "unit": "ns",
             "range": 46.6036
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6544.61,
             "unit": "ns",
             "range": 368.526
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 56813.9,
             "unit": "ns",
             "range": 2878.44
@@ -61240,25 +61240,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 195.517,
             "unit": "ns",
             "range": 3.96887
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1609.64,
             "unit": "ns",
             "range": 40.5969
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6388.46,
             "unit": "ns",
             "range": 388.721
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 60030.4,
             "unit": "ns",
             "range": 2483.28
@@ -61286,25 +61286,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 193.761,
             "unit": "ns",
             "range": 4.49566
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1612.94,
             "unit": "ns",
             "range": 49.346
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6248.69,
             "unit": "ns",
             "range": 482.218
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 58645.5,
             "unit": "ns",
             "range": 1279.82
@@ -61332,25 +61332,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 195.318,
             "unit": "ns",
             "range": 3.09188
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1600.09,
             "unit": "ns",
             "range": 44.1875
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6779.53,
             "unit": "ns",
             "range": 360.775
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 59676.8,
             "unit": "ns",
             "range": 1599.65
@@ -61378,25 +61378,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 195.127,
             "unit": "ns",
             "range": 7.24372
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1581.48,
             "unit": "ns",
             "range": 42.0599
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6523.58,
             "unit": "ns",
             "range": 430.416
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 58604.1,
             "unit": "ns",
             "range": 1383.38
@@ -61424,25 +61424,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 200.166,
             "unit": "ns",
             "range": 5.32543
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1606.34,
             "unit": "ns",
             "range": 67.1734
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6453.3,
             "unit": "ns",
             "range": 435.338
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 57553,
             "unit": "ns",
             "range": 1471.21
@@ -61470,25 +61470,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 195.997,
             "unit": "ns",
             "range": 5.05874
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1569.38,
             "unit": "ns",
             "range": 23.5931
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6313.56,
             "unit": "ns",
             "range": 300.794
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 58833.2,
             "unit": "ns",
             "range": 1016.61
@@ -61516,25 +61516,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 196.872,
             "unit": "ns",
             "range": 5.7756
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1570.18,
             "unit": "ns",
             "range": 43.5196
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6741.01,
             "unit": "ns",
             "range": 343.708
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 60251.6,
             "unit": "ns",
             "range": 3225.89
@@ -61562,25 +61562,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 195.672,
             "unit": "ns",
             "range": 4.23274
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1592.88,
             "unit": "ns",
             "range": 33.3668
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6446.03,
             "unit": "ns",
             "range": 299.224
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 56100.3,
             "unit": "ns",
             "range": 2037
@@ -61608,25 +61608,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 166.634,
             "unit": "ns",
             "range": 5.11752
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1540.02,
             "unit": "ns",
             "range": 71.0039
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6329.94,
             "unit": "ns",
             "range": 431.329
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71453.2,
             "unit": "ns",
             "range": 3133.96
@@ -61654,25 +61654,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 162.012,
             "unit": "ns",
             "range": 12.7133
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1541.57,
             "unit": "ns",
             "range": 58.1636
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6297.74,
             "unit": "ns",
             "range": 449.584
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70124.3,
             "unit": "ns",
             "range": 2569.36
@@ -61700,25 +61700,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 172.101,
             "unit": "ns",
             "range": 10.3343
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1537.64,
             "unit": "ns",
             "range": 49.1874
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6344.83,
             "unit": "ns",
             "range": 527.806
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71897.7,
             "unit": "ns",
             "range": 3729.03
@@ -61746,25 +61746,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 166.183,
             "unit": "ns",
             "range": 9.54565
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1514.12,
             "unit": "ns",
             "range": 39.2169
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6340.98,
             "unit": "ns",
             "range": 373.043
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 72419.8,
             "unit": "ns",
             "range": 3895.8
@@ -61794,25 +61794,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 170.083,
             "unit": "ns",
             "range": 7.03371
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1543.99,
             "unit": "ns",
             "range": 41.628
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6081.47,
             "unit": "ns",
             "range": 360.858
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69017.8,
             "unit": "ns",
             "range": 2370.34
@@ -61840,25 +61840,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 167.384,
             "unit": "ns",
             "range": 8.59015
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1518.52,
             "unit": "ns",
             "range": 54.3861
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6441.79,
             "unit": "ns",
             "range": 572.814
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70723.1,
             "unit": "ns",
             "range": 4536.82
@@ -61886,25 +61886,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 165.648,
             "unit": "ns",
             "range": 8.6253
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1515.91,
             "unit": "ns",
             "range": 18.6855
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6307.95,
             "unit": "ns",
             "range": 421.514
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71495.1,
             "unit": "ns",
             "range": 3310.65
@@ -61932,25 +61932,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 164.669,
             "unit": "ns",
             "range": 8.39462
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1526.57,
             "unit": "ns",
             "range": 43.1353
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6176.03,
             "unit": "ns",
             "range": 346.169
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71116.5,
             "unit": "ns",
             "range": 2765.78
@@ -61978,25 +61978,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 169.86,
             "unit": "ns",
             "range": 9.20285
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1511.36,
             "unit": "ns",
             "range": 38.6625
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6357.23,
             "unit": "ns",
             "range": 311.096
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70849.8,
             "unit": "ns",
             "range": 3073.66
@@ -62026,25 +62026,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 165.689,
             "unit": "ns",
             "range": 7.05811
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1511.97,
             "unit": "ns",
             "range": 47.2842
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6397.12,
             "unit": "ns",
             "range": 339.867
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70657.7,
             "unit": "ns",
             "range": 4047.96
@@ -62072,25 +62072,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 166.629,
             "unit": "ns",
             "range": 8.1704
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1502.69,
             "unit": "ns",
             "range": 37.5834
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6412.71,
             "unit": "ns",
             "range": 395.852
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 71052.7,
             "unit": "ns",
             "range": 4728.29
@@ -62118,25 +62118,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 157.036,
             "unit": "ns",
             "range": 7.00878
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1516.91,
             "unit": "ns",
             "range": 61.3618
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6204.96,
             "unit": "ns",
             "range": 324.53
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 73783.3,
             "unit": "ns",
             "range": 5071.83
@@ -62164,25 +62164,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 169.396,
             "unit": "ns",
             "range": 9.83657
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1491.03,
             "unit": "ns",
             "range": 33.9843
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6353.84,
             "unit": "ns",
             "range": 242.611
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 70249.8,
             "unit": "ns",
             "range": 2270.64
@@ -62210,25 +62210,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 166.926,
             "unit": "ns",
             "range": 7.15173
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1550.83,
             "unit": "ns",
             "range": 49.8478
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6313.97,
             "unit": "ns",
             "range": 314.095
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69030,
             "unit": "ns",
             "range": 4263.78
@@ -62256,25 +62256,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 173.815,
             "unit": "ns",
             "range": 6.4678
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1511.61,
             "unit": "ns",
             "range": 41.2918
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6385.83,
             "unit": "ns",
             "range": 372.158
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 68720.2,
             "unit": "ns",
             "range": 2799.94
@@ -62302,25 +62302,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 164.808,
             "unit": "ns",
             "range": 8.23458
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1491.77,
             "unit": "ns",
             "range": 40.1549
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6209.76,
             "unit": "ns",
             "range": 295.942
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 67278,
             "unit": "ns",
             "range": 3574.54
@@ -62348,25 +62348,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 168.861,
             "unit": "ns",
             "range": 7.2224
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1549.89,
             "unit": "ns",
             "range": 36.9698
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6229.19,
             "unit": "ns",
             "range": 414.132
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 68303.6,
             "unit": "ns",
             "range": 3498.75
@@ -62394,25 +62394,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 169.23,
             "unit": "ns",
             "range": 6.50508
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1514.23,
             "unit": "ns",
             "range": 68.708
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6249.92,
             "unit": "ns",
             "range": 414.262
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 67587.4,
             "unit": "ns",
             "range": 4241.32
@@ -62440,25 +62440,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 165.079,
             "unit": "ns",
             "range": 8.917
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1479.75,
             "unit": "ns",
             "range": 57.6157
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6409.69,
             "unit": "ns",
             "range": 409.829
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 65962.5,
             "unit": "ns",
             "range": 2868.77
@@ -62486,25 +62486,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 159.029,
             "unit": "ns",
             "range": 6.0044
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1493.38,
             "unit": "ns",
             "range": 42.3166
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6201.34,
             "unit": "ns",
             "range": 310.539
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 66094.7,
             "unit": "ns",
             "range": 2287.45
@@ -62532,25 +62532,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 168.211,
             "unit": "ns",
             "range": 10.1542
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1515.25,
             "unit": "ns",
             "range": 73.4533
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6375.38,
             "unit": "ns",
             "range": 444.944
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 66440,
             "unit": "ns",
             "range": 775.368
@@ -62578,25 +62578,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 161.948,
             "unit": "ns",
             "range": 9.1917
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1515.92,
             "unit": "ns",
             "range": 43.9463
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 5988.08,
             "unit": "ns",
             "range": 160.708
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 67485.6,
             "unit": "ns",
             "range": 3429.17
@@ -62624,25 +62624,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 171.059,
             "unit": "ns",
             "range": 5.46311
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1565.9,
             "unit": "ns",
             "range": 58.3736
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6394.37,
             "unit": "ns",
             "range": 384.982
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69051.5,
             "unit": "ns",
             "range": 3473.34
@@ -62670,25 +62670,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 158.738,
             "unit": "ns",
             "range": 10.3677
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1474.9,
             "unit": "ns",
             "range": 39.9548
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6166.82,
             "unit": "ns",
             "range": 306.237
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 67234.8,
             "unit": "ns",
             "range": 3230.51
@@ -62716,25 +62716,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 164.108,
             "unit": "ns",
             "range": 8.60128
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1517.83,
             "unit": "ns",
             "range": 34.7104
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6395.53,
             "unit": "ns",
             "range": 360.532
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 67701.3,
             "unit": "ns",
             "range": 3772.12
@@ -62762,25 +62762,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 161.139,
             "unit": "ns",
             "range": 5.8963
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1496.98,
             "unit": "ns",
             "range": 56.273
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6731.91,
             "unit": "ns",
             "range": 447.555
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 67928.8,
             "unit": "ns",
             "range": 3707.66
@@ -62810,25 +62810,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 162.903,
             "unit": "ns",
             "range": 10.0622
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1528.66,
             "unit": "ns",
             "range": 46.9699
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6246.76,
             "unit": "ns",
             "range": 409.818
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69939.6,
             "unit": "ns",
             "range": 3792.43
@@ -62856,25 +62856,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 165.503,
             "unit": "ns",
             "range": 5.67947
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1503.18,
             "unit": "ns",
             "range": 36.8493
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6316.73,
             "unit": "ns",
             "range": 425.813
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 67688.8,
             "unit": "ns",
             "range": 2979.52
@@ -62902,25 +62902,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 164.629,
             "unit": "ns",
             "range": 4.21323
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1523.8,
             "unit": "ns",
             "range": 49.8484
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6427.33,
             "unit": "ns",
             "range": 371.939
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 67552,
             "unit": "ns",
             "range": 1400.3
@@ -62950,25 +62950,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 160.668,
             "unit": "ns",
             "range": 4.89043
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1538.05,
             "unit": "ns",
             "range": 67.0285
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6376.9,
             "unit": "ns",
             "range": 360.274
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69088,
             "unit": "ns",
             "range": 3930.99
@@ -62996,25 +62996,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 162.215,
             "unit": "ns",
             "range": 9.89036
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1472.25,
             "unit": "ns",
             "range": 41.7056
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6364.13,
             "unit": "ns",
             "range": 341.542
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 65045.2,
             "unit": "ns",
             "range": 1201.47
@@ -63042,25 +63042,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 166.686,
             "unit": "ns",
             "range": 5.21338
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1508.29,
             "unit": "ns",
             "range": 58.7989
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6408.12,
             "unit": "ns",
             "range": 399.629
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 66674.7,
             "unit": "ns",
             "range": 2370.19
@@ -63090,25 +63090,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 129.816,
             "unit": "ns",
             "range": 5.82704
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1466.49,
             "unit": "ns",
             "range": 29.3349
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6315.49,
             "unit": "ns",
             "range": 468.356
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 67544.1,
             "unit": "ns",
             "range": 3881.36
@@ -63136,25 +63136,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 137.907,
             "unit": "ns",
             "range": 4.82857
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1426.96,
             "unit": "ns",
             "range": 57.1434
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6043.62,
             "unit": "ns",
             "range": 380.734
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 68977.5,
             "unit": "ns",
             "range": 3902.99
@@ -63182,25 +63182,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 139.68,
             "unit": "ns",
             "range": 6.38205
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1519.83,
             "unit": "ns",
             "range": 64.2181
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 5985.03,
             "unit": "ns",
             "range": 261.837
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 66709.4,
             "unit": "ns",
             "range": 2397.16
@@ -63228,25 +63228,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 131.334,
             "unit": "ns",
             "range": 5.02475
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 1440.93,
             "unit": "ns",
             "range": 50.7594
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 6084.32,
             "unit": "ns",
             "range": 396.753
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 69794.8,
             "unit": "ns",
             "range": 5799.49
@@ -67248,25 +67248,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 234.61,
             "unit": "ns",
             "range": 11.791
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2329.93,
             "unit": "ns",
             "range": 118.274
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9245.04,
             "unit": "ns",
             "range": 433.135
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 159891,
             "unit": "ns",
             "range": 6781.09
@@ -67296,25 +67296,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 225.201,
             "unit": "ns",
             "range": 11.641
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2300.53,
             "unit": "ns",
             "range": 108.361
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9516.49,
             "unit": "ns",
             "range": 661.828
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 158059,
             "unit": "ns",
             "range": 4504.72
@@ -67344,25 +67344,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 211.368,
             "unit": "ns",
             "range": 19.3323
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2373.02,
             "unit": "ns",
             "range": 97.9972
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9801.41,
             "unit": "ns",
             "range": 876.028
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 157136,
             "unit": "ns",
             "range": 6642.38
@@ -67390,25 +67390,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 220.834,
             "unit": "ns",
             "range": 15.4131
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2361.79,
             "unit": "ns",
             "range": 101.211
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9888.37,
             "unit": "ns",
             "range": 663.897
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 156523,
             "unit": "ns",
             "range": 3255.62
@@ -67436,25 +67436,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 223.798,
             "unit": "ns",
             "range": 19.9336
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2343.8,
             "unit": "ns",
             "range": 89.3771
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9682.82,
             "unit": "ns",
             "range": 533.174
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 148484,
             "unit": "ns",
             "range": 1918.35
@@ -67482,25 +67482,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 218.892,
             "unit": "ns",
             "range": 16.3509
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2319.57,
             "unit": "ns",
             "range": 82.0558
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9401.89,
             "unit": "ns",
             "range": 617.014
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 157358,
             "unit": "ns",
             "range": 5754.13
@@ -67528,25 +67528,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 223.391,
             "unit": "ns",
             "range": 11.3089
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2282.04,
             "unit": "ns",
             "range": 100.232
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9418.7,
             "unit": "ns",
             "range": 845.818
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 154917,
             "unit": "ns",
             "range": 8157.74
@@ -67574,25 +67574,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 215.997,
             "unit": "ns",
             "range": 7.97955
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2313.21,
             "unit": "ns",
             "range": 73.4569
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9640.66,
             "unit": "ns",
             "range": 595.778
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 154210,
             "unit": "ns",
             "range": 3084.73
@@ -67620,25 +67620,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 225.596,
             "unit": "ns",
             "range": 11.5867
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2323.05,
             "unit": "ns",
             "range": 89.5659
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9544.29,
             "unit": "ns",
             "range": 510.855
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 152663,
             "unit": "ns",
             "range": 1392.1
@@ -67666,25 +67666,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 232.086,
             "unit": "ns",
             "range": 9.9829
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2360.38,
             "unit": "ns",
             "range": 126.959
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9586.63,
             "unit": "ns",
             "range": 746.917
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 153637,
             "unit": "ns",
             "range": 3712.75
@@ -67712,25 +67712,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 221.965,
             "unit": "ns",
             "range": 17.426
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2302.61,
             "unit": "ns",
             "range": 101.984
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9609.01,
             "unit": "ns",
             "range": 753.684
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 152107,
             "unit": "ns",
             "range": 5185.69
@@ -67758,25 +67758,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 225.759,
             "unit": "ns",
             "range": 11.6702
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2403.77,
             "unit": "ns",
             "range": 77.0656
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9686.99,
             "unit": "ns",
             "range": 662.682
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 159175,
             "unit": "ns",
             "range": 7671.25
@@ -67804,25 +67804,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 201.698,
             "unit": "ns",
             "range": 13.8444
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2385.73,
             "unit": "ns",
             "range": 158.616
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9673.33,
             "unit": "ns",
             "range": 542.757
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 155254,
             "unit": "ns",
             "range": 1887.53
@@ -67850,25 +67850,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 218.998,
             "unit": "ns",
             "range": 13.9461
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2354.16,
             "unit": "ns",
             "range": 123.792
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9609.23,
             "unit": "ns",
             "range": 694.228
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 156029,
             "unit": "ns",
             "range": 2647.56
@@ -67896,25 +67896,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 230.141,
             "unit": "ns",
             "range": 17.6731
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2433.88,
             "unit": "ns",
             "range": 70.6274
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9425.19,
             "unit": "ns",
             "range": 666.75
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 157945,
             "unit": "ns",
             "range": 5163.75
@@ -67942,25 +67942,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 228.771,
             "unit": "ns",
             "range": 11.2469
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2388.53,
             "unit": "ns",
             "range": 110.985
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9382.21,
             "unit": "ns",
             "range": 554.269
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 157029,
             "unit": "ns",
             "range": 8580.62
@@ -67988,25 +67988,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 205.801,
             "unit": "ns",
             "range": 14.5699
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2303.56,
             "unit": "ns",
             "range": 109.94
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 10020.5,
             "unit": "ns",
             "range": 606.973
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 154934,
             "unit": "ns",
             "range": 7270.86
@@ -68034,25 +68034,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 222.431,
             "unit": "ns",
             "range": 23.2253
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2335.81,
             "unit": "ns",
             "range": 64.9844
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9488.61,
             "unit": "ns",
             "range": 607.207
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 151314,
             "unit": "ns",
             "range": 2691.62
@@ -68080,25 +68080,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 236.68,
             "unit": "ns",
             "range": 13.3424
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2388.21,
             "unit": "ns",
             "range": 76.8544
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9601.54,
             "unit": "ns",
             "range": 744.443
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 154726,
             "unit": "ns",
             "range": 2078.71
@@ -68126,25 +68126,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 223.31,
             "unit": "ns",
             "range": 14.1375
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2396.91,
             "unit": "ns",
             "range": 99.7187
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9157.72,
             "unit": "ns",
             "range": 444.693
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 154985,
             "unit": "ns",
             "range": 4976.02
@@ -68172,25 +68172,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 215.72,
             "unit": "ns",
             "range": 13.4489
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2322.05,
             "unit": "ns",
             "range": 106.733
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9332.18,
             "unit": "ns",
             "range": 643.778
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 156802,
             "unit": "ns",
             "range": 7346.99
@@ -68218,25 +68218,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 218.583,
             "unit": "ns",
             "range": 14.914
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2349.25,
             "unit": "ns",
             "range": 105.79
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9978.3,
             "unit": "ns",
             "range": 710.528
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 160706,
             "unit": "ns",
             "range": 6016.15
@@ -68264,25 +68264,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 228.203,
             "unit": "ns",
             "range": 12.7874
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2354.52,
             "unit": "ns",
             "range": 99.1969
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9307.56,
             "unit": "ns",
             "range": 496.873
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 157322,
             "unit": "ns",
             "range": 3866.94
@@ -68310,25 +68310,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 215.916,
             "unit": "ns",
             "range": 10.5121
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2348.68,
             "unit": "ns",
             "range": 71.8772
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9368.15,
             "unit": "ns",
             "range": 645.112
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 162359,
             "unit": "ns",
             "range": 8258.5
@@ -68356,25 +68356,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 216.763,
             "unit": "ns",
             "range": 17.2909
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2353.1,
             "unit": "ns",
             "range": 87.9885
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9172.29,
             "unit": "ns",
             "range": 602.454
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 157838,
             "unit": "ns",
             "range": 9252.9
@@ -68402,25 +68402,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 220.944,
             "unit": "ns",
             "range": 9.38065
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2394.73,
             "unit": "ns",
             "range": 106.654
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9562.22,
             "unit": "ns",
             "range": 810.25
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 152848,
             "unit": "ns",
             "range": 9745.4
@@ -68448,25 +68448,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 237.609,
             "unit": "ns",
             "range": 11.9611
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2361.37,
             "unit": "ns",
             "range": 102.006
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 10064.9,
             "unit": "ns",
             "range": 894.71
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 154088,
             "unit": "ns",
             "range": 5358.09
@@ -68494,25 +68494,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 219.775,
             "unit": "ns",
             "range": 14.8701
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2371.18,
             "unit": "ns",
             "range": 74.6458
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9644.23,
             "unit": "ns",
             "range": 684.982
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 152547,
             "unit": "ns",
             "range": 2125.56
@@ -68540,25 +68540,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 218.786,
             "unit": "ns",
             "range": 7.54521
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2381.12,
             "unit": "ns",
             "range": 118.955
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9800.14,
             "unit": "ns",
             "range": 789.794
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 153661,
             "unit": "ns",
             "range": 2507.25
@@ -68586,25 +68586,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 205.196,
             "unit": "ns",
             "range": 8.42503
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2316.02,
             "unit": "ns",
             "range": 83.3662
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9570.34,
             "unit": "ns",
             "range": 536.851
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 159207,
             "unit": "ns",
             "range": 5524.93
@@ -68632,25 +68632,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 230.63,
             "unit": "ns",
             "range": 15.5066
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2379.98,
             "unit": "ns",
             "range": 98.8716
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9636.47,
             "unit": "ns",
             "range": 732.62
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 162472,
             "unit": "ns",
             "range": 9535.92
@@ -68678,25 +68678,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 225.864,
             "unit": "ns",
             "range": 15.6
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2311.45,
             "unit": "ns",
             "range": 125.015
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9357.18,
             "unit": "ns",
             "range": 613.729
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 158315,
             "unit": "ns",
             "range": 6094.08
@@ -68724,25 +68724,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 218.552,
             "unit": "ns",
             "range": 13.8849
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2420.77,
             "unit": "ns",
             "range": 111.054
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9824.47,
             "unit": "ns",
             "range": 743.429
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 152203,
             "unit": "ns",
             "range": 3925.16
@@ -68770,25 +68770,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 212.685,
             "unit": "ns",
             "range": 16.4365
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2304.09,
             "unit": "ns",
             "range": 72.1288
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9387.54,
             "unit": "ns",
             "range": 662.214
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 149095,
             "unit": "ns",
             "range": 1875.91
@@ -68816,25 +68816,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 216.7,
             "unit": "ns",
             "range": 21.3758
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2271.42,
             "unit": "ns",
             "range": 114.306
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9665.49,
             "unit": "ns",
             "range": 657.967
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 156184,
             "unit": "ns",
             "range": 6441.54
@@ -68862,25 +68862,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 223.867,
             "unit": "ns",
             "range": 8.90369
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2344.68,
             "unit": "ns",
             "range": 101.926
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9569.19,
             "unit": "ns",
             "range": 806.659
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 146680,
             "unit": "ns",
             "range": 6954.62
@@ -68908,25 +68908,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 195.163,
             "unit": "ns",
             "range": 12.8772
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2343.16,
             "unit": "ns",
             "range": 73.5717
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9394.63,
             "unit": "ns",
             "range": 776.199
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 155473,
             "unit": "ns",
             "range": 1973.51
@@ -68954,25 +68954,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 223.111,
             "unit": "ns",
             "range": 9.67361
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2368.31,
             "unit": "ns",
             "range": 94.4491
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9523.59,
             "unit": "ns",
             "range": 743.793
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 157220,
             "unit": "ns",
             "range": 7585.86
@@ -69000,25 +69000,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 225.584,
             "unit": "ns",
             "range": 12.3188
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2359.46,
             "unit": "ns",
             "range": 117.65
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9370.27,
             "unit": "ns",
             "range": 534.026
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 157370,
             "unit": "ns",
             "range": 6837.28
@@ -69048,25 +69048,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 222.247,
             "unit": "ns",
             "range": 7.30809
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2363.03,
             "unit": "ns",
             "range": 103.267
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9484.08,
             "unit": "ns",
             "range": 519.72
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 158373,
             "unit": "ns",
             "range": 6881.8
@@ -69094,25 +69094,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 229.874,
             "unit": "ns",
             "range": 12.7606
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2368.59,
             "unit": "ns",
             "range": 71.5044
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9695.91,
             "unit": "ns",
             "range": 720.944
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 153027,
             "unit": "ns",
             "range": 2476.25
@@ -69140,25 +69140,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 231.288,
             "unit": "ns",
             "range": 6.98541
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2354.11,
             "unit": "ns",
             "range": 50.8057
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9897.38,
             "unit": "ns",
             "range": 810.529
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 151510,
             "unit": "ns",
             "range": 1911.44
@@ -69186,25 +69186,25 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 223.781,
             "unit": "ns",
             "range": 10.9937
           },
           {
-            "name": "Configuration 1",
+            "name": "Deactivated probe",
             "value": 2350.98,
             "unit": "ns",
             "range": 169.223
           },
           {
-            "name": "Configuration 2",
+            "name": "No logging",
             "value": 9396.69,
             "unit": "ns",
             "range": 595.605
           },
           {
-            "name": "Configuration 4",
+            "name": "Binary file",
             "value": 158569,
             "unit": "ns",
             "range": 3192.55
@@ -69232,7 +69232,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 198.589,
             "unit": "ns",
             "range": 9.27028
@@ -69278,7 +69278,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 216.039,
             "unit": "ns",
             "range": 14.8454
@@ -69324,7 +69324,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 192.613,
             "unit": "ns",
             "range": 9.61975
@@ -69370,7 +69370,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 231.093,
             "unit": "ns",
             "range": 12.1741
@@ -69416,7 +69416,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 223.497,
             "unit": "ns",
             "range": 12.6931
@@ -69464,7 +69464,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 227.684,
             "unit": "ns",
             "range": 16.2488
@@ -69512,7 +69512,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 222.901,
             "unit": "ns",
             "range": 8.27011
@@ -69560,7 +69560,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 218.649,
             "unit": "ns",
             "range": 14.7615
@@ -69608,7 +69608,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 217.252,
             "unit": "ns",
             "range": 14.5611
@@ -69656,7 +69656,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 206.571,
             "unit": "ns",
             "range": 23.8194
@@ -69704,7 +69704,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 230.732,
             "unit": "ns",
             "range": 12.5508
@@ -69752,7 +69752,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 231.353,
             "unit": "ns",
             "range": 12.6633
@@ -69798,7 +69798,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 216.638,
             "unit": "ns",
             "range": 10.7954
@@ -69844,7 +69844,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 218.582,
             "unit": "ns",
             "range": 11.906
@@ -69890,7 +69890,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 218.391,
             "unit": "ns",
             "range": 12.4467
@@ -69936,7 +69936,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 224.02,
             "unit": "ns",
             "range": 11.6962
@@ -69984,7 +69984,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 228.102,
             "unit": "ns",
             "range": 11.0787
@@ -70032,7 +70032,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 223.036,
             "unit": "ns",
             "range": 9.13719
@@ -70078,7 +70078,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 227.751,
             "unit": "ns",
             "range": 7.48085
@@ -70124,7 +70124,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 214.668,
             "unit": "ns",
             "range": 7.98721
@@ -70170,7 +70170,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 214.522,
             "unit": "ns",
             "range": 14.2705
@@ -70216,7 +70216,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 225.13,
             "unit": "ns",
             "range": 12.6634
@@ -70262,7 +70262,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 201.839,
             "unit": "ns",
             "range": 10.8426
@@ -70308,7 +70308,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 224.462,
             "unit": "ns",
             "range": 11.418
@@ -70354,7 +70354,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 233.673,
             "unit": "ns",
             "range": 10.4463
@@ -70400,7 +70400,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 216.148,
             "unit": "ns",
             "range": 14.4357
@@ -70446,7 +70446,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 238.984,
             "unit": "ns",
             "range": 16.1706
@@ -70492,7 +70492,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 235.983,
             "unit": "ns",
             "range": 6.73724
@@ -70538,7 +70538,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 237.547,
             "unit": "ns",
             "range": 10.7396
@@ -70584,7 +70584,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 201.021,
             "unit": "ns",
             "range": 11.3542
@@ -70630,7 +70630,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 232.574,
             "unit": "ns",
             "range": 13.53
@@ -70676,7 +70676,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 233.114,
             "unit": "ns",
             "range": 7.97274
@@ -70722,7 +70722,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 236.334,
             "unit": "ns",
             "range": 10.8234
@@ -70768,7 +70768,7 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "Configuration 0",
+            "name": "No instrumentation",
             "value": 229.621,
             "unit": "ns",
             "range": 12.5769

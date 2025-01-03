@@ -104,7 +104,7 @@
       <div class="small">Powered by <a rel="noopener" href="https://github.com/marketplace/actions/continuous-benchmark">github-action-benchmark</a></div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.2/dist/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
     <script src="data.js"></script>
     <script id="main-script">
       'use strict';
@@ -168,55 +168,57 @@
 
         function renderAllChars(dataSets) {
 
-          function renderGraph(parent, name, dataset) {
+          function renderGraph(parent, dataSets) {
             const canvas = document.createElement('canvas');
             canvas.className = 'benchmark-chart';
             parent.appendChild(canvas);
 
-            const color = toolColors[dataset.length > 0 ? dataset[0].tool : '_'];
+            //const color = toolColors[dataset.length > 0 ? dataset[0].tool : '_'];
+            
+            const colors = ['#FF5733', '#33FF57', '#3357FF', '#F1C40F', '#8E44AD'];
+            const datasets = [];
+            for (const [benchName, benches] of dataSets.entries()) {
+              const dataSetElement = {
+                  label: benchName,
+                  data: benches.map(d => d.bench.value),
+                  borderColor: colors[datasets.length % colors.length],
+                  backgroundColor: colors[datasets.length % colors.length] + '60',
+                };
+                datasets.push(dataSetElement);
+            }
+            
+            const firstKey = dataSets.keys().next().value; // 'key1'
+            const firstValue = dataSets.get(firstKey); // 'value1'
             const data = {
-              labels: dataset.map(d => d.commit.id.slice(0, 7)),
-              datasets: [
-                {
-                  label: name,
-                  data: dataset.map(d => d.bench.value),
-                  borderColor: color,
-                  backgroundColor: color + '60', // Add alpha for #rrggbbaa
-                }
-              ],
+              labels: firstValue.map(d => d.commit.id.slice(0, 7)),
+              datasets: datasets
             };
             const options = {
               scales: {
-                xAxes: [
-                  {
-                    scaleLabel: {
+                x: {
+                    title: {
                       display: true,
-                      labelString: 'commit',
+                      text: 'commit',
                     },
-                  }
-                ],
-                yAxes: [
-                  {
-                    scaleLabel: {
+                  },
+                  y: {
+                    title: {
                       display: true,
-                      labelString: dataset.length > 0 ? dataset[0].bench.unit : '',
+                      text: firstValue.length > 0 ? firstValue[0].bench.unit : '',
                     },
-                    ticks: {
-                      beginAtZero: true,
-                    }
-                  }
-                ],
-              },
+                    beginAtZero: true,
+                  },
+                },
               tooltips: {
                 callbacks: {
                   afterTitle: items => {
                     const {index} = items[0];
-                    const data = dataset[index];
+                    const data = firstValue[index];
                     return '\n' + data.commit.message + '\n\n' + data.commit.timestamp + ' committed by @' + data.commit.committer.username + '\n';
                   },
                   label: item => {
                     let label = item.value;
-                    const { range, unit } = dataset[item.index].bench;
+                    const { range, unit } = firstValue[item.index].bench;
                     label += ' ' + unit;
                     if (range) {
                       label += ' (' + range + ')';
@@ -224,7 +226,7 @@
                     return label;
                   },
                   afterLabel: item => {
-                    const { extra } = dataset[item.index].bench;
+                    const { extra } = firstValue[item.index].bench;
                     return extra ? '\n' + extra : '';
                   }
                 }
@@ -234,8 +236,8 @@
                   return;
                 }
                 // XXX: Undocumented. How can we know the index?
-                const index = activeElems[0]._index;
-                const url = dataset[index].commit.url;
+                const index = activeElems[0].index;
+                const url = firstValue[index].commit.url;
                 window.open(url, '_blank');
               },
             };
@@ -261,9 +263,10 @@
             graphsElem.className = 'benchmark-graphs';
             setElem.appendChild(graphsElem);
 
-            for (const [benchName, benches] of benchSet.entries()) {
-              renderGraph(graphsElem, benchName, benches)
-            }
+	    renderGraph(graphsElem, benchSet)
+            //for (const [benchName, benches] of benchSet.entries()) {
+            //  renderGraph(graphsElem, benchName, benches)
+            //}
           }
 
           const main = document.getElementById('main');
