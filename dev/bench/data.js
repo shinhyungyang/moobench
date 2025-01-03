@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735897955912,
+  "lastUpdate": 1735898180754,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -72112,6 +72112,54 @@ window.BENCHMARK_DATA = {
             "value": 8194.58,
             "unit": "ns",
             "range": 1174.55
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "596f3f4a6d20828579e63bf6bcddd687940bc82d",
+          "message": "Update to inspectIT 1.16.1",
+          "timestamp": "2025-01-03T10:01:33+01:00",
+          "tree_id": "b6934cbe6d15da0a538449bd446894b94d2f3e8c",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/596f3f4a6d20828579e63bf6bcddd687940bc82d"
+        },
+        "date": 1735898177759,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.5571,
+            "unit": "ns",
+            "range": 0.207
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 327.664,
+            "unit": "ns",
+            "range": 8.02445
+          },
+          {
+            "name": "Regular Writing",
+            "value": 7065.64,
+            "unit": "ns",
+            "range": 441.893
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 7532.31,
+            "unit": "ns",
+            "range": 1011.85
           }
         ]
       }
