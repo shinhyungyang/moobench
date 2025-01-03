@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735933847032,
+  "lastUpdate": 1735933921429,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -55762,6 +55762,54 @@ window.BENCHMARK_DATA = {
             "value": 17765.4,
             "unit": "ns",
             "range": 883.417
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "e255fb41dbcff4659c2f9e3070c5c8d4ec7b5364",
+          "message": "Split common-functions.sh and init.sh - init.sh is only needed by the frameworks,\ncommon-functions.sh also by setup.sh",
+          "timestamp": "2025-01-03T19:36:11+01:00",
+          "tree_id": "9838ef3d3f5444d05973e835e0e68ce438d4a21e",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/e255fb41dbcff4659c2f9e3070c5c8d4ec7b5364"
+        },
+        "date": 1735933918356,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 104.602,
+            "unit": "ns",
+            "range": 0.93536
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 872.523,
+            "unit": "ns",
+            "range": 27.745
+          },
+          {
+            "name": "No logging",
+            "value": 3202.04,
+            "unit": "ns",
+            "range": 101.649
+          },
+          {
+            "name": "Binary file",
+            "value": 18120.7,
+            "unit": "ns",
+            "range": 1036.04
           }
         ]
       }
