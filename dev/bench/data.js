@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735922944622,
+  "lastUpdate": 1735923244964,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -67892,6 +67892,54 @@ window.BENCHMARK_DATA = {
             "value": 94701.4,
             "unit": "ns",
             "range": 621.15
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "b42274238f951c56476731d31f57670bdd96e8e7",
+          "message": "Updated Dockerfile",
+          "timestamp": "2025-01-03T15:02:39+01:00",
+          "tree_id": "a1e4481167e70623e96facf9491a02572093e629",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/b42274238f951c56476731d31f57670bdd96e8e7"
+        },
+        "date": 1735923241208,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 69899.8,
+            "unit": "ns",
+            "range": 759.492
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 70986.4,
+            "unit": "ns",
+            "range": 324.425
+          },
+          {
+            "name": "No logging",
+            "value": 75967.8,
+            "unit": "ns",
+            "range": 452.232
+          },
+          {
+            "name": "Binary file",
+            "value": 94409.6,
+            "unit": "ns",
+            "range": 845.949
           }
         ]
       }
