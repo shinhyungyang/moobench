@@ -1,4 +1,4 @@
-name: Benchmark ElasicAPM-java
+name: Benchmark inspectIT-java
 on:
   workflow_dispatch:
   push:
