@@ -7,8 +7,7 @@ JAVA_BIN=`which java`
 RSCRIPT_PATH="${BASE_DIR}/../statistics.r"
 
 #MORE_PARAMS="--quickstart"
-
-MORE_PARAMS="${MORE_PARAMS}"
+MORE_PARAMS="--application moobench.application.MonitoredClassSimple ${MORE_PARAMS}"
 
 MOOBENCH_BIN="${BASE_DIR}/../../benchmark/bin/benchmark"
 
