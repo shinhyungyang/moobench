@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735929061860,
+  "lastUpdate": 1735929422561,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -76038,6 +76038,60 @@ window.BENCHMARK_DATA = {
             "value": 35767,
             "unit": "ns",
             "range": 338.234
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "c901b4160c620ab5634cab767903aefd3978fd2a",
+          "message": "Use AGENT_JAR as name for the jar path variable for Kieker (how its also done for\nOpenTelemetry)",
+          "timestamp": "2025-01-03T16:52:34+01:00",
+          "tree_id": "94a97acd8c02b50ac4c9183d43023a6a48dd9fc3",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c901b4160c620ab5634cab767903aefd3978fd2a"
+        },
+        "date": 1735929419070,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.7541,
+            "unit": "ns",
+            "range": 0.170193
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 5309.85,
+            "unit": "ns",
+            "range": 212.572
+          },
+          {
+            "name": "No logging",
+            "value": 15456.7,
+            "unit": "ns",
+            "range": 198.479
+          },
+          {
+            "name": "Zipkin",
+            "value": 16776.6,
+            "unit": "ns",
+            "range": 269.313
+          },
+          {
+            "name": "Prometheus",
+            "value": 9639.49,
+            "unit": "ns",
+            "range": 232.766
           }
         ]
       }
