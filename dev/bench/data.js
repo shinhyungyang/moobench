@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735925367129,
+  "lastUpdate": 1735925463236,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -15428,6 +15428,54 @@ window.BENCHMARK_DATA = {
             "value": 35623.6,
             "unit": "ns",
             "range": 467.496
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "c901b4160c620ab5634cab767903aefd3978fd2a",
+          "message": "Use AGENT_JAR as name for the jar path variable for Kieker (how its also done for\nOpenTelemetry)",
+          "timestamp": "2025-01-03T16:52:34+01:00",
+          "tree_id": "94a97acd8c02b50ac4c9183d43023a6a48dd9fc3",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c901b4160c620ab5634cab767903aefd3978fd2a"
+        },
+        "date": 1735925460445,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.6905,
+            "unit": "ns",
+            "range": 0.224861
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 444.745,
+            "unit": "ns",
+            "range": 10.5834
+          },
+          {
+            "name": "No logging",
+            "value": 1837.38,
+            "unit": "ns",
+            "range": 7.7554
+          },
+          {
+            "name": "Binary file",
+            "value": 3274.38,
+            "unit": "ns",
+            "range": 97.8756
           }
         ]
       }
