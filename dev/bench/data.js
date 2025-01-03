@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735925517704,
+  "lastUpdate": 1735925947185,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -15476,6 +15476,54 @@ window.BENCHMARK_DATA = {
             "value": 3274.38,
             "unit": "ns",
             "range": 97.8756
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "5477fad704b7a819bc22354c0d7f160b970c0dee",
+          "message": "Define MOOBENCH_BIN and RSCRIPT_PATH in experiment.rc; don't specify\nMAIN_DIR twice (always defined in benchmark.sh)",
+          "timestamp": "2025-01-03T16:58:21+01:00",
+          "tree_id": "6137cc1adea40491b95bb95228990eb87a7a91cc",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5477fad704b7a819bc22354c0d7f160b970c0dee"
+        },
+        "date": 1735925944406,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.6744,
+            "unit": "ns",
+            "range": 0.237958
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 439.815,
+            "unit": "ns",
+            "range": 4.8014
+          },
+          {
+            "name": "No logging",
+            "value": 1836.58,
+            "unit": "ns",
+            "range": 7.66634
+          },
+          {
+            "name": "Binary file",
+            "value": 3203.08,
+            "unit": "ns",
+            "range": 70.741
           }
         ]
       }
