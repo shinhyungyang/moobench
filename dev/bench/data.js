@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735908139696,
+  "lastUpdate": 1735908274002,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -40752,6 +40752,54 @@ window.BENCHMARK_DATA = {
             "value": 5919.64,
             "unit": "ns",
             "range": 659.197
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "3a4d9580d223275edb5d6c1af46c68c9655bd927",
+          "message": "Update to inspectIT 2.6.6 to fix Java 21",
+          "timestamp": "2025-01-03T12:53:32+01:00",
+          "tree_id": "38ddad459ec1714cc4a316a07d8785f56ae05091",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/3a4d9580d223275edb5d6c1af46c68c9655bd927"
+        },
+        "date": 1735908271268,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.1766,
+            "unit": "ns",
+            "range": 0.283913
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 562.927,
+            "unit": "ns",
+            "range": 25.2339
+          },
+          {
+            "name": "No logging",
+            "value": 2564.64,
+            "unit": "ns",
+            "range": 84.4406
+          },
+          {
+            "name": "Binary file",
+            "value": 5961.79,
+            "unit": "ns",
+            "range": 474.987
           }
         ]
       }
