@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735927416420,
+  "lastUpdate": 1735927475612,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -28142,6 +28142,54 @@ window.BENCHMARK_DATA = {
             "value": 4326.27,
             "unit": "ns",
             "range": 203.569
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "5477fad704b7a819bc22354c0d7f160b970c0dee",
+          "message": "Define MOOBENCH_BIN and RSCRIPT_PATH in experiment.rc; don't specify\nMAIN_DIR twice (always defined in benchmark.sh)",
+          "timestamp": "2025-01-03T16:58:21+01:00",
+          "tree_id": "6137cc1adea40491b95bb95228990eb87a7a91cc",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/5477fad704b7a819bc22354c0d7f160b970c0dee"
+        },
+        "date": 1735927472728,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.6042,
+            "unit": "ns",
+            "range": 0.126374
+          },
+          {
+            "name": "No logging",
+            "value": 2932.81,
+            "unit": "ns",
+            "range": 126.375
+          },
+          {
+            "name": "Zipkin",
+            "value": 4911.69,
+            "unit": "ns",
+            "range": 180.499
+          },
+          {
+            "name": "Prometheus",
+            "value": 4415.18,
+            "unit": "ns",
+            "range": 138.57
           }
         ]
       }
