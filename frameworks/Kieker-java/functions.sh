@@ -62,7 +62,8 @@ function executeExperiment() {
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
         --method-time "${METHOD_TIME}" \
         --total-threads $THREADS \
-        --recursion-depth "${recursion}" &> "${LOG_FILE}"
+        --recursion-depth "${recursion}" \
+        ${MORE_PARAMS} &> "${LOG_FILE}"
 
     if [ ! -f "${RESULT_FILE}" ] ; then
         info "---------------------------------------------------"
