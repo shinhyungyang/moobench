@@ -64,7 +64,7 @@ info "----------------------------------"
 cd "${BASE_DIR}"
 
 # load agent
-if [ ! -f $AGENT ]
+if [ ! -f $AGENT_JAR ]
 then
 	getAgent
 fi
@@ -76,7 +76,7 @@ mkdir -p $RESULTS_DIR
 PARENT=`dirname "${RESULTS_DIR}"`
 checkDirectory result-base "${PARENT}"
 
-checkFile AspectJ-Agent "${AGENT}"
+checkFile AspectJ-Agent "${AGENT_JAR}"
 
 checkExecutable java "${JAVA_BIN}"
 checkExecutable moobench "${MOOBENCH_BIN}"
@@ -90,7 +90,7 @@ info "Experiment will take circa ${TIME} seconds."
 # general server arguments
 JAVA_ARGS="-Xms1G -Xmx2G"
 
-LTW_ARGS="-javaagent:elastic-apm-agent.jar"
+LTW_ARGS="-javaagent:$AGENT_JAR"
 
 # JAVA_ARGS used to configure and setup a specific writer
 declare -a WRITER_CONFIG
