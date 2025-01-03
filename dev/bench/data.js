@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735905334989,
+  "lastUpdate": 1735906329737,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -66932,6 +66932,54 @@ window.BENCHMARK_DATA = {
             "value": 67972,
             "unit": "ns",
             "range": 4447.2
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "c702e3cf5da22fe14d64816e4efc2daffacc793c",
+          "message": "Always use current inspectIT agent file",
+          "timestamp": "2025-01-03T11:30:25+01:00",
+          "tree_id": "18cd588e4f37cdfc9ed237cac5a6f21da1af8369",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/c702e3cf5da22fe14d64816e4efc2daffacc793c"
+        },
+        "date": 1735906327072,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 133.636,
+            "unit": "ns",
+            "range": 4.10876
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 1478.69,
+            "unit": "ns",
+            "range": 51.3541
+          },
+          {
+            "name": "No logging",
+            "value": 6081.89,
+            "unit": "ns",
+            "range": 296.095
+          },
+          {
+            "name": "Binary file",
+            "value": 67520.7,
+            "unit": "ns",
+            "range": 4000.91
           }
         ]
       }
