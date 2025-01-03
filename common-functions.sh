@@ -81,7 +81,7 @@ function startZipkin {
 }
 
 function periodicallyCurlPrometheus {
-	PROMETHEUS_PORT=9464
+	PROMETHEUS_PORT=$1
 	sleep 5
 	while [ true ]
 	do
@@ -92,7 +92,7 @@ function periodicallyCurlPrometheus {
 }
 
 function startPrometheus {
-	periodicallyCurlPrometheus &
+	periodicallyCurlPrometheus $1 &
 	pid=$!
 }
 

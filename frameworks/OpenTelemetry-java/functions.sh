@@ -137,7 +137,7 @@ function runOpenTelemetryJaeger {
 function runOpenTelemetryPrometheus {
     # OpenTelemetry Instrumentation Prometheus
     k=$1
-    startPrometheus
+    startPrometheus 9464
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
     export BENCHMARK_OPTS="${JAVA_ARGS_OPENTELEMETRY_PROMETHEUS}"
     "${MOOBENCH_BIN}" --output-filename "${RAWFN}-${i}-${RECURSION_DEPTH}-${k}.csv" \

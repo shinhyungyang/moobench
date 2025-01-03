@@ -109,7 +109,7 @@ function runInspectITPrometheus {
     # InspectIT (minimal)
     k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
-    startPrometheus
+    startPrometheus 8888
     sleep "${SLEEP_TIME}"
     export BENCHMARK_OPTS="${JAVA_ARGS_INSPECTIT_PROMETHEUS}"
     "${MOOBENCH_BIN}" --output-filename "${RAWFN}-${i}-${RECURSION_DEPTH}-${k}.csv" \
