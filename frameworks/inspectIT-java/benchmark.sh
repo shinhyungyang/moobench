@@ -26,14 +26,6 @@ else
 	exit 1
 fi
 
-# load configuration and common functions
-if [ -f "${BASE_DIR}/config.rc" ] ; then
-	source "${BASE_DIR}/config.rc"
-else
-	echo "Missing configuration: ${BASE_DIR}/config.rc"
-	exit 1
-fi
-
 if [ -z "$MOOBENCH_CONFIGURATIONS" ]
 then
 	MOOBENCH_CONFIGURATIONS="0 1 2 3 4"
