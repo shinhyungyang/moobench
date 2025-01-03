@@ -58,7 +58,6 @@ function executeExperiment() {
     LOG_FILE="${RESULTS_DIR}/output_${loop}_${RECURSION_DEPTH}_${index}.txt"
 
     "${MOOBENCH_BIN}" \
-	--application moobench.application.MonitoredClassSimple \
         --output-filename "${RESULT_FILE}" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
         --method-time "${METHOD_TIME}" \
