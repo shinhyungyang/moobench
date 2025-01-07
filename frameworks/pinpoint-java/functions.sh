@@ -32,9 +32,6 @@ function startHBase() {
    then
       wget https://dlcdn.apache.org/hbase/$HBASE_VERSION/hbase-$HBASE_VERSION-bin.tar.gz
       tar -xvf hbase-$HBASE_VERSION-bin.tar.gz
-      cd hbase-$HBASE_VERSION
-      wget https://raw.githubusercontent.com/pinpoint-apm/pinpoint/refs/heads/master/hbase/scripts/hbase-create.hbase
-      cd $BASE_DIR
    fi
 
    cd hbase-$HBASE_VERSION
@@ -52,10 +49,12 @@ function startHBase() {
 
 function stopHBase(){
    echo "Stopping HBase $HBASE_VERSION"
+   cd hbase-$HBASE_VERSION
    bin/stop-hbase.sh
    
    rm tmp -r
    rm logs/*
+   rm /tmp/hbase-*
    
    cd $BASE_DIR
 }
@@ -109,11 +108,15 @@ function startPinot() {
    
    cd $BASE_DIR/scripts
    
-   ./multi-table.sh 0 1 http://localhost:9000
+   ./multi-table.sh 0 1 http://localhost:9000 &> ${BASE_DIR}/logs/pinot_multiTable.log
 }
 
 function stopPinot {
    kill -9 $(pgrep -f apache-pinot)
+   
+   rm /tmp/.pinotAdmin*
+   rm /tmp/pinot-* -r
+   rm /tmp/PinotMinion
 }
 
 function startCollectorAndWeb() {
@@ -124,14 +127,14 @@ function startCollectorAndWeb() {
       wget https://repo1.maven.org/maven2/com/navercorp/pinpoint/pinpoint-collector-starter/${PINPOINT_VERSION}/pinpoint-collector-starter-${PINPOINT_VERSION}-exec.jar
    fi
    
-   java -Dpinpoint.zookeeper.address=localhost -Dpinpoint.modules.realtime.enabled=false -jar pinpoint-collector-starter-${PINPOINT_VERSION}-exec.jar &> ${BASE_DIR}/collector.log &
+   java -Dpinpoint.zookeeper.address=localhost -Dpinpoint.modules.realtime.enabled=false -jar pinpoint-collector-starter-${PINPOINT_VERSION}-exec.jar &> ${BASE_DIR}/logs/collector.log &
    
    if [ ! -f pinpoint-web-starter-${PINPOINT_VERSION}-exec.jar ]
    then
       wget https://repo1.maven.org/maven2/com/navercorp/pinpoint/pinpoint-web-starter/${PINPOINT_VERSION}/pinpoint-web-starter-${PINPOINT_VERSION}-exec.jar
    fi
    
-   java -Dpinpoint.zookeeper.address=localhost -Dpinpoint.modules.realtime.enabled=false -jar pinpoint-web-starter-${PINPOINT_VERSION}-exec.jar &> ${BASE_DIR}/web-starter.log &
+   java -Dpinpoint.zookeeper.address=localhost -Dpinpoint.modules.realtime.enabled=false -jar pinpoint-web-starter-${PINPOINT_VERSION}-exec.jar &> ${BASE_DIR}/logs/web-starter.log &
 }
 
 function stopCollectorAndWeb() {
@@ -140,9 +143,6 @@ function stopCollectorAndWeb() {
 }
 
 function cleanup {
-    [ -f "${BASE_DIR}/hotspot.log" ] && mv "${BASE_DIR}/hotspot.log" "${RESULTS_DIR}/hotspot-${i}-$RECURSION_DEPTH-${k}.log"
-    echo >> "${BASE_DIR}/OpenTelemetry.log"
-    echo >> "${BASE_DIR}/OpenTelemetry.log"
     sync
     sleep "${SLEEP_TIME}"
 }
@@ -186,7 +186,7 @@ function stopPinpointServers {
    stopCollectorAndWeb
    stopKafka
    stopPinot
-   stopHbase
+   stopHBase
 }
 
 function setPinpointConfig {
