@@ -212,7 +212,6 @@ function runPinpointBasic {
         --recursion-depth "${RECURSION_DEPTH}" \
         ${MORE_PARAMS} &> "${RESULTS_DIR}/output_${i}_${RECURSION_DEPTH}_${k}.txt"
    stopPinpointServers
-   
 }
 
 
