@@ -40,3 +40,9 @@ frameworks/pinpoint-java/pinpoint-agent-*
 frameworks/pinpoint-java/hbase/
 frameworks/pinpoint-java/*.tar.gz
 frameworks/pinpoint-java/libs/
+frameworks/pinpoint-java/apache-pinot-*/
+frameworks/pinpoint-java/hbase-*/
+frameworks/pinpoint-java/kafka_*
+frameworks/pinpoint-java/pinpoint-collector-starter-*
+frameworks/pinpoint-java/pinpoint-web-starter-*
+
