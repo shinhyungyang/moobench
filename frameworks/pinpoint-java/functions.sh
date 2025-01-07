@@ -104,7 +104,7 @@ function startPinot() {
    cd apache-pinot-$PINOT_VERSION-bin
    ./bin/pinot-admin.sh QuickStart -type batch &> ${BASE_DIR}/logs/pinot.log &
    
-   sleep 5
+   sleep 15 # rough estimate - TODO: wait for log to contain "***** Bootstrap tables *****", which signales that the instance is up
    
    cd $BASE_DIR/scripts
    
@@ -116,7 +116,7 @@ function stopPinot {
    
    rm /tmp/.pinotAdmin*
    rm /tmp/pinot-* -r
-   rm /tmp/PinotMinion
+   rm /tmp/PinotMinion -r
 }
 
 function startCollectorAndWeb() {
