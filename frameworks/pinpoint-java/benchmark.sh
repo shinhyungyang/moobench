@@ -7,6 +7,7 @@
 
 # configure base dir
 BASE_DIR=$(cd "$(dirname "$0")"; pwd)
+MAIN_DIR="${BASE_DIR}/../.."
 
 #
 # source functionality
@@ -17,43 +18,19 @@ if [ ! -d "${BASE_DIR}" ] ; then
 	exit 1
 fi
 
-MAIN_DIR="${BASE_DIR}/../.."
-
-if [ -f "${MAIN_DIR}/common-functions.sh" ] ; then
-	source "${MAIN_DIR}/common-functions.sh"
+if [ -f "${MAIN_DIR}/init.sh" ] ; then
+	source "${MAIN_DIR}/init.sh"
 else
-	echo "Missing library: ${MAIN_DIR}/common-functions.sh"
-	exit 1
-fi
-
-# load configuration and common functions
-if [ -f "${BASE_DIR}/config.rc" ] ; then
-	source "${BASE_DIR}/config.rc"
-else
-	echo "Missing configuration: ${BASE_DIR}/config.rc"
-	exit 1
-fi
-
-if [ -f "${BASE_DIR}/functions.sh" ] ; then
-	source "${BASE_DIR}/functions.sh"
-else
-	echo "Missing: ${BASE_DIR}/functions.sh"
-	exit 1
-fi
-if [ -f "${BASE_DIR}/labels.sh" ] ; then
-	source "${BASE_DIR}/labels.sh"
-else
-	echo "Missing file: ${BASE_DIR}/labels.sh"
+	echo "Missing library: ${MAIN_DIR}/init.sh"
 	exit 1
 fi
 
 if [ -z "$MOOBENCH_CONFIGURATIONS" ]
 then
-	MOOBENCH_CONFIGURATIONS="0 1 3"
-	echo "Setting default configuration $MOOBENCH_CONFIGURATIONS (without text logging)"
+	MOOBENCH_CONFIGURATIONS="0 1 2 4 5"
+	echo "Setting default configuration $MOOBENCH_CONFIGURATIONS (without TextLogStreamHandler)"
 fi
 echo "Running configurations: $MOOBENCH_CONFIGURATIONS"
-
 #
 # Setup
 #
