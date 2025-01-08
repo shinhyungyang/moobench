@@ -140,6 +140,7 @@ function stopPinot {
 }
 
 function startCollectorAndWeb() {
+   cd pinpoint
    PINPOINT_VERSION=3.0.1
 
    if [ ! -f pinpoint-collector-starter-${PINPOINT_VERSION}-exec.jar ]
@@ -155,6 +156,8 @@ function startCollectorAndWeb() {
    fi
    
    java -Dpinpoint.zookeeper.address=localhost -Dpinpoint.modules.realtime.enabled=false -jar pinpoint-web-starter-${PINPOINT_VERSION}-exec.jar &> ${BASE_DIR}/logs/web-starter.log &
+   
+   cd $BASE_DIR
 }
 
 function stopCollectorAndWeb() {
@@ -216,14 +219,14 @@ function stopPinpointServers {
 }
 
 function setPinpointConfig {
-   sed -i 's/DEBUG/INFO/g' pinpoint-agent-3.0.1/log4j2-agent.xml
-   sed -i '/profiler.entrypoint/a profiler.transport.grpc.span.sender.executor.queue.size=100000' pinpoint-agent-3.0.1/profiles/release/pinpoint.config
-   sed -i '/profiler.entrypoint/a profiler.pinpoint.base-package=moobench.application' pinpoint-agent-3.0.1/profiles/release/pinpoint.config
-   sed -i 's|^profiler.entrypoint=.*|profiler.entrypoint=moobench.application.MonitoredClassSimple.monitoredMethod|' pinpoint-agent-3.0.1/profiles/release/pinpoint.config
-   sed -i 's|^profiler.include=.*|profiler.include=moobench.application*|' pinpoint-agent-3.0.1/profiles/release/pinpoint.config
-   sed -i 's|^profiler.sampling.counting.sampling-rate=.*|profiler.sampling.counting.sampling-rate=1|' pinpoint-agent-3.0.1/profiles/release/pinpoint.config
+   sed -i 's/DEBUG/INFO/g' pinpoint/pinpoint-agent-3.0.1/log4j2-agent.xml
+   sed -i '/profiler.entrypoint/a profiler.transport.grpc.span.sender.executor.queue.size=100000' pinpoint/pinpoint-agent-3.0.1/profiles/release/pinpoint.config
+   sed -i '/profiler.entrypoint/a profiler.pinpoint.base-package=moobench.application' pinpoint/pinpoint-agent-3.0.1/profiles/release/pinpoint.config
+   sed -i 's|^profiler.entrypoint=.*|profiler.entrypoint=moobench.application.MonitoredClassSimple.monitoredMethod|' pinpoint/pinpoint-agent-3.0.1/profiles/release/pinpoint.config
+   sed -i 's|^profiler.include=.*|profiler.include=moobench.application*|' pinpoint/pinpoint-agent-3.0.1/profiles/release/pinpoint.config
+   sed -i 's|^profiler.sampling.counting.sampling-rate=.*|profiler.sampling.counting.sampling-rate=1|' pinpoint/pinpoint-agent-3.0.1/profiles/release/pinpoint.config
    
-   sed -i 's|^profiler.statdatasender.write.queue.size=.*|profiler.statdatasender.write.queue.size=51200|' pinpoint-agent-3.0.1/profiles/release/pinpoint.config
+   sed -i 's|^profiler.statdatasender.write.queue.size=.*|profiler.statdatasender.write.queue.size=51200|' pinpoint/pinpoint-agent-3.0.1/profiles/release/pinpoint.config
    
 }
 

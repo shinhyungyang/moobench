@@ -48,10 +48,9 @@ info "----------------------------------"
 # load agent
 getAgent
 
-checkFile log "${BASE_DIR}/OpenTelemetry.log" clean
 checkDirectory results-directory "${RESULTS_DIR}" recreate
 
-checkFile opentelemetry-agent "${AGENT_JAR}"
+checkFile pinpoint-agent "${AGENT_JAR}"
 
 checkExecutable java "${JAVA_BIN}"
 checkExecutable moobench "${MOOBENCH_BIN}"
@@ -66,7 +65,7 @@ info "Experiment will take circa ${TIME} seconds."
 JAVA_ARGS="-Xms1G -Xmx2G"
 
 JAVA_ARGS_NOINSTR="${JAVA_ARGS}"
-JAVA_ARGS_PINTPOINT_BASIC="${JAVA_ARGS} -javaagent:pinpoint-agent-3.0.1/pinpoint-bootstrap.jar -Dpinpoint.agentId=moobench-agent -Dpinpoint.applicationName=MOOBENCH"
+JAVA_ARGS_PINTPOINT_BASIC="${JAVA_ARGS} -javaagent:pinpoint/pinpoint-agent-3.0.1/pinpoint-bootstrap.jar -Dpinpoint.agentId=moobench-agent -Dpinpoint.applicationName=MOOBENCH"
 
 writeConfiguration
 checkMoobenchConfiguration
