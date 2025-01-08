@@ -91,6 +91,24 @@ function stopKafka {
    cd $BASE_DIR
 }
 
+function waitForStartup {
+	fileName=$1
+	textToWaitFor=$2
+	
+	echo "Waiting for $fileName to contain $textToWaitFor"
+	attempt=0
+	while [ $attempt -le 300 ]; do
+	    attempt=$(( $attempt + 1 ))
+	    echo "Waiting for $fileName to contain $textToWaitFor (attempt: $attempt)..."
+	    result=$(cat $fileName 2>&1)
+	    if grep -q "$textToWaitFor" <<< $result ; then
+	      echo "$fileName contains $textToWaitFor!"
+	      break
+	    fi
+	    sleep 5
+	done
+}
+
 
 function startPinot() {
    PINOT_VERSION=1.2.0
@@ -104,11 +122,13 @@ function startPinot() {
    cd apache-pinot-$PINOT_VERSION-bin
    ./bin/pinot-admin.sh QuickStart -type batch &> ${BASE_DIR}/logs/pinot.log &
    
-   sleep 15 # rough estimate - TODO: wait for log to contain "***** Bootstrap tables *****", which signales that the instance is up
+   waitForStartup ${BASE_DIR}/logs/pinot.log "***** Bootstrap tables *****"
    
    cd $BASE_DIR/scripts
    
    ./multi-table.sh 0 1 http://localhost:9000 &> ${BASE_DIR}/logs/pinot_multiTable.log
+   
+   cd $BASE_DIR
 }
 
 function stopPinot {
@@ -177,9 +197,12 @@ function runNoInstrumentation {
 
 function startPinpointServers {
     startHBase
-    startPinot
     startKafka
+    startPinot
+    
+    sleep 30
     startCollectorAndWeb
+    sleep 30
 }
 
 function stopPinpointServers {
@@ -187,18 +210,25 @@ function stopPinpointServers {
    stopKafka
    stopPinot
    stopHBase
+   
+   # No clue which tool creates these, but they are created...
+   rm /tmp/tomcat* -r
 }
 
 function setPinpointConfig {
    sed -i 's/DEBUG/INFO/g' pinpoint-agent-3.0.1/log4j2-agent.xml
-   sed -i 's|^profiler.pinpoint.base-package=.*|profiler.pinpoint.base-package=moobench.application|' pinpoint-agent-3.0.1/profiles/release/pinpoint.config
+   sed -i '/profiler.entrypoint/a profiler.transport.grpc.span.sender.executor.queue.size=100000' pinpoint-agent-3.0.1/profiles/release/pinpoint.config
+   sed -i '/profiler.entrypoint/a profiler.pinpoint.base-package=moobench.application' pinpoint-agent-3.0.1/profiles/release/pinpoint.config
    sed -i 's|^profiler.entrypoint=.*|profiler.entrypoint=moobench.application.MonitoredClassSimple.monitoredMethod|' pinpoint-agent-3.0.1/profiles/release/pinpoint.config
    sed -i 's|^profiler.include=.*|profiler.include=moobench.application*|' pinpoint-agent-3.0.1/profiles/release/pinpoint.config
    sed -i 's|^profiler.sampling.counting.sampling-rate=.*|profiler.sampling.counting.sampling-rate=1|' pinpoint-agent-3.0.1/profiles/release/pinpoint.config
+   
+   sed -i 's|^profiler.statdatasender.write.queue.size=.*|profiler.statdatasender.write.queue.size=51200|' pinpoint-agent-3.0.1/profiles/release/pinpoint.config
+   
 }
 
 function runPinpointBasic { 
-   k=$1
+   k=1
    info " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]}
    
    setPinpointConfig
