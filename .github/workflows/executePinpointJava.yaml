@@ -20,7 +20,7 @@ jobs:
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: Java ${{ matrix.java }} OS ${{ matrix.os }} sample
-    timeout-minutes: 15 # For check of functional runnability, 15 minutes should be more than sufficient, otherwise, developer should be notified
+    timeout-minutes: 30 # For check of functional runnability (currently 30 minutes, since pinpoint requires some server starts...)
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK ${{ matrix.java }}
@@ -39,9 +39,9 @@ jobs:
           ./benchmark.sh 
           unzip results-pinpoint-java/results.zip 
           measuredValues=$(cat raw-1-10-* | wc -l) 
-          if [ $measuredValues -ne 20 ] 
+          if [ $measuredValues -ne 50 ] 
           then
-            echo "It should be 20 measured values, but was $measuredValues"
+            echo "It should be 50 measured values, but was $measuredValues"
             exit 1
           fi
 

@@ -33,8 +33,8 @@ fi
 
 if [ -z "$MOOBENCH_CONFIGURATIONS" ]
 then
-	MOOBENCH_CONFIGURATIONS="0 1 2 4 5"
-	echo "Setting default configuration $MOOBENCH_CONFIGURATIONS (without TextLogStreamHandler)"
+	MOOBENCH_CONFIGURATIONS="0 1 2 3 4"
+	echo "Setting default configuration $MOOBENCH_CONFIGURATIONS (all Pinpoint configurations)"
 fi
 echo "Running configurations: $MOOBENCH_CONFIGURATIONS"
 #
@@ -65,7 +65,11 @@ info "Experiment will take circa ${TIME} seconds."
 JAVA_ARGS="-Xms1G -Xmx2G"
 
 JAVA_ARGS_NOINSTR="${JAVA_ARGS}"
-JAVA_ARGS_PINTPOINT_BASIC="${JAVA_ARGS} -javaagent:pinpoint/pinpoint-agent-3.0.1/pinpoint-bootstrap.jar -Dpinpoint.agentId=moobench-agent -Dpinpoint.applicationName=MOOBENCH"
+PINPOINT_BASIC="-javaagent:pinpoint/pinpoint-agent-3.0.1/pinpoint-bootstrap.jar -Dpinpoint.agentId=moobench-agent -Dpinpoint.applicationName=MOOBENCH "
+JAVA_ARGS_PINTPOINT_DISABLED="${JAVA_ARGS} $PINPOINT_BASIC -Dpinpoint.disable=true"
+JAVA_ARGS_PINTPOINT_NO_MEASUREMENT="${JAVA_ARGS} $PINPOINT_BASIC -Dprofiler.pinpoint.base-package="
+JAVA_ARGS_PINTPOINT_BASIC="${JAVA_ARGS} $PINPOINT_BASIC -Dpinpoint.applicationName=MOOBENCH"
+JAVA_ARGS_PINTPOINT_SAMPLING="${JAVA_ARGS} $PINPOINT_BASIC -Dprofiler.sampling.counting.sampling-rate=20"
 
 writeConfiguration
 checkMoobenchConfiguration
