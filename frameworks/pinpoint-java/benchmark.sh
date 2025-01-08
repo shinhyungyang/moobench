@@ -9,6 +9,12 @@
 BASE_DIR=$(cd "$(dirname "$0")"; pwd)
 MAIN_DIR="${BASE_DIR}/../.."
 
+if [ -z "$JAVA_HOME" ]
+then
+    echo "Pinpoint dependencies need JAVA_HOME to be set; please set it to start the benchmark"
+    exit 1
+fi
+
 #
 # source functionality
 #
