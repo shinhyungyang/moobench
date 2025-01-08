@@ -4,7 +4,7 @@
 source ${MAIN_DIR}/config.rc
 
 DATA_DIR="${BASE_DIR}/data"
-AGENT_JAR="${BASE_DIR}/pinpoint-agent-3.0.1/pinpoint-bootstrap-3.0.1.jar"
+AGENT_JAR="${BASE_DIR}/pinpoint/pinpoint-agent-3.0.1/pinpoint-bootstrap-3.0.1.jar"
 
 #MORE_PARAMS="--quickstart"
 MORE_PARAMS="--application moobench.application.MonitoredClassSimple ${MORE_PARAMS}"
