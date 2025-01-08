@@ -202,13 +202,15 @@ function runNoInstrumentation {
 }
 
 function startPinpointServers {
-    startHBase
-    startKafka
-    startPinot
+   mkdir -p logs
+
+   startHBase
+   startKafka
+   startPinot
     
-    sleep 30
-    startCollectorAndWeb
-    sleep 30
+   sleep 30
+   startCollectorAndWeb
+   sleep 30
 }
 
 function stopPinpointServers {
