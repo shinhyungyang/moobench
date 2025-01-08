@@ -9,14 +9,6 @@
 BASE_DIR=$(cd "$(dirname "$0")"; pwd)
 MAIN_DIR="${BASE_DIR}/../.."
 
-# Hotfix for ASPECTJ
-# https://stackoverflow.com/questions/70411097/instrument-java-17-with-aspectj
-JAVA_VERSION=$(java -version 2>&1 | grep version | sed 's/^.* "\([0-9\.]*\).*/\1/g')
-if [ "${JAVA_VERSION}" != "1.8.0" ] ; then
-	export JAVA_OPTS="--add-opens java.base/java.lang=ALL-UNNAMED --add-exports=java.base/sun.net=ALL-UNNAMED"
-	echo "Setting \$JAVA_OPTS, since Java version is bigger than 8"
-fi
-
 #
 # source functionality
 #
@@ -99,7 +91,7 @@ info "Experiment will take circa ${TIME} seconds."
 JAVA_ARGS="-Xms1G -Xmx2G"
 
 
-SCOUTER_ARGS="-javaagent:${AGENT} -Dobj_name=moobench-benchmark -Dhook_service_patterns=moobench.application.MonitoredClassThreaded.monitoredMethod -Dhook_method_patterns=moobench.application.*.* -Dnet_collector_ip=127.0.0.1 ${JAVA_ARGS}"
+SCOUTER_ARGS="-javaagent:${AGENT} -Dobj_name=moobench-benchmark -Dhook_service_patterns=${APP_CLASS}.monitoredMethod -Dhook_method_patterns=moobench.application.*.* -Dnet_collector_ip=127.0.0.1 ${JAVA_ARGS}"
 
 startScouterServer
 

@@ -34,7 +34,7 @@ function stopScouterServer() {
 
 function executeBenchmark {
 	runNoInstrumentation
-    runScouter
+	runScouter
 }
 
 
@@ -44,11 +44,12 @@ function runNoInstrumentation() {
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
     export BENCHMARK_OPTS="${JAVA_ARGS}"
     "${MOOBENCH_BIN}" \
-		--output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
+	--output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
         --method-time "${METHOD_TIME}" \
         --total-threads "${THREADS}" \
-        --recursion-depth "${RECURSION_DEPTH}" &> "${RESULTS_DIR}/output_${i}_${RECURSION_DEPTH}_${k}.txt"
+        --recursion-depth "${RECURSION_DEPTH}" \
+        ${MORE_PARAMS} &> "${RESULTS_DIR}/output_${i}_${RECURSION_DEPTH}_${k}.txt"
 }
 
 function runScouter() {
@@ -57,9 +58,10 @@ function runScouter() {
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
     export BENCHMARK_OPTS="${SCOUTER_ARGS}"
     "${MOOBENCH_BIN}" \
-		--output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
+	--output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
         --method-time "${METHOD_TIME}" \
         --total-threads "${THREADS}" \
-        --recursion-depth "${RECURSION_DEPTH}" &> "${RESULTS_DIR}/output_${i}_${RECURSION_DEPTH}_${k}.txt"
+        --recursion-depth "${RECURSION_DEPTH}" \
+        ${MORE_PARAMS} &> "${RESULTS_DIR}/output_${i}_${RECURSION_DEPTH}_${k}.txt"
 }
