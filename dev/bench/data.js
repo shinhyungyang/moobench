@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736456461993,
+  "lastUpdate": 1736458910886,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -86214,6 +86214,60 @@ window.BENCHMARK_DATA = {
             "value": 9574.2,
             "unit": "ns",
             "range": 193.284
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "cf3c08deaa93667e8b4d7c8a4dbff87f036560d0",
+          "message": "Remove accidentially commited sleep",
+          "timestamp": "2025-01-09T20:04:38+01:00",
+          "tree_id": "fd461335cd454d8320b1be4852e325e62b5797b1",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/cf3c08deaa93667e8b4d7c8a4dbff87f036560d0"
+        },
+        "date": 1736458907380,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.8996,
+            "unit": "ns",
+            "range": 0.319846
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 5325.14,
+            "unit": "ns",
+            "range": 135.031
+          },
+          {
+            "name": "No logging",
+            "value": 15558.4,
+            "unit": "ns",
+            "range": 260.161
+          },
+          {
+            "name": "Zipkin",
+            "value": 17058.1,
+            "unit": "ns",
+            "range": 230.361
+          },
+          {
+            "name": "Prometheus",
+            "value": 9600,
+            "unit": "ns",
+            "range": 345.55
           }
         ]
       }
