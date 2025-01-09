@@ -161,8 +161,8 @@ function startCollectorAndWeb() {
 }
 
 function stopCollectorAndWeb() {
-   kill -9 $(pgrep -f pinpoint-web-starter)
-   kill -9 $(pgrep -f pinpoint-collector-starter)
+   kill -9 $(pgrep pinpoint-web-starter-)
+   kill -9 $(pgrep pinpoint-collector-starter-)
 }
 
 function cleanup {
