@@ -30,7 +30,7 @@ jobs:
           ./setup.sh
           cd frameworks/pinpoint-java/
           export MOOBENCH_CONFIGURATIONS="0 1 2 3 4"
-          export NUM_OF_LOOPS=2
+          export NUM_OF_LOOPS=5
           ./benchmark.sh 
           cd results-pinpoint-java
           unzip results.zip 
