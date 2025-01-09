@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736443955690,
+  "lastUpdate": 1736444146330,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -30470,6 +30470,54 @@ window.BENCHMARK_DATA = {
             "value": 4287.08,
             "unit": "ns",
             "range": 107.93
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "4beaba9ac0cc5cd77b59957014db6b21284e174d",
+          "message": "Add application.properties and log4j.xml to avoid unnecessary logging",
+          "timestamp": "2025-01-09T16:34:16+01:00",
+          "tree_id": "0ba816baae45923b79ff4400e6682d9d3819c901",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/4beaba9ac0cc5cd77b59957014db6b21284e174d"
+        },
+        "date": 1736444142963,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.6411,
+            "unit": "ns",
+            "range": 0.201574
+          },
+          {
+            "name": "No logging",
+            "value": 2967.46,
+            "unit": "ns",
+            "range": 100.859
+          },
+          {
+            "name": "Zipkin",
+            "value": 4865.71,
+            "unit": "ns",
+            "range": 173.806
+          },
+          {
+            "name": "Prometheus",
+            "value": 4436.3,
+            "unit": "ns",
+            "range": 171.823
           }
         ]
       }
