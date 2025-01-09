@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736453446910,
+  "lastUpdate": 1736453700642,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -83992,6 +83992,54 @@ window.BENCHMARK_DATA = {
             "value": 7820.64,
             "unit": "ns",
             "range": 804.74
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "cf3c08deaa93667e8b4d7c8a4dbff87f036560d0",
+          "message": "Remove accidentially commited sleep",
+          "timestamp": "2025-01-09T20:04:38+01:00",
+          "tree_id": "fd461335cd454d8320b1be4852e325e62b5797b1",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/cf3c08deaa93667e8b4d7c8a4dbff87f036560d0"
+        },
+        "date": 1736453696302,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.7324,
+            "unit": "ns",
+            "range": 0.253116
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 336.868,
+            "unit": "ns",
+            "range": 32.2181
+          },
+          {
+            "name": "Regular Writing",
+            "value": 8204.99,
+            "unit": "ns",
+            "range": 1092.59
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 7460.66,
+            "unit": "ns",
+            "range": 785.34
           }
         ]
       }
