@@ -54,7 +54,7 @@ function stopHBase(){
    
    rm tmp -r
    rm logs/*
-   rm /tmp/hbase-*
+   rm /tmp/hbase-* -r
    
    cd $BASE_DIR
 }
