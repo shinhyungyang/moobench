@@ -17,8 +17,8 @@ function getAgent() {
     then
         mkdir -p "${BASE_DIR}/pinpoint"
         cd "${BASE_DIR}/pinpoint"
-        wget --output-document=pinpoint.tar.gz \
-            https://repo1.maven.org/maven2/com/navercorp/pinpoint/pinpoint-agent/3.0.1/pinpoint-agent-3.0.1.tar.gz
+        curl -o pinpoint.tar.gz \
+           https://repo1.maven.org/maven2/com/navercorp/pinpoint/pinpoint-agent/3.0.1/pinpoint-agent-3.0.1.tar.gz
         tar -xvf pinpoint.tar.gz
         cd $BASE_DIR
     fi
