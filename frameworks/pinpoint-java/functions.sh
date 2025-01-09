@@ -161,8 +161,8 @@ function startCollectorAndWeb() {
 }
 
 function stopCollectorAndWeb() {
-   kill -9 $(pgrep pinpoint-web-starter-)
-   kill -9 $(pgrep pinpoint-collector-starter-)
+   kill -9 $(pgrep -f pinpoint-web-starter-)
+   kill -9 $(pgrep -f pinpoint-collector-starter-)
 }
 
 function cleanup {
@@ -249,7 +249,7 @@ function runPinpointBasic {
         --method-time "${METHOD_TIME}" \
         --total-threads "${THREADS}" \
         --recursion-depth "${RECURSION_DEPTH}" \
-        ${MORE_PARAMS} &> "${RESULTS_DIR}/output_${i}_${RECURSION_DEPTH}_${k}.txt"
+        ${MORE_PARAMS}
    stopPinpointServers
 }
 
