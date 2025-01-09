@@ -251,8 +251,7 @@ function runPinpointBasic {
    
    setPinpointConfig
    startPinpointServers
-    
-   export BENCHMARK_OPTS="${JAVA_ARGS_PINTPOINT_BASIC}"
+   
    "${MOOBENCH_BIN}" --output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
         --method-time "${METHOD_TIME}" \
