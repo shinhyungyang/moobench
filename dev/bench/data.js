@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736396615523,
+  "lastUpdate": 1736396721890,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -16042,6 +16042,52 @@ window.BENCHMARK_DATA = {
             "value": 3278.38,
             "unit": "ns",
             "range": 44.8008
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "586f11791e4ce5f870febf87c1de78d9bb0d78d7",
+          "message": "Add benchmarking pinpoint-java",
+          "timestamp": "2025-01-08T21:47:12Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/586f11791e4ce5f870febf87c1de78d9bb0d78d7"
+        },
+        "date": 1736396718850,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.7471,
+            "unit": "ns",
+            "range": 0.608531
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 436.338,
+            "unit": "ns",
+            "range": 3.83697
+          },
+          {
+            "name": "No logging",
+            "value": 1840.18,
+            "unit": "ns",
+            "range": 6.54242
+          },
+          {
+            "name": "Binary file",
+            "value": 3232.17,
+            "unit": "ns",
+            "range": 87.991
           }
         ]
       }
