@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736458989076,
+  "lastUpdate": 1736460466880,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -86432,6 +86432,60 @@ window.BENCHMARK_DATA = {
             "value": 7581.25,
             "unit": "ns",
             "range": 1457.07
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "a4b3f2b02aa3dfe8bd2d1b566558ceb3ddaa02da",
+          "message": "Increase pinpoint check time, since the server starts require so much\ntime",
+          "timestamp": "2025-01-09T20:03:15+01:00",
+          "tree_id": "483c0a4ee3bc552f9cca1193b0dde8452ad69c89",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a4b3f2b02aa3dfe8bd2d1b566558ceb3ddaa02da"
+        },
+        "date": 1736460463404,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.544,
+            "unit": "ns",
+            "range": 0.136796
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 95.4383,
+            "unit": "ns",
+            "range": 6.01459
+          },
+          {
+            "name": "Pinpoint No Measurement",
+            "value": 100.965,
+            "unit": "ns",
+            "range": 7.81942
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 15220.3,
+            "unit": "ns",
+            "range": 1026.23
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 9266.39,
+            "unit": "ns",
+            "range": 1454.05
           }
         ]
       }
