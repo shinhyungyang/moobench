@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736441963581,
+  "lastUpdate": 1736442174989,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -59650,6 +59650,54 @@ window.BENCHMARK_DATA = {
             "value": 17638.3,
             "unit": "ns",
             "range": 1429.47
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "2c803b0bb8044fef0d0208250ef65619eb97fe03",
+          "message": "Pinpoint-collector isn't compatible with Java 11, so move to Java 17",
+          "timestamp": "2025-01-09T16:00:06+01:00",
+          "tree_id": "c687f1ebe44e62c172f6666dac556a52ed3459b8",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/2c803b0bb8044fef0d0208250ef65619eb97fe03"
+        },
+        "date": 1736442170998,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 105.236,
+            "unit": "ns",
+            "range": 0.933968
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 888.91,
+            "unit": "ns",
+            "range": 13.5224
+          },
+          {
+            "name": "No logging",
+            "value": 3212.83,
+            "unit": "ns",
+            "range": 76.0903
+          },
+          {
+            "name": "Binary file",
+            "value": 18482,
+            "unit": "ns",
+            "range": 1150.95
           }
         ]
       }
