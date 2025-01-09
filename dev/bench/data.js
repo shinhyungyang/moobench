@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736452718167,
+  "lastUpdate": 1736452910138,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -30902,6 +30902,54 @@ window.BENCHMARK_DATA = {
             "value": 4339.37,
             "unit": "ns",
             "range": 135.665
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "a4b3f2b02aa3dfe8bd2d1b566558ceb3ddaa02da",
+          "message": "Increase pinpoint check time, since the server starts require so much\ntime",
+          "timestamp": "2025-01-09T20:03:15+01:00",
+          "tree_id": "483c0a4ee3bc552f9cca1193b0dde8452ad69c89",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a4b3f2b02aa3dfe8bd2d1b566558ceb3ddaa02da"
+        },
+        "date": 1736452906527,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.6329,
+            "unit": "ns",
+            "range": 0.141279
+          },
+          {
+            "name": "No logging",
+            "value": 2927.05,
+            "unit": "ns",
+            "range": 61.7911
+          },
+          {
+            "name": "Zipkin",
+            "value": 4900.81,
+            "unit": "ns",
+            "range": 146
+          },
+          {
+            "name": "Prometheus",
+            "value": 4321.5,
+            "unit": "ns",
+            "range": 102.744
           }
         ]
       }
