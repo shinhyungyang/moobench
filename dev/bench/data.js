@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736432638672,
+  "lastUpdate": 1736433218591,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -73256,6 +73256,54 @@ window.BENCHMARK_DATA = {
             "value": 69467.6,
             "unit": "ns",
             "range": 3641.02
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "4fbda80a668392d0a0d7312473b4d7fbe2728b02",
+          "message": "Really delete all pinpoint data",
+          "timestamp": "2025-01-09T13:16:16+01:00",
+          "tree_id": "4d8f075091d608fdb12b23aa5d6bc05e430b8935",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/4fbda80a668392d0a0d7312473b4d7fbe2728b02"
+        },
+        "date": 1736433215100,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 135.362,
+            "unit": "ns",
+            "range": 7.11756
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 1523.44,
+            "unit": "ns",
+            "range": 47.7603
+          },
+          {
+            "name": "No logging",
+            "value": 6351.54,
+            "unit": "ns",
+            "range": 361.679
+          },
+          {
+            "name": "Binary file",
+            "value": 69588.2,
+            "unit": "ns",
+            "range": 3657.03
           }
         ]
       }
