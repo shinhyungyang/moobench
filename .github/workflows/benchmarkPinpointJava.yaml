@@ -29,7 +29,7 @@ jobs:
         run: |
           ./setup.sh
           cd frameworks/pinpoint-java/
-          export NUM_OF_LOOPS=10
+          export NUM_OF_LOOPS=2
           ./benchmark.sh 
           cd results-pinpoint-java
           unzip results.zip 
