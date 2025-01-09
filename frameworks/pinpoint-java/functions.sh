@@ -42,7 +42,7 @@ function startHBase() {
       wget https://raw.githubusercontent.com/pinpoint-apm/pinpoint/refs/heads/master/hbase/scripts/hbase-create.hbase
    fi
    
-   bin/hbase shell hbase-create.hbase
+   bin/hbase shell hbase-create.hbase &> ${BASE_DIR}/logs/hbase-create.log
    
    cd $BASE_DIR
 }
