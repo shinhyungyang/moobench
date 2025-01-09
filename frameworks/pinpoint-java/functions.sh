@@ -65,7 +65,8 @@ export KAFKA_VERSION=2.13-3.9.0
 function startKafka() {
    if [ ! -d kafka_$KAFKA_VERSION ]
    then
-   	wget https://dlcdn.apache.org/kafka/3.9.0/kafka_$KAFKA_VERSION.tgz
+   	curl --output kafka_$KAFKA_VERSION.tgz \
+   	   https://dlcdn.apache.org/kafka/3.9.0/kafka_$KAFKA_VERSION.tgz
    	tar -xf kafka_$KAFKA_VERSION.tgz
    fi
    cd kafka_$KAFKA_VERSION
@@ -116,8 +117,9 @@ function startPinot() {
    echo "Starting Pinot $PINOT_VERSION"
    if [ ! -d apache-pinot-$PINOT_VERSION-bin ]
    then
-      wget https://downloads.apache.org/pinot/apache-pinot-$PINOT_VERSION/apache-pinot-$PINOT_VERSION-bin.tar.gz
-      tar -zxvf apache-pinot-$PINOT_VERSION-bin.tar.gz
+      curl --output apache-pinot-$PINOT_VERSION-bin.tar.gz \
+         https://downloads.apache.org/pinot/apache-pinot-$PINOT_VERSION/apache-pinot-$PINOT_VERSION-bin.tar.gz
+      tar -zxf apache-pinot-$PINOT_VERSION-bin.tar.gz
    fi
 	
    cd apache-pinot-$PINOT_VERSION-bin
