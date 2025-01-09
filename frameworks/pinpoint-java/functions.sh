@@ -19,7 +19,7 @@ function getAgent() {
         cd "${BASE_DIR}/pinpoint"
         curl -o pinpoint.tar.gz \
            https://repo1.maven.org/maven2/com/navercorp/pinpoint/pinpoint-agent/3.0.1/pinpoint-agent-3.0.1.tar.gz
-        tar -xvf pinpoint.tar.gz
+        tar -xf pinpoint.tar.gz
         cd $BASE_DIR
     fi
 }
@@ -30,8 +30,9 @@ function startHBase() {
    echo "Starting HBase $HBASE_VERSION"
    if [ ! -d $BASE_DIR/hbase-$HBASE_VERSION ]
    then
-      wget https://dlcdn.apache.org/hbase/$HBASE_VERSION/hbase-$HBASE_VERSION-bin.tar.gz
-      tar -xvf hbase-$HBASE_VERSION-bin.tar.gz
+       curl --output hbase-$HBASE_VERSION-bin.tar.gz \
+          https://dlcdn.apache.org/hbase/$HBASE_VERSION/hbase-$HBASE_VERSION-bin.tar.gz
+      tar -xf hbase-$HBASE_VERSION-bin.tar.gz
    fi
 
    cd hbase-$HBASE_VERSION
@@ -65,7 +66,7 @@ function startKafka() {
    if [ ! -d kafka_$KAFKA_VERSION ]
    then
    	wget https://dlcdn.apache.org/kafka/3.9.0/kafka_$KAFKA_VERSION.tgz
-   	tar -xvf kafka_$KAFKA_VERSION.tgz
+   	tar -xf kafka_$KAFKA_VERSION.tgz
    fi
    cd kafka_$KAFKA_VERSION
 
