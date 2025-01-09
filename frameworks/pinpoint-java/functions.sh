@@ -13,7 +13,7 @@ then
 fi
 
 function getAgent() {
-    if [ ! -d "${BASE_DIR}/pinpoint" ]
+    if [ ! -f "${AGENT_JAR}" ]
     then
         mkdir -p "${BASE_DIR}/pinpoint"
         cd "${BASE_DIR}/pinpoint"
