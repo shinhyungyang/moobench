@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736442174989,
+  "lastUpdate": 1736442518791,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -74216,6 +74216,54 @@ window.BENCHMARK_DATA = {
             "value": 69719.4,
             "unit": "ns",
             "range": 3915.65
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "8c4a116f9312d9ad75ab00fe7f94eda39b5ef7f9",
+          "message": "Also remove verbose for kafka and pinot",
+          "timestamp": "2025-01-09T15:54:05+01:00",
+          "tree_id": "bd27f70aa89d5c5901b0e3c3cd38cd6385099958",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/8c4a116f9312d9ad75ab00fe7f94eda39b5ef7f9"
+        },
+        "date": 1736442515125,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 128.536,
+            "unit": "ns",
+            "range": 3.28944
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 1507.77,
+            "unit": "ns",
+            "range": 13.1973
+          },
+          {
+            "name": "No logging",
+            "value": 6149.38,
+            "unit": "ns",
+            "range": 194.105
+          },
+          {
+            "name": "Binary file",
+            "value": 71033.9,
+            "unit": "ns",
+            "range": 4428.59
           }
         ]
       }
