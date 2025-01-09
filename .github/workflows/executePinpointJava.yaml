@@ -19,7 +19,7 @@ jobs:
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: Java ${{ matrix.java }} OS ${{ matrix.os }} sample
-    timeout-minutes: 30 # For check of functional runnability (currently 30 minutes, since pinpoint requires some server starts...)
+    timeout-minutes: 60 # For check of functional runnability (currently 60 minutes, since pinpoint requires some server starts...)
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK ${{ matrix.java }}
