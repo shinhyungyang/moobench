@@ -150,12 +150,17 @@ function startCollectorAndWeb() {
    
    java -Dpinpoint.zookeeper.address=localhost -Dpinpoint.modules.realtime.enabled=false -jar pinpoint-collector-starter-${PINPOINT_VERSION}-exec.jar &> ${BASE_DIR}/logs/collector.log &
    
+   waitForStartup ${BASE_DIR}/logs/collector.log "Started PinpointCollectorStarter in"
+   
+   
    if [ ! -f pinpoint-web-starter-${PINPOINT_VERSION}-exec.jar ]
    then
       wget https://repo1.maven.org/maven2/com/navercorp/pinpoint/pinpoint-web-starter/${PINPOINT_VERSION}/pinpoint-web-starter-${PINPOINT_VERSION}-exec.jar
    fi
    
    java -Dpinpoint.zookeeper.address=localhost -Dpinpoint.modules.realtime.enabled=false -jar pinpoint-web-starter-${PINPOINT_VERSION}-exec.jar &> ${BASE_DIR}/logs/web-starter.log &
+    waitForStartup ${BASE_DIR}/logs/web-starter.log "Started PinpointWebStarter in"
+   
    
    cd $BASE_DIR
 }
@@ -207,10 +212,8 @@ function startPinpointServers {
    startHBase
    startKafka
    startPinot
-    
-   sleep 30
+   
    startCollectorAndWeb
-   sleep 30
 }
 
 function stopPinpointServers {
