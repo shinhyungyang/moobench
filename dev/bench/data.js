@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736452928930,
+  "lastUpdate": 1736453165135,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -16904,6 +16904,54 @@ window.BENCHMARK_DATA = {
             "value": 3248.44,
             "unit": "ns",
             "range": 67.4222
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "a4b3f2b02aa3dfe8bd2d1b566558ceb3ddaa02da",
+          "message": "Increase pinpoint check time, since the server starts require so much\ntime",
+          "timestamp": "2025-01-09T20:03:15+01:00",
+          "tree_id": "483c0a4ee3bc552f9cca1193b0dde8452ad69c89",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a4b3f2b02aa3dfe8bd2d1b566558ceb3ddaa02da"
+        },
+        "date": 1736453161515,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.5589,
+            "unit": "ns",
+            "range": 0.148723
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 441.253,
+            "unit": "ns",
+            "range": 3.25395
+          },
+          {
+            "name": "No logging",
+            "value": 1843.56,
+            "unit": "ns",
+            "range": 12.0225
+          },
+          {
+            "name": "Binary file",
+            "value": 3230.12,
+            "unit": "ns",
+            "range": 95.6496
           }
         ]
       }
