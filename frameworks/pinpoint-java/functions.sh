@@ -111,9 +111,8 @@ function waitForStartup {
 	done
 }
 
-
+export PINOT_VERSION=1.2.0
 function startPinot() {
-   PINOT_VERSION=1.2.0
    echo "Starting Pinot $PINOT_VERSION"
    if [ ! -d apache-pinot-$PINOT_VERSION-bin ]
    then
@@ -123,7 +122,10 @@ function startPinot() {
    fi
 	
    cd apache-pinot-$PINOT_VERSION-bin
-   ./bin/pinot-admin.sh QuickStart -type batch &> ${BASE_DIR}/logs/pinot.log &
+   mkdir -p pinot-temp-dir
+   ./bin/pinot-admin.sh QuickStart -type batch \
+     -dataDir $(pwd)/pinot-temp-dir \
+      &> ${BASE_DIR}/logs/pinot.log &
    
    waitForStartup ${BASE_DIR}/logs/pinot.log "***** Bootstrap tables *****"
    
@@ -140,6 +142,7 @@ function stopPinot {
    rm /tmp/.pinotAdmin*
    rm /tmp/pinot-* -r
    rm /tmp/PinotMinion -r
+   rm apache-pinot-$PINOT_VERSION-bin/pinot-temp-dir -r
 }
 
 function startCollectorAndWeb() {
