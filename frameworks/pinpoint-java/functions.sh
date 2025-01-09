@@ -258,8 +258,6 @@ function runPinpointBasic {
         --total-threads "${THREADS}" \
         --recursion-depth "${RECURSION_DEPTH}" \
         ${MORE_PARAMS}
-   echo "Sleeping..."
-   sleep 300
    stopPinpointServers
 }
 
