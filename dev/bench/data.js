@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736420289115,
+  "lastUpdate": 1736422408811,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -80454,6 +80454,62 @@ window.BENCHMARK_DATA = {
             "value": 9574.56,
             "unit": "ns",
             "range": 292.937
+          }
+        ]
+      }
+    ],
+    "Pinpoint-java": [
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "38d64a8a02e63cf73109451f2347e3c1d49eedac",
+          "message": "Show error if MOOBENCH_CONFIGURATIONS isn't defined, export it correctly\nfor pinpoint-java",
+          "timestamp": "2025-01-09T11:50:07+01:00",
+          "tree_id": "2afc8165401832afe81afa488e17bedc4e79f645",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/38d64a8a02e63cf73109451f2347e3c1d49eedac"
+        },
+        "date": 1736422405596,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.5221,
+            "unit": "ns",
+            "range": 0.1523
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 13835.2,
+            "unit": "ns",
+            "range": 1575.25
+          },
+          {
+            "name": "Pinpoint No Measurement",
+            "value": 12649.7,
+            "unit": "ns",
+            "range": 326.9
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 12452.9,
+            "unit": "ns",
+            "range": 20.1
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 12507.5,
+            "unit": "ns",
+            "range": 246.65
           }
         ]
       }
