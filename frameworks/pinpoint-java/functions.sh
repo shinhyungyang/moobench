@@ -187,10 +187,10 @@ function executeBenchmark() {
    do
       case $index in
          0) runNoInstrumentation 0 ;;
-         1) runPinpointBasic 1 $JAVA_ARGS_PINTPOINT_DISABLED ;;
-         2) runPinpointBasic 2 $JAVA_ARGS_PINTPOINT_NO_MEASUREMENT ;;
-         3) runPinpointBasic 3 $JAVA_ARGS_PINTPOINT_BASIC ;;
-         4) runPinpointBasic 4 $JAVA_ARGS_PINTPOINT_SAMPLING ;;
+         1) runPinpointBasic 1 "$JAVA_ARGS_PINTPOINT_DISABLED" ;;
+         2) runPinpointBasic 2 "$JAVA_ARGS_PINTPOINT_NO_MEASUREMENT" ;;
+         3) runPinpointBasic 3 "$JAVA_ARGS_PINTPOINT_BASIC" ;;
+         4) runPinpointBasic 4 "$JAVA_ARGS_PINTPOINT_SAMPLING" ;;
       esac
       
       cleanup
@@ -248,7 +248,7 @@ function runPinpointBasic {
    k=$1
    export BENCHMARK_OPTS=$2
    info " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]}
-   
+   echo "Running with $BENCHMARK_OPTS"
    setPinpointConfig
    startPinpointServers
    
@@ -258,6 +258,8 @@ function runPinpointBasic {
         --total-threads "${THREADS}" \
         --recursion-depth "${RECURSION_DEPTH}" \
         ${MORE_PARAMS}
+   echo "Sleeping..."
+   sleep 300
    stopPinpointServers
 }
 
