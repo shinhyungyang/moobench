@@ -29,11 +29,12 @@ jobs:
         run: |
           ./setup.sh
           cd frameworks/pinpoint-java/
+          export MOOBENCH_CONFIGURATIONS="0 1 2 3 4"
           export NUM_OF_LOOPS=2
           ./benchmark.sh 
           cd results-pinpoint-java
           unzip results.zip 
-          ../../../analysis/getGHActionsFormat.sh &> output.json
+          ../../../analysis/getGHActionsFormat.sh > output.json
           cat output.json
           mv output.json ../../../
       - name: Store benchmark result

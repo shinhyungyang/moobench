@@ -9,6 +9,13 @@ source ../labels.sh
 export size=10
 result="["
 
+if [ -z "$MOOBENCH_CONFIGURATIONS" ]
+then
+   echo "Error: \$MOOBENCH_CONFIGURATIONS was not defined" 1>&2
+   exit 1
+fi
+   
+
 for variant in $MOOBENCH_CONFIGURATIONS
 do
    values=$(
