@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736425133644,
+  "lastUpdate": 1736426582385,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -81030,6 +81030,60 @@ window.BENCHMARK_DATA = {
             "value": 9574.56,
             "unit": "ns",
             "range": 292.937
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "38d64a8a02e63cf73109451f2347e3c1d49eedac",
+          "message": "Show error if MOOBENCH_CONFIGURATIONS isn't defined, export it correctly\nfor pinpoint-java",
+          "timestamp": "2025-01-09T11:50:07+01:00",
+          "tree_id": "2afc8165401832afe81afa488e17bedc4e79f645",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/38d64a8a02e63cf73109451f2347e3c1d49eedac"
+        },
+        "date": 1736426578500,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.8039,
+            "unit": "ns",
+            "range": 0.184146
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 5429.75,
+            "unit": "ns",
+            "range": 155.045
+          },
+          {
+            "name": "No logging",
+            "value": 15291.5,
+            "unit": "ns",
+            "range": 252.791
+          },
+          {
+            "name": "Zipkin",
+            "value": 16635,
+            "unit": "ns",
+            "range": 354.737
+          },
+          {
+            "name": "Prometheus",
+            "value": 9586.11,
+            "unit": "ns",
+            "range": 370.424
           }
         ]
       }
