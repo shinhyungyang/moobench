@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736453165135,
+  "lastUpdate": 1736453446910,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -45948,6 +45948,54 @@ window.BENCHMARK_DATA = {
             "value": 5689.13,
             "unit": "ns",
             "range": 820.427
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "cf3c08deaa93667e8b4d7c8a4dbff87f036560d0",
+          "message": "Remove accidentially commited sleep",
+          "timestamp": "2025-01-09T20:04:38+01:00",
+          "tree_id": "fd461335cd454d8320b1be4852e325e62b5797b1",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/cf3c08deaa93667e8b4d7c8a4dbff87f036560d0"
+        },
+        "date": 1736453442737,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.2027,
+            "unit": "ns",
+            "range": 0.257837
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 555.915,
+            "unit": "ns",
+            "range": 14.807
+          },
+          {
+            "name": "No logging",
+            "value": 2532.01,
+            "unit": "ns",
+            "range": 85.7028
+          },
+          {
+            "name": "Binary file",
+            "value": 5706.18,
+            "unit": "ns",
+            "range": 722.11
           }
         ]
       }
