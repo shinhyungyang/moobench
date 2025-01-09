@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736416657886,
+  "lastUpdate": 1736416738084,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -79096,6 +79096,54 @@ window.BENCHMARK_DATA = {
             "value": 7609.72,
             "unit": "ns",
             "range": 762.166
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "3f61020e4f883b1c053ddb546510ff26b66938d3",
+          "message": "Make pattern for process searching more exact",
+          "timestamp": "2025-01-09T09:59:14+01:00",
+          "tree_id": "cf9b8b8b3dd1726e18f2e0b8e61baf761267d4f6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/3f61020e4f883b1c053ddb546510ff26b66938d3"
+        },
+        "date": 1736416734287,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 91.0541,
+            "unit": "ns",
+            "range": 0.739324
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 327.137,
+            "unit": "ns",
+            "range": 20.5125
+          },
+          {
+            "name": "Regular Writing",
+            "value": 8208.87,
+            "unit": "ns",
+            "range": 1137.21
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 8307.99,
+            "unit": "ns",
+            "range": 1081.45
           }
         ]
       }
