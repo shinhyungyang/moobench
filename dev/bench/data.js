@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736450657198,
+  "lastUpdate": 1736451541577,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -75464,6 +75464,54 @@ window.BENCHMARK_DATA = {
             "value": 70152.1,
             "unit": "ns",
             "range": 3116.8
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "89598f2b01605c1cad6b12987965dcda683fea42",
+          "message": "Check for existence of agent jar",
+          "timestamp": "2025-01-09T17:54:09+01:00",
+          "tree_id": "046fce506681d626e557874b55ba1e7c7985b78d",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/89598f2b01605c1cad6b12987965dcda683fea42"
+        },
+        "date": 1736451538088,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 132.615,
+            "unit": "ns",
+            "range": 4.75681
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 1470.97,
+            "unit": "ns",
+            "range": 58.4939
+          },
+          {
+            "name": "No logging",
+            "value": 6489.29,
+            "unit": "ns",
+            "range": 311.193
+          },
+          {
+            "name": "Binary file",
+            "value": 68797.9,
+            "unit": "ns",
+            "range": 3756.05
           }
         ]
       }
