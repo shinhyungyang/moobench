@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736520230534,
+  "lastUpdate": 1736520331370,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -85096,6 +85096,54 @@ window.BENCHMARK_DATA = {
             "value": 7861.04,
             "unit": "ns",
             "range": 685.603
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "389d4d4c7fccf1221234ab56272982c04f07a25f",
+          "message": "Also add R to OpenTelemetry",
+          "timestamp": "2025-01-10T14:44:18+01:00",
+          "tree_id": "474ac2006aa3c603bd025c3fb544c391e14c202e",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/389d4d4c7fccf1221234ab56272982c04f07a25f"
+        },
+        "date": 1736520327544,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.1758,
+            "unit": "ns",
+            "range": 0.242617
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 326.343,
+            "unit": "ns",
+            "range": 29.2175
+          },
+          {
+            "name": "Regular Writing",
+            "value": 7783.05,
+            "unit": "ns",
+            "range": 954.844
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 7678.19,
+            "unit": "ns",
+            "range": 928.729
           }
         ]
       }
