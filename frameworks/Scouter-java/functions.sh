@@ -14,6 +14,7 @@ function getAgent() {
 		cd "${BASE_DIR}"
 		wget https://github.com/scouter-project/scouter/releases/download/v2.20.0/scouter-all-2.20.0.tar.gz
 		tar -xvzf scouter-all-2.20.0.tar.gz
+		sed -i 's@java@java --add-opens java.base/java.lang=ALL-UNNAMED --add-exports java.base/sun.net=ALL-UNNAMED @g' "${BASE_DIR}/scouter/server/startup.sh"
 		cd "${BASE_DIR}"
 	fi
 }
