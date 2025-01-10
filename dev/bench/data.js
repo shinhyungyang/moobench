@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736517986427,
+  "lastUpdate": 1736518215707,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -87266,6 +87266,60 @@ window.BENCHMARK_DATA = {
             "value": 7180.84,
             "unit": "ns",
             "range": 621.385
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "59d51e3b0aa10eab56d8c047cdc0314d30512741",
+          "message": "Also add r for benchmark Kieker-java",
+          "timestamp": "2025-01-10T13:44:03+01:00",
+          "tree_id": "21dfeec7f146692ef30f418a4e82666d9bd15bb4",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/59d51e3b0aa10eab56d8c047cdc0314d30512741"
+        },
+        "date": 1736518211831,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.0229,
+            "unit": "ns",
+            "range": 0.193915
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 94.2668,
+            "unit": "ns",
+            "range": 3.09674
+          },
+          {
+            "name": "Pinpoint No Measurement",
+            "value": 98.9023,
+            "unit": "ns",
+            "range": 5.72746
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 11954.6,
+            "unit": "ns",
+            "range": 429.174
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 6822.22,
+            "unit": "ns",
+            "range": 70.8381
           }
         ]
       }
