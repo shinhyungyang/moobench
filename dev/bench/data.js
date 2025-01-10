@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736516822652,
+  "lastUpdate": 1736517103960,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -46284,6 +46284,54 @@ window.BENCHMARK_DATA = {
             "value": 4816.43,
             "unit": "ns",
             "range": 557.609
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "91f129ec64a6c65feb0f1f4b23ca933dddeee904",
+          "message": "Remove uninstrumented call - pinpoint does nothing if no method is\nselected (same as deactivated)",
+          "timestamp": "2025-01-10T13:45:11+01:00",
+          "tree_id": "1a27325148298d8a14f173865d8c96bb828e53ef",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/91f129ec64a6c65feb0f1f4b23ca933dddeee904"
+        },
+        "date": 1736517099597,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 93.8606,
+            "unit": "ns",
+            "range": 0.54106
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 564.958,
+            "unit": "ns",
+            "range": 21.9379
+          },
+          {
+            "name": "No logging",
+            "value": 2575.95,
+            "unit": "ns",
+            "range": 113.702
+          },
+          {
+            "name": "Binary file",
+            "value": 4700.55,
+            "unit": "ns",
+            "range": 652.706
           }
         ]
       }
