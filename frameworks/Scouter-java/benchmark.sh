@@ -27,7 +27,7 @@ fi
 
 if [ -z "$MOOBENCH_CONFIGURATIONS" ]
 then
-	MOOBENCH_CONFIGURATIONS="0 1"
+	MOOBENCH_CONFIGURATIONS="0 1 2"
 	echo "Setting default configuration $MOOBENCH_CONFIGURATIONS"
 fi
 echo "Running configurations: $MOOBENCH_CONFIGURATIONS"
@@ -69,8 +69,9 @@ info "Experiment will take circa ${TIME} seconds."
 # general server arguments  -Xms1G -Xmx2G
 JAVA_ARGS="-Xms1G -Xmx2G"
 
+SCOUTER_ARGS_DEFAULT="-javaagent:${AGENT} -Dobj_name=moobench-benchmark -Dnet_collector_ip=127.0.0.1"
 
-SCOUTER_ARGS="-javaagent:${AGENT} -Dobj_name=moobench-benchmark -Dhook_service_patterns=${APP_CLASS}.monitoredMethod -Dhook_method_patterns=moobench.application.*.* -Dnet_collector_ip=127.0.0.1 ${JAVA_ARGS}"
+SCOUTER_ARGS_PROFILING="${SCOUTER_ARGS_DEFAULT} -Dhook_service_patterns=${APP_CLASS}.monitoredMethod -Dhook_method_patterns=moobench.application.*.* ${JAVA_ARGS}"
 
 startScouterServer
 

@@ -34,14 +34,20 @@ function stopScouterServer() {
 
 
 function executeBenchmark {
-	runNoInstrumentation
-	runScouter
+	for index in $MOOBENCH_CONFIGURATIONS
+   	do
+      	case $index in
+        	0) runNoInstrumentation 0 ;;
+        	1) runScouterDefault 1 ;;
+        	2) runScouterMethodProfiling 2;;
+      	esac
+ 	done
 }
 
 
-function runNoInstrumentation() {
+function runNoInstrumentation {
     # No instrumentation
-	k=0
+	k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
     export BENCHMARK_OPTS="${JAVA_ARGS}"
     "${MOOBENCH_BIN}" \
@@ -53,11 +59,25 @@ function runNoInstrumentation() {
         ${MORE_PARAMS} &> "${RESULTS_DIR}/output_${i}_${RECURSION_DEPTH}_${k}.txt"
 }
 
-function runScouter() {
-	# Scouter
-	k=1
+function runScouterDefault {
+	# Scouter with no hook methods
+	k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
-    export BENCHMARK_OPTS="${SCOUTER_ARGS}"
+    export BENCHMARK_OPTS="${SCOUTER_ARGS_DEFAULT}"
+    "${MOOBENCH_BIN}" \
+	--output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
+        --total-calls "${TOTAL_NUM_OF_CALLS}" \
+        --method-time "${METHOD_TIME}" \
+        --total-threads "${THREADS}" \
+        --recursion-depth "${RECURSION_DEPTH}" \
+        ${MORE_PARAMS} &> "${RESULTS_DIR}/output_${i}_${RECURSION_DEPTH}_${k}.txt"
+}
+
+function runScouterMethodProfiling {
+	# Scouter with hook methods
+	k=$1
+    info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
+    export BENCHMARK_OPTS="${SCOUTER_ARGS_PROFILING}"
     "${MOOBENCH_BIN}" \
 	--output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
