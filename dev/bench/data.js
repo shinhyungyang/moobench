@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736520331370,
+  "lastUpdate": 1736520500757,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -87240,6 +87240,60 @@ window.BENCHMARK_DATA = {
             "value": 9876.15,
             "unit": "ns",
             "range": 245.445
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "91f129ec64a6c65feb0f1f4b23ca933dddeee904",
+          "message": "Remove uninstrumented call - pinpoint does nothing if no method is\nselected (same as deactivated)",
+          "timestamp": "2025-01-10T13:45:11+01:00",
+          "tree_id": "1a27325148298d8a14f173865d8c96bb828e53ef",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/91f129ec64a6c65feb0f1f4b23ca933dddeee904"
+        },
+        "date": 1736520497113,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.1747,
+            "unit": "ns",
+            "range": 0.172254
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 5484.63,
+            "unit": "ns",
+            "range": 188.307
+          },
+          {
+            "name": "No logging",
+            "value": 15528.5,
+            "unit": "ns",
+            "range": 391.61
+          },
+          {
+            "name": "Zipkin",
+            "value": 16905.8,
+            "unit": "ns",
+            "range": 321.104
+          },
+          {
+            "name": "Prometheus",
+            "value": 9760.94,
+            "unit": "ns",
+            "range": 293.724
           }
         ]
       }
