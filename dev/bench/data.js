@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736523481738,
+  "lastUpdate": 1736524350368,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -76952,6 +76952,54 @@ window.BENCHMARK_DATA = {
             "value": 54923.4,
             "unit": "ns",
             "range": 1515.56
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "bfc059b51d25bf0f7fde8dcf61d4f5498ba7a8d2",
+          "message": "Set NUM_OF_LOOPS to 10 for Pinpoint (default for all others)",
+          "timestamp": "2025-01-10T15:13:30+01:00",
+          "tree_id": "cf2cd8adb26bf0200a8faccea0d22764b773ca9f",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/bfc059b51d25bf0f7fde8dcf61d4f5498ba7a8d2"
+        },
+        "date": 1736524346730,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 176.052,
+            "unit": "ns",
+            "range": 3.79544
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 1625.72,
+            "unit": "ns",
+            "range": 43.7154
+          },
+          {
+            "name": "No logging",
+            "value": 6272.55,
+            "unit": "ns",
+            "range": 346.323
+          },
+          {
+            "name": "Binary file",
+            "value": 54423.9,
+            "unit": "ns",
+            "range": 1843.26
           }
         ]
       }
