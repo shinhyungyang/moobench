@@ -40,6 +40,7 @@ function executeBenchmark {
         	0) runNoInstrumentation 0 ;;
         	1) runScouterDefault 1 ;;
         	2) runScouterMethodProfiling 2;;
+        	3) runScouterNoMethodProfiling 3;;
       	esac
  	done
 }
@@ -78,6 +79,20 @@ function runScouterMethodProfiling {
 	k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
     export BENCHMARK_OPTS="${SCOUTER_ARGS_PROFILING}"
+    "${MOOBENCH_BIN}" \
+	--output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
+        --total-calls "${TOTAL_NUM_OF_CALLS}" \
+        --method-time "${METHOD_TIME}" \
+        --total-threads "${THREADS}" \
+        --recursion-depth "${RECURSION_DEPTH}" \
+        ${MORE_PARAMS} &> "${RESULTS_DIR}/output_${i}_${RECURSION_DEPTH}_${k}.txt"
+}
+
+function runScouterNoMethodProfiling {
+	# Scouter with hook methods
+	k=$1
+    info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
+    export BENCHMARK_OPTS="${SCOUTER_ARGS_NO_PROFILING}"
     "${MOOBENCH_BIN}" \
 	--output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
