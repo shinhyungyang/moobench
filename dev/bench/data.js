@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736568912824,
+  "lastUpdate": 1736568919684,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -31428,6 +31428,52 @@ window.BENCHMARK_DATA = {
             "value": 5133.17,
             "unit": "ns",
             "range": 169.638
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "bfc059b51d25bf0f7fde8dcf61d4f5498ba7a8d2",
+          "message": "Set NUM_OF_LOOPS to 10 for Pinpoint (default for all others)",
+          "timestamp": "2025-01-10T14:13:30Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/bfc059b51d25bf0f7fde8dcf61d4f5498ba7a8d2"
+        },
+        "date": 1736568915393,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.1197,
+            "unit": "ns",
+            "range": 0.266445
+          },
+          {
+            "name": "No logging",
+            "value": 2915.87,
+            "unit": "ns",
+            "range": 125.866
+          },
+          {
+            "name": "Zipkin",
+            "value": 4840.17,
+            "unit": "ns",
+            "range": 219.798
+          },
+          {
+            "name": "Prometheus",
+            "value": 4363.48,
+            "unit": "ns",
+            "range": 197.839
           }
         ]
       }
