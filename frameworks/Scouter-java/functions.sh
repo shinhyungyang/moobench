@@ -65,6 +65,7 @@ function runScouterDefault {
 	k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
     export BENCHMARK_OPTS="${SCOUTER_ARGS_DEFAULT}"
+    startScouterServer
     "${MOOBENCH_BIN}" \
 	--output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
@@ -72,6 +73,7 @@ function runScouterDefault {
         --total-threads "${THREADS}" \
         --recursion-depth "${RECURSION_DEPTH}" \
         ${MORE_PARAMS} &> "${RESULTS_DIR}/output_${i}_${RECURSION_DEPTH}_${k}.txt"
+    stopScouterServer
 }
 
 function runScouterMethodProfiling {
@@ -79,6 +81,7 @@ function runScouterMethodProfiling {
 	k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
     export BENCHMARK_OPTS="${SCOUTER_ARGS_PROFILING}"
+	startScouterServer
     "${MOOBENCH_BIN}" \
 	--output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
@@ -86,6 +89,7 @@ function runScouterMethodProfiling {
         --total-threads "${THREADS}" \
         --recursion-depth "${RECURSION_DEPTH}" \
         ${MORE_PARAMS} &> "${RESULTS_DIR}/output_${i}_${RECURSION_DEPTH}_${k}.txt"
+    stopScouterServer
 }
 
 function runScouterNoMethodProfiling {
@@ -93,6 +97,7 @@ function runScouterNoMethodProfiling {
 	k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
     export BENCHMARK_OPTS="${SCOUTER_ARGS_NO_PROFILING}"
+    startScouterServer
     "${MOOBENCH_BIN}" \
 	--output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
@@ -100,4 +105,5 @@ function runScouterNoMethodProfiling {
         --total-threads "${THREADS}" \
         --recursion-depth "${RECURSION_DEPTH}" \
         ${MORE_PARAMS} &> "${RESULTS_DIR}/output_${i}_${RECURSION_DEPTH}_${k}.txt"
+    stopScouterServer
 }

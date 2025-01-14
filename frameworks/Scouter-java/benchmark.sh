@@ -75,11 +75,7 @@ SCOUTER_ARGS_PROFILING="${SCOUTER_ARGS_DEFAULT} -Dhook_service_patterns=${APP_CL
 
 SCOUTER_ARGS_NO_PROFILING="${SCOUTER_ARGS_PROFILING} -Dprofile_method_enabled=false"
 
-startScouterServer
-
 executeAllLoops
-
-stopScouterServer
 
 exit 0
 # end
