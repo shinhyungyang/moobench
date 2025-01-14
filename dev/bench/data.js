@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736827686974,
+  "lastUpdate": 1736827812842,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -31800,6 +31800,52 @@ window.BENCHMARK_DATA = {
             "value": 4394.26,
             "unit": "ns",
             "range": 97.8078
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "03aa96db70f0d0d15ee88c3fa25f82a0cc5591d2",
+          "message": "Remove DATA_DIR that is never used",
+          "timestamp": "2025-01-12T16:41:58Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/03aa96db70f0d0d15ee88c3fa25f82a0cc5591d2"
+        },
+        "date": 1736827808443,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.1693,
+            "unit": "ns",
+            "range": 0.184573
+          },
+          {
+            "name": "No logging",
+            "value": 2907.1,
+            "unit": "ns",
+            "range": 94.1836
+          },
+          {
+            "name": "Zipkin",
+            "value": 4799.36,
+            "unit": "ns",
+            "range": 153.664
+          },
+          {
+            "name": "Prometheus",
+            "value": 4459.49,
+            "unit": "ns",
+            "range": 139.061
           }
         ]
       }
