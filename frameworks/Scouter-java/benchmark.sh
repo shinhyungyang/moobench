@@ -69,11 +69,15 @@ info "Experiment will take circa ${TIME} seconds."
 # general server arguments  -Xms1G -Xmx2G
 JAVA_ARGS="-Xms1G -Xmx2G"
 
-SCOUTER_ARGS_DEFAULT="${JAVA_ARGS} -javaagent:${AGENT} -Dobj_name=moobench-benchmark -Dnet_collector_ip=127.0.0.1"
+declare -a SCOUTER_CONFIG
 
-SCOUTER_ARGS_PROFILING="${SCOUTER_ARGS_DEFAULT} -Dhook_service_patterns=${APP_CLASS}.monitoredMethod -Dhook_method_patterns=moobench.application.*.*"
+SCOUTER_CONFIG[0]="${JAVA_ARGS}"
 
-SCOUTER_ARGS_NO_PROFILING="${SCOUTER_ARGS_PROFILING} -Dprofile_method_enabled=false"
+SCOUTER_CONFIG[1]="${SCOUTER_CONFIG[0]} -javaagent:${AGENT} -Dobj_name=moobench-benchmark -Dnet_collector_ip=127.0.0.1"
+
+SCOUTER_CONFIG[2]="${SCOUTER_CONFIG[1]} -Dhook_service_patterns=${APP_CLASS}.monitoredMethod -Dhook_method_patterns=moobench.application.*.*"
+
+SCOUTER_CONFIG[3]="${SCOUTER_CONFIG[2]} -Dprofile_method_enabled=false"
 
 executeAllLoops
 
