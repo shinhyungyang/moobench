@@ -48,8 +48,6 @@ then
 	getAgent
 fi
 
-checkDirectory data-dir "${DATA_DIR}" create
-checkFile log "${DATA_DIR}/kieker.log" clean
 cleanupResults
 mkdir -p $RESULTS_DIR
 PARENT=`dirname "${RESULTS_DIR}"`
