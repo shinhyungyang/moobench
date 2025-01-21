@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737478347901,
+  "lastUpdate": 1737479273105,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -32634,6 +32634,54 @@ window.BENCHMARK_DATA = {
             "value": 4361.52,
             "unit": "ns",
             "range": 200.348
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9836717b55220d8c0175cafe355dd251757ef2be",
+          "message": "Merge pull request #22 from Marcel-Ha/support-scouter\n\nAdd scouter java framework",
+          "timestamp": "2025-01-21T16:52:42+01:00",
+          "tree_id": "847f6fc48cf5d0898976e783ff9903ca39a71324",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/9836717b55220d8c0175cafe355dd251757ef2be"
+        },
+        "date": 1737479269060,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.2229,
+            "unit": "ns",
+            "range": 0.11885
+          },
+          {
+            "name": "No logging",
+            "value": 3013.49,
+            "unit": "ns",
+            "range": 98.2203
+          },
+          {
+            "name": "Zipkin",
+            "value": 4840.57,
+            "unit": "ns",
+            "range": 226.065
+          },
+          {
+            "name": "Prometheus",
+            "value": 4413.7,
+            "unit": "ns",
+            "range": 162.613
           }
         ]
       }
