@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737482643143,
+  "lastUpdate": 1737483635291,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -93492,6 +93492,54 @@ window.BENCHMARK_DATA = {
             "value": 6947.95,
             "unit": "ns",
             "range": 121.972
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9836717b55220d8c0175cafe355dd251757ef2be",
+          "message": "Merge pull request #22 from Marcel-Ha/support-scouter\n\nAdd scouter java framework",
+          "timestamp": "2025-01-21T16:52:42+01:00",
+          "tree_id": "847f6fc48cf5d0898976e783ff9903ca39a71324",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/9836717b55220d8c0175cafe355dd251757ef2be"
+        },
+        "date": 1737483630297,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.0584,
+            "unit": "ns",
+            "range": 0.149988
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 93.3916,
+            "unit": "ns",
+            "range": 2.13815
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 11788.8,
+            "unit": "ns",
+            "range": 367.656
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 6888.91,
+            "unit": "ns",
+            "range": 580.959
           }
         ]
       }
