@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737571701173,
+  "lastUpdate": 1737571808119,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -94646,6 +94646,54 @@ window.BENCHMARK_DATA = {
             "value": 6966.53,
             "unit": "ns",
             "range": 463.107
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "375faa2867bfb4b2e4f860bc338c1fc275106f6c",
+          "message": "Stop running parallelized versions on every push and nightly - instead,\nonly once a week",
+          "timestamp": "2025-01-22T17:35:02+01:00",
+          "tree_id": "9aa76a516c6ace939c85456f8d7c3ca1818e7abc",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/375faa2867bfb4b2e4f860bc338c1fc275106f6c"
+        },
+        "date": 1737571803605,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.0974,
+            "unit": "ns",
+            "range": 0.23283
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 93.9459,
+            "unit": "ns",
+            "range": 2.08904
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 11846.4,
+            "unit": "ns",
+            "range": 352.146
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 6940.12,
+            "unit": "ns",
+            "range": 554.704
           }
         ]
       }
