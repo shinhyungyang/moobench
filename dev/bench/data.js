@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737519230386,
+  "lastUpdate": 1737520421213,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -80434,6 +80434,52 @@ window.BENCHMARK_DATA = {
             "value": 55995.2,
             "unit": "ns",
             "range": 1734.98
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "9836717b55220d8c0175cafe355dd251757ef2be",
+          "message": "Merge pull request #22 from Marcel-Ha/support-scouter\n\nAdd scouter java framework",
+          "timestamp": "2025-01-21T15:52:42Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/9836717b55220d8c0175cafe355dd251757ef2be"
+        },
+        "date": 1737520416515,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 177.473,
+            "unit": "ns",
+            "range": 4.43183
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 1602.08,
+            "unit": "ns",
+            "range": 59.2473
+          },
+          {
+            "name": "No logging",
+            "value": 6396.13,
+            "unit": "ns",
+            "range": 351.932
+          },
+          {
+            "name": "Binary file",
+            "value": 52652,
+            "unit": "ns",
+            "range": 1676.14
           }
         ]
       }
