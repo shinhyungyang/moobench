@@ -30,10 +30,12 @@ jobs:
         run: |
           ./setup.sh
           cd frameworks/Scouter-java/
-          export NUM_OF_LOOPS=10
+          export NUM_OF_LOOPS=3
           ./benchmark.sh 
           cd results-Scouter-java
-          unzip results.zip 
+          unzip results.zip
+          pwd
+          ls
           ../../../analysis/getGHActionsFormat.sh &> output.json
           cat output.json
           mv output.json ../../../
