@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737566670321,
+  "lastUpdate": 1737566756540,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -17936,6 +17936,54 @@ window.BENCHMARK_DATA = {
             "value": 3948.97,
             "unit": "ns",
             "range": 58.8923
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "375faa2867bfb4b2e4f860bc338c1fc275106f6c",
+          "message": "Stop running parallelized versions on every push and nightly - instead,\nonly once a week",
+          "timestamp": "2025-01-22T17:35:02+01:00",
+          "tree_id": "9aa76a516c6ace939c85456f8d7c3ca1818e7abc",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/375faa2867bfb4b2e4f860bc338c1fc275106f6c"
+        },
+        "date": 1737566752204,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.1314,
+            "unit": "ns",
+            "range": 0.18683
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 442.985,
+            "unit": "ns",
+            "range": 3.39243
+          },
+          {
+            "name": "No logging",
+            "value": 1869.06,
+            "unit": "ns",
+            "range": 10.9517
+          },
+          {
+            "name": "Binary file",
+            "value": 3881.44,
+            "unit": "ns",
+            "range": 80.7363
           }
         ]
       }
