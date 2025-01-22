@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737568138904,
+  "lastUpdate": 1737568308580,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -32966,6 +32966,54 @@ window.BENCHMARK_DATA = {
             "value": 4456.39,
             "unit": "ns",
             "range": 121.419
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "73dbc0b1aaeb0e301e8df9c5f0d9ffad18e00e3b",
+          "message": "Don't set configurations manually for scouter-java",
+          "timestamp": "2025-01-22T17:40:26+01:00",
+          "tree_id": "098c4540fd48139a44379cd440de9ffea9d2bc28",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/73dbc0b1aaeb0e301e8df9c5f0d9ffad18e00e3b"
+        },
+        "date": 1737568304529,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.0456,
+            "unit": "ns",
+            "range": 0.170295
+          },
+          {
+            "name": "No logging",
+            "value": 2987.95,
+            "unit": "ns",
+            "range": 163.806
+          },
+          {
+            "name": "Zipkin",
+            "value": 4934.37,
+            "unit": "ns",
+            "range": 246.018
+          },
+          {
+            "name": "Prometheus",
+            "value": 4384.11,
+            "unit": "ns",
+            "range": 123.497
           }
         ]
       }
