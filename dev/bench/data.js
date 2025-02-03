@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738473938773,
+  "lastUpdate": 1738553460497,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -98408,6 +98408,52 @@ window.BENCHMARK_DATA = {
             "value": 22492.4,
             "unit": "ns",
             "range": 281.34
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "828ad74abbf648d2d943066a220fce1156f810f6",
+          "message": "Define MOOBENCH_CONFIGURATIONS for getGHActionsFormat.sh",
+          "timestamp": "2025-01-22T20:31:38Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/828ad74abbf648d2d943066a220fce1156f810f6"
+        },
+        "date": 1738553456057,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 91.9764,
+            "unit": "ns",
+            "range": 0.0880105
+          },
+          {
+            "name": "Default Scouter",
+            "value": 92.0672,
+            "unit": "ns",
+            "range": 0.203556
+          },
+          {
+            "name": "Method Profiling",
+            "value": 25196.9,
+            "unit": "ns",
+            "range": 267.523
+          },
+          {
+            "name": "No Profiling",
+            "value": 21887,
+            "unit": "ns",
+            "range": 324.077
           }
         ]
       }
