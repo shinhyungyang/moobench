@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738553460497,
+  "lastUpdate": 1738555947982,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -66370,6 +66370,52 @@ window.BENCHMARK_DATA = {
             "value": 15452.4,
             "unit": "ns",
             "range": 623.141
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "828ad74abbf648d2d943066a220fce1156f810f6",
+          "message": "Define MOOBENCH_CONFIGURATIONS for getGHActionsFormat.sh",
+          "timestamp": "2025-01-22T20:31:38Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/828ad74abbf648d2d943066a220fce1156f810f6"
+        },
+        "date": 1738555943412,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 106.115,
+            "unit": "ns",
+            "range": 0.443894
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 865.044,
+            "unit": "ns",
+            "range": 15.419
+          },
+          {
+            "name": "No logging",
+            "value": 3345.94,
+            "unit": "ns",
+            "range": 182.543
+          },
+          {
+            "name": "Binary file",
+            "value": 15336.6,
+            "unit": "ns",
+            "range": 833.523
           }
         ]
       }
