@@ -27,7 +27,7 @@ fi
 
 if [ -z "$MOOBENCH_CONFIGURATIONS" ]
 then
-	MOOBENCH_CONFIGURATIONS="0 1"
+	MOOBENCH_CONFIGURATIONS="0 1 2"
 	echo "Setting default configuration $MOOBENCH_CONFIGURATIONS"
 fi
 echo "Running configurations: $MOOBENCH_CONFIGURATIONS"
@@ -72,6 +72,8 @@ declare -a SKYWALKING_CONFIG
 SKYWALKING_CONFIG[0]="${JAVA_ARGS}"
 
 SKYWALKING_CONFIG[1]="${SKYWALKING_CONFIG[0]} -javaagent:${AGENT} -Dskywalking.agent.service_name=moobench::MooBench -Dskywalking.plugin.customize.enhance_file=${BASE_DIR}/customize_enhance.xml"
+
+SKYWALKING_CONFIG[2]="${SKYWALKING_CONFIG[1]} -Dskywalking.agent.sample_n_per_3_secs=60"
 
 
 executeAllLoops

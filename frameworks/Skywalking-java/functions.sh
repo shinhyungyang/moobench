@@ -9,26 +9,26 @@ fi
 
 
 function getAgent {
-	if [ ! -d "${BASE_DIR}/skywalking-agent" ] ; then
-		mkdir "${BASE_DIR}/skywalking-agent"
-		cd "${BASE_DIR}"
-		wget https://dlcdn.apache.org/skywalking/java-agent/9.3.0/apache-skywalking-java-agent-9.3.0.tgz
-		tar -xvzf apache-skywalking-java-agent-9.3.0.tgz
-		cp "${BASE_DIR}/skywalking-agent/optional-plugins/apm-customize-enhance-plugin-9.3.0.jar" "${BASE_DIR}/skywalking-agent/plugins/"
-		wget https://dlcdn.apache.org/skywalking/10.1.0/apache-skywalking-apm-10.1.0.tar.gz
-		tar -xvzf apache-skywalking-apm-10.1.0.tar.gz
-		cd "${BASE_DIR}"
-	fi
+	mkdir "${BASE_DIR}/skywalking-agent"
+	cd "${BASE_DIR}"
+	wget https://dlcdn.apache.org/skywalking/java-agent/9.3.0/apache-skywalking-java-agent-9.3.0.tgz
+	tar -xvzf apache-skywalking-java-agent-9.3.0.tgz
+	cp "${BASE_DIR}/skywalking-agent/optional-plugins/apm-customize-enhance-plugin-9.3.0.jar" "${BASE_DIR}/skywalking-agent/plugins/"
+	wget https://dlcdn.apache.org/skywalking/10.1.0/apache-skywalking-apm-10.1.0.tar.gz
+	tar -xvzf apache-skywalking-apm-10.1.0.tar.gz
+	cd "${BASE_DIR}"
 }
 
 function startSkywalkingServer {
 	cd "${BASE_DIR}/apache-skywalking-apm-bin/bin"
 	./oapService.sh &
 	cd "${BASE_DIR}"
+	sleep 4
 }
 
 function stopSkywalkingServer {
 	pkill skywalking
+	sleep 4
 }
 
 
@@ -48,7 +48,6 @@ function runExperiment {
     if [[ "$k" -gt 0 ]]
     then
 	    startSkywalkingServer
-	    sleep 2
     fi
     export BENCHMARK_OPTS="${SKYWALKING_CONFIG[$k]}"
     "${MOOBENCH_BIN}" \
