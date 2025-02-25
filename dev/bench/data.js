@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740521920342,
+  "lastUpdate": 1740522201297,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -19884,6 +19884,54 @@ window.BENCHMARK_DATA = {
             "value": 3953.16,
             "unit": "ns",
             "range": 68.6147
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "61a52d7075b771e6192967ccc7ae82133648ba5c",
+          "message": "Also download pinot using wget",
+          "timestamp": "2025-02-25T21:52:41+01:00",
+          "tree_id": "1f3768d8e1067293d5b0450599fb7d533581eb3a",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/61a52d7075b771e6192967ccc7ae82133648ba5c"
+        },
+        "date": 1740522196306,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.0689,
+            "unit": "ns",
+            "range": 0.133388
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 438.545,
+            "unit": "ns",
+            "range": 5.2115
+          },
+          {
+            "name": "No logging",
+            "value": 1860.63,
+            "unit": "ns",
+            "range": 8.03883
+          },
+          {
+            "name": "Binary file",
+            "value": 3973.1,
+            "unit": "ns",
+            "range": 43.8472
           }
         ]
       }
