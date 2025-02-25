@@ -128,8 +128,10 @@ function startPinot() {
    echo "Starting Pinot $PINOT_VERSION"
    if [ ! -d apache-pinot-$PINOT_VERSION-bin ]
    then
-      curl --output apache-pinot-$PINOT_VERSION-bin.tar.gz \
-         https://downloads.apache.org/pinot/apache-pinot-$PINOT_VERSION/apache-pinot-$PINOT_VERSION-bin.tar.gz
+      PINOT_URL=https://downloads.apache.org/pinot/apache-pinot-$PINOT_VERSION/apache-pinot-$PINOT_VERSION-bin.tar.gz
+      wget PINOT_URL
+      #curl --output apache-pinot-$PINOT_VERSION-bin.tar.gz $
+         
       tar -zxf apache-pinot-$PINOT_VERSION-bin.tar.gz
    fi
 	
