@@ -31,7 +31,17 @@ function startHBase() {
    if [ ! -d $BASE_DIR/hbase-$HBASE_VERSION ]
    then
       HBASE_URL=https://dlcdn.apache.org/hbase/$HBASE_VERSION/hbase-$HBASE_VERSION-bin.tar.gz
-      curl --output hbase-$HBASE_VERSION-bin.tar.gz --limit-rate 2M $HBASE_URL
+      HBASE_URL_SHA512=https://dlcdn.apache.org/hbase/$HBASE_VERSION/hbase-$HBASE_VERSION-bin.tar.gz.sha512 
+      curl --output hbase-$HBASE_VERSION-bin.tar.gz --limit-rate 5M $HBASE_URL
+      curl --output hbase-$HBASE_VERSION-bin.tar.gz.sha512 --limit-rate 2M $HBASE_URL_SHA512
+      
+      checksum=$(cat hbase-2.6.1-bin.tar.gz.sha512 | tr "\n" " " | awk -F':' '{print $2}' | tr -d ' ' | tr '[:upper:]' '[:lower:]')
+      calculated_checksum=$(sha512sum hbase-2.6.1-bin.tar.gz | awk '{print $1}')
+      if [ "$checksum" != "$calculated_checksum" ]
+      then
+        echo "sha512sum of hbase couldn't be verified ($checksum vs $calculated_checksum; aborting"
+        exit 1
+      fi
       
       tar -xf hbase-$HBASE_VERSION-bin.tar.gz
    fi
@@ -66,8 +76,9 @@ export KAFKA_VERSION=2.13-3.9.0
 function startKafka() {
    if [ ! -d kafka_$KAFKA_VERSION ]
    then
-   	curl --output kafka_$KAFKA_VERSION.tgz \
-   	   https://dlcdn.apache.org/kafka/3.9.0/kafka_$KAFKA_VERSION.tgz
+        KAFKA_URL=https://dlcdn.apache.org/kafka/3.9.0/kafka_$KAFKA_VERSION.tgz
+   	wget $KAFKA_URL
+   	
    	tar -xf kafka_$KAFKA_VERSION.tgz
    fi
    cd kafka_$KAFKA_VERSION
