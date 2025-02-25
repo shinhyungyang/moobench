@@ -30,8 +30,9 @@ function startHBase() {
    echo "Starting HBase $HBASE_VERSION"
    if [ ! -d $BASE_DIR/hbase-$HBASE_VERSION ]
    then
-       curl --output hbase-$HBASE_VERSION-bin.tar.gz \
-          https://dlcdn.apache.org/hbase/$HBASE_VERSION/hbase-$HBASE_VERSION-bin.tar.gz
+      HBASE_URL=https://dlcdn.apache.org/hbase/$HBASE_VERSION/hbase-$HBASE_VERSION-bin.tar.gz
+      curl --output hbase-$HBASE_VERSION-bin.tar.gz --limit-rate 5M $HBASE_URL
+      
       tar -xf hbase-$HBASE_VERSION-bin.tar.gz
    fi
 
