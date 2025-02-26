@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740564212941,
+  "lastUpdate": 1740564590350,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -97192,6 +97192,54 @@ window.BENCHMARK_DATA = {
             "value": 8588.93,
             "unit": "ns",
             "range": 1186.24
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "a6739b6ff816b7150b02e0b8629dbd5c883072c7",
+          "message": "Fix Pinot download",
+          "timestamp": "2025-02-26T09:55:15+01:00",
+          "tree_id": "f6f535b927efacfb5e373580c9ae5713fdbf3ee6",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a6739b6ff816b7150b02e0b8629dbd5c883072c7"
+        },
+        "date": 1740564585149,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.1732,
+            "unit": "ns",
+            "range": 0.120082
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 323.093,
+            "unit": "ns",
+            "range": 30.3234
+          },
+          {
+            "name": "Regular Writing",
+            "value": 8001.33,
+            "unit": "ns",
+            "range": 1329.8
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 7671.61,
+            "unit": "ns",
+            "range": 1340.23
           }
         ]
       }
