@@ -111,7 +111,7 @@ function waitForStartup {
 	
 	echo "Waiting for $fileName to contain $textToWaitFor"
 	attempt=0
-	while [ $attempt -le 300 ]; do
+	while [ $attempt -le 150 ]; do
 	    attempt=$(( $attempt + 1 ))
 	    echo "Waiting for $fileName to contain $textToWaitFor (attempt: $attempt)..."
 	    result=$(cat $fileName 2>&1)
@@ -121,6 +121,13 @@ function waitForStartup {
 	    fi
 	    sleep 5
 	done
+	
+  result=$(cat $fileName 2>&1)
+  if ! grep -q "$textToWaitFor" <<< $result 
+  then
+    echo "$fileName doesn't contain $textToWaitFor even after waiting - exiting, please check download correctness"
+    exit 1
+  fi
 }
 
 export PINOT_VERSION=1.2.0
