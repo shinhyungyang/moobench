@@ -130,13 +130,14 @@ function waitForStartup {
   fi
 }
 
-export PINOT_VERSION=1.2.0
+export PINOT_VERSION=1.3.0
 function startPinot() {
    echo "Starting Pinot $PINOT_VERSION"
    if [ ! -d apache-pinot-$PINOT_VERSION-bin ]
    then
       PINOT_URL=https://downloads.apache.org/pinot/apache-pinot-$PINOT_VERSION/apache-pinot-$PINOT_VERSION-bin.tar.gz
-      wget PINOT_URL
+      echo "Downloading $PINOT_URL"
+      wget $PINOT_URL
       #curl --output apache-pinot-$PINOT_VERSION-bin.tar.gz $
          
       tar -zxf apache-pinot-$PINOT_VERSION-bin.tar.gz
