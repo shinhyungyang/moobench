@@ -11,9 +11,9 @@ fi
 function getAgent {
 	mkdir "${BASE_DIR}/skywalking-agent"
 	cd "${BASE_DIR}"
-	wget https://dlcdn.apache.org/skywalking/java-agent/9.3.0/apache-skywalking-java-agent-9.3.0.tgz
-	tar -xvzf apache-skywalking-java-agent-9.3.0.tgz
-	cp "${BASE_DIR}/skywalking-agent/optional-plugins/apm-customize-enhance-plugin-9.3.0.jar" "${BASE_DIR}/skywalking-agent/plugins/"
+	wget https://dlcdn.apache.org/skywalking/java-agent/9.4.0/apache-skywalking-java-agent-9.4.0.tgz
+	tar -xvzf apache-skywalking-java-agent-9.4.0.tgz
+	cp "${BASE_DIR}/skywalking-agent/optional-plugins/apm-customize-enhance-plugin-9.4.0.jar" "${BASE_DIR}/skywalking-agent/plugins/"
 	wget https://dlcdn.apache.org/skywalking/10.1.0/apache-skywalking-apm-10.1.0.tar.gz
 	tar -xvzf apache-skywalking-apm-10.1.0.tar.gz
 	cd "${BASE_DIR}"
@@ -23,12 +23,12 @@ function startSkywalkingServer {
 	cd "${BASE_DIR}/apache-skywalking-apm-bin/bin"
 	./oapService.sh &
 	cd "${BASE_DIR}"
-	sleep 4
+	sleep 10
 }
 
 function stopSkywalkingServer {
-	pkill skywalking
-	sleep 4
+	pkill -f skywalking
+	sleep 3
 }
 
 

@@ -42,9 +42,9 @@ jobs:
           ./benchmark.sh 
           unzip results-Skywalking-java/results.zip 
           measuredValues=$(cat raw-1-10-* | wc -l) 
-          if [ $measuredValues -ne 30 ] 
+          if [ $measuredValues -ne 40 ] 
           then
-            echo "It should be 30 measured values, but was $measuredValues"
+            echo "It should be 40 measured values, but was $measuredValues"
             exit 1
           fi
 
