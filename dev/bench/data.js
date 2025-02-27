@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740629984241,
+  "lastUpdate": 1740633394662,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -102944,6 +102944,58 @@ window.BENCHMARK_DATA = {
             "value": 9641.95,
             "unit": "ns",
             "range": 291.618
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "a6739b6ff816b7150b02e0b8629dbd5c883072c7",
+          "message": "Fix Pinot download",
+          "timestamp": "2025-02-26T08:55:09Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/a6739b6ff816b7150b02e0b8629dbd5c883072c7"
+        },
+        "date": 1740633389404,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.1017,
+            "unit": "ns",
+            "range": 0.194144
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 5582.11,
+            "unit": "ns",
+            "range": 168.267
+          },
+          {
+            "name": "No logging",
+            "value": 15614.6,
+            "unit": "ns",
+            "range": 400.591
+          },
+          {
+            "name": "Zipkin",
+            "value": 17035.9,
+            "unit": "ns",
+            "range": 245.351
+          },
+          {
+            "name": "Prometheus",
+            "value": 9768.85,
+            "unit": "ns",
+            "range": 166.696
           }
         ]
       }
