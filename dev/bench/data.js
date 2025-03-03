@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740975695981,
+  "lastUpdate": 1740975726988,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -98120,6 +98120,52 @@ window.BENCHMARK_DATA = {
             "value": 8091.5,
             "unit": "ns",
             "range": 924.194
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "29dff104dfb0ea2d1f29027b854dc8282b580fa1",
+          "message": "Merge pull request #24 from Marcel-Ha/support-skywalking\n\nSupport for Apache Skywalking",
+          "timestamp": "2025-02-28T09:00:09Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/29dff104dfb0ea2d1f29027b854dc8282b580fa1"
+        },
+        "date": 1740975721647,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.0785,
+            "unit": "ns",
+            "range": 0.199131
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 336.414,
+            "unit": "ns",
+            "range": 24.9499
+          },
+          {
+            "name": "Regular Writing",
+            "value": 8311.41,
+            "unit": "ns",
+            "range": 951.092
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 8183.29,
+            "unit": "ns",
+            "range": 951.563
           }
         ]
       }
