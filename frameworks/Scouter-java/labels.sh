@@ -1,4 +1,3 @@
 TITLE[0]="No instrumentation"
-TITLE[1]="Default Scouter"
-TITLE[2]="Method Profiling"
-TITLE[3]="No Profiling"
+TITLE[1]="Instrumentation and Profiling"
+TITLE[2]="Disabled Profiling"
