@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741257033793,
+  "lastUpdate": 1741257187600,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -20586,6 +20586,54 @@ window.BENCHMARK_DATA = {
             "value": 3885.78,
             "unit": "ns",
             "range": 72.295
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "147fb5f283f0e3758fe9485f96faec5ce273b3b8",
+          "message": "Merge pull request #26 from Marcel-Ha/support-scouter\n\nChange scouter configurations.",
+          "timestamp": "2025-03-06T10:38:50+01:00",
+          "tree_id": "d3847d51f549546b1ecea99b439c154b9cf13ebe",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/147fb5f283f0e3758fe9485f96faec5ce273b3b8"
+        },
+        "date": 1741257182349,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.0216,
+            "unit": "ns",
+            "range": 0.192745
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 441.677,
+            "unit": "ns",
+            "range": 3.85219
+          },
+          {
+            "name": "No logging",
+            "value": 1867.25,
+            "unit": "ns",
+            "range": 11.9182
+          },
+          {
+            "name": "Binary file",
+            "value": 3814.27,
+            "unit": "ns",
+            "range": 72.7888
           }
         ]
       }
