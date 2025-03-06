@@ -1,4 +1,4 @@
-name: Benchmark Scouter-java
+name: Benchmark Skywalking-java
 on:
   workflow_dispatch:
   schedule: 
@@ -29,11 +29,11 @@ jobs:
       - name: Execute MooBench Benchmark
         run: |
           ./setup.sh
-          cd frameworks/Scouter-java/
-          export MOOBENCH_CONFIGURATIONS="0 1 2"
+          cd frameworks/Skywalking-java/
+          export MOOBENCH_CONFIGURATIONS="0 1 2 3"
           export NUM_OF_LOOPS=10
           ./benchmark.sh 
-          cd results-Scouter-java
+          cd results-Skywalking-java
           unzip results.zip
           pwd
           ls
@@ -43,7 +43,7 @@ jobs:
       - name: Store benchmark result
         uses: benchmark-action/github-action-benchmark@v1
         with:
-          name: 'Scouter-java'
+          name: 'Skywalking-java'
           tool: 'customSmallerIsBetter'
           output-file-path: output.json
           fail-on-alert: true
