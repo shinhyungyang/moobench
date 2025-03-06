@@ -27,7 +27,7 @@ fi
 
 if [ -z "$MOOBENCH_CONFIGURATIONS" ]
 then
-	MOOBENCH_CONFIGURATIONS="0 1 2 3"
+	MOOBENCH_CONFIGURATIONS="0 1 2"
 	echo "Setting default configuration $MOOBENCH_CONFIGURATIONS"
 fi
 echo "Running configurations: $MOOBENCH_CONFIGURATIONS"
@@ -71,11 +71,9 @@ declare -a SCOUTER_CONFIG
 
 SCOUTER_CONFIG[0]="${JAVA_ARGS}"
 
-SCOUTER_CONFIG[1]="${SCOUTER_CONFIG[0]} -javaagent:${AGENT} -Dobj_name=moobench-benchmark -Dnet_collector_ip=127.0.0.1"
+SCOUTER_CONFIG[1]="${SCOUTER_CONFIG[0]} -javaagent:${AGENT} -Dobj_name=moobench-benchmark -Dnet_collector_ip=127.0.0.1 -Dhook_service_patterns=${APP_CLASS}.monitoredMethod -Dhook_method_patterns=moobench.application.*.*"
 
-SCOUTER_CONFIG[2]="${SCOUTER_CONFIG[1]} -Dhook_service_patterns=${APP_CLASS}.monitoredMethod -Dhook_method_patterns=moobench.application.*.*"
-
-SCOUTER_CONFIG[3]="${SCOUTER_CONFIG[2]} -Dprofile_method_enabled=false"
+SCOUTER_CONFIG[2]="${SCOUTER_CONFIG[1]} -Dprofile_method_enabled=false"
 
 executeAllLoops
 

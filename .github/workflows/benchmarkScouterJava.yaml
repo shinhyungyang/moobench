@@ -30,7 +30,7 @@ jobs:
         run: |
           ./setup.sh
           cd frameworks/Scouter-java/
-          export MOOBENCH_CONFIGURATIONS="0 1 2 3"
+          export MOOBENCH_CONFIGURATIONS="0 1 2"
           export NUM_OF_LOOPS=10
           ./benchmark.sh 
           cd results-Scouter-java
