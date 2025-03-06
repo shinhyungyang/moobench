@@ -126,6 +126,10 @@ function waitForStartup {
   if ! grep -q "$textToWaitFor" <<< $result 
   then
     echo "$fileName doesn't contain $textToWaitFor even after waiting - exiting, please check download correctness"
+    echo
+    echo
+    echo "File $fileName content:"
+    cat $fileName
     exit 1
   fi
 }
