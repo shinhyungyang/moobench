@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741264936114,
+  "lastUpdate": 1741268163120,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -105202,6 +105202,60 @@ window.BENCHMARK_DATA = {
             "value": 9653.86,
             "unit": "ns",
             "range": 205.056
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "DaGeRe",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6b1233d975b6fe4a813fd4c377c0da7fbbfeeb2a",
+          "message": "Merge pull request #25 from Marcel-Ha/support-skywalking\n\nAdd benchmark action for skywalking",
+          "timestamp": "2025-03-06T12:42:45+01:00",
+          "tree_id": "8ffa44ecf1582907b8fa01e6fe361da2ea795775",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/6b1233d975b6fe4a813fd4c377c0da7fbbfeeb2a"
+        },
+        "date": 1741268157423,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 91.904,
+            "unit": "ns",
+            "range": 0.445265
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 5585.61,
+            "unit": "ns",
+            "range": 288.549
+          },
+          {
+            "name": "No logging",
+            "value": 15580.6,
+            "unit": "ns",
+            "range": 362.812
+          },
+          {
+            "name": "Zipkin",
+            "value": 16894.8,
+            "unit": "ns",
+            "range": 339.351
+          },
+          {
+            "name": "Prometheus",
+            "value": 9796.94,
+            "unit": "ns",
+            "range": 223.646
           }
         ]
       }
