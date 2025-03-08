@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741410488910,
+  "lastUpdate": 1741411546642,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -108424,6 +108424,52 @@ window.BENCHMARK_DATA = {
             "value": 6861.96,
             "unit": "ns",
             "range": 377.083
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "6b1233d975b6fe4a813fd4c377c0da7fbbfeeb2a",
+          "message": "Merge pull request #25 from Marcel-Ha/support-skywalking\n\nAdd benchmark action for skywalking",
+          "timestamp": "2025-03-06T11:42:45Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/6b1233d975b6fe4a813fd4c377c0da7fbbfeeb2a"
+        },
+        "date": 1741411540390,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 91.9533,
+            "unit": "ns",
+            "range": 0.122648
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 93.2693,
+            "unit": "ns",
+            "range": 1.40858
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 11559.5,
+            "unit": "ns",
+            "range": 224.859
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 6674.01,
+            "unit": "ns",
+            "range": 235.652
           }
         ]
       }
