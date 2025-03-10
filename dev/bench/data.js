@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741581504806,
+  "lastUpdate": 1741583433567,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -106102,6 +106102,58 @@ window.BENCHMARK_DATA = {
             "value": 9546.52,
             "unit": "ns",
             "range": 228.362
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "6b1233d975b6fe4a813fd4c377c0da7fbbfeeb2a",
+          "message": "Merge pull request #25 from Marcel-Ha/support-skywalking\n\nAdd benchmark action for skywalking",
+          "timestamp": "2025-03-06T11:42:45Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/6b1233d975b6fe4a813fd4c377c0da7fbbfeeb2a"
+        },
+        "date": 1741583428003,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.1222,
+            "unit": "ns",
+            "range": 0.305845
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 5452.7,
+            "unit": "ns",
+            "range": 154.187
+          },
+          {
+            "name": "No logging",
+            "value": 15464.2,
+            "unit": "ns",
+            "range": 209.013
+          },
+          {
+            "name": "Zipkin",
+            "value": 16919,
+            "unit": "ns",
+            "range": 318.294
+          },
+          {
+            "name": "Prometheus",
+            "value": 9645.95,
+            "unit": "ns",
+            "range": 103.281
           }
         ]
       }
