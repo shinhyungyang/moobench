@@ -122,16 +122,18 @@ function waitForStartup {
 	    sleep 5
 	done
 	
-  result=$(cat $fileName 2>&1)
-  if ! grep -q "$textToWaitFor" <<< $result 
-  then
-    echo "$fileName doesn't contain $textToWaitFor even after waiting - exiting, please check download correctness"
-    echo
-    echo
-    echo "File $fileName content:"
-    cat $fileName
-    exit 1
-  fi
+	result=$(cat $fileName 2>&1)
+	if ! grep -q "$textToWaitFor" <<< $result 
+	then
+		echo "$fileName doesn't contain $textToWaitFor even after waiting - exiting, please check download correctness"
+		echo
+		echo
+		echo "File state: "
+		ls -lah $fileName
+		echo "File $fileName content:"
+		cat $fileName
+		exit 1
+	fi
 }
 
 export PINOT_VERSION=1.3.0
