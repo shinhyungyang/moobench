@@ -117,6 +117,7 @@ function waitForStartup {
 	    result=$(cat $fileName 2>&1)
 	    if grep -q "$textToWaitFor" <<< $result ; then
 	      echo "$fileName contains $textToWaitFor!"
+	      ls -lah $fileNa
 	      break
 	    fi
 	    sleep 5
