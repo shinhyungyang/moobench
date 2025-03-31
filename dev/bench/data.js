@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743394090265,
+  "lastUpdate": 1743394311356,
   "repoUrl": "https://github.com/kieker-monitoring/moobench",
   "entries": {
     "Kieker-java": [
@@ -115208,6 +115208,46 @@ window.BENCHMARK_DATA = {
             "value": 21966.7,
             "unit": "ns",
             "range": 319.099
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "DaGeRe",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "89b2c7d35c370b743d84c7bf258a7ec5b4f410ca",
+          "message": "More debut output",
+          "timestamp": "2025-03-23T10:35:43Z",
+          "url": "https://github.com/kieker-monitoring/moobench/commit/89b2c7d35c370b743d84c7bf258a7ec5b4f410ca"
+        },
+        "date": 1743394305043,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 92.1604,
+            "unit": "ns",
+            "range": 0.401003
+          },
+          {
+            "name": "Instrumentation and Profiling",
+            "value": 25528.3,
+            "unit": "ns",
+            "range": 224.034
+          },
+          {
+            "name": "Disabled Profiling",
+            "value": 22185.5,
+            "unit": "ns",
+            "range": 232.925
           }
         ]
       }
