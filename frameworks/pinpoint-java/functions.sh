@@ -109,6 +109,9 @@ function waitForStartup {
 	fileName=$1
 	textToWaitFor=$2
 	
+	sync
+	sleep 5
+	
 	echo "Waiting for $fileName to contain $textToWaitFor"
 	attempt=0
 	while [ $attempt -le 150 ]; do
@@ -117,6 +120,7 @@ function waitForStartup {
 	    result=$(cat $fileName 2>&1)
 	    if grep -q "$textToWaitFor" <<< $result ; then
 	      echo "$fileName contains $textToWaitFor!"
+	      ls -lah $fileName
 	      echo "Result: $result"
 	      ls -lah $fileName
 	      break
