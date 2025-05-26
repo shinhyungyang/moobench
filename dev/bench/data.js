@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748233162342,
+  "lastUpdate": 1748233502668,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -129542,6 +129542,46 @@ window.BENCHMARK_DATA = {
             "value": 21939.6,
             "unit": "ns",
             "range": 211.582
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "committer": {
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe",
+            "email": "davidgeorg_reichelt@dagere.de"
+          },
+          "id": "6b0a185cacf0f3d26ae6b0133990b820b16a3ff2",
+          "message": "Add debug output before printing result",
+          "timestamp": "2025-04-17T19:45:24Z",
+          "url": "https://github.com/shinhyungyang/moobench/commit/6b0a185cacf0f3d26ae6b0133990b820b16a3ff2"
+        },
+        "date": 1748233492704,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.9413,
+            "unit": "ns",
+            "range": 0.1008
+          },
+          {
+            "name": "Instrumentation and Profiling",
+            "value": 23686.6,
+            "unit": "ns",
+            "range": 244.295
+          },
+          {
+            "name": "Disabled Profiling",
+            "value": 20633.9,
+            "unit": "ns",
+            "range": 150.796
           }
         ]
       }
