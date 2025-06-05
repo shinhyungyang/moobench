@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749108865864,
+  "lastUpdate": 1749108989298,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -47454,6 +47454,54 @@ window.BENCHMARK_DATA = {
             "value": 4018.68,
             "unit": "ns",
             "range": 68.9462
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "committer": {
+            "email": "davidgeorg_reichelt@dagere.de",
+            "name": "David Georg Reichelt",
+            "username": "DaGeRe"
+          },
+          "distinct": true,
+          "id": "3ca1b01bf6a740d75c9f71e163b9a356f49c2359",
+          "message": "Update to gradle 8.14.1",
+          "timestamp": "2025-05-25T19:03:30+02:00",
+          "tree_id": "f930f09ced5162fa692aae23757cf17774ac0c89",
+          "url": "https://github.com/shinhyungyang/moobench/commit/3ca1b01bf6a740d75c9f71e163b9a356f49c2359"
+        },
+        "date": 1749108978980,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.9219,
+            "unit": "ns",
+            "range": 0.14412
+          },
+          {
+            "name": "No logging",
+            "value": 2648.54,
+            "unit": "ns",
+            "range": 125.659
+          },
+          {
+            "name": "Zipkin",
+            "value": 4498.66,
+            "unit": "ns",
+            "range": 78.4613
+          },
+          {
+            "name": "Prometheus",
+            "value": 4064.37,
+            "unit": "ns",
+            "range": 100.49
           }
         ]
       }
