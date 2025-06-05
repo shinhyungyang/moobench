@@ -49,3 +49,13 @@ jobs:
           fail-on-alert: true
           github-token: ${{ secrets.GITHUB_TOKEN }}
           auto-push: true
+      - name: Analyze benchmark results with Nyrkiö
+        uses: nyrkio/change-detection@v2
+        with:
+          name: 'Pinpoint-java'
+          tool: 'customSmallerIsBetter'
+          output-file-path: output.json
+          fail-on-alert: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          nyrkio-token: ${{ secrets.NYRKIO_JWT_TOKEN }}
+          auto-push: true
