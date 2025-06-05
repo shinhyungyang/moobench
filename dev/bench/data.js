@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749115927014,
+  "lastUpdate": 1749119063080,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -102378,6 +102378,54 @@ window.BENCHMARK_DATA = {
             "value": 115212,
             "unit": "ns",
             "range": 3340.22
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "distinct": true,
+          "id": "abc1b079752f0b184cf8fcbf519fe517a4a0ba7a",
+          "message": "Test Nyrkiö integration",
+          "timestamp": "2025-06-05T10:32:43+02:00",
+          "tree_id": "e3351bae8e811776b734186bd957c7d2774f90cb",
+          "url": "https://github.com/shinhyungyang/moobench/commit/abc1b079752f0b184cf8fcbf519fe517a4a0ba7a"
+        },
+        "date": 1749119053455,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 261.298,
+            "unit": "ns",
+            "range": 9.58309
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 2598.39,
+            "unit": "ns",
+            "range": 118.116
+          },
+          {
+            "name": "No logging",
+            "value": 9430.41,
+            "unit": "ns",
+            "range": 980.367
+          },
+          {
+            "name": "Binary file",
+            "value": 113861,
+            "unit": "ns",
+            "range": 2985.43
           }
         ]
       }
