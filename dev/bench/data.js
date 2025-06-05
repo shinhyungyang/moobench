@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749120515366,
+  "lastUpdate": 1749121721667,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -133542,6 +133542,46 @@ window.BENCHMARK_DATA = {
             "value": 20748.7,
             "unit": "ns",
             "range": 124.29
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "id": "abc1b079752f0b184cf8fcbf519fe517a4a0ba7a",
+          "message": "Test Nyrkiö integration",
+          "timestamp": "2025-06-05T08:32:43Z",
+          "url": "https://github.com/shinhyungyang/moobench/commit/abc1b079752f0b184cf8fcbf519fe517a4a0ba7a"
+        },
+        "date": 1749121712175,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.9084,
+            "unit": "ns",
+            "range": 0.107326
+          },
+          {
+            "name": "Instrumentation and Profiling",
+            "value": 23960.1,
+            "unit": "ns",
+            "range": 227.09
+          },
+          {
+            "name": "Disabled Profiling",
+            "value": 21040.2,
+            "unit": "ns",
+            "range": 271.456
           }
         ]
       }
