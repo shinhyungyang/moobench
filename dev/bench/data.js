@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749189627488,
+  "lastUpdate": 1749209611157,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -25346,6 +25346,36 @@ window.BENCHMARK_DATA = {
             "value": 3853.34,
             "unit": "ns",
             "range": 56.4457
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "distinct": true,
+          "id": "d580c8d1ec3e78341001cf76e5911d78eae9cbf2",
+          "message": "Benchmark KiekerJava on Ubuntu 22.04",
+          "timestamp": "2025-06-06T13:19:16+02:00",
+          "tree_id": "eb32653062ba0420ef4d9a28cc2b424ee6bc8f18",
+          "url": "https://github.com/shinhyungyang/moobench/commit/d580c8d1ec3e78341001cf76e5911d78eae9cbf2"
+        },
+        "date": 1749209602300,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Binary file u2204",
+            "value": 3868.56,
+            "unit": "ns",
+            "range": 91.0745
           }
         ]
       }
