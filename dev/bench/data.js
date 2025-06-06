@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749184360568,
+  "lastUpdate": 1749184938897,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -47644,6 +47644,52 @@ window.BENCHMARK_DATA = {
             "value": 4036.78,
             "unit": "ns",
             "range": 71.9298
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "id": "abc1b079752f0b184cf8fcbf519fe517a4a0ba7a",
+          "message": "Test Nyrkiö integration",
+          "timestamp": "2025-06-05T08:32:43Z",
+          "url": "https://github.com/shinhyungyang/moobench/commit/abc1b079752f0b184cf8fcbf519fe517a4a0ba7a"
+        },
+        "date": 1749184927605,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.9368,
+            "unit": "ns",
+            "range": 0.163025
+          },
+          {
+            "name": "No logging",
+            "value": 2718.34,
+            "unit": "ns",
+            "range": 68.6135
+          },
+          {
+            "name": "Zipkin",
+            "value": 4412.95,
+            "unit": "ns",
+            "range": 105.76
+          },
+          {
+            "name": "Prometheus",
+            "value": 4099.56,
+            "unit": "ns",
+            "range": 126.827
           }
         ]
       }
