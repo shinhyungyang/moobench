@@ -1,0 +1,17 @@
+name: Benchmark Kieker-java Ubuntu 22.04
+on:
+  workflow_dispatch:
+  push:
+    branches: [ ubuntu2204 ]
+
+permissions:
+  contents: write
+  deployments: write
+
+jobs:
+  benchmark:
+    name: Performance measurement
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Check Java version
+        run: java -version
