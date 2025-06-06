@@ -2,7 +2,7 @@ name: Check Java Version Ubuntu 22.04
 on:
   workflow_dispatch:
   push:
-    branches: [ ubuntu2204 ]
+    branches: [ main, ubuntu2204 ]
 
 permissions:
   contents: write
