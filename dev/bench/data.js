@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749209611157,
+  "lastUpdate": 1749219555000,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -25376,6 +25376,36 @@ window.BENCHMARK_DATA = {
             "value": 3868.56,
             "unit": "ns",
             "range": 91.0745
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "distinct": false,
+          "id": "dd896157bf308743afb39c384eb898fd6d419350",
+          "message": "Modified maven version to 3.8.8",
+          "timestamp": "2025-06-06T16:03:30+02:00",
+          "tree_id": "923728c8e6925f2a41c344de60ba5a93258df430",
+          "url": "https://github.com/shinhyungyang/moobench/commit/dd896157bf308743afb39c384eb898fd6d419350"
+        },
+        "date": 1749219545778,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Binary file u2204",
+            "value": 3807.11,
+            "unit": "ns",
+            "range": 99.472
           }
         ]
       }
