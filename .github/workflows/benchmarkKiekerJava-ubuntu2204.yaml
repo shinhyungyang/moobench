@@ -21,9 +21,10 @@ jobs:
         with:
           go-version: "stable"
       - name: Set up JDK ${{ matrix.java }}
-        uses: actions/setup-java@v4
+        uses: s4u/setup-maven-action@v1.18.0
         with:
-          distribution: 'temurin'
+          maven-version: 3.8.8
+          java-distribution: 'temurin'
           java-version: 21
       - name: Execute MooBench Benchmark
         run: |
