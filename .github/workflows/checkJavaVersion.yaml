@@ -1,4 +1,4 @@
-name: Benchmark Kieker-java Ubuntu 22.04
+name: Check Java Version Ubuntu 22.04
 on:
   workflow_dispatch:
   push:
