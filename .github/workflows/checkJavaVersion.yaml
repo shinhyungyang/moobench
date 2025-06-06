@@ -26,9 +26,6 @@ jobs:
           distribution: 'temurin'
           java-version: 8
       - name: Check JDK 8 version
-        uses: s4u/setup-maven-action@v1
-        with:
-          maven-version: 3.8.8
         run: |
           java -version
           mvn --version
