@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749361607271,
+  "lastUpdate": 1749362798281,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -133650,6 +133650,52 @@ window.BENCHMARK_DATA = {
             "value": 6592.3,
             "unit": "ns",
             "range": 223.988
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "id": "abc1b079752f0b184cf8fcbf519fe517a4a0ba7a",
+          "message": "Test Nyrkiö integration",
+          "timestamp": "2025-06-05T08:32:43Z",
+          "url": "https://github.com/shinhyungyang/moobench/commit/abc1b079752f0b184cf8fcbf519fe517a4a0ba7a"
+        },
+        "date": 1749362787290,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.9514,
+            "unit": "ns",
+            "range": 0.121534
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 93.4221,
+            "unit": "ns",
+            "range": 3.53321
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 11130.8,
+            "unit": "ns",
+            "range": 214.37
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 6665.17,
+            "unit": "ns",
+            "range": 222.45
           }
         ]
       }
