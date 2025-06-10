@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749540631391,
+  "lastUpdate": 1749543744127,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -25638,6 +25638,36 @@ window.BENCHMARK_DATA = {
             "value": 3799.51,
             "unit": "ns",
             "range": 47.8041
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "distinct": true,
+          "id": "63c2db50fe053a59a42429c237f671bebf62bace",
+          "message": "Change to change-detection@HEAD from v2",
+          "timestamp": "2025-06-10T10:07:40+02:00",
+          "tree_id": "498041072302233e195625a2ccff54e52f1dbe01",
+          "url": "https://github.com/shinhyungyang/moobench/commit/63c2db50fe053a59a42429c237f671bebf62bace"
+        },
+        "date": 1749543734539,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Binary file u2204",
+            "value": 3838.59,
+            "unit": "ns",
+            "range": 53.57
           }
         ]
       }
