@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749534133346,
+  "lastUpdate": 1749535378252,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -134352,6 +134352,52 @@ window.BENCHMARK_DATA = {
             "value": 6627.56,
             "unit": "ns",
             "range": 1029.88
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "id": "453a51735907999da14e0daf44a20d9b162b7a9b",
+          "message": "Using the HEAD version of nyrkio/change-detection",
+          "timestamp": "2025-06-10T05:36:19Z",
+          "url": "https://github.com/shinhyungyang/moobench/commit/453a51735907999da14e0daf44a20d9b162b7a9b"
+        },
+        "date": 1749535368611,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 91.0039,
+            "unit": "ns",
+            "range": 0.125146
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 93.6482,
+            "unit": "ns",
+            "range": 3.60248
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 11138.5,
+            "unit": "ns",
+            "range": 322.884
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 6716.68,
+            "unit": "ns",
+            "range": 241.785
           }
         ]
       }
