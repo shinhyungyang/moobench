@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749703384924,
+  "lastUpdate": 1749703595063,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -117246,6 +117246,52 @@ window.BENCHMARK_DATA = {
             "value": 8048.18,
             "unit": "ns",
             "range": 831.612
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "id": "453a51735907999da14e0daf44a20d9b162b7a9b",
+          "message": "Using the HEAD version of nyrkio/change-detection",
+          "timestamp": "2025-06-10T05:36:19Z",
+          "url": "https://github.com/shinhyungyang/moobench/commit/453a51735907999da14e0daf44a20d9b162b7a9b"
+        },
+        "date": 1749703585119,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 91.0711,
+            "unit": "ns",
+            "range": 0.305419
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 328.74,
+            "unit": "ns",
+            "range": 32.0973
+          },
+          {
+            "name": "Regular Writing",
+            "value": 8430.92,
+            "unit": "ns",
+            "range": 1015.08
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 8513.58,
+            "unit": "ns",
+            "range": 871.545
           }
         ]
       }
