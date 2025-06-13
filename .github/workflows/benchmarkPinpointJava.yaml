@@ -2,7 +2,7 @@ name: Benchmark Pinpoint-java
 on:
   workflow_dispatch:
   push:
-    branches: [ main, continuous-gh-benchmarks ]
+    branches: [ main, continuous-gh-benchmarks, daily ]
   schedule: 
     - cron: "0 3 * * *"
 

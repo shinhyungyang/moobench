@@ -1,6 +1,8 @@
 name: Benchmark Scouter-java
 on:
   workflow_dispatch:
+  push:
+    branches: [ daily ]
   schedule: 
     - cron: "0 3 * * 1"
 
