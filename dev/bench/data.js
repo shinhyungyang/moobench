@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749811508723,
+  "lastUpdate": 1749811794060,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -136924,6 +136924,48 @@ window.BENCHMARK_DATA = {
             "value": 20899.7,
             "unit": "ns",
             "range": 341.459
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "distinct": true,
+          "id": "5fce0aa4c97540444b52356ffcc9b0f967009547",
+          "message": "Tesst sustain1 on the daily branch",
+          "timestamp": "2025-06-13T12:11:11+02:00",
+          "tree_id": "f288d00b35858ae0d08437fd0b3235283e9cd277",
+          "url": "https://github.com/shinhyungyang/moobench/commit/5fce0aa4c97540444b52356ffcc9b0f967009547"
+        },
+        "date": 1749811784126,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.9083,
+            "unit": "ns",
+            "range": 0.0885271
+          },
+          {
+            "name": "Instrumentation and Profiling",
+            "value": 23584.9,
+            "unit": "ns",
+            "range": 173.467
+          },
+          {
+            "name": "Disabled Profiling",
+            "value": 20718,
+            "unit": "ns",
+            "range": 110.725
           }
         ]
       }
