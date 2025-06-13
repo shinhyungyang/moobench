@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749816267807,
+  "lastUpdate": 1749816311783,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -130326,6 +130326,60 @@ window.BENCHMARK_DATA = {
             "value": 9635.35,
             "unit": "ns",
             "range": 165.191
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "distinct": true,
+          "id": "5fce0aa4c97540444b52356ffcc9b0f967009547",
+          "message": "Tesst sustain1 on the daily branch",
+          "timestamp": "2025-06-13T12:11:11+02:00",
+          "tree_id": "f288d00b35858ae0d08437fd0b3235283e9cd277",
+          "url": "https://github.com/shinhyungyang/moobench/commit/5fce0aa4c97540444b52356ffcc9b0f967009547"
+        },
+        "date": 1749816301722,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.8892,
+            "unit": "ns",
+            "range": 0.0744137
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 5533.87,
+            "unit": "ns",
+            "range": 186.87
+          },
+          {
+            "name": "No logging",
+            "value": 15666.8,
+            "unit": "ns",
+            "range": 349.251
+          },
+          {
+            "name": "Zipkin",
+            "value": 16934.1,
+            "unit": "ns",
+            "range": 151.247
+          },
+          {
+            "name": "Prometheus",
+            "value": 9929.1,
+            "unit": "ns",
+            "range": 288.663
           }
         ]
       }
