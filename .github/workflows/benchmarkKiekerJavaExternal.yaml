@@ -1,0 +1,36 @@
+name: Benchmark Kieker-java
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main, continuous-gh-benchmarks, daily ]
+  schedule: 
+    - cron: "0 3 * * *"
+
+
+permissions:
+  contents: write
+  deployments: write
+
+jobs:
+  benchmark:
+    strategy:
+      matrix:
+        os:
+          - sustain1
+          - sustain2
+    name: Performance measurement
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute MooBench Benchmark
+        run: |
+          ./setup.sh
+          cd frameworks/Kieker-java/
+          export NUM_OF_LOOPS=10 
+          export MOOBENCH_CONFIGURATIONS="0 1 2 4"
+          ./benchmark.sh 
+          cd results-Kieker-java
+          unzip results.zip 
+          ../../../analysis/getGHActionsFormat.sh &> output.json
+          cat output.json
+          mv output.json ../../../
