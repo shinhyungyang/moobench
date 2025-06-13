@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749816984145,
+  "lastUpdate": 1749817631048,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -136542,6 +136542,54 @@ window.BENCHMARK_DATA = {
             "value": 6795.27,
             "unit": "ns",
             "range": 428.41
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "distinct": true,
+          "id": "5fce0aa4c97540444b52356ffcc9b0f967009547",
+          "message": "Tesst sustain1 on the daily branch",
+          "timestamp": "2025-06-13T12:11:11+02:00",
+          "tree_id": "f288d00b35858ae0d08437fd0b3235283e9cd277",
+          "url": "https://github.com/shinhyungyang/moobench/commit/5fce0aa4c97540444b52356ffcc9b0f967009547"
+        },
+        "date": 1749817619930,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 91.028,
+            "unit": "ns",
+            "range": 0.363431
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 93.7217,
+            "unit": "ns",
+            "range": 4.63782
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 11101,
+            "unit": "ns",
+            "range": 231.72
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 6597.52,
+            "unit": "ns",
+            "range": 328.236
           }
         ]
       }
