@@ -13,8 +13,13 @@ permissions:
 
 jobs:
   benchmark:
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+          - sustain1
     name: Performance measurement
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
       - uses: r-lib/actions/setup-r@v2
