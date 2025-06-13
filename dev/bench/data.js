@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749819469226,
+  "lastUpdate": 1749820039117,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -136692,6 +136692,54 @@ window.BENCHMARK_DATA = {
             "value": 6597.52,
             "unit": "ns",
             "range": 328.236
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "distinct": true,
+          "id": "9acc73b4933d03598d825c2a8421e8a017e67b20",
+          "message": "Separated workflow for external runners",
+          "timestamp": "2025-06-13T12:53:48+02:00",
+          "tree_id": "f63c37a6276d8e497c5c4f551260e9f2ef5d4103",
+          "url": "https://github.com/shinhyungyang/moobench/commit/9acc73b4933d03598d825c2a8421e8a017e67b20"
+        },
+        "date": 1749820028831,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 91.3116,
+            "unit": "ns",
+            "range": 1.02306
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 93.4477,
+            "unit": "ns",
+            "range": 2.21581
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 11435.6,
+            "unit": "ns",
+            "range": 763.13
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 6613,
+            "unit": "ns",
+            "range": 145.805
           }
         ]
       }
