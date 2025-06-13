@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749816034096,
+  "lastUpdate": 1749816063629,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -118290,6 +118290,54 @@ window.BENCHMARK_DATA = {
             "value": 8157.75,
             "unit": "ns",
             "range": 1251.63
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "distinct": true,
+          "id": "9acc73b4933d03598d825c2a8421e8a017e67b20",
+          "message": "Separated workflow for external runners",
+          "timestamp": "2025-06-13T12:53:48+02:00",
+          "tree_id": "f63c37a6276d8e497c5c4f551260e9f2ef5d4103",
+          "url": "https://github.com/shinhyungyang/moobench/commit/9acc73b4933d03598d825c2a8421e8a017e67b20"
+        },
+        "date": 1749816052910,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 91.1203,
+            "unit": "ns",
+            "range": 0.503315
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 303.265,
+            "unit": "ns",
+            "range": 38.9179
+          },
+          {
+            "name": "Regular Writing",
+            "value": 8125.33,
+            "unit": "ns",
+            "range": 570.657
+          },
+          {
+            "name": "Writing without sanitizing fields",
+            "value": 8360.73,
+            "unit": "ns",
+            "range": 897.657
           }
         ]
       }
