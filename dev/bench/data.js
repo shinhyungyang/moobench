@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750051448131,
+  "lastUpdate": 1750052619872,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -105362,6 +105362,52 @@ window.BENCHMARK_DATA = {
             "value": 112145,
             "unit": "ns",
             "range": 2573.72
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "id": "453a51735907999da14e0daf44a20d9b162b7a9b",
+          "message": "Using the HEAD version of nyrkio/change-detection",
+          "timestamp": "2025-06-10T05:36:19Z",
+          "url": "https://github.com/shinhyungyang/moobench/commit/453a51735907999da14e0daf44a20d9b162b7a9b"
+        },
+        "date": 1750052609212,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 266.56,
+            "unit": "ns",
+            "range": 9.85799
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 2574.32,
+            "unit": "ns",
+            "range": 121.779
+          },
+          {
+            "name": "No logging",
+            "value": 9238.92,
+            "unit": "ns",
+            "range": 490.245
+          },
+          {
+            "name": "Binary file",
+            "value": 115128,
+            "unit": "ns",
+            "range": 6653.89
           }
         ]
       }
