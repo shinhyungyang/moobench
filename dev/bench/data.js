@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750047971593,
+  "lastUpdate": 1750048236225,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -138354,6 +138354,46 @@ window.BENCHMARK_DATA = {
             "value": 20962.5,
             "unit": "ns",
             "range": 332.479
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "id": "453a51735907999da14e0daf44a20d9b162b7a9b",
+          "message": "Using the HEAD version of nyrkio/change-detection",
+          "timestamp": "2025-06-10T05:36:19Z",
+          "url": "https://github.com/shinhyungyang/moobench/commit/453a51735907999da14e0daf44a20d9b162b7a9b"
+        },
+        "date": 1750048226058,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.9351,
+            "unit": "ns",
+            "range": 0.16783
+          },
+          {
+            "name": "Instrumentation and Profiling",
+            "value": 23838.6,
+            "unit": "ns",
+            "range": 301.209
+          },
+          {
+            "name": "Disabled Profiling",
+            "value": 20948.9,
+            "unit": "ns",
+            "range": 315.738
           }
         ]
       }
