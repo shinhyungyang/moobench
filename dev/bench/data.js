@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749967627174,
+  "lastUpdate": 1750047971593,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -139144,6 +139144,52 @@ window.BENCHMARK_DATA = {
             "value": 90.9284,
             "unit": "ns",
             "range": 0.0763391
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "id": "453a51735907999da14e0daf44a20d9b162b7a9b",
+          "message": "Using the HEAD version of nyrkio/change-detection",
+          "timestamp": "2025-06-10T05:36:19Z",
+          "url": "https://github.com/shinhyungyang/moobench/commit/453a51735907999da14e0daf44a20d9b162b7a9b"
+        },
+        "date": 1750047961396,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.8733,
+            "unit": "ns",
+            "range": 0.101904
+          },
+          {
+            "name": "Skywalking instrumentation",
+            "value": 4445.24,
+            "unit": "ns",
+            "range": 88.8652
+          },
+          {
+            "name": "Skywalking 20Hz Sampling",
+            "value": 4470.87,
+            "unit": "ns",
+            "range": 64.833
+          },
+          {
+            "name": "Skywalking no data collection",
+            "value": 91.0311,
+            "unit": "ns",
+            "range": 0.26699
           }
         ]
       }
