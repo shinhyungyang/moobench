@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750168064051,
+  "lastUpdate": 1750168467566,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -139096,6 +139096,48 @@ window.BENCHMARK_DATA = {
             "value": 20948.9,
             "unit": "ns",
             "range": 315.738
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "distinct": true,
+          "id": "f3ad708cfbb1a41f9ebea127c65860a1f57442e8",
+          "message": "Rename the workflow for self-hosted runners",
+          "timestamp": "2025-06-17T15:12:54+02:00",
+          "tree_id": "50a2ce8fe4d35f6987d2cac758ed7fc930f2e034",
+          "url": "https://github.com/shinhyungyang/moobench/commit/f3ad708cfbb1a41f9ebea127c65860a1f57442e8"
+        },
+        "date": 1750168457244,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.8406,
+            "unit": "ns",
+            "range": 0.0793582
+          },
+          {
+            "name": "Instrumentation and Profiling",
+            "value": 23965.2,
+            "unit": "ns",
+            "range": 364.676
+          },
+          {
+            "name": "Disabled Profiling",
+            "value": 20954.5,
+            "unit": "ns",
+            "range": 298.248
           }
         ]
       }
