@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750172938746,
+  "lastUpdate": 1750174071940,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -138350,6 +138350,54 @@ window.BENCHMARK_DATA = {
             "value": 6816.01,
             "unit": "ns",
             "range": 288.447
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "distinct": true,
+          "id": "f3ad708cfbb1a41f9ebea127c65860a1f57442e8",
+          "message": "Rename the workflow for self-hosted runners",
+          "timestamp": "2025-06-17T15:12:54+02:00",
+          "tree_id": "50a2ce8fe4d35f6987d2cac758ed7fc930f2e034",
+          "url": "https://github.com/shinhyungyang/moobench/commit/f3ad708cfbb1a41f9ebea127c65860a1f57442e8"
+        },
+        "date": 1750174061248,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 90.9519,
+            "unit": "ns",
+            "range": 0.0868149
+          },
+          {
+            "name": "Pinpoint Deactivated",
+            "value": 92.9116,
+            "unit": "ns",
+            "range": 2.64502
+          },
+          {
+            "name": "Pinpoint Basic",
+            "value": 11248.4,
+            "unit": "ns",
+            "range": 319.685
+          },
+          {
+            "name": "Pinpoint Sampling",
+            "value": 6813.31,
+            "unit": "ns",
+            "range": 370.538
           }
         ]
       }
