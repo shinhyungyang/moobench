@@ -1,4 +1,4 @@
-name: Benchmark Kieker-java
+name: Benchmark Kieker-java Self-hosted
 on:
   workflow_dispatch:
   push:
