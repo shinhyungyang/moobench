@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750169723643,
+  "lastUpdate": 1750170938943,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -100638,6 +100638,54 @@ window.BENCHMARK_DATA = {
             "value": 53040.3,
             "unit": "ns",
             "range": 1588.06
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "committer": {
+            "email": "shinhyung.yang@email.uni-kiel.de",
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang"
+          },
+          "distinct": true,
+          "id": "f3ad708cfbb1a41f9ebea127c65860a1f57442e8",
+          "message": "Rename the workflow for self-hosted runners",
+          "timestamp": "2025-06-17T15:12:54+02:00",
+          "tree_id": "50a2ce8fe4d35f6987d2cac758ed7fc930f2e034",
+          "url": "https://github.com/shinhyungyang/moobench/commit/f3ad708cfbb1a41f9ebea127c65860a1f57442e8"
+        },
+        "date": 1750170928348,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 188.241,
+            "unit": "ns",
+            "range": 6.85111
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 1581.58,
+            "unit": "ns",
+            "range": 42.3996
+          },
+          {
+            "name": "No logging",
+            "value": 6155.22,
+            "unit": "ns",
+            "range": 358.946
+          },
+          {
+            "name": "Binary file",
+            "value": 54012,
+            "unit": "ns",
+            "range": 1646.55
           }
         ]
       }
