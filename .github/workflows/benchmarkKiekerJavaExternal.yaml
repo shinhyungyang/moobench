@@ -15,6 +15,9 @@ jobs:
   benchmark:
     strategy:
       matrix:
+        tags:
+          - 2025-01-09_190438UTC0
+          - 2025-01-10_124403UTC0
         os:
           - sustain1
           - sustain2
@@ -22,6 +25,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.tags }}
       - name: Execute MooBench Benchmark
         run: |
           ./setup.sh
