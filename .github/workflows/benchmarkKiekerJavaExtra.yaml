@@ -1,8 +1,8 @@
-name: Benchmark Kieker-java Self-hosted
+name: Benchmark Kieker-java Extra
 on:
   workflow_dispatch:
   push:
-    branches: [ main, continuous-gh-benchmarks, daily ]
+    branches: [ daily ]
   schedule: 
     - cron: "0 3 * * *"
 

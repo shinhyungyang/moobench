@@ -2,7 +2,7 @@ name: Benchmark Skywalking-java
 on:
   workflow_dispatch:
   push:
-    branches: [ daily ]
+    branches: [ main, continuous-gh-benchmarks ]
   schedule: 
     - cron: "0 3 * * 1"
 

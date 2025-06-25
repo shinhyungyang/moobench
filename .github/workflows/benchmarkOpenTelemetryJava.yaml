@@ -2,7 +2,7 @@ name: Benchmark OpenTelemetry-java
 on:
   workflow_dispatch:
   push:
-    branches: [ main, daily ]
+    branches: [ main, continuous-gh-benchmarks ]
   schedule: 
     - cron: "0 3 * * *"
 
