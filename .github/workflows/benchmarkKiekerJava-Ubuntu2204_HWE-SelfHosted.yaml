@@ -1,4 +1,4 @@
-name: 2025-01-09_190438UTC0 Ubuntu 22.04 on self-hosted Runner
+name: Ubuntu 22.04 HWE on self-hosted Runner
 on:
   workflow_dispatch:
   push:
