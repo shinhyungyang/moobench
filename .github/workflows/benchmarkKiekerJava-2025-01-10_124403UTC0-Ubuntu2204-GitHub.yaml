@@ -20,6 +20,7 @@ jobs:
           ref: 2025-01-10_124403UTC0
       - name: Execute MooBench Benchmark
         run: |
+          uname -a
           ./setup.sh
           cd frameworks/Kieker-java/
           export NUM_OF_LOOPS=10 
