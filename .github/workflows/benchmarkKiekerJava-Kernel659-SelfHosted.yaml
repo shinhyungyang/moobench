@@ -1,4 +1,4 @@
-name: Manjaro on self-hosted Runner
+name: Kernel 6.5.9 on self-hosted Runner
 on:
   workflow_dispatch:
   push:
