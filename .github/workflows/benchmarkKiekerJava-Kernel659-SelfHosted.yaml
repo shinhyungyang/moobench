@@ -1,0 +1,50 @@
+name: Manjaro on self-hosted Runner
+on:
+  workflow_dispatch:
+  push:
+    branches: [ compare-runners ]
+  schedule: 
+    - cron: "0 */3 * * *"
+
+permissions:
+  contents: write
+  deployments: write
+
+jobs:
+  benchmark:
+    strategy:
+      matrix:
+        tags:
+          - 2025-01-09_190438UTC0
+          - 2025-01-10_124403UTC0
+    name: Performance measurement
+    runs-on: sustain7
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.tags }}
+      - name: Execute MooBench Benchmark
+        run: |
+          TAG=`echo ${{ matrix.tags }} |cut -d_ -f1 |sed "s/-//g;s/^..//"`
+          uname -a
+          ./setup.sh
+          cd frameworks/Kieker-java/
+          export NUM_OF_LOOPS=10 
+          export MOOBENCH_CONFIGURATIONS="4"
+          sed -i "s/Binary file/`uname -r` on self-hosted Runner (${TAG})/" labels.sh
+          ./benchmark.sh 
+          cd results-Kieker-java
+          unzip results.zip 
+          ../../../analysis/getGHActionsFormat.sh &> output.json
+          cat output.json
+          mv output.json ../../../
+          git checkout ../labels.sh
+      - name: Store benchmark result
+        uses: benchmark-action/github-action-benchmark@v1
+        with:
+          name: 'Kieker-java (Binary file, Archlinux, self-hosted)'
+          tool: 'customSmallerIsBetter'
+          output-file-path: output.json
+          fail-on-alert: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          auto-push: true
