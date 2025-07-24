@@ -76,13 +76,17 @@ export KAFKA_VERSION=2.13-3.9.0
 function startKafka() {
    if [ ! -d kafka_$KAFKA_VERSION ]
    then
-        KAFKA_URL=https://dlcdn.apache.org/kafka/3.9.0/kafka_$KAFKA_VERSION.tgz
+   	KAFKA_URL=https://dlcdn.apache.org/kafka/3.9.0/kafka_$KAFKA_VERSION.tgz
    	wget $KAFKA_URL
    	
    	tar -xf kafka_$KAFKA_VERSION.tgz
    fi
    cd kafka_$KAFKA_VERSION
 
+   if [ -d /tmp/kraft-combined-logs ]
+   then
+     rm -rf /tmp/kraft-combined-logs
+   fi
    KAFKA_CLUSTER_ID="$(bin/kafka-storage.sh random-uuid)"
    bin/kafka-storage.sh format --standalone -t $KAFKA_CLUSTER_ID -c config/kraft/reconfig-server.properties
    bin/kafka-server-start.sh config/kraft/reconfig-server.properties &> ${BASE_DIR}/logs/kafka.log &
@@ -153,6 +157,8 @@ function startPinot() {
       #curl --output apache-pinot-$PINOT_VERSION-bin.tar.gz $
          
       tar -zxf apache-pinot-$PINOT_VERSION-bin.tar.gz
+   else
+      rm -rf apache-pinot-$PINOT_VERSION-bin/pinot-temp-dir
    fi
 	
    cd apache-pinot-$PINOT_VERSION-bin
