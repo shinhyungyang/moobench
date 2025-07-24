@@ -35,8 +35,8 @@ function startHBase() {
       curl --output hbase-$HBASE_VERSION-bin.tar.gz --limit-rate 5M $HBASE_URL
       curl --output hbase-$HBASE_VERSION-bin.tar.gz.sha512 --limit-rate 2M $HBASE_URL_SHA512
       
-      checksum=$(cat hbase-2.6.1-bin.tar.gz.sha512 | tr "\n" " " | awk -F':' '{print $2}' | tr -d ' ' | tr '[:upper:]' '[:lower:]')
-      calculated_checksum=$(sha512sum hbase-2.6.1-bin.tar.gz | awk '{print $1}')
+      checksum=$(cat hbase-"$HBASE_VERSION"-bin.tar.gz.sha512 | tr "\n" " " | awk -F':' '{print $2}' | tr -d ' ' | tr '[:upper:]' '[:lower:]')
+      calculated_checksum=$(sha512sum hbase-"$HBASE_VERSION"-bin.tar.gz | awk '{print $1}')
       if [ "$checksum" != "$calculated_checksum" ]
       then
         echo "sha512sum of hbase couldn't be verified ($checksum vs $calculated_checksum; aborting"
