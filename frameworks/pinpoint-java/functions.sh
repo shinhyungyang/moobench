@@ -185,6 +185,7 @@ function stopPinot {
    
    rm /tmp/.pinotAdmin*
    rm /tmp/pinot-* -r
+   rm -rf /tmp/Pinot*
    rm /tmp/PinotMinion -r
    rm apache-pinot-$PINOT_VERSION-bin/pinot-temp-dir -r
 }
