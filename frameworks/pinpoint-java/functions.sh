@@ -47,7 +47,10 @@ function startHBase() {
    fi
 
    cd hbase-$HBASE_VERSION
-   bin/start-hbase.sh
+   rm -rf tmp/zookeeper/* 
+   rm -rf tmp/hbase/* 
+   
+   bin/start-hbase.sh | tee ${BASE_DIR}/logs/start-hbase.log
    
    if [ ! -f hbase-create.hbase ]
    then
