@@ -66,6 +66,7 @@ function stopHBase(){
    echo "Stopping HBase $HBASE_VERSION"
    cd hbase-$HBASE_VERSION
    bin/stop-hbase.sh
+   ps -aux | grep '[o]rg.apache.hadoop.hbase.master.HMaster' | awk '{print $2}' | xargs -r kill -9
    
    rm -rf tmp/zookeeper/* 
    rm -rf tmp/hbase/* 
