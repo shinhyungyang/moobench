@@ -24,7 +24,7 @@ function getAgent() {
     fi
 }
 
-export HBASE_VERSION=2.6.1
+export HBASE_VERSION=2.6.3
 
 function startHBase() {
    echo "Starting HBase $HBASE_VERSION"
