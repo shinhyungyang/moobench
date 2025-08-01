@@ -15,7 +15,7 @@ dependencies {
     
     implementation 'org.slf4j:slf4j-api:2.0.17'
     implementation 'ch.qos.logback:logback-classic:1.5.18'
-    implementation 'net.kieker-monitoring:kieker:2.0.1'
+    implementation 'net.kieker-monitoring:kieker:2.0.2'
     implementation 'net.sourceforge.teetime:teetime:3.1.1'
     implementation 'com.beust:jcommander:1.78'
     implementation 'org.yaml:snakeyaml:1.30'
