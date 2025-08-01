@@ -13,8 +13,8 @@ dependencies {
     // https://mvnrepository.com/artifact/org.apache.commons/commons-csv
 	implementation 'org.apache.commons:commons-csv:1.8'
     
-    implementation 'org.slf4j:slf4j-api:1.7.+'
-    implementation 'ch.qos.logback:logback-classic:1.2.3'
+    implementation 'org.slf4j:slf4j-api:2.0.17'
+    implementation 'ch.qos.logback:logback-classic:1.5.18'
     implementation 'net.kieker-monitoring:kieker:2.0.1'
     implementation 'net.sourceforge.teetime:teetime:3.1-SNAPSHOT'
     implementation 'com.beust:jcommander:1.78'
