@@ -11,11 +11,11 @@ fi
 function getAgent {
 	mkdir "${BASE_DIR}/skywalking-agent"
 	cd "${BASE_DIR}"
-	wget https://dlcdn.apache.org/skywalking/java-agent/9.4.0/apache-skywalking-java-agent-9.4.0.tgz
-	tar -xvzf apache-skywalking-java-agent-9.4.0.tgz
-	cp "${BASE_DIR}/skywalking-agent/optional-plugins/apm-customize-enhance-plugin-9.4.0.jar" "${BASE_DIR}/skywalking-agent/plugins/"
-	wget https://dlcdn.apache.org/skywalking/10.1.0/apache-skywalking-apm-10.1.0.tar.gz
-	tar -xvzf apache-skywalking-apm-10.1.0.tar.gz
+	wget https://archive.apache.org/dist/skywalking/java-agent/9.5.0/apache-skywalking-java-agent-9.5.0.tgz
+	tar -xvzf apache-skywalking-java-agent-9.5.0.tgz
+	cp "${BASE_DIR}/skywalking-agent/optional-plugins/apm-customize-enhance-plugin-9.5.0.jar" "${BASE_DIR}/skywalking-agent/plugins/"
+	wget https://archive.apache.org/dist/skywalking/10.2.0/apache-skywalking-apm-10.2.0.tar.gz
+	tar -xvzf apache-skywalking-apm-10.2.0.tar.gz
 	cd "${BASE_DIR}"
 }
 
