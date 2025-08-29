@@ -21,5 +21,4 @@ KIEKER_4_PYTHON_BRANCH="ast_import_hook"
 
 RECEIVER_ARCHIVE="${MAIN_DIR}/tools/receiver/build/distributions/receiver.tar"
 
-
-
+MOOBENCH_BIN_PY="${MAIN_DIR}/tools/pybenchmark/benchmark.py"
