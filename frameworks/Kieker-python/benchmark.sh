@@ -11,6 +11,7 @@ source ${VENV_DIR}/bin/activate
 
 # configure base dir
 BASE_DIR=$(cd "$(dirname "$0")"; pwd)
+MAIN_DIR="${BASE_DIR}/../.."
 
 #
 # source functionality
@@ -20,8 +21,6 @@ if [ ! -d "${BASE_DIR}" ] ; then
 	echo "Base directory ${BASE_DIR} does not exist."
 	exit 1
 fi
-
-MAIN_DIR="${BASE_DIR}/../.."
 
 if [ -f "${MAIN_DIR}/init.sh" ] ; then
 	source "${MAIN_DIR}/init.sh"
@@ -50,17 +49,15 @@ cd "${BASE_DIR}"
 # load agent
 getAgent
 
+checkDirectory data-dir "${DATA_DIR}" create
 checkFile log "${DATA_DIR}/kieker.log" clean
+cleanupResults
 checkDirectory results-directory "${RESULTS_DIR}" recreate
 PARENT=`dirname "${RESULTS_DIR}"`
 checkDirectory result-base "${PARENT}"
-checkDirectory data-dir "${DATA_DIR}" create
 
 # Find receiver and extract it
-checkFile receiver "${RECEIVER_ARCHIVE}"
-tar -xpf "${RECEIVER_ARCHIVE}"
-RECEIVER_BIN="${BASE_DIR}/receiver/bin/receiver"
-checkExecutable receiver "${RECEIVER_BIN}"
+checkFile receiver "receiver/receiver.jar"
 
 checkFile R-script "${RSCRIPT_PATH}"
 
@@ -74,57 +71,22 @@ declare -a RECEIVER
 # Title
 declare -a TITLE
 
-RECEIVER[5]="${RECEIVER_BIN} 2345"
-
-writeConfiguration
-
-info "Ok"
-
 #
-# Run benchmark
+# Different monitoring & approach setups
 #
+MONITORING_CONFIG[0]="dummy True False 1"
+MONITORING_CONFIG[1]="dummy True True 1"
+MONITORING_CONFIG[2]="dummy True True 2"
+MONITORING_CONFIG[3]="dummy False True 1"
+MONITORING_CONFIG[4]="dummy False True 2"
+MONITORING_CONFIG[5]="text False True 1"
+MONITORING_CONFIG[6]="text False True 2"
+MONITORING_CONFIG[7]="tcp False True 1"
+MONITORING_CONFIG[8]="tcp False True 2"
+RECEIVER[7]="java -jar receiver/receiver.jar 5678"
+RECEIVER[8]="java -jar receiver/receiver.jar 5678"
 
-info "----------------------------------"
-info "Running benchmark..."
-info "----------------------------------"
-
-
-## Execute Benchmark
-for ((i=1;i<=${NUM_OF_LOOPS};i+=1)); do
-
-    info "## Starting iteration ${i}/${NUM_OF_LOOPS}"
-    echo "## Starting iteration ${i}/${NUM_OF_LOOPS}" >> "${DATA_DIR}/kieker.log"
-
-    noInstrumentation 0 $i
-
-    deactivatedProbe 1 $i 1
-    deactivatedProbe 2 $i 2
-
-    noLogging 3 $i 1
-    noLogging 4 $i 2
-
-    textLogging 5 $i 1
-    textLogging 6 $i 2
-
-    tcpLogging 7 $i 1
-    tcpLogging 8 $i 2
-
-    printIntermediaryResults "${i}"
-done
-
-# Create R labels
-LABELS=$(createRLabels)
-runStatistics
-cleanupResults
-
-mv "${DATA_DIR}/kieker.log" "${RESULTS_DIR}/kieker.log"
-rm "${DATA_DIR}/kieker"
-[ -f "${DATA_DIR}/errorlog.txt" ] && mv "${DATA_DIR}/errorlog.txt" "${RESULTS_DIR}"
-
-checkFile results.yaml "${RESULTS_DIR}/results.yaml"
-checkFile results.yaml "${RESULTS_DIR}/results.zip"
-
-info "Done."
+executeAllLoops
 
 deactivate
 rm -rf ${VENV_DIR}
