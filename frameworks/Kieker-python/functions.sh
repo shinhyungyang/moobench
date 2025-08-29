@@ -92,7 +92,7 @@ function executeExperiment() {
     createMonitoring ${mode}
     createConfig ${inactive} ${instrument} ${approach} ${loop}
 
-    "${PYTHON}" benchmark.py "${BASE_DIR}/config.ini"
+    "${PYTHON}" "${MOOBENCH_BIN_PY}" "${BASE_DIR}/config.ini"
 
     if [ ! -f "${RESULT_FILE}" ] ; then
         info "---------------------------------------------------"
