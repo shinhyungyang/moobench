@@ -28,6 +28,9 @@ jar {
 		copy {
 		    from jar
 		    into "../../frameworks/Kieker-java/receiver/"
+	    }
+		copy {
+		    from jar
 		    into "../../frameworks/Kieker-python/receiver/"
 	    }
 	}
