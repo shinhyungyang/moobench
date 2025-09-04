@@ -40,7 +40,7 @@ jobs:
           cat output.json
           mv output.json ../../../
       - name: Store benchmark result
-        uses: benchmark-action/github-action-benchmark@v1
+        uses: benchmark-action/github-action-benchmark@v1.20.4
         with:
           name: 'Kieker-java-2'
           tool: 'customSmallerIsBetter'
