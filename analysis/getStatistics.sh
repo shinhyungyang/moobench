@@ -50,13 +50,15 @@ done
 for file in *.csv
 do
 	framework=$(echo "${file#results-}" | sed 's/\.csv$//')
-	echo "  \multicolumn{3}{|c|}{\textbf{$framework}} \\\\ \\hline"
+	echo -n "  \multicolumn{3}{|c|}{\textbf{$framework}} \\\\ "
 	source $start/../frameworks/$framework/labels.sh
 	configurations=$(cat $file | awk '{print $1}' | sort | uniq)
 	for configuration in $configurations
 	do
 		#echo -n $configuration" "
+		echo " \\hdashline"
 		echo -n "  ${TITLE[$configuration]} & "
-		cat $file | grep "^$configuration" | awk '{print $2}' | getSum | awk '{printf "%.2f & %.2f \\\\ \\hdashline\n", $2, $5}'
+		cat $file | grep "^$configuration" | awk '{print $2}' | getSum | awk '{printf " %.2f & %.2f \\\\ ", $2, $5}'
 	done
+	echo " \\hline"
 done
