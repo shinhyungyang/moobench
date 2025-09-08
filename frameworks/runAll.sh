@@ -5,6 +5,13 @@
 # InspectIT, Kieker and OpenTelemetry"
 #
 
+if [ -z "$JAVA_HOME" ]
+then
+    echo "Pinpoint dependencies need JAVA_HOME to be set; please set it before starting all benchmarks"
+    exit 1
+fi
+
+
 # configure base dir
 BASE_DIR=$(cd "$(dirname "$0")"; pwd)
 
