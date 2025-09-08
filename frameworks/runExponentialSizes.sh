@@ -15,7 +15,7 @@ function runSingle {
         benchmark=$1
         cd "${benchmark}"
 
-	RESULTS_DIR="${BASE_DIR}/exp-results"
+	RESULTS_DIR="exp-results-${benchmark}"
 	checkDirectory RESULTS_DIR "${RESULTS_DIR}" create
 	
 	for depth in 2 4 8 16 32 64 128
