@@ -2,12 +2,10 @@
 
 function runAll {
 	start=$(pwd)
-	for benchmark in inspectIT-java 
-	#OpenTelemetry-java Kieker-java Scouter-java elasticapm-java pinpoint-java
+	for benchmark in inspectIT-java OpenTelemetry-java Kieker-java Scouter-java elasticapm-java pinpoint-java
 	do
 		echo "Running $benchmark"
-		runSingle $benchmark 
-		# &> "${start}/exponential_${benchmark}.txt"
+		runSingle $benchmark
 	done
 }
 
