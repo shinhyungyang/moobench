@@ -1,7 +1,5 @@
 # inspectIT specific functions
 
-export INSPECTIT_VERSION="2.6.6"
-
 # ensure the script is sourced
 if [ "${BASH_SOURCE[0]}" -ef "$0" ]
 then
@@ -15,7 +13,6 @@ function getAgent() {
 		mkdir "${BASE_DIR}/agent"
 		cd "${BASE_DIR}/agent"
 		wget https://github.com/inspectIT/inspectit-ocelot/releases/download/$INSPECTIT_VERSION/inspectit-ocelot-agent-$INSPECTIT_VERSION.jar
-		mv inspectit-ocelot-agent-$INSPECTIT_VERSION.jar inspectit-ocelot-agent.jar
 		cd "${BASE_DIR}"
 	fi
 }
