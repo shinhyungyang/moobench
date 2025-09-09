@@ -1,6 +1,6 @@
 # inspectIT configurations
 
-export INSPECTIT_VERSION="2.6.6"
+export INSPECTIT_VERSION="2.7.0"
 
 source ${MAIN_DIR}/config.rc
 
