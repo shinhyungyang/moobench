@@ -46,7 +46,8 @@ function runNoInstrumentation {
     k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
     export BENCHMARK_OPTS="${JAVA_ARGS_NOINSTR}"
-    java -cp ../../benchmark/lib/benchmark.jar:../../benchmark/lib/jcommander-1.72.jar \
+    java $BENCHMARK_OPTS \
+        -cp ../../benchmark/lib/benchmark.jar:../../benchmark/lib/jcommander-1.72.jar \
         moobench.benchmark.BenchmarkMain \
         --output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
@@ -61,7 +62,8 @@ function runInspectITDeactivated {
     info " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]}
     sleep "${SLEEP_TIME}"
     export BENCHMARK_OPTS="${JAVA_ARGS_INSPECTIT_DEACTIVATED}"
-    java -cp ../../benchmark/lib/benchmark.jar:../../benchmark/lib/jcommander-1.72.jar \
+    java $BENCHMARK_OPTS \
+        -cp ../../benchmark/lib/benchmark.jar:../../benchmark/lib/jcommander-1.72.jar \
         moobench.benchmark.BenchmarkMain \
         --output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
@@ -78,7 +80,8 @@ function runInspectITNullWriter {
     info " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]}
     sleep "${SLEEP_TIME}"
     export BENCHMARK_OPTS="${JAVA_ARGS_INSPECTIT_NULLWRITER}"
-    java -cp ../../benchmark/lib/benchmark.jar:../../benchmark/lib/jcommander-1.72.jar \
+    java $BENCHMARK_OPTS \
+        -cp ../../benchmark/lib/benchmark.jar:../../benchmark/lib/jcommander-1.72.jar \
         moobench.benchmark.BenchmarkMain \
         --output-filename "${RAWFN}-${i}-${RECURSION_DEPTH}-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
@@ -98,7 +101,8 @@ function runInspectITZipkin {
     startZipkin
     sleep "${SLEEP_TIME}"
     export BENCHMARK_OPTS="${JAVA_ARGS_INSPECTIT_ZIPKIN}"
-    java -cp ../../benchmark/lib/benchmark.jar:../../benchmark/lib/jcommander-1.72.jar \
+    java $BENCHMARK_OPTS \
+        -cp ../../benchmark/lib/benchmark.jar:../../benchmark/lib/jcommander-1.72.jar \
         moobench.benchmark.BenchmarkMain \
         --output-filename "${RAWFN}-${i}-${RECURSION_DEPTH}-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
@@ -118,7 +122,8 @@ function runInspectITPrometheus {
     startPrometheus 8888
     sleep "${SLEEP_TIME}"
     export BENCHMARK_OPTS="${JAVA_ARGS_INSPECTIT_PROMETHEUS}"
-    java -cp ../../benchmark/lib/benchmark.jar:../../benchmark/lib/jcommander-1.72.jar \
+    java $BENCHMARK_OPTS \
+        -cp ../../benchmark/lib/benchmark.jar:../../benchmark/lib/jcommander-1.72.jar \
         moobench.benchmark.BenchmarkMain \
         --output-filename "${RAWFN}-${i}-${RECURSION_DEPTH}-${k}.csv" \
         --total-calls "${TOTAL_NUM_OF_CALLS}" \
