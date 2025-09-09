@@ -46,7 +46,7 @@ function runNoInstrumentation {
     k=$1
     info " # ${i}.$RECURSION_DEPTH.${k} ${TITLE[$k]}"
     export BENCHMARK_OPTS="${JAVA_ARGS_NOINSTR}"
-    java $BENCHMARK_OPTS \
+    java $DEFAULT_JVM_OPTS $JAVA_OPTS $BENCHMARK_OPTS \
         -cp ../../benchmark/lib/benchmark.jar:../../benchmark/lib/jcommander-1.72.jar \
         moobench.benchmark.BenchmarkMain \
         --output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
@@ -62,7 +62,7 @@ function runInspectITDeactivated {
     info " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]}
     sleep "${SLEEP_TIME}"
     export BENCHMARK_OPTS="${JAVA_ARGS_INSPECTIT_DEACTIVATED}"
-    java $BENCHMARK_OPTS \
+    java $DEFAULT_JVM_OPTS $JAVA_OPTS $BENCHMARK_OPTS \
         -cp ../../benchmark/lib/benchmark.jar:../../benchmark/lib/jcommander-1.72.jar \
         moobench.benchmark.BenchmarkMain \
         --output-filename "${RAWFN}-${i}-$RECURSION_DEPTH-${k}.csv" \
@@ -80,7 +80,7 @@ function runInspectITNullWriter {
     info " # ${i}.$RECURSION_DEPTH.${k} "${TITLE[$k]}
     sleep "${SLEEP_TIME}"
     export BENCHMARK_OPTS="${JAVA_ARGS_INSPECTIT_NULLWRITER}"
-    java $BENCHMARK_OPTS \
+    java $DEFAULT_JVM_OPTS $JAVA_OPTS $BENCHMARK_OPTS \
         -cp ../../benchmark/lib/benchmark.jar:../../benchmark/lib/jcommander-1.72.jar \
         moobench.benchmark.BenchmarkMain \
         --output-filename "${RAWFN}-${i}-${RECURSION_DEPTH}-${k}.csv" \
@@ -101,7 +101,7 @@ function runInspectITZipkin {
     startZipkin
     sleep "${SLEEP_TIME}"
     export BENCHMARK_OPTS="${JAVA_ARGS_INSPECTIT_ZIPKIN}"
-    java $BENCHMARK_OPTS \
+    java $DEFAULT_JVM_OPTS $JAVA_OPTS $BENCHMARK_OPTS \
         -cp ../../benchmark/lib/benchmark.jar:../../benchmark/lib/jcommander-1.72.jar \
         moobench.benchmark.BenchmarkMain \
         --output-filename "${RAWFN}-${i}-${RECURSION_DEPTH}-${k}.csv" \
@@ -122,7 +122,7 @@ function runInspectITPrometheus {
     startPrometheus 8888
     sleep "${SLEEP_TIME}"
     export BENCHMARK_OPTS="${JAVA_ARGS_INSPECTIT_PROMETHEUS}"
-    java $BENCHMARK_OPTS \
+    java $DEFAULT_JVM_OPTS $JAVA_OPTS $BENCHMARK_OPTS \
         -cp ../../benchmark/lib/benchmark.jar:../../benchmark/lib/jcommander-1.72.jar \
         moobench.benchmark.BenchmarkMain \
         --output-filename "${RAWFN}-${i}-${RECURSION_DEPTH}-${k}.csv" \
