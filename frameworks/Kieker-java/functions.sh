@@ -11,8 +11,12 @@ fi
 function getAgent() {
 	instrumentationTechnology="bytebuddy" # Replace by aspectj etc. if other technology is intended
 	info "Download the Kieker agent ${AGENT_JAR}"
-	export VERSION_PATH=`curl "https://oss.sonatype.org/service/local/repositories/snapshots/content/net/kieker-monitoring/kieker/" | grep '<resourceURI>' | sed 's/ *<resourceURI>//g' | sed 's/<\/resourceURI>//g' | grep '/$' | grep -v ".xml" | head -n 1`
-	export AGENT_PATH=`curl "${VERSION_PATH}" | grep 'bytebuddy.jar</resourceURI' | sort | sed 's/ *<resourceURI>//g' | sed 's/<\/resourceURI>//g' | tail -1`
+	SNAPSHOTS_URL_PREFIX="https://central.sonatype.com/repository/maven-snapshots/net/kieker-monitoring/kieker"
+	KIEKER_VERSION=`curl "${SNAPSHOTS_URL_PREFIX}/maven-metadata.xml" | grep '<latest>' | sed 's/ *<latest>//g' | sed 's/<\/latest>//g'`
+	AGENT_URL_PREFIX="${SNAPSHOTS_URL_PREFIX}/${KIEKER_VERSION}"
+	AGENT_VERSION=`curl ${AGENT_URL_PREFIX}/maven-metadata.xml |grep "$instrumentationTechnology" -A2 | grep '<value>' | sed 's/ *<value>//g' | sed 's/<\/value>//g'`
+	echo "Path: $VERSION_PATH"
+	export AGENT_PATH="${AGENT_URL_PREFIX}/kieker-${AGENT_VERSION}-$instrumentationTechnology.jar"
 	curl "${AGENT_PATH}" > "${AGENT_JAR}"
 
 	if [ ! -f "${AGENT_JAR}" ] ; then
