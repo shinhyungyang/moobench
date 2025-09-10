@@ -54,6 +54,6 @@ case "$1" in
 		runAll
 	;;
 	*)
-		runSingle "$param"
+		runSingle "$1"
 	;;
 esac
