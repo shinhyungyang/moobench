@@ -3,9 +3,11 @@ function getSum {
 }
 
 function getFileAverages {
-	variants=$(ls $1 | grep raw | awk -F'[-.]' '{print $4}' | sort | uniq)
+	
 	for size in 2 4 8 16 32 64 128
 	do
+		unzip $1/results-$size.zip
+		variants=$(ls $1 | grep raw | awk -F'[-.]' '{print $4}' | sort | uniq)
 		for variant in $variants
 		do
 		        allExecutions=$(cat $1/raw-*-$size-$variant.csv | wc -l)
@@ -16,14 +18,23 @@ function getFileAverages {
 		                average=$(tail -n $afterWarmup $file | awk -F';' '{print $2}' | getSum | awk '{print $2}')
 		                echo $variant";"$size";"$average
 		        done
-		done
+		done >> $RESULTFOLDER/$framework.csv
+		echo "Written to $RESULTFOLDER/$framework.csv"
+		cat $RESULTFOLDER/$framework.csv
+		rm $1/raw*
 	done
 }
 
 function getFrameworkEvolutionFile {
 	folder=$1
 	framework=$2
-	getFileAverages $1/results-$framework/ > $RESULTFOLDER/$framework.csv
+	if [ ! -f $RESULTFOLDER/$framework.csv ]
+	then
+	     cd $folder/exp-results-$framework
+	     pwd
+		echo "" > $RESULTFOLDER/$framework.csv
+		getFileAverages $1/exp-results-$framework/
+	fi
 	variants=$(cat $RESULTFOLDER/$framework.csv | awk -F';' '{print $1}' | sort | uniq)
 	for size in 2 4 8 16 32 64 128
 	do
@@ -37,7 +48,7 @@ function getFrameworkEvolutionFile {
 }
 
 if [ "$#" -lt 1 ]; then
-	echo "Please pass the folder where results-Kieker, results-OpenTelemetry and results-inspectIT are"
+	echo "Please pass the folder where exp-results-Kieker, exp-results-OpenTelemetry and exp-results-inspectIT are"
 	exit 1
 fi
 
@@ -46,14 +57,15 @@ if [ ! -d $1 ]; then
 	exit 1
 fi
 
-RESULTFOLDER=../results
-if [ -d $RESULTFOLDER ]
-then
-	rm -rf $RESULTFOLDER/* 
-fi
-mkdir -p $RESULTFOLDER
+start=$(pwd)
 
-for framework in Kieker OpenTelemetry inspectIT
+RESULTFOLDER=$start/results
+if [ ! -d $RESULTFOLDER ]
+then
+	mkdir -p $RESULTFOLDER
+fi
+
+for framework in Kieker-java OpenTelemetry-java
 do
 	echo "Analysing $framework"
 	getFrameworkEvolutionFile $1 $framework
