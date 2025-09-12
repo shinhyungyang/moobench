@@ -65,10 +65,11 @@ then
 	mkdir -p $RESULTFOLDER
 fi
 
-for framework in Kieker-java OpenTelemetry-java
+for framework in Kieker-java OpenTelemetry-java inspectIT-java
 do
 	echo "Analysing $framework"
 	getFrameworkEvolutionFile $1 $framework
 done
 
+cd $start
 gnuplot -c plotExponential.plt
