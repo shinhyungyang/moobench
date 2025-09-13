@@ -65,7 +65,7 @@ then
 	mkdir -p $RESULTFOLDER
 fi
 
-for framework in Kieker-java OpenTelemetry-java inspectIT-java
+for framework in Kieker-java OpenTelemetry-java inspectIT-java pinpoint-java Scouter-java
 do
 	echo "Analysing $framework"
 	getFrameworkEvolutionFile $1 $framework
