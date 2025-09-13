@@ -16,7 +16,7 @@ function runSingle {
 	RESULTS_DIR="exp-results-${benchmark}"
 	checkDirectory RESULTS_DIR "${RESULTS_DIR}" create
 	
-	for depth in 128
+	for depth in 2 4 8 16 32 64 128
 	do
 		export RECURSION_DEPTH=$depth
 		echo "Running $depth"
