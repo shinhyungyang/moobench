@@ -193,7 +193,6 @@ function stopPinot {
 
 function startCollectorAndWeb() {
    cd pinpoint
-   PINPOINT_VERSION=3.0.1
 
    if [ ! -f pinpoint-collector-starter-${PINPOINT_VERSION}-exec.jar ]
    then
