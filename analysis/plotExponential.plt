@@ -73,7 +73,7 @@ unset output
 
 set terminal pdf size 5,3
 
-set out 'results/overview.pdf'
+set out 'results/scalability_overview.pdf'
 
 set title 'Overview of Method Execution Durations'
 
