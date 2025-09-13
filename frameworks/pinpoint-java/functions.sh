@@ -77,7 +77,7 @@ function stopHBase(){
 }
 
 
-export KAFKA_VERSION=2.13-3.9.0
+export KAFKA_VERSION=2.13-3.9.1
 function startKafka() {
    if [ ! -d kafka_$KAFKA_VERSION ]
    then
