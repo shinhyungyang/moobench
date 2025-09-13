@@ -89,7 +89,11 @@ plot 'results/evolution_inspectIT-java.csv' u 1:2 w linespoint lc "red" title 'B
      'results/evolution_inspectIT-java.csv' u 1:6 w linespoint lc rgb "#c66900" title 'inspectIT (Zipkin)', \
 	'results/evolution_inspectIT-java.csv' u 1:($6-$7):($6+$7) w filledcurves lc rgb "#c66900" notitle fs transparent solid 0.5, \
      'results/evolution_OpenTelemetry-java.csv' u 1:8 w linespoint lc "green" title 'OpenTelemetry-java (Zipkin)', \
-	'results/evolution_OpenTelemetry-java.csv' u 1:($8-$9):($8+$9) w filledcurves lc "green" notitle fs transparent solid 0.5
+	'results/evolution_OpenTelemetry-java.csv' u 1:($8-$9):($8+$9) w filledcurves lc "green" notitle fs transparent solid 0.5, \
+	'results/evolution_Scouter-java.csv' u 1:4 w linespoint lc "purple" title 'Scouter', \
+	'results/evolution_Scouter-java.csv' u 1:($4-$5):($4+$5) w filledcurves lc "purple" notitle fs transparent solid 0.5, \
+     'results/evolution_pinpoint-java.csv' u 1:6 w linespoint lc rgb "#FF50FF" title 'Pinpoint Basic', \
+	'results/evolution_pinpoint-java.csv' u 1:($6-$7):($6+$7) w filledcurves lc rgb "#FF50FF" notitle fs transparent solid 0.5
 
 	
 unset output
