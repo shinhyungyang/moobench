@@ -11,6 +11,9 @@ fi
 AGENT_VERSION="9.5.0"
 # Skywalking APM version
 APM_VERSION="10.2.0"
+# Skywalking BanyanDB version, check config/bydb.dependencies.properties in Skywalking apm for version
+BANYANDB_VERSION="0.8.0"
+
 # Gets the skywalking agent and APM server
 # Commented code uses archive.apache.org which is too slow for Github actions but should be always available.
 # The dlcdn.apache.org is much faster but only available for the latest version.
@@ -27,15 +30,27 @@ function getAgent {
 	cd "${BASE_DIR}"
 }
 
+# Start banyandb as storage backend in a docker container and then the Skywalking APM server.
 function startSkywalkingServer {
+  docker pull apache/skywalking-banyandb:${BANYANDB_VERSION}-slim
+  docker run -d -p 17912:17912 -p 17913:17913 --name banyandb \
+    apache/skywalking-banyandb:${BANYANDB_VERSION}-slim standalone
+  sleep 5
 	cd "${BASE_DIR}/apache-skywalking-apm-bin/bin"
 	./oapService.sh &
+	SKYWALKING_PID=$!
 	cd "${BASE_DIR}"
 	sleep 10
 }
 
+# Stops the APM server and then the banyandb container
 function stopSkywalkingServer {
-	pkill -f skywalking
+	if [[ -n "$SKYWALKING_PID" ]]; then
+		kill "$SKYWALKING_PID"
+		wait "$SKYWALKING_PID" 2>/dev/null
+	fi
+	docker stop banyandb
+  docker rm banyandb
 	sleep 3
 }
 
