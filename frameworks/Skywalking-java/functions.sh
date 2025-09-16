@@ -35,21 +35,25 @@ function startSkywalkingServer {
   docker pull apache/skywalking-banyandb:${BANYANDB_VERSION}-slim
   docker run -d -p 17912:17912 -p 17913:17913 --name banyandb \
     apache/skywalking-banyandb:${BANYANDB_VERSION}-slim standalone
-  sleep 5
-	cd "${BASE_DIR}/apache-skywalking-apm-bin/bin"
-	./oapService.sh &
-	SKYWALKING_PID=$!
-	cd "${BASE_DIR}"
-	sleep 10
+  sleep 10
+  cd "${BASE_DIR}/apache-skywalking-apm-bin/bin"
+  ./oapService.sh &
+  SKYWALKING_PID=$!
+  cd "${BASE_DIR}"
+  while ! nc -z localhost 11800; do
+    sleep 2
+  done
 }
 
 # Stops the APM server and then the banyandb container
 function stopSkywalkingServer {
-	if [[ -n "$SKYWALKING_PID" ]]; then
-		kill "$SKYWALKING_PID"
-		wait "$SKYWALKING_PID" 2>/dev/null
-	fi
-	docker stop banyandb
+  if [[ -n "$SKYWALKING_PID" ]]; then
+    kill "$SKYWALKING_PID"
+    wait "$SKYWALKING_PID" 2>/dev/null
+  fi
+  # Empty the logs to avoid interference with next run
+  echo "" > "${BASE_DIR}/apache-skywalking-apm-bin/logs/skywalking-oap-server.log"
+  docker stop banyandb
   docker rm banyandb
 	sleep 3
 }
