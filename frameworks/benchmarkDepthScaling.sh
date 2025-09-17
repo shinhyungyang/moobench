@@ -21,6 +21,11 @@ function runSingle {
 		export RECURSION_DEPTH=$depth
 		echo "Running $depth"
 		./benchmark.sh &> ${RESULTS_DIR}/$depth.txt
+		if [ ! -f results-$benchmark/results.zip ]
+		then
+			echo "File results-$benchmark/results.zip missing; aborting"
+			exit 1
+		fi
 		mv results-$benchmark/results.zip ${RESULTS_DIR}/results-$RECURSION_DEPTH.zip
 	done
 	
