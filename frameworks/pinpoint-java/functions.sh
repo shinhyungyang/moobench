@@ -81,7 +81,7 @@ export KAFKA_VERSION=2.13-3.9.1
 function startKafka() {
    if [ ! -d kafka_$KAFKA_VERSION ]
    then
-   	KAFKA_URL=https://dlcdn.apache.org/kafka/3.9.0/kafka_$KAFKA_VERSION.tgz
+   	KAFKA_URL=https://dlcdn.apache.org/kafka/3.9.1/kafka_$KAFKA_VERSION.tgz
    	wget $KAFKA_URL
    	
    	tar -xf kafka_$KAFKA_VERSION.tgz
