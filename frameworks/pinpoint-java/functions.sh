@@ -76,12 +76,13 @@ function stopHBase(){
    cd $BASE_DIR
 }
 
-export KAFAK_VERSION=4.1.0
-export SCALA_VERSION=2.13-4.1.0
+export KAFKA_VERSION=4.1.0
+export SCALA_VERSION=2.13
 function startKafka() {
-   if [ ! -d kafka_$KAFKA_VERSION ]
+   kafka_folder=kafka_"$SCALA_VERSION"_"$KAFKA_VERSION"
+   if [ ! -d $kafka_folder ]
    then
-     kafka_file=kafka_"$SCALA_VERSION"_"$KAFKA_VERSION".tgz
+     kafka_file=$kafka_folder.tgz
    	KAFKA_URL=https://dlcdn.apache.org/kafka/"$KAFKA_VERSION"/$kafka_file
    	wget $KAFKA_URL
    	
@@ -93,7 +94,7 @@ function startKafka() {
    	
    	tar -xf $kafka_file
    fi
-   cd kafka_$KAFKA_VERSION
+   cd $kafka_folder
 
    if [ -d /tmp/kraft-combined-logs ]
    then
