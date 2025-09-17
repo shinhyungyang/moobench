@@ -79,47 +79,38 @@ function stopHBase(){
 export KAFKA_VERSION=4.1.0
 export SCALA_VERSION=2.13
 function startKafka() {
-   kafka_folder=kafka_"$SCALA_VERSION"-"$KAFKA_VERSION"
-   if [ ! -d $kafka_folder ]
-   then
-     kafka_file=$kafka_folder.tgz
-   	KAFKA_URL=https://dlcdn.apache.org/kafka/"$KAFKA_VERSION"/$kafka_file
-   	wget $KAFKA_URL
-   	
-   	if [ ! -f $kafka_file ]
-   	then
-   		echo "Could not download Kafka; exiting."
-   		exit 1
-   	fi
-   	
-   	tar -xf $kafka_file
-   fi
-   cd $kafka_folder
-
-   if [ -d /tmp/kraft-combined-logs ]
-   then
-     rm -rf /tmp/kraft-combined-logs
-   fi
-   KAFKA_CLUSTER_ID="$(bin/kafka-storage.sh random-uuid)"
-   bin/kafka-storage.sh format --standalone -t $KAFKA_CLUSTER_ID -c config/kraft/reconfig-server.properties
-   bin/kafka-server-start.sh config/kraft/reconfig-server.properties &> ${BASE_DIR}/logs/kafka.log &
-   
-   echo "Waiting for Kafka start..."
-   sleep 3
-   bin/kafka-topics.sh --create --topic inspector-stat-agent-00 --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
-   bin/kafka-topics.sh --create --topic inspector-stat-app --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
-   
-   cd $BASE_DIR
+  docker run -d \
+  --name kafka \
+  -p 9092:9092 \
+  -e KAFKA_NODE_ID=1 \
+  -e KAFKA_PROCESS_ROLES=broker,controller \
+  -e KAFKA_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093 \
+  -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 \
+  -e KAFKA_CONTROLLER_LISTENER_NAMES=CONTROLLER \
+  -e KAFKA_INTER_BROKER_LISTENER_NAME=PLAINTEXT \
+  -e KAFKA_CONTROLLER_QUORUM_VOTERS=1@localhost:9093 \
+  -e CLUSTER_ID=abcdefghijklmnopqrstuv \
+  confluentinc/cp-kafka:7.6.0
+  
+  docker exec kafka kafka-topics \
+  --create \
+  --if-not-exists \
+  --topic inspector-stat-agent-00 \
+  --bootstrap-server localhost:9092 \
+  --replication-factor 1 \
+  --partitions 1
+ 
+  docker exec kafka kafka-topics \
+  --create \
+  --if-not-exists \
+  --topic inspector-stat-app \
+  --bootstrap-server localhost:9092 \
+  --replication-factor 1 \
+  --partitions 1
 }
 
 function stopKafka {
-   cd kafka_$KAFKA_VERSION
-   bin/kafka-server-stop.sh
-   
-   rm logs/*
-   rm /tmp/kraft-combined-logs/ -rf
-   
-   cd $BASE_DIR
+  docker rm -f kafka
 }
 
 function waitForStartup {
