@@ -76,15 +76,22 @@ function stopHBase(){
    cd $BASE_DIR
 }
 
-
-export KAFKA_VERSION=2.13-3.9.1
+export KAFAK_VERSION=4.1.0
+export SCALA_VERSION=2.13-4.1.0
 function startKafka() {
    if [ ! -d kafka_$KAFKA_VERSION ]
    then
-   	KAFKA_URL=https://dlcdn.apache.org/kafka/3.9.1/kafka_$KAFKA_VERSION.tgz
+     kafka_file=kafka_"$SCALA_VERSION"_"$KAFKA_VERSION".tgz
+   	KAFKA_URL=https://dlcdn.apache.org/kafka/"$KAFKA_VERSION"/$kafka_file
    	wget $KAFKA_URL
    	
-   	tar -xf kafka_$KAFKA_VERSION.tgz
+   	if [ ! -f $kafka_file ]
+   	then
+   		echo "Could not download Kafka; exiting."
+   		exit 1
+   	fi
+   	
+   	tar -xf $kafka_file
    fi
    cd kafka_$KAFKA_VERSION
 
