@@ -79,7 +79,7 @@ function stopHBase(){
 export KAFKA_VERSION=4.1.0
 export SCALA_VERSION=2.13
 function startKafka() {
-   kafka_folder=kafka_"$SCALA_VERSION"_"$KAFKA_VERSION"
+   kafka_folder=kafka_"$SCALA_VERSION"-"$KAFKA_VERSION"
    if [ ! -d $kafka_folder ]
    then
      kafka_file=$kafka_folder.tgz
