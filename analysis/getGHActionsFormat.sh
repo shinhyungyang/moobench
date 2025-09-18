@@ -1,8 +1,6 @@
 #!/bin/bash
 
-function getSum {
-  awk '{sum += $1; square += $1^2} END {print "Average: "sum/NR" Standard Deviation: "sqrt(square / NR - (sum/NR)^2)" Count: "NR}'
-}
+source ../../../common-functions.sh
 
 source ../labels.sh
 
@@ -18,11 +16,14 @@ fi
 
 for variant in $MOOBENCH_CONFIGURATIONS
 do
+
    values=$(
    for file in $(ls raw-*-$size-$variant.csv)
    do
-      cat $file | awk -F';' '{print $2}' | getSum | awk '{print $2}'
-   done | getSum)
+   	 echo $file
+      getStatisticsOfMeasurementFile $file
+   done | awk '{print $9}' | getSum)
+   
    value=$(echo $values | awk '{print $2}')
    standardDeviation=$(echo $values | awk '{print $5}')
 
