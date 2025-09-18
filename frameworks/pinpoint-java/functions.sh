@@ -24,89 +24,86 @@ function getAgent() {
     fi
 }
 
-export HBASE_VERSION=2.6.3
-
 function startHBase() {
-   echo "Starting HBase $HBASE_VERSION"
-   if [ ! -d $BASE_DIR/hbase-$HBASE_VERSION ]
-   then
-      HBASE_URL=https://dlcdn.apache.org/hbase/$HBASE_VERSION/hbase-$HBASE_VERSION-bin.tar.gz
-      HBASE_URL_SHA512=https://dlcdn.apache.org/hbase/$HBASE_VERSION/hbase-$HBASE_VERSION-bin.tar.gz.sha512 
-      curl --output hbase-$HBASE_VERSION-bin.tar.gz --limit-rate 5M $HBASE_URL
-      curl --output hbase-$HBASE_VERSION-bin.tar.gz.sha512 --limit-rate 2M $HBASE_URL_SHA512
-      
-      checksum=$(cat hbase-"$HBASE_VERSION"-bin.tar.gz.sha512 | tr "\n" " " | awk -F':' '{print $2}' | tr -d ' ' | tr '[:upper:]' '[:lower:]')
-      calculated_checksum=$(sha512sum hbase-"$HBASE_VERSION"-bin.tar.gz | awk '{print $1}')
-      if [ "$checksum" != "$calculated_checksum" ]
-      then
-        echo "sha512sum of hbase couldn't be verified ($checksum vs $calculated_checksum; aborting"
-        exit 1
-      fi
-      
-      tar -xf hbase-$HBASE_VERSION-bin.tar.gz
-   fi
+	echo "Starting HBase openeuler/hbase:2.6.3-oe2403sp1"
+	docker run -d \
+		--name hbase \
+		--hostname hbase \
+		--net=host \
+		--entrypoint /bin/sh \
+		openeuler/hbase:2.6.3-oe2403sp1 \
+		-c "
+# hostname-Befehl ad-hoc definieren
+hostname() { cat /etc/hostname; }
+export -f hostname
 
-   cd hbase-$HBASE_VERSION
-   rm -rf tmp/zookeeper/* 
-   rm -rf tmp/hbase/* 
+# embedded ZK auf 0.0.0.0 setzen
+sed -i '/<configuration>/a <property><name>hbase.zookeeper.property.clientPortAddress</name><value>0.0.0.0</value></property>' /usr/local/hbase/conf/hbase-site.xml
+
+sed -i '/<configuration>/a <property><name>hbase.master.hostname</name><value>localhost</value></property>' /usr/local/hbase/conf/hbase-site.xml
+sed -i '/<configuration>/a <property><name>hbase.master.port</name><value>16000</value></property>' /usr/local/hbase/conf/hbase-site.xml
+
+
+# HBase starten und Logs anhängen
+/usr/local/hbase/bin/start-hbase.sh && tail -F /usr/local/hbase/logs/*
+"
    
-   bin/start-hbase.sh | tee ${BASE_DIR}/logs/start-hbase.log
+	if [ ! -f hbase-create.hbase ]
+	then
+		wget https://raw.githubusercontent.com/pinpoint-apm/pinpoint/refs/heads/master/hbase/scripts/hbase-create.hbase
+	fi
+	
+	echo "Warte auf HBase-Master ..."
+	docker logs -f hbase 2>&1 | grep -m1 "Master has completed initialization"
+	echo "HBase-Master ist bereit."
    
-   if [ ! -f hbase-create.hbase ]
-   then
-      wget https://raw.githubusercontent.com/pinpoint-apm/pinpoint/refs/heads/master/hbase/scripts/hbase-create.hbase
-   fi
-   
-   bin/hbase shell hbase-create.hbase &> ${BASE_DIR}/logs/hbase-create.log
-   
-   cd $BASE_DIR
+	docker cp hbase-create.hbase hbase:/tmp/hbase-create.hbase
+	docker exec hbase hbase shell /tmp/hbase-create.hbase
 }
 
 function stopHBase(){
-   echo "Stopping HBase $HBASE_VERSION"
-   cd hbase-$HBASE_VERSION
-   bin/stop-hbase.sh
-   ps -aux | grep '[o]rg.apache.hadoop.hbase.master.HMaster' | awk '{print $2}' | xargs -r kill -9
-   
-   rm -rf tmp/zookeeper/* 
-   rm -rf tmp/hbase/* 
-   rm logs/*
-   rm /tmp/hbase-* -r
-   
-   cd $BASE_DIR
+	echo "Stopping HBase $HBASE_VERSION"
+	docker rm -f hbase
 }
 
 export KAFKA_VERSION=4.1.0
 export SCALA_VERSION=2.13
 function startKafka() {
-  docker run -d \
-  --name kafka \
-  -p 9092:9092 \
-  -e KAFKA_NODE_ID=1 \
-  -e KAFKA_PROCESS_ROLES=broker,controller \
-  -e KAFKA_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093 \
-  -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 \
-  -e KAFKA_CONTROLLER_LISTENER_NAMES=CONTROLLER \
-  -e KAFKA_INTER_BROKER_LISTENER_NAME=PLAINTEXT \
-  -e KAFKA_CONTROLLER_QUORUM_VOTERS=1@localhost:9093 \
-  -e CLUSTER_ID=abcdefghijklmnopqrstuv \
-  confluentinc/cp-kafka:7.6.0
+	docker run -d \
+		--name kafka \
+		-p 9092:9092 \
+		-e KAFKA_NODE_ID=1 \
+		-e KAFKA_PROCESS_ROLES=broker,controller \
+		-e KAFKA_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093 \
+		-e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 \
+		-e KAFKA_CONTROLLER_LISTENER_NAMES=CONTROLLER \
+		-e KAFKA_INTER_BROKER_LISTENER_NAME=PLAINTEXT \
+		-e KAFKA_CONTROLLER_QUORUM_VOTERS=1@localhost:9093 \
+		-e CLUSTER_ID=abcdefghijklmnopqrstuv \
+		confluentinc/cp-kafka:7.6.0
   
-  docker exec kafka kafka-topics \
-  --create \
-  --if-not-exists \
-  --topic inspector-stat-agent-00 \
-  --bootstrap-server localhost:9092 \
-  --replication-factor 1 \
-  --partitions 1
+	docker exec kafka kafka-topics \
+		--create \
+		--if-not-exists \
+		--topic inspector-stat-agent-00 \
+		--bootstrap-server localhost:9092 \
+		--replication-factor 1 \
+		--partitions 1
+	docker exec kafka kafka-topics \
+		--create \
+		--if-not-exists \
+		--topic inspector-stat-agent-01 \
+		--bootstrap-server localhost:9092 \
+		--replication-factor 1 \
+		--partitions 1
  
-  docker exec kafka kafka-topics \
-  --create \
-  --if-not-exists \
-  --topic inspector-stat-app \
-  --bootstrap-server localhost:9092 \
-  --replication-factor 1 \
-  --partitions 1
+	docker exec kafka kafka-topics \
+		--create \
+		--if-not-exists \
+		--topic inspector-stat-app \
+		--bootstrap-server localhost:9092 \
+		--replication-factor 1 \
+		--partitions 1
 }
 
 function stopKafka {
