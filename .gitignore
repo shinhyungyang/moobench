@@ -18,6 +18,7 @@
 # Do not store compile results
 compile-results/
 frameworks/Kieker-python/kieker-lang-pack-python/
+analysis/results/
 
 # Do not store agents
 frameworks/elasticapm-java/elastic-apm-agent.jar
