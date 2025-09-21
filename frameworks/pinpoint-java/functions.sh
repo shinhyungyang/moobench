@@ -24,8 +24,7 @@ function getAgent() {
     fi
 }
 
-function startHBase() {
-	echo "Starting HBase openeuler/hbase:2.6.3-oe2403sp1"
+function startHBaseAndKafkaContainers {
 	docker run -d \
 		--name hbase \
 		--hostname hbase \
@@ -47,6 +46,22 @@ sed -i '/<configuration>/a <property><name>hbase.master.port</name><value>16000<
 # HBase starten und Logs anhängen
 /usr/local/hbase/bin/start-hbase.sh && tail -F /usr/local/hbase/logs/*
 "
+	docker run -d \
+		--name kafka \
+		--net=host \
+		-e KAFKA_NODE_ID=1 \
+		-e KAFKA_PROCESS_ROLES=broker,controller \
+		-e KAFKA_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093 \
+		-e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 \
+		-e KAFKA_CONTROLLER_LISTENER_NAMES=CONTROLLER \
+		-e KAFKA_INTER_BROKER_LISTENER_NAME=PLAINTEXT \
+		-e KAFKA_CONTROLLER_QUORUM_VOTERS=1@localhost:9093 \
+		-e CLUSTER_ID=abcdefghijklmnopqrstuv \
+		confluentinc/cp-kafka:7.6.0
+}
+
+function startHBase() {
+	echo "Starting HBase openeuler/hbase:2.6.3-oe2403sp1"
    
 	if [ ! -f hbase-create.hbase ]
 	then
@@ -60,6 +75,8 @@ sed -i '/<configuration>/a <property><name>hbase.master.port</name><value>16000<
 	echo "Initialising hbase tables - log goes to hbase-creation-log.txt"
 	docker cp hbase-create.hbase hbase:/tmp/hbase-create.hbase
 	docker exec hbase hbase shell /tmp/hbase-create.hbase &> hbase-creation-log.txt
+	echo
+	echo
 }
 
 function stopHBase(){
@@ -70,19 +87,7 @@ function stopHBase(){
 export KAFKA_VERSION=4.1.0
 export SCALA_VERSION=2.13
 function startKafka() {
-	docker run -d \
-		--name kafka \
-		-p 9092:9092 \
-		-e KAFKA_NODE_ID=1 \
-		-e KAFKA_PROCESS_ROLES=broker,controller \
-		-e KAFKA_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093 \
-		-e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 \
-		-e KAFKA_CONTROLLER_LISTENER_NAMES=CONTROLLER \
-		-e KAFKA_INTER_BROKER_LISTENER_NAME=PLAINTEXT \
-		-e KAFKA_CONTROLLER_QUORUM_VOTERS=1@localhost:9093 \
-		-e CLUSTER_ID=abcdefghijklmnopqrstuv \
-		confluentinc/cp-kafka:7.6.0
-  
+	echo "Starting Kafka"  
 	docker exec kafka kafka-topics \
 		--create \
 		--if-not-exists \
@@ -105,6 +110,9 @@ function startKafka() {
 		--bootstrap-server localhost:9092 \
 		--replication-factor 1 \
 		--partitions 1
+		
+	echo
+	echo
 }
 
 function stopKafka {
@@ -196,7 +204,16 @@ function startCollectorAndWeb() {
       wget https://repo1.maven.org/maven2/com/navercorp/pinpoint/pinpoint-collector-starter/${PINPOINT_VERSION}/pinpoint-collector-starter-${PINPOINT_VERSION}-exec.jar
    fi
    
-   java -Dpinpoint.zookeeper.address=localhost -Dpinpoint.modules.realtime.enabled=false -jar pinpoint-collector-starter-${PINPOINT_VERSION}-exec.jar &> ${BASE_DIR}/logs/collector.log &
+   java --add-opens=java.base/java.nio=ALL-UNNAMED -Dpinpoint.zookeeper.address=localhost \
+   	-Dcollector.receiver.grpc.stat.stream.flow-control.rate-limit.capacity=1000000 \
+   	-Dcollector.receiver.grpc.span.stream.flow-control.rate-limit.capacity=1000000 \
+   	-Dcollector.receiver.grpc.agent.stream.flow-control.rate-limit.capacity=1000000 \
+   	-Dmanagement.otlp.metrics.export.enabled=false \
+   	-Dcollector.kafka.enabled=false \
+   	-Dpinpoint.modules.realtime.enabled=false \
+   	-Dpinpoint.collector.type=BASIC \
+   	-DDpinpoint.metric.kafka.bootstrap.servers=localhost:9092 \
+   	-jar pinpoint-collector-starter-${PINPOINT_VERSION}-exec.jar &> ${BASE_DIR}/logs/collector.log &
    
    waitForStartup ${BASE_DIR}/logs/collector.log "Started PinpointCollectorStarter in"
    
@@ -257,11 +274,14 @@ function runNoInstrumentation {
 function startPinpointServers {
    mkdir -p logs
 
-   startHBase
-   startKafka
-   startPinot
+	# Containers should be started first and afterwards filled with data
+	startHBaseAndKafkaContainers
+	startHBase
+	startKafka
+	
+	startPinot
    
-   startCollectorAndWeb
+	startCollectorAndWeb
 }
 
 function stopPinpointServers {
