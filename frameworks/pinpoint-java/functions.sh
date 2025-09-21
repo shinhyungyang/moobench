@@ -204,10 +204,16 @@ function startCollectorAndWeb() {
       wget https://repo1.maven.org/maven2/com/navercorp/pinpoint/pinpoint-collector-starter/${PINPOINT_VERSION}/pinpoint-collector-starter-${PINPOINT_VERSION}-exec.jar
    fi
    
+   RATE_LIMIT=100000
+   REFILL=20000
+   
    java --add-opens=java.base/java.nio=ALL-UNNAMED -Dpinpoint.zookeeper.address=localhost \
-   	-Dcollector.receiver.grpc.stat.stream.flow-control.rate-limit.capacity=1000000 \
-   	-Dcollector.receiver.grpc.span.stream.flow-control.rate-limit.capacity=1000000 \
-   	-Dcollector.receiver.grpc.agent.stream.flow-control.rate-limit.capacity=1000000 \
+   	-Dcollector.receiver.grpc.stat.stream.flow-control.rate-limit.capacity=$RATE_LIMIT \
+   	-Dcollector.receiver.grpc.stat.stream.flow-control.rate-limit.refill-greedy=$REFILL \
+   	-Dcollector.receiver.grpc.span.stream.flow-control.rate-limit.capacity=$RATE_LIMIT \
+   	-Dcollector.receiver.grpc.span.stream.flow-control.rate-limit.refill-greedy=$REFILL \
+   	-Dcollector.receiver.grpc.agent.stream.flow-control.rate-limit.capacity=$RATE_LIMIT \
+   	-Dcollector.receiver.grpc.agent.stream.flow-control.rate-limit.refill-greedy=$REFILL \
    	-Dmanagement.otlp.metrics.export.enabled=false \
    	-Dcollector.kafka.enabled=false \
    	-Dpinpoint.modules.realtime.enabled=false \
