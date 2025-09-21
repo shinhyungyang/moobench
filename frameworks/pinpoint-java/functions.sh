@@ -56,9 +56,10 @@ sed -i '/<configuration>/a <property><name>hbase.master.port</name><value>16000<
 	echo "Warte auf HBase-Master ..."
 	docker logs -f hbase 2>&1 | grep -m1 "Master has completed initialization"
 	echo "HBase-Master ist bereit."
-   
+     
+	echo "Initialising hbase tables - log goes to hbase-creation-log.txt"
 	docker cp hbase-create.hbase hbase:/tmp/hbase-create.hbase
-	docker exec hbase hbase shell /tmp/hbase-create.hbase
+	docker exec hbase hbase shell /tmp/hbase-create.hbase &> hbase-creation-log.txt
 }
 
 function stopHBase(){
@@ -205,7 +206,7 @@ function startCollectorAndWeb() {
       wget https://repo1.maven.org/maven2/com/navercorp/pinpoint/pinpoint-web-starter/${PINPOINT_VERSION}/pinpoint-web-starter-${PINPOINT_VERSION}-exec.jar
    fi
    
-   java -Dpinpoint.zookeeper.address=localhost -Dpinpoint.modules.realtime.enabled=false -jar pinpoint-web-starter-${PINPOINT_VERSION}-exec.jar &> ${BASE_DIR}/logs/web-starter.log &
+   java --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED -Dpinpoint.zookeeper.address=localhost -Dpinpoint.modules.realtime.enabled=false -jar pinpoint-web-starter-${PINPOINT_VERSION}-exec.jar &> ${BASE_DIR}/logs/web-starter.log &
     waitForStartup ${BASE_DIR}/logs/web-starter.log "Started PinpointWebStarter in"
    
    
