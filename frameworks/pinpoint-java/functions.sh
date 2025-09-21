@@ -211,8 +211,9 @@ function startCollectorAndWeb() {
    	-Dmanagement.otlp.metrics.export.enabled=false \
    	-Dcollector.kafka.enabled=false \
    	-Dpinpoint.modules.realtime.enabled=false \
+   	-Dpinpoint.modules.collector.inspector.enabled=false \
    	-Dpinpoint.collector.type=BASIC \
-   	-DDpinpoint.metric.kafka.bootstrap.servers=localhost:9092 \
+   	-Dpinpoint.metric.kafka.bootstrap.servers=localhost:9092 \
    	-jar pinpoint-collector-starter-${PINPOINT_VERSION}-exec.jar &> ${BASE_DIR}/logs/collector.log &
    
    waitForStartup ${BASE_DIR}/logs/collector.log "Started PinpointCollectorStarter in"
@@ -272,7 +273,7 @@ function runNoInstrumentation {
 }
 
 function startPinpointServers {
-   mkdir -p logs
+	mkdir -p logs
 
 	# Containers should be started first and afterwards filled with data
 	startHBaseAndKafkaContainers
@@ -280,18 +281,27 @@ function startPinpointServers {
 	startKafka
 	
 	startPinot
+	
+	docker run -d \
+		--name pinpoint-redis \
+		-p 6379:6379 \
+		redis:7-alpine
    
 	startCollectorAndWeb
+	
+	
 }
 
 function stopPinpointServers {
-   stopCollectorAndWeb
-   stopKafka
-   stopPinot
-   stopHBase
+	stopCollectorAndWeb
+	stopKafka
+	stopPinot
+	stopHBase
    
-   # No clue which tool creates these, but they are created...
-   rm /tmp/tomcat* -r
+	docker rm -f pinpoint-redis
+   
+	# No clue which tool creates these, but they are created...
+	rm /tmp/tomcat* -r
 }
 
 function setPinpointConfig {
