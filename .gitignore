@@ -34,6 +34,7 @@ frameworks/Kieker-python/raw*
 frameworks/Kieker-python/results-Kieker-python/
 frameworks/elasticapm-java/results-elasticapm-java/
 frameworks/pinpoint-java/results-pinpoint-java/
+frameworks/pinpoint-java/exp-results-pinpoint-java/
 
 # Do not store pinpoint temporary data
 frameworks/pinpoint-java/logs/
@@ -44,6 +45,10 @@ frameworks/pinpoint-java/libs/
 frameworks/pinpoint-java/apache-pinot-*/
 frameworks/pinpoint-java/hbase-*/
 frameworks/pinpoint-java/kafka_*
+frameworks/pinpoint-java/hbase-creation-log.txt
 frameworks/pinpoint-java/pinpoint-collector-starter-*
 frameworks/pinpoint-java/pinpoint-web-starter-*
-
+frameworks/pinpoint-java/pinpoint/pinpoint-collector-starter-*.jar
+frameworks/pinpoint-java/pinpoint/pinpoint-web-starter-*.jar
+frameworks/pinpoint-java/pinpoint/pinpoint-agent-*
+frameworks/pinpoint-java/pinpoint/pinpoint.tar.gz
