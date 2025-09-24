@@ -9,26 +9,26 @@ fi
 
 
 function getAgent() {
-	info "Setup Kieker4Python"
-	
-	checkExecutable python "${PYTHON}"
-	checkExecutable pip "${PIP}"
-	checkExecutable git "${GIT}"
+  info "Setup Kieker4Python"
 
-	# note: if it already exists
-	if [ -d "${KIEKER_4_PYTHON_DIR}" ] ; then
-		rm -rf "${KIEKER_4_PYTHON_DIR}"
-	fi
-	"${GIT}" clone "${KIEKER_4_PYTHON_REPO_URL}"
-	checkDirectory kieker-python "${KIEKER_4_PYTHON_DIR}"
-	cd "${KIEKER_4_PYTHON_DIR}"
-	
-	"${GIT}" checkout "${KIEKER_4_PYTHON_BRANCH}"
-	"${PYTHON}" -m pip install --upgrade build
+  checkExecutable python "${PYTHON}"
+  checkExecutable pip "${PIP}"
+  checkExecutable git "${GIT}"
+
+  # note: if it already exists
+  if [ -d "${KIEKER_4_PYTHON_DIR}" ] ; then
+    rm -rf "${KIEKER_4_PYTHON_DIR}"
+  fi
+  "${GIT}" clone "${KIEKER_4_PYTHON_REPO_URL}"
+  checkDirectory kieker-python "${KIEKER_4_PYTHON_DIR}"
+  cd "${KIEKER_4_PYTHON_DIR}"
+
+  "${GIT}" checkout "${KIEKER_4_PYTHON_BRANCH}"
+  "${PYTHON}" -m pip install --upgrade pip build
         "${PIP}" install decorator
-	"${PYTHON}" -m build
-	"${PIP}" install dist/kieker_monitoring_for_python-0.0.1.tar.gz
-	cd "${BASE_DIR}"
+  "${PYTHON}" -m build
+  "${PIP}" install dist/kieker_monitoring_for_python-0.0.1.tar.gz
+  cd "${BASE_DIR}"
 }
 
 # experiment setups
@@ -70,108 +70,77 @@ file_path = ${DATA_DIR}/kieker
 EOF
 }
 
-function noInstrumentation() {
-    index="$1"
-    loop="$2"
+#################################
+# function: execute an experiment
+function executeExperiment() {
+    loop="$1"
+    recursion="$2"
+    index="$3"
+    title="${TITLE[$index]}"
     
-    info " # ${loop}.${RECURSION_DEPTH}.${index} ${TITLE[index]}"
-    echo " # ${loop}.${RECURSION_DEPTH}.${index} ${TITLE[index]}" >> "${DATA_DIR}/kieker.log"
-  
-    createMonitoring dummy
-    createConfig True False 1 $loop
-  
-    "${PYTHON}" benchmark.py "${BASE_DIR}/config.ini" # &> "${RESULTS_DIR}/output_${loop}_${RECURSION_DEPTH}_${index}.txt"
+    # Kieker-python specific parameters
+    mode="$(cut -d " " -f1 <<< ${MONITORING_CONFIG[$index]})"
+    inactive="$(cut -d " " -f2 <<< ${MONITORING_CONFIG[$index]})"
+    instrument="$(cut -d " " -f3 <<< ${MONITORING_CONFIG[$index]})"
+    approach="$(cut -d " " -f4 <<< ${MONITORING_CONFIG[$index]})"
 
-    echo >> "${DATA_DIR}/kieker.log"
-    echo >> "${DATA_DIR}/kieker.log"
+    info " # ${loop}.${recursion}.${index} ${title}"
+
+    RESULT_FILE="${RAWFN}-${loop}-${recursion}-${index}.csv"
+    LOG_FILE="${RESULTS_DIR}/output_${loop}_${RECURSION_DEPTH}_${index}.txt"
+
+    createMonitoring ${mode}
+    createConfig ${inactive} ${instrument} ${approach} ${loop}
+
+    "${PYTHON}" "${MOOBENCH_BIN_PY}" "${BASE_DIR}/config.ini"
+
+    if [ ! -f "${RESULT_FILE}" ] ; then
+        info "---------------------------------------------------"
+        cat "${LOG_FILE}"
+        error "Result file '${RESULT_FILE}' is empty."
+    else
+       size=`wc -c "${RESULT_FILE}" | awk '{ print $1 }'`
+       if [ "${size}" == "0" ] ; then
+           info "---------------------------------------------------"
+           cat "${LOG_FILE}"
+           error "Result file '${RESULT_FILE}' is empty."
+       fi
+    fi
+    rm -rf "${DATA_DIR}"/kieker-*
+
     sync
     sleep "${SLEEP_TIME}"
 }
 
-function deactivatedProbe() {
-    index="$1"
-    loop="$2"
-    approach="$3"
-    
-    info " # ${loop}.${RECURSION_DEPTH}.${index} ${TITLE[index]}"
-    echo " # ${loop}.${RECURSION_DEPTH}.${index} ${TITLE[index]}" >> "${DATA_DIR}/kieker.log"
-  
-    createMonitoring dummy
-    createConfig True True ${approach} $loop
-  
-    "${PYTHON}" benchmark.py "${BASE_DIR}/config.ini" # &> "${RESULTS_DIR}/output_${loop}_${RECURSION_DEPTH}_${index}.txt"
+function executeBenchmarkBody() {
+  index="$1"
+  loop="$2"
+  recursion="$3"
+  if [[ "${RECEIVER[$index]}" ]] ; then
+     debug "receiver ${RECEIVER[$index]}"
+     ${RECEIVER[$index]} >> "${DATA_DIR}/kieker.receiver-${loop}-${index}.log" &
+     RECEIVER_PID=$!
+     debug "PID ${RECEIVER_PID}"
+  fi
 
+  executeExperiment "$loop" "$recursion" "$index"
 
-    echo >> "${DATA_DIR}/kieker.log"
-    echo >> "${DATA_DIR}/kieker.log"
-    sync
-    sleep "${SLEEP_TIME}"
+  if [[ "${RECEIVER_PID}" ]] ; then
+    if ps -p "${RECEIVER_PID}" > /dev/null
+    then
+      kill -TERM "${RECEIVER_PID}"
+    fi
+     unset RECEIVER_PID
+  fi
 }
 
-function noLogging() {
-    index="$1"
-    loop="$2"
-    approach="$3"
-    
-    info " # ${loop}.${RECURSION_DEPTH}.${index} ${TITLE[index]}"
-    echo " # ${loop}.${RECURSION_DEPTH}.${index} ${TITLE[index]}" >> "${DATA_DIR}/kieker.log"
-    
-    createMonitoring dummy
-    createConfig False True ${approach} $loop
-    
-    "${PYTHON}" benchmark.py "${BASE_DIR}/config.ini" # &> "${RESULTS_DIR}/output_${loop}_${RECURSION_DEPTH}_${index}.txt"
+function executeBenchmark() {
+    recursion="${RECURSION_DEPTH}"
 
-
-    echo >> "${DATA_DIR}/kieker.log"
-    echo >> "${DATA_DIR}/kieker.log"
-    sync
-    sleep "${SLEEP_TIME}"
-}
-
-function textLogging() {
-    index="$1"
-    loop="$2"
-    approach="$3"
-    
-    info " # ${loop}.${RECURSION_DEPTH}.${index} ${TITLE[index]}"
-    echo " # ${loop}.${RECURSION_DEPTH}.${index} ${TITLE[index]}" >> "${DATA_DIR}/kieker.log"
-
-    createMonitoring text
-    createConfig False True ${approach} $loop
-  
-    "${PYTHON}" benchmark.py "${BASE_DIR}/config.ini" # &> "${RESULTS_DIR}/output_${loop}_${RECURSION_DEPTH}_${index}.txt"
-
-
-    echo >> "${DATA_DIR}/kieker.log"
-    echo >> "${DATA_DIR}/kieker.log"
-    sync
-    sleep "${SLEEP_TIME}"
-}
-
-function tcpLogging() {
-    index="$1"
-    loop="$2"
-    approach="$3"
-    
-    info " # ${loop}.${RECURSION_DEPTH}.${index} ${TITLE[index]}"
-    echo " # ${loop}.${RECURSION_DEPTH}.${index} ${TITLE[index]}" >> "${DATA_DIR}/kieker.log"
-    
-    ${RECEIVER_BIN} 5678 &
-    RECEIVER_PID=$!
-    echo $RECEIVER_PID
-    sleep "${SLEEP_TIME}"
-      
-    createMonitoring tcp
-    createConfig False True ${approach} $loop
-  
-    "${PYTHON}" benchmark.py "${BASE_DIR}/config.ini" # &> "${RESULTS_DIR}/output_${loop}_${RECURSION_DEPTH}_${index}.txt"
-
-    kill -9 $RECEIVER_PID
-
-    echo >> "${DATA_DIR}/kieker.log"
-    echo >> "${DATA_DIR}/kieker.log"
-    sync
-    sleep "${SLEEP_TIME}"
+    for index in $MOOBENCH_CONFIGURATIONS
+    do
+      executeBenchmarkBody $index $i $recursion
+    done
 }
 
 # end

@@ -118,21 +118,26 @@ EOF
 	sync
 }
 
+function getStatisticsOfMeasurementFile {
+	RESULT_FILE=$1
+	raw_length=`cat "${RESULT_FILE}" | wc -l`
+	if [ "${raw_length}" == "0" ] ; then
+		error "Result file '${RESULT_FILE}' is empty."
+		exit 1
+	fi
+	CALLS_AFTER_WARMUP=$(($raw_length / 2))
+	cat "${RESULT_FILE}" | awk -F';' '{print $2}' | getSum | tr "\n" " "
+	tail -n $CALLS_AFTER_WARMUP "${RESULT_FILE}" | awk -F';' '{print $2}' | getSum
+}
+
 function printIntermediaryResults {
    loop="$1"
    for index in $MOOBENCH_CONFIGURATIONS
    do
       RESULT_FILE="${RAWFN}-${loop}-${RECURSION_DEPTH}-${index}.csv"
       checkFile result "${RESULT_FILE}"
-      raw_length=`cat "${RESULT_FILE}" | wc -l`
-      if [ "${raw_length}" == "0" ] ; then
-         error "Result file '${RESULT_FILE}' is empty."
-         exit 1
-      fi
-      CALLS_AFTER_WARMUP=$(($raw_length / 2))
       info_n "Intermediary results "${TITLE[$index]}" (in ns) "
-      cat "${RESULT_FILE}" | awk -F';' '{print $2}' | getSum | tr "\n" " "
-      tail -n $CALLS_AFTER_WARMUP "${RESULT_FILE}" | awk -F';' '{print $2}' | getSum
+      getStatisticsOfMeasurementFile ${RESULT_FILE}
    done
 }
 

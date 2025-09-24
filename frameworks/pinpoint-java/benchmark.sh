@@ -65,7 +65,7 @@ info "Experiment will take circa ${TIME} seconds."
 JAVA_ARGS="-Xms1G -Xmx2G"
 
 JAVA_ARGS_NOINSTR="${JAVA_ARGS}"
-PINPOINT_BASIC="-javaagent:pinpoint/pinpoint-agent-3.0.1/pinpoint-bootstrap.jar -Dpinpoint.agentId=moobench-agent -Dpinpoint.applicationName=MOOBENCH "
+PINPOINT_BASIC="-javaagent:pinpoint/pinpoint-agent-${PINPOINT_VERSION}/pinpoint-bootstrap.jar -Dpinpoint.agentId=moobench-agent -Dpinpoint.applicationName=MOOBENCH "
 JAVA_ARGS_PINTPOINT_DISABLED="${JAVA_ARGS} $PINPOINT_BASIC -Dpinpoint.disable=true"
 JAVA_ARGS_PINTPOINT_NO_MEASUREMENT="${JAVA_ARGS} $PINPOINT_BASIC -Dprofiler.pinpoint.base-package="
 JAVA_ARGS_PINTPOINT_BASIC="${JAVA_ARGS} $PINPOINT_BASIC -Dpinpoint.applicationName=MOOBENCH"
