@@ -1,11 +1,10 @@
-name: Benchmark Kieker-java
+name: 2025-01-09_190438UTC0 Ubuntu 24.04 on GitHub-hosted Runner
 on:
   workflow_dispatch:
   push:
-    branches: [ main, continuous-gh-benchmarks ]
+    branches: [ compare-runners ]
   schedule: 
-    - cron: "0 3 * * *"
-
+    - cron: "0 */3 * * *"
 
 permissions:
   contents: write
@@ -14,48 +13,35 @@ permissions:
 jobs:
   benchmark:
     name: Performance measurement
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: 2025-01-09_190438UTC0
       - uses: r-lib/actions/setup-r@v2
         with:
           r-version: '3.5.3'
-      - uses: actions/setup-go@v4
-        with:
-          go-version: "stable"
-      - name: Set up JDK ${{ matrix.java }}
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin'
-          java-version: 21
       - name: Execute MooBench Benchmark
         run: |
+          uname -a
           ./setup.sh
           cd frameworks/Kieker-java/
           export NUM_OF_LOOPS=10 
-          export MOOBENCH_CONFIGURATIONS="0 1 2 4"
+          export MOOBENCH_CONFIGURATIONS="4"
+          sed -i 's/Binary file/Ubuntu 24.04 on GitHub-hosted Runner (250109)/' labels.sh
           ./benchmark.sh 
           cd results-Kieker-java
           unzip results.zip 
           ../../../analysis/getGHActionsFormat.sh &> output.json
           cat output.json
           mv output.json ../../../
+          git checkout ../labels.sh
       - name: Store benchmark result
         uses: benchmark-action/github-action-benchmark@v1
         with:
-          name: 'Kieker-java'
+          name: 'Kieker-java-Binary-file-test'
           tool: 'customSmallerIsBetter'
           output-file-path: output.json
           fail-on-alert: true
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          auto-push: true
-      - name: Analyze benchmark results with Nyrkiö
-        uses: nyrkio/change-detection@HEAD
-        with:
-          name: 'Kieker-java'
-          tool: 'customSmallerIsBetter'
-          output-file-path: output.json
-          fail-on-alert: true
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          nyrkio-token: ${{ secrets.NYRKIO_JWT_TOKEN }}
           auto-push: true

@@ -71,7 +71,7 @@ plot 'results/evolution_inspectIT-java.csv' u 1:2 w linespoint lc "red" title 'B
 	
 unset output
 
-set terminal pdf size 5,3
+set terminal pdf size 6,3
 
 set out 'results/scalability_overview.pdf'
 
@@ -88,15 +88,20 @@ plot 'results/evolution_inspectIT-java.csv' u 1:2 w linespoint lc "red" title 'B
      'results/evolution_Kieker-java.csv' u 1:($10-$11):($10+$11) w filledcurves lc "blue" notitle fs transparent solid 0.5, \
      'results/evolution_inspectIT-java.csv' u 1:6 w linespoint lc rgb "#c66900" title 'inspectIT (Zipkin)', \
 	'results/evolution_inspectIT-java.csv' u 1:($6-$7):($6+$7) w filledcurves lc rgb "#c66900" notitle fs transparent solid 0.5, \
-     'results/evolution_OpenTelemetry-java.csv' u 1:8 w linespoint lc "green" title 'OpenTelemetry-java (Zipkin)', \
+     'results/evolution_OpenTelemetry-java.csv' u 1:8 w linespoint lc "green" title 'OpenTelemetry (Zipkin)', \
 	'results/evolution_OpenTelemetry-java.csv' u 1:($8-$9):($8+$9) w filledcurves lc "green" notitle fs transparent solid 0.5, \
 	'results/evolution_Scouter-java.csv' u 1:4 w linespoint lc "purple" title 'Scouter', \
 	'results/evolution_Scouter-java.csv' u 1:($4-$5):($4+$5) w filledcurves lc "purple" notitle fs transparent solid 0.5, \
-     'results/evolution_pinpoint-java.csv' u 1:6 w linespoint lc rgb "#FF50FF" title 'Pinpoint Basic', \
-	'results/evolution_pinpoint-java.csv' u 1:($6-$7):($6+$7) w filledcurves lc rgb "#FF50FF" notitle fs transparent solid 0.5
+     'results/evolution_elasticapm-java.csv' u 1:6 w linespoint lc rgb "#FF50FF" title 'Elastic APM', \
+	'results/evolution_elasticapm-java.csv' u 1:($6-$7):($6+$7) w filledcurves lc rgb "#FF50FF" notitle fs transparent solid 0.5, \
+	'results/evolution_Skywalking-java.csv' u 1:4 w linespoint lc rgb "#FFAAFF" title 'Skywalking', \
+	'results/evolution_Skywalking-java.csv' u 1:($4-$5):($4+$5) w filledcurves lc rgb "#FFAAFF" notitle fs transparent solid 0.5, \
+	'results/evolution_pinpoint-java.csv' u 1:8 w linespoint lc rgb "#FFAA00" title 'Pinpoint', \
+	'results/evolution_pinpoint-java.csv' u 1:($8-$9):($8+$9) w filledcurves lc rgb "#FFAA00" notitle fs transparent solid 0.5
 
 	
 unset output
+
 
 set out 'results/overview_OpenTelemetry-java.pdf'
 
