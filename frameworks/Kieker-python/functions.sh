@@ -128,7 +128,10 @@ function executeBenchmarkBody() {
   executeExperiment "$loop" "$recursion" "$index"
 
   if [[ "${RECEIVER_PID}" ]] ; then
-    kill -9 "${RECEIVER_PID}"
+    if ps -p "${RECEIVER_PID}" > /dev/null
+    then
+      kill -TERM "${RECEIVER_PID}"
+    fi
     unset RECEIVER_PID
   fi
 }
