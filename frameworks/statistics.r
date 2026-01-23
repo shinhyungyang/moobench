@@ -59,7 +59,7 @@ for (writer_idx in configs.indices) {
    for (loop_counter in (1:configs.loop)) {
       results_fn_filepath <- paste(results_fn, "-", loop_counter, "-", recursion_depth, "-", writer_idx, ".csv", sep="")
       message(results_fn_filepath)
-      results <- read.csv2(results_fn_filepath, nrows=numOfRowsToRead, skip=results.skip, quote="", colClasses=c("NULL","numeric", "numeric", "numeric"), comment.char="", col.names=c("thread_id", "duration_nsec", "gc", "t"), header=FALSE)
+      results <- read.csv2(results_fn_filepath, nrows=numOfRowsToRead, skip=results.skip, quote="", colClasses=c("NULL","numeric", "numeric", "numeric", "numeric"), comment.char="", col.names=c("thread_id", "duration_nsec", "gc", "t", "energy_uj"), header=FALSE)
       trx_idx <- c(1:numOfRowsToRead)
       resultsBIG[array_idx,trx_idx] <- results[["duration_nsec"]]
    }
