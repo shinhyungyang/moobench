@@ -22,11 +22,15 @@ import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryMXBean;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 import moobench.application.MonitoredClass;
 
 /**
- * @author Jan Waller, Aike Sass, Christian Wulf
+ * @author Jan Waller, Aike Sass, Christian Wulf, Shinhyung Yang
  */
 public final class BenchmarkingThreadNano implements BenchmarkingThread {
 
@@ -40,6 +44,9 @@ public final class BenchmarkingThreadNano implements BenchmarkingThread {
 
   private final MemoryMXBean memory;
   private final long[] usedHeapMemory;
+
+  private final Path raplPath;
+  private final long[] usedEnergy;
 
   private final long[] gcCollectionCountDiffs;
   private final List<GarbageCollectorMXBean> collector;
@@ -56,34 +63,44 @@ public final class BenchmarkingThreadNano implements BenchmarkingThread {
     // for monitoring memory consumption
     this.memory = ManagementFactory.getMemoryMXBean();
     this.usedHeapMemory = new long[totalCalls];
+    // for monitoring energy consumption
+    this.raplPath = Paths.get("/sys/class/powercap/intel-rapl:0", "energy_uj");
+    this.usedEnergy = new long[totalCalls];
     // for monitoring the garbage collector
     this.gcCollectionCountDiffs = new long[totalCalls];
     this.collector = ManagementFactory.getGarbageCollectorMXBeans();
   }
 
   public String print(final int index, final String separatorString) {
-    return String.format("%d%s%d%s%d",
+    return String.format("%d%s%d%s%d%s%d",
         this.executionTimes[index], separatorString,
         this.usedHeapMemory[index], separatorString,
-        this.gcCollectionCountDiffs[index]);
+        this.gcCollectionCountDiffs[index], separatorString,
+        this.usedEnergy[index]);
   }
 
-  public final void run() {  
+  public final void run() {
     long start_ns;
     long stop_ns;
     long lastGcCount = this.computeGcCollectionCount();
     long currentGcCount;
+    long start_uj;
+    long stop_uj;
 
     for (int i = 0; i < this.totalCalls; i++) {
+      start_uj = this.readCurrentEnergy();
       start_ns = this.getCurrentTimestamp();
 
       this.mc.monitoredMethod(this.methodTime, this.recursionDepth);
 
       stop_ns = this.getCurrentTimestamp();
+      stop_uj = this.readCurrentEnergy();
       currentGcCount = this.computeGcCollectionCount();
 
       // save execution time
       this.executionTimes[i] = stop_ns - start_ns;
+      // save consumed energy
+      this.usedEnergy[i] = stop_uj - start_uj;
       // save heap memory
       this.usedHeapMemory[i] = this.memory.getHeapMemoryUsage().getUsed();
       // save gc collection count
@@ -105,6 +122,16 @@ public final class BenchmarkingThreadNano implements BenchmarkingThread {
       // bean.getCollectionTime()
     }
     return count;
+  }
+
+  private long readCurrentEnergy() {
+      long energy_uj = 0;
+      try {
+          energy_uj = Long.parseLong(Files.readAllLines(this.raplPath).get(0));
+      } catch (Exception e) {
+          System.err.println(e.toString());
+      }
+      return energy_uj;
   }
 
   private long getCurrentTimestamp() {
