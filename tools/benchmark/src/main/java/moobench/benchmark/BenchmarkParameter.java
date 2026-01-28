@@ -46,6 +46,9 @@ public class BenchmarkParameter {
     @Parameter(names = { "--benchmark-thread", "-b" }, required = false, description = "Class implementing the BenchmarkingThread interface.")
     String benchmarkClassname;
 
+    @Parameter(names = { "--measurement-type", "-e" }, required = false, description = "Consumption measurement type, e.g., time or energy.")
+    String measurementType;
+
 	public int getTotalCalls() {
 		return totalCalls;
 	}
@@ -85,6 +88,10 @@ public class BenchmarkParameter {
 	public String getBenchmarkClassname() {
 		return benchmarkClassname;
 	}
+
+    public String getMeasurementType() {
+		return measurementType;
+    }
     
     
     

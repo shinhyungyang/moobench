@@ -62,8 +62,13 @@ public final class BenchmarkMain {
         final BenchmarkingThread[] benchmarkingThreads = new BenchmarkingThread[parameter.getTotalThreads()];
         final Thread[] threads = new Thread[parameter.getTotalThreads()];
         for (int i = 0; i < parameter.getTotalThreads(); i++) {
-            benchmarkingThreads[i] = new BenchmarkingThreadNano(BenchmarkMain.monitoredClass, parameter.getTotalCalls(),
-                    parameter.getMethodTime(), parameter.getRecursionDepth(), doneSignal);
+            if (parameter.getMeasurementType().equals("energy")) {
+                benchmarkingThreads[i] = new BenchmarkingThreadWatts(BenchmarkMain.monitoredClass, parameter.getTotalCalls(),
+                        parameter.getMethodTime(), parameter.getRecursionDepth(), doneSignal);
+            } else {
+                benchmarkingThreads[i] = new BenchmarkingThreadNano(BenchmarkMain.monitoredClass, parameter.getTotalCalls(),
+                        parameter.getMethodTime(), parameter.getRecursionDepth(), doneSignal);
+            }
             threads[i] = new Thread(benchmarkingThreads[i], String.valueOf(i + 1));
         }
         if (!parameter.isQuickstart()) {
