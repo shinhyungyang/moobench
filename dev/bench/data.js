@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776320145394,
+  "lastUpdate": 1776320686705,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -76817,6 +76817,52 @@ window.BENCHMARK_DATA = {
             "name": "Prometheus",
             "value": 2377.4,
             "range": "2378.53",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "id": "f7b90914d9328e1f8d0b1b9c6e40195bdbac5f54",
+          "message": "Merge remote-tracking branch 'upstream'",
+          "timestamp": "2025-09-24T06:51:03Z",
+          "url": "https://github.com/shinhyungyang/moobench/commit/f7b90914d9328e1f8d0b1b9c6e40195bdbac5f54"
+        },
+        "date": 1776320639113,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 37.1514,
+            "range": "37.1514",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 1182.73,
+            "range": "1184.39",
+            "unit": "ns"
+          },
+          {
+            "name": "Zipkin",
+            "value": 1914.52,
+            "range": "1914.96",
+            "unit": "ns"
+          },
+          {
+            "name": "Prometheus",
+            "value": 1725.83,
+            "range": "1727.41",
             "unit": "ns"
           }
         ]
