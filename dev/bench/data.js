@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781864406400,
+  "lastUpdate": 1781941641093,
   "repoUrl": "https://github.com/shinhyungyang/moobench",
   "entries": {
     "Kieker-java": [
@@ -42851,6 +42851,52 @@ window.BENCHMARK_DATA = {
             "name": "Binary file",
             "value": 1163.57,
             "range": "1163.95",
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "committer": {
+            "name": "Shinhyung Yang",
+            "username": "shinhyungyang",
+            "email": "shinhyung.yang@email.uni-kiel.de"
+          },
+          "id": "f7b90914d9328e1f8d0b1b9c6e40195bdbac5f54",
+          "message": "Merge remote-tracking branch 'upstream'",
+          "timestamp": "2025-09-24T06:51:03Z",
+          "url": "https://github.com/shinhyungyang/moobench/commit/f7b90914d9328e1f8d0b1b9c6e40195bdbac5f54"
+        },
+        "date": 1781941577826,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "No instrumentation",
+            "value": 47.8908,
+            "range": "47.8908",
+            "unit": "ns"
+          },
+          {
+            "name": "Deactivated probe",
+            "value": 51.8294,
+            "range": "51.8319",
+            "unit": "ns"
+          },
+          {
+            "name": "No logging",
+            "value": 494.685,
+            "range": "494.73",
+            "unit": "ns"
+          },
+          {
+            "name": "Binary file",
+            "value": 1163.23,
+            "range": "1163.91",
             "unit": "ns"
           }
         ]
